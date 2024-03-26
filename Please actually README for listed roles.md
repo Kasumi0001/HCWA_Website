@@ -7,11 +7,11 @@
  Webpage roles each of us are developing/coding for website:
  HOME -                              **ALL** (Can potentially act as the base to everything else?)
  ABOUT US -                          JESSICA
- SUPPORT US (Plugin Required)-       CHET
+ SUPPORT US (Plugin Required)-       CHET/JESSICA
  WHAT'S ON -                         MEAGAN
  WHAT MATTERS -                      ZARAH
  CONTACT US (Plugin Required)-       THISARI
- SIGN IN (Plugin Required)-          JESSICA
+ SIGN IN (Plugin Required)-          JESSICA/CHET (Plugins for Memberships has sign in aswell, Combined with the Support us webpage)
  
  *With the webpages that might require plugins is only temporary as nitty gritty details needs to hashed out to see if they are actually needed or we can remove them entirely from the project. Prior to all of this though, experimentations will be conducted on the plugins using the Josh Website Homework repo folder/FileZilla server to test the fucntionality of the plugins.*
 
