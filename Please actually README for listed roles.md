@@ -1,5 +1,5 @@
 # HCWA_Website
- Collaborative GitHub repository for the WordPress website development for the History Council of Western Australia. Using HTML, CSS, PHP & JAVA for this development (Like how we've been doing for the Josh Homework) and handing the project off with relevant documents to our client.
+ Collaborative GitHub repository for the WordPress website development for the History Council of Western Australia. Using HTML, CSS, PHP/JAVA for this development (Like how we've been doing for the Josh Homework) and handing the project off with relevant documents to our client.
  
  **Team Members: Meagan, Zarah, Thisari, Chet & Jessica**
  Mark Cypher's GitHub = https://github.com/cyphem
