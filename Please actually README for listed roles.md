@@ -10,9 +10,9 @@
  SUPPORT US (Plugin Required)-       CHET/JESSICA
  WHAT'S ON -                         MEAGAN
  WHAT MATTERS -                      ZARAH
- CONTACT US (Plugin Required)-       THISARI
+ CONTACT US -                        THISARI
  SIGN IN (Plugin Required)-          JESSICA/CHET (Plugins for Memberships has sign in aswell, Combined with the Support us webpage)
  
  *With the webpages that might require plugins is only temporary as nitty gritty details needs to hashed out to see if they are actually needed or we can remove them entirely from the project. Prior to all of this though, experimentations will be conducted on the plugins using the Josh Website Homework repo folder/FileZilla server to test the fucntionality of the plugins.*
 
- Last Updated: 27/03/2024.
+ Last Updated: 01/04/2024.
