@@ -10,6 +10,21 @@
     background-color: #3A3937;
 }
 
+.footerbg
+{
+    background-color: #C7892C;
+    background-size: cover;
+}
+.footerbg2
+{
+    background-color: #825A1D;
+    background-size: cover;
+}
+
+/* .imageoverlap
+{
+} */
+
 h1
 {
     font-size: 120px;
