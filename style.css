@@ -13,9 +13,59 @@
 h1
 {
     font-size: 120px;
+    
 }
 h2
 {
     font-size: 20px;
 }
 
+h3{
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 89px;
+    margin-top: 65px;
+    color:white;
+}
+
+p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.charcoalbg {
+    background-color: #3A3937;
+    height: 800px;
+}
+
+.livep{
+    margin-left: 89px;
+    color:white;
+ 
+}
+
+.liveissuesimg{
+    margin-top:-55px;
+}
+
+.buttonorange{
+    margin-left: 89px;
+}
+
+#button{
+    font-weight:700 
+}
+
+h4{
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.livebox{
+    background-color:#F1EDE5;
+    height: 827px;
+    width: 371px;
+}
