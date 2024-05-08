@@ -6,6 +6,12 @@
     --Blue: #64a1b8;
 }
 
+@font-face
+{
+    font-family: "AktivGrotesk";
+    src: url(/)
+}
+
 .creambg
 {
     background-color: #F1EDE5;
@@ -44,5 +50,6 @@ h2
 
 .headerbtn
 {
+    padding-left: 2%;
     font: ;
 }
