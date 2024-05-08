@@ -1,3 +1,18 @@
+:root
+{
+    --Beige: #e4dece;
+    --LighterBlack: #393836;
+    --Ochre: #c5882c;
+    --Blue: #64a1b8;
+}
+
+@font-face
+{
+    font-family: "CaslonBold";
+    src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
+
+}
+
 .creambg
 {
     background-color: #F1EDE5;
@@ -10,6 +25,21 @@
     background-color: #3A3937;
 }
 
+.footerbg
+{
+    background-color: #C7892C;
+    background-size: cover;
+}
+.footerbg2
+{
+    background-color: #825A1D;
+    background-size: cover;
+}
+
+/* .imageoverlap
+{
+} */
+
 h1
 {
     font-size: 120px;
@@ -18,6 +48,28 @@ h1
 h2
 {
     font-size: 20px;
+    font-family: "CaslonBold";
+}
+
+.headerbtn
+{
+    padding-left: 3%;
+    padding-right: 5%;
+    
+}
+
+.btn-outline-custom
+{
+    background-color: var(--Blue);
+    padding-top: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hb 
+{
+    color: white;
+    
 }
 
 h3{
