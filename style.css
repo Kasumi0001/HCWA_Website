@@ -1,3 +1,11 @@
+:root
+{
+    --Beige: #e4dece;
+    --LighterBlack: #393836;
+    --Ochre: #c5882c;
+    --Blue: #64a1b8;
+}
+
 .creambg
 {
     background-color: #F1EDE5;
@@ -34,3 +42,7 @@ h2
     font-size: 20px;
 }
 
+.headerbtn
+{
+    font: ;
+}
