@@ -8,8 +8,9 @@
 
 @font-face
 {
-    font-family: "AktivGrotesk";
-    src: url(/)
+    font-family: "CaslonBold";
+    src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
+
 }
 
 .creambg
@@ -42,14 +43,32 @@
 h1
 {
     font-size: 120px;
+    font-family: "CaslonBold";
 }
 h2
 {
     font-size: 20px;
+    font-family: "CaslonBold";
 }
 
 .headerbtn
 {
-    padding-left: 2%;
-    font: ;
+    padding-left: 3%;
+    padding-right: 5%;
+    
 }
+
+.btn-outline-custom
+{
+    background-color: var(--Blue);
+    padding-top: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hb 
+{
+    color: white;
+    
+}
+
