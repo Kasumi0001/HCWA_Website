@@ -46,7 +46,7 @@
                     <a class="nav-link" href="#">Contact Us</a>
                 </li>
             </ul>
-            <!-- Search Bar and Button NOTE: This might be removed due to able to set up in wordpress rather manually-->
+            <!-- Search Bar and buttons NOTE: This might be removed due to able to set up in wordpress rather manually-->
             <form class="form-inline" action="/action_page.php">
                 <input class="form-control mr-sm-2" placeholder="Search">
                 <a href="#">
@@ -54,8 +54,9 @@
                 </a>
             </form>
 
-            <div class="headerbtn"> 
-            <a class="btn btn-custom btn-lg btn-outline-custom hb ml-auto" href="" role="button">Sign In</a>
+            <!-- Note: Might be removed as the pro subscription plugin inserts their own button we just hack its CSS for -->
+            <div class="signinbutton"> 
+                <a href="#">Sign In</a>
             </div>
 
         </nav>
@@ -70,7 +71,7 @@
             <h1>A VOICE <br> 
                 FOR<br> 
                 HISTORY</h1>
-            <a class="buttonorange" href="#">
+            <a class="bigbutton" href="#">
                 <p>Find out more</p>
             </a>
         </div>
@@ -88,8 +89,8 @@
             <div class="col-md-6">
         <h3>LIVE ISSUES</h3>
         <p class="livep">The History Council of Western Australia provides a voice for history by promotingthe study, preservation and use of history in Western Australia.</p>
-        <a class="buttonorange" href="#">
-            <p class="livep" id="button">SEE WHAT'S HAPPENING</p>
+        <a class="bigbutton" href="#">
+            <p>SEE WHAT'S HAPPENING</p>
         </a>
             </div>
 
@@ -102,30 +103,33 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 livebox">
-                <h4>AMP BUILDING</h4>
                 <h5>01</h5>
-                <a class="buttonlinksmall" href="#">
-                    <p id="button">WHY IT MATTERS</p>
+                <h4>AMP BUILDING</h4>
+                <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
+                <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
+                <a class="smallbutton" href="#">
+                    <p>LEARN MORE</p>
                 </a>
-                <p>Restoration, Redevelopment</p>
                 <img class="image-fluid" src="images/building1.png">
             </div>
             <div class="col-md-4 livebox">
-                <h4>HERITAGE RECORDS</h4>
                 <h5>02</h5>
-                <a class="buttonlinksmall" href="#">
-                    <p id="button">WHY IT MATTERS</p>
+                <h4>HERITAGE RECORDS</h4>
+                <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
+                <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
+                <a class="smallbutton" href="#">
+                    <p>LEARN MORE</p>
                 </a>
-                <p>Understanding Access to Family Records</p>
                 <img class="image-fluid" src="images/man.png">
             </div>
             <div class="col-md-4 livebox">
-                <h4>NORMAN HOUSE</h4>
                 <h5>03</h5>
-                <a class="buttonlinksmall" href="#">
-                    <p id="button">WHY IT MATTERS</p>
+                <h4>NORMAN HOUSE</h4>
+                <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
+                <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
+                <a class="smallbutton" href="#">
+                    <p>LEARN MORE</p>
                 </a>
-                <p>Historic Site Conservation</p>
                 <img class="image-fluid" src="images/building2.png">
             </div>
             </div>
@@ -143,7 +147,7 @@
             <div class="col-md-6">
                 <h3>2024 ANNUAL LECTURE</h3>
                 <p>In 2024 the National Indigenous Research Conference and the AIATSIS National Native Title Conference will be held together for the first time. Over five days, the summit will provide a fantastic opportunity for Aboriginal and Torres Strait Islander policy makers, academics and leaders to come together to discuss emerging challenges. Registrations are now open for this unique event.</p>
-                <a class="buttonorange" href="#">
+                <a class="bigbutton" href="#">
                     <p>SUBSCRIBE TO EVENT</p>
                 </a>
             </div>
@@ -151,38 +155,28 @@
     </div> <!-- container -->
 </section> <!-- container-fluid -->
 
-<footer class="container-fluid">
+<footer class="container-fluid footerbg2">
     <div>
-        <div class="allies footerbg2">
+        <div class="allies">
             <img src="images/wagovlogo.png" alt="govlogo">
             <!-- NOTE INSERT THE ALLY IMAGES HERE ONCE THEY ARE CONFIRMED BY ELIZABETH -->
         </div>
         <div class="row footerbg">
-            <div class="col-md-4" href="#"> <!-- Logo 2 -->
+            <div class="col-md-3" href="#"> <!-- Logo 2 -->
                 <img src="images/logo2.png" alt="HCWA Logo2">
             </div>
-            <div class="col-md-4"> <!-- Links and acknowledgement to country, which might be removed -->
+            <div class="col-md-6"> <!-- Links and acknowledgement to country, which might be removed -->
                 <!-- Links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Live Issues</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Join Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">What's On</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
+            <ul class="d-flex justify-content-center">
+                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Live Issues</a>
+                <a class="nav-link" href="#">Join Us</a>
+                <a class="nav-link" href="#">What's On</a>
+                <a class="nav-link" href="#">Contact Us</a>
             </ul>
             <p>'In the spirit of reconciliation the History Council of Western Australia acknowledges the Traditional Custodians of Country throughout Australia and their connections to land, sea and community. We pay our respect to their Elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples today.'</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a class="socialmediaicons" href="#">
                     <img src="images/facebookicon.png" alt="facebookicon">
                 </a>
@@ -193,15 +187,15 @@
         </div> <!-- row -->
         <!-- WHITE LINE TO BE INSERTED HERE -->
         <div class="row footerbg">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="#">
                     <p>Privacy Policy</p>
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <p>© History Council of Western Australia. 2024</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <a href="#">
                     <p>Terms and Conditions</p>
                 </a>

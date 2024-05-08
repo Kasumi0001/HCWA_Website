@@ -6,6 +6,7 @@
     --Blue: #64a1b8;
 }
 
+/* FONT-FACES */
 @font-face
 {
     font-family: "CaslonBold";
@@ -13,18 +14,18 @@
 
 }
 
+/* BACKGROUND COLOURS */
 .creambg
 {
     background-color: #F1EDE5;
     background-size: cover;
     padding-bottom: 120px;
 }
-
 .charcoalbg
 {
     background-color: #3A3937;
+    height: 800px;
 }
-
 .footerbg
 {
     background-color: #C7892C;
@@ -36,62 +37,7 @@
     background-size: cover;
 }
 
-/* .imageoverlap
-{
-} */
-
-h1
-{
-    font-size: 120px;
-    
-}
-h2
-{
-    font-size: 20px;
-    font-family: "CaslonBold";
-}
-
-.headerbtn
-{
-    padding-left: 3%;
-    padding-right: 5%;
-    
-}
-
-.btn-outline-custom
-{
-    background-color: var(--Blue);
-    padding-top: 5%;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.hb 
-{
-    color: white;
-    
-}
-
-h3{
-    font-family: adobe-caslon-pro, serif;
-    font-weight: 700;
-    font-style: normal;
-    margin-left: 89px;
-    margin-top: 65px;
-    color:white;
-}
-
-p{
-    font-family: "montserrat", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.charcoalbg {
-    background-color: #3A3937;
-    height: 800px;
-}
-
+/* IMAGES */
 .livep{
     margin-left: 89px;
     color:white;
@@ -102,22 +48,91 @@ p{
     margin-top:-55px;
 }
 
-.buttonorange{
+/* TYPOGRAPHY */
+h1
+{
+    font-family: adobe-caslon-pro, serif;
+    font-size: 120px;
+    font-weight: bold;
+}
+h2
+{
+    font-size: 20px;
+    font-family: "CaslonBold";
+}
+h3
+{
+    font-family: adobe-caslon-pro, serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
     margin-left: 89px;
+    margin-top: 65px;
+    color:white;
+    
 }
-
-#button{
-    font-weight:700 
-}
-
-h4{
+h4
+{
     font-family: adobe-caslon-pro, serif;
     font-weight: 700;
     font-style: normal;
+    text-align: left;
 }
-
+h5
+{
+    font-size: 195px;
+    font-weight: bolder;
+    text-align: right;
+}
+p
+{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+/* Note: Live section */
 .livebox{
     background-color:#F1EDE5;
     height: 827px;
     width: 371px;
+}
+
+/* BUTTONS */
+.signinbutton
+{
+    margin-right: 2%;
+    margin-left: 5%;
+    background-color: #64a1b8;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 60px;
+    display: inline-block;
+}
+
+.bigbutton
+{
+    margin:auto;
+    background-color:#C7892C;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px 40px;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.smallbutton
+{
+    margin:auto;
+    background-color:#C7892C;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 40px;
+    display: inline-block;
+    border-radius: 12px;
 }
