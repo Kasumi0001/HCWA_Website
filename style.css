@@ -12,6 +12,7 @@
     font-family: "CaslonBold";
     src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
 
+
 }
 
 /* BACKGROUND COLOURS */
@@ -44,6 +45,11 @@
  
 }
 
+.nav-link
+{
+    color: black;
+}
+
 .liveissuesimg{
     margin-top:-55px;
 }
@@ -55,10 +61,22 @@ h1
     font-size: 120px;
     font-weight: bold;
 }
+
+.for 
+{
+    margin-left: 150px;
+}
+
+.history
+{
+    margin-left: 50px;
+}
+
 h2
 {
     font-size: 20px;
     font-family: "CaslonBold";
+    padding-top: 100px;
 }
 h3
 {
@@ -66,9 +84,9 @@ h3
     font-size: 60px;
     font-weight: 700;
     font-style: normal;
-    margin-left: 89px;
-    margin-top: 65px;
+    margin-top: 50px;
     color:white;
+    text-align: center;
     
 }
 h4
@@ -113,16 +131,75 @@ p
     display: inline-block;
 }
 
-.bigbutton
+.buttontext
 {
-    margin:auto;
+    color: white;
+}
+
+.bigbutton1
+{
+    background-color:#C7892C;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+
+.bigbutton2
+{
+    margin-left: 90px;
+    background-color:#C7892C;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+
+.bigbutton3
+{
+    margin-left: 190px;
     background-color:#C7892C;
     font-weight: bolder;
     text-align: center;
     font-size: 24px;
-    padding: 5px 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: inline-block;
     border-radius: 12px;
+    color: white;
+    font-size: large;
+}
+
+.lectureimage
+{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 550px;    
+}
+
+.annualtitle
+{
+    color: black;
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 120px;
+}
+
+.annualtext
+{
+    margin-left: 90px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .smallbutton
@@ -135,4 +212,5 @@ p
     padding: 5px 40px;
     display: inline-block;
     border-radius: 12px;
+    color: white;
 }
