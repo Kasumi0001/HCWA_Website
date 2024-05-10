@@ -11,8 +11,6 @@
 {
     font-family: "CaslonBold";
     src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
-
-
 }
 
 /* BACKGROUND COLOURS */
@@ -44,14 +42,22 @@
     color:white;
  
 }
-
 .nav-link
 {
     color: black;
 }
-
 .liveissuesimg{
     margin-top:-55px;
+}
+.lectureimage
+{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 550px;    
+}
+.socialmediaicons
+{
+    padding: 3%;
 }
 
 /* TYPOGRAPHY */
@@ -61,17 +67,14 @@ h1
     font-size: 120px;
     font-weight: bold;
 }
-
 .for 
 {
     margin-left: 150px;
 }
-
 .history
 {
     margin-left: 50px;
 }
-
 h2
 {
     font-size: 20px;
@@ -87,7 +90,13 @@ h3
     margin-top: 50px;
     color:white;
     text-align: center;
-    
+}
+.annualtitle
+{
+    color: black;
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 120px;
 }
 h4
 {
@@ -108,8 +117,23 @@ p
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    padding-top: 6%;
-    padding-bottom: 6%;
+
+}
+.country
+{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.footerdetails
+{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 3%;
+
 }
 /* Note: Live section */
 .livebox{
@@ -117,8 +141,27 @@ p
     height: 827px;
     width: 371px;
 }
+.annualtext
+{
+    margin-left: 90px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 
 /* BUTTONS */
+.buttontext
+{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.smallbuttontext
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
 .signinbutton
 {
     margin-right: 2%;
@@ -130,87 +173,45 @@ p
     padding: 10px 60px;
     display: inline-block;
 }
-
-.buttontext
-{
-    color: white;
-}
-
 .bigbutton1
 {
     background-color:#C7892C;
-    font-weight: bolder;
-    text-align: center;
-    font-size: large;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 15px 60px;
     display: inline-block;
     border-radius: 12px;
     color: white;
 }
-
 .bigbutton2
 {
     margin-left: 90px;
     background-color:#C7892C;
-    font-weight: bolder;
-    text-align: center;
-    font-size: large;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 60px;
     display: inline-block;
     border-radius: 12px;
     color: white;
 }
-
 .bigbutton3
 {
-    margin-left: 190px;
+    margin-left: 100px;
     background-color:#C7892C;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 24px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 60px;
     display: inline-block;
     border-radius: 12px;
     color: white;
-    font-size: large;
 }
-
-.lectureimage
-{
-    margin-top: 75px;
-    margin-bottom: 75px;
-    height: 550px;    
-}
-
-.annualtitle
-{
-    color: black;
-    text-align: center;
-    margin-left: 85px;
-    margin-top: 120px;
-}
-
-.annualtext
-{
-    margin-left: 90px;
-    margin-bottom: 5px;
-    text-align: center;
-}
-
 .smallbutton
 {
     margin:auto;
     background-color:#C7892C;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 14px;
-    padding: 5px 40px;
+    padding: 10px 40px;
     display: inline-block;
     border-radius: 12px;
     color: white;
 }
+
+
+
+
+
+
+

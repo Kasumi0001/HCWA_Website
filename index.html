@@ -56,7 +56,7 @@
 
             <!-- Note: Might be removed as the pro subscription plugin inserts their own button we just hack its CSS for -->
             <div class="signinbutton"> 
-                <a class="buttontext" href="#">Sign In</a>
+                <a class="smallbuttontext" href="#">Sign In</a>
             </div>
 
         </nav>
@@ -72,7 +72,7 @@
             <h1 class="for">FOR</h1> 
             <h1 class="history">HISTORY</h1>
             <a class="bigbutton1" href="#">
-                <p>About Us</p>
+                <p class="buttontext">About Us</p>
             </a>
         </div>
     </div> <!-- container -->
@@ -80,9 +80,8 @@
 
 <!-- Live Issues Section -->
 <section class="container-fluid charcoalbg">
-    <div class="container">
+    <div>
         <div class="row">
-            
             <div class="col-md-6">
         <img class="liveissuesimg" src="images/liveissues.png" alt="LiveIusses">
             </div>
@@ -90,12 +89,11 @@
         <h3>LIVE ISSUES</h3>
         <p class="livep">The History Council of Western Australia provides a voice for history by promotingthe study, preservation and use of history in Western Australia.</p>
         <a class="bigbutton2" href="#">
-            <p>SEE WHAT'S HAPPENING</p>
+            <p class="buttontext">SEE WHAT'S HAPPENING</p>
         </a>
             </div>
-
         </div>
-    </div> <!-- container -->
+    </div>
 </section> <!-- container-fluid -->
 
 <!-- Live Issues Post Section -->
@@ -108,7 +106,7 @@
                 <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
                 <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
                 <a class="smallbutton" href="#">
-                    <p>LEARN MORE</p>
+                    <p class="smallbuttontext">LEARN MORE</p>
                 </a>
                 <img class="image-fluid" src="images/building1.png">
             </div>
@@ -118,7 +116,7 @@
                 <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
                 <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
                 <a class="smallbutton" href="#">
-                    <p>LEARN MORE</p>
+                    <p class="smallbuttontext">LEARN MORE</p>
                 </a>
                 <img class="image-fluid" src="images/man.png">
             </div>
@@ -128,7 +126,7 @@
                 <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
                 <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
                 <a class="smallbutton" href="#">
-                    <p>LEARN MORE</p>
+                    <p class="smallbuttontext">LEARN MORE</p>
                 </a>
                 <img class="image-fluid" src="images/building2.png">
             </div>
@@ -139,7 +137,7 @@
 
 <!-- 2024 Annual Lecture -->
 <section class="container-fluid">
-    <div class="container">
+    <div>
         <div class="row">
             <div class="col-md-6">
                 <img class="lectureimage" src="images/lecture.png">
@@ -148,11 +146,11 @@
                 <h3 class="annualtitle">2024 ANNUAL LECTURE</h3>
                 <p class="annualtext">In 2024 the National Indigenous Research Conference and the AIATSIS National Native Title Conference will be held together for the first time. Over five days, the summit will provide a fantastic opportunity for Aboriginal and Torres Strait Islander policy makers, academics and leaders to come together to discuss emerging challenges. Registrations are now open for this unique event.</p>
                 <a class="bigbutton3" href="#">
-                    <p>SUBSCRIBE TO EVENT</p>
+                    <p class="buttontext">SUBSCRIBE TO EVENT</p>
                 </a>
             </div>
         </div>
-    </div> <!-- container -->
+    </div>
 </section> <!-- container-fluid -->
 
 <footer class="container-fluid footerbg2">
@@ -163,20 +161,22 @@
         </div>
         <div class="row footerbg">
             <div class="col-md-3" href="#"> <!-- Logo 2 -->
+            <a class="d-flex justify-content-center">
                 <img src="images/logo2.png" alt="HCWA Logo2">
+            </a>
             </div>
             <div class="col-md-6"> <!-- Links and acknowledgement to country, which might be removed -->
                 <!-- Links -->
-            <ul class="d-flex justify-content-center">
+            <ul class="d-flex justify-content-around">
                 <a class="nav-link" href="#">About Us</a>
                 <a class="nav-link" href="#">Live Issues</a>
                 <a class="nav-link" href="#">Join Us</a>
                 <a class="nav-link" href="#">What's On</a>
                 <a class="nav-link" href="#">Contact Us</a>
             </ul>
-            <p>'In the spirit of reconciliation the History Council of Western Australia acknowledges the Traditional Custodians of Country throughout Australia and their connections to land, sea and community. We pay our respect to their Elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples today.'</p>
+            <p class="country">'In the spirit of reconciliation the History Council of Western Australia acknowledges the Traditional Custodians of Country throughout Australia and their connections to land, sea and community. We pay our respect to their Elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples today.'</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 d-flex justify-content-center">
                 <a class="socialmediaicons" href="#">
                     <img src="images/facebookicon.png" alt="facebookicon">
                 </a>
@@ -186,7 +186,7 @@
             </div>
         </div> <!-- row -->
         <!-- WHITE LINE TO BE INSERTED HERE -->
-        <div class="row footerbg">
+        <div class="row footerbg footerdetails">
             <div class="col-md-3">
                 <a href="#">
                     <p>Privacy Policy</p>
@@ -197,7 +197,7 @@
             </div>
             <div class="col-md-3">
                 <a href="#">
-                    <p>Terms and Conditions</p>
+                    <p >Terms and Conditions</p>
                 </a>
             </div>
         </div>
