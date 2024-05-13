@@ -16,8 +16,8 @@
 /* Custom-Container */
 .custom-container
 {
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 /* Note: Live section */
 .livebox{
@@ -33,6 +33,7 @@
     background-color: #F1EDE5;
     background-size: cover;
     padding-bottom: 120px;
+    margin-top: 55px;
 }
 .charcoalbg
 {
@@ -49,16 +50,23 @@
     background-color: #825A1D;
     background-size: cover;
 }
+.whyhistorymattersbg
+{
+    background:url("images/whyhisotrymatters.png") no-repeat center center;
+    background-size: cover;
+    min-height: 370px;
+    min-width: 1470;
+}
 
 /* IMAGES */
-.livep{
-    margin-left: 89px;
-    color:white;
- 
-}
+
 .nav-link
 {
     color: black;
+}
+.nav-linkfooter
+{
+    color: white;
 }
 .liveissuesimg{
     margin-top:-55px;
@@ -80,6 +88,7 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+
 
 /* TYPOGRAPHY */
 h1
@@ -112,6 +121,11 @@ h3
     color:white;
     text-align: center;
 }
+.livep{
+    margin-left: 89px;
+    color:white;
+    font-size: 20px;
+}
 .annualtitle
 {
     color: black;
@@ -129,6 +143,8 @@ h3
     color: white;
     font-size: 48px;
     font-weight: 300;
+    text-align: center;
+    padding-top: 135px;
 }
 h4
 {
@@ -202,8 +218,9 @@ p
     font-weight: 500;
     text-align: center;
     font-size: 14px;
-    padding: 10px 60px;
+    padding: 10px 40px;
     display: inline-block;
+    border-radius: 12px;
 }
 .bigbutton1
 {
@@ -221,6 +238,7 @@ p
     display: inline-block;
     border-radius: 12px;
     color: white;
+    margin-top: 8%;
 }
 .bigbutton3
 {
