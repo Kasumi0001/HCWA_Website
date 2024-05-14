@@ -310,8 +310,6 @@ p
 {
     background-color: #3A3937;
     height: 800px;
-    padding-bottom: 20%;
-    margin-bottom: 10%;
     margin-top: 10%;
 }
 
@@ -325,13 +323,14 @@ p
     background-color:#F1EDE5;
     height: 830px;
     width: 375px;
-    margin-top: -355px;
+    margin-top: -200px;
 }
 
 .awards{
     padding-bottom: 10%;
     padding-top: 2%;
     color: white;
+    margin-right: 0%;
     
 }
 
@@ -348,6 +347,4 @@ p
 
 .text{
     padding-bottom: 5%;
-}
-    
 }
