@@ -1,7 +1,6 @@
 /* RULES THAT IS USED ACROSS ALL OR MULTIPLE HTML PAGES */
 /* Colour Palette */
-:root
-{
+:root{
     --Beige: #F1EDE5;
     --LighterBlack: #3A3937;
     --Ochre: #C7892C;
@@ -258,30 +257,33 @@ h1{
 /* ABOUT US - ??? */
 
 /* WHAT'S ON - MEAGAN */
+/* Colours */
 .allycauses
 {
     background-color:var(--LighterBlack);
     height: 800px;
     margin-top: 10%;
 }
-.allyimg{
-    margin-top:0px;
-    padding-top: 10%;
-    padding-bottom: 20%;
-}
-.livebox{
+/* THIS IS A DUPLICATE NEED TO DOUBLE CHECK THIS ON THE whatson HTML CONSISTENCY */
+/* .livebox{
     background-color:var(--Beige);
     height: 830px;
     width: 375px;
     margin-top: -200px;
+} */
+/* Images */
+.allyimg{
+    margin-top:0px;
+    padding-top: 10%;
+    padding-bottom: 20%;
 }
 .awards{
     padding-bottom: 10%;
     padding-top: 2%;
     color: white;
     margin-right: 0%;
-    
 }
+/* Typography */
 .awardstitle{
     padding-top: 5%;
     margin-top: 5%;
@@ -297,6 +299,6 @@ h1{
 
 /* LIVE ISSUES - ZARAH */
 
-/* MEMBERSHIP MAYBE - CHET */
+/* MEMBERSHIP MAYBE AS IF CAN BE JUST DONE ON WORDPRESS - CHET */
 
 /* CONTACT US - THISARI */

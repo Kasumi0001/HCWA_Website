@@ -1,45 +1,74 @@
-# HCWA_Website
- Collaborative GitHub repository for the WordPress website development for the History Council of Western Australia. Using HTML, CSS, PHP/JAVA for this development (Like how we've been doing for the Josh Homework) and handing the project off with relevant documents to our client.
+# RULES INVOLVING THIS PROJECT
+1) Before making any changes in the GitHub Repository, **ALWAYS 'Fetch Orgin'** to prevent the need to merge overlapping code creating duplicates that aren't needed.
+2) Notify when editing the style.css in group chats to everyone, specifically if editing stuff that is used across multple sites (Like Buttons, basic h2-h5 text, etc) to prevent merge overlaps.
+3) Give **concise notes prior to pushing changes to GitHub origin** of what you have done and plan to do next to help keep yourself in track and explain to other members in the team what you're working on code wise to prevent double up work. As this can get really easily messy in a hurry with this nitty gritty coding phase.
 
- Roughly sketched stages of a Wordpress Website development (To be exactly like Josh's Website, will download all the video tutorials to make it easier for us to refere back to - Jess):
- 1. Figma Concepts
- 2. HTML and CSS code the neccesary pages we need. *(As it will become our main base to everthing else with more differences due what this website requires compared to Josh's)*
- 3. Testing by open in browser to ensure step 2 is complete done with little to no issues. *(Matches to the concepts)*
- 4. Converting the HTML to PHP, Then transferring to the server on FileZilla. *(The purpose of the PHP code allow Wordpress to access it through the theme template folder)*
- 5. Testing over and over, by veiwing through WordPress dashboard to ensure the convertion goes well. *(Will be doing this the whole development)*
- 6. Setting up advanced custom fields to allow the clients to change the content without changing the code.
- 7. Setting up Paid Membership Pro and Mailchimp add on *(It will automatically create the pages needed for a membership sign up, payment page, etc.)* to match with design composition.
- 8. Animation and flair for the webpage. *(Can maybe add a free plugin to reduce lag on the website, Just need to double check with Mark)*
- 9. Finalisation to remove any issues, bugs, etc.
+# Style Sheet Structure Contents Overview
+*To make it easy broad strokes to help navigate the 'Stye.css' when coding the HTML pages*.
 
- *These steps aren't perfect steps, just a rough idea based on the Josh Tutorial Videos*
- 
- Team Members: Meagan, Zarah, Thisari, Chet & Jessica
- Mark Cypher's GitHub = https://github.com/cyphem
- 
- **Will need to organise the workload based on skill level, time availibility along side other units and etc.**
- Webpage roles each of us are developing/coding for website:
- 2) ABOUT US -                                                  NAME
- 2-3) WHAT MATTERS -                                            NAME
- 2-3) WHAT'S ON -                                               NAME
- 3) SUPPORT US (Name needs to be changed - Plugin)-             NAME   
- 1) CONTACT US -                                                NAME
+# SECTION 1 - Classes that is used on multiple pages such as colour palettes, fonts, containers, text, navigation and footer. 
+# CODE LINES 1 to 192 (Upadated 15/05/2024)
+    Order of Classes by types:
+        1. Colour Palette (Also know as root) --- Code Lines 1-8
+        2. Font Faces                         --- Code Lines 9-14
+        3. Custom Containers                  --- Code Lines 15-27
+        4. Background Colours Containers      --- Code Lines 28-70
+        5. Images                             --- Code Lines 71-80
+        6. Typography                         --- Code Lines 81-130
+        7. Buttons                            --- Code Lines 131-192
+*Navigation and Footer images and typography aren't in their own category*
 
- **DIFFICULTY LEVEL:**
- 1 - Low
- 2 - Medium
- 3 - High (Due to a plugin)
- 
- *Changed the order of pages and removed ones based on Meagan's note during client meeting on the 09/04/24 that she has posted on Microsoft Teams.*
+# SECTION 2 - Classes that are specific to only one html page that each individual is working on below, I am using mine (aka Index Page) to show as example as listed below:
+# CODE LINES 192 to down onwards (Upadated 15/05/2024)
+    Order of index classes by types example:
+        1. Colours (Using root but has specific pixel height and width for bacgrounds etc.)
+        2. Images (Specific to index page)
+        3. Typography (Specific to index text layout such as how I'm the only one that is using H1 font and had commented to what font is a specific of a h3 or p type)
 
- Plugin Updated - The paid memberships pro plugin and the addon plugin of mailchimp is very much possible to use for the client's membership page, Mark mentions that we don't need to worry money logistics about the website being connected to their accounts as we can set it up and having a free membership payment option to test if accounts are actually being made. The only difficult part is basically 'hacking' into their style sheet/learning more about the plugin to match with our website design to make it beautiful. At the moment I've tested it out with one of my personal emails, which I might change it to my student email or something (Jess).
+# Another example directly copied and pasted from the style sheet - What's on (Meagans)
+/* WHAT'S ON - MEAGAN */
+**/* Colours */**
+.allycauses
+{
+    background-color:var(--LighterBlack);
+    height: 800px;
+    margin-top: 10%;
+}
+**/* Images */**
+.allyimg{
+    margin-top:0px;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+.awards{
+    padding-bottom: 10%;
+    padding-top: 2%;
+    color: white;
+    margin-right: 0%;
+}
+**/* Typography */**
+.awardstitle{
+    padding-top: 5%;
+    margin-top: 5%;
+    color: white;
+}
+.awardsub{
+    color: white;
+    padding-top: 5%;
+}
+.text{
+    padding-bottom: 5%;
+}
 
- Also feel free to add anything that will be neccesary as this file acts along side with the figma compositions and brief will act as a guide to the website development.
- 
- Stylisation guide:
- Hightlight **Start and end of hightlighted text**
- 1) Number highlight (Only with nothing else before the number on the same line)
- Crossout ~~Start and end of crossedout text~~
- Italic *Start and end of italic text*
+# TAKE NOTE OF THE ORDER OF THE TYPES OF CLASSES I'VE HIGHLIGHTED WHICH IS:
+Colour, Images and Typography.
 
-  Last Updated: 11/04/2024.
+I would recommend following up when creating yours in this order as this will significantly help with navigating on the style sheet as it will be a very large document.
+
+# CODE LINE OF THE START EVERYONE ELSES HTML PAGE SPECIFIC STYLE CLASSES AT THIS CURRENT TIME (Upadated 15/05/2024):
+Index Page by Jess          - Code line 194
+About Us Page By ???        - Code line 257
+What's On Page By Meagan    - Code line 259
+Live Issues Page By Zarah   - Code line 300
+Membership Page By Chet     - Code line 302 (This one is a maybe as it can be just done using wp pages)
+Contact Us by Thisari       - Code line 304
