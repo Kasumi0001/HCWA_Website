@@ -7,106 +7,145 @@
 <!-- <meta name="Description" content="Enter your description here"/> NOTE: Don't really need this as it isn't that important-->
 
 <!-- Reference to fonts -->
-
-
+<link rel="stylesheet" href="https://use.typekit.net/qnv7ntv.css"> <!-- Aktiv Grotesk and Adobe Caslon font -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="whatson.css"> <!-- Reference to stylesheet -->
+<link rel="stylesheet" href="style.css"> <!-- Reference to stylesheet -->
 <link rel="stylesheet" href="repsonsive.css"> <!-- Reference to responsive css -->
 
-<title>What's On Page</title>
+<title>ALLY CAUSES SECTION</title>
 </head>
 <body>
 <!-- Navigation and Cover Section -->
 <header>
     <div>
-        <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md">
             <!-- Brand Logo -->
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="HCWA Logo">
-            </a>
+    <a class="navbar-brand" href="#">
+    <img src="images/logo.png" alt="HCWA Logo"></a>
             <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
             <!-- Links -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Live Issues</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Join Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">What's On</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
-            <!-- Search Bar and Button NOTE: This might be removed due to able to set up in wordpress rather manually-->
-            <form class="form-inline" action="/action_page.php">
-                <input class="form-control mr-sm-2" placeholder="Search">
-                <a href="#">
-                <img src="images/searchicon.png" alt="searchicon">
-                </a>
-            </form>
-        </nav>
-    </div> <!-- container -->
-     <!-- COVER IMAGE SECTION -->
+    <div class="ml-auto d-flex align-items-center">
+        <a class="nav-link nav-text" href="#">About Us</a>
+        <a class="nav-link nav-text" href="#">Live Issues</a>
+        <a class="nav-link nav-text" href="#">Join Us</a>
+        <a class="nav-link nav-text" href="#">What's On</a>
+        <a class="nav-link nav-text" href="#">Contact Us</a>
+    </div>
+            
+            <!-- Search Bar and buttons NOTE: This might be removed due to able to set up in wordpress rather manually-->
+    <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" placeholder="Search">
+        <a href="#">
+        <img src="images/searchicon.png" alt="searchicon">
+        </a>
+    </form>
 
+            <!-- Note: Might be removed as the pro subscription plugin inserts their own button we just hack its CSS for -->
+    <div class="signinbutton"> 
+        <a class="smallbuttontext" href="#">Sign In</a>
+    </div>
+    </nav>
+    </div> <!-- container -->
+
+<!-- COVER IMAGE SECTION -->
+    <section class="container-fluid allycauses">
+    <div class="custom-container">
+        <div class="row">
+        <div class="col-md-6">
+        <img class="allyimg" src="images/liveissues.png" alt="LiveIusses">
+        </div>
+        <div class="col-md-6">
+        <h3>ANNUAL 2024 LECTURE</h3>
+        <p class="livep">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
+       
+        </a>
+            </div>
+        </div>
+    </div>
+</section> <!-- container-fluid -->
 </header> <!-- container-fluid -->
 
 
-<section class="containter-fluid lecturebg">
-    <div class="container">
-    <div class="row">
-    
-        <div class="col-md-6">
-            <img src="images/lecture.png" alt="lecture standing over podium">
-          </div>
-        <div class="col-md-6">
-   
-      <h2 class id="title"> 2024
-        <br>RESEARCH CONFERENCE LECTURE</h2>
-        <a class="hero" href="mod-gallery.html">subscribe to event</a>
-    </div>
-    </div>
-    </div>
-  </section>
-  
-  <section class="containter-fluid lecture">
-    <div class="container">
-    <div class="row">
+<!-- Live Issues Post Section -->
+<section class="container-fluid">
+    <div class="custom-container">
+        <!-- NEED TO ADJUST FURTHER TO MATCH THE FIGMA DESIGN -->
+        <div class="row justify-content-around">
+            <div class="livebox">
+                    <h5>01</h5>
+                    <h4>AMP BUILDING</h4>
+                    <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
+                    <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
+                    <a class="bigbutton2" href="#">
+                    <p class="buttontext">LEARN MORE</p>
+                    </a>
+                    <img class="image-fluid" src="images/freo.png">
+            </div>
+            <div class="livebox">
+                    <h5>02</h5>
+                    <h4>HERITAGE RECORDS</h4>
+                    <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
+                    <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
+                    <a class="smallbutton" href="#">
+                        <p class="smallbuttontext">LEARN MORE</p>
+                    </a>
+                    <img class="image-fluid" src="images/freo.png">
+            </div>
+            <div class="livebox">
+                    <h5>03</h5>
+                    <h4>NORMAN HOUSE</h4>
+                    <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
+                    <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
+                    <a class="smallbutton" href="#">
+                        <p class="smallbuttontext">LEARN MORE</p>
+                    </a>
+                    <img class="image-fluid" src="images/freo.png">
+            </div>
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</section> <!-- container-fluid -->
+<!-- LIVE ISSUES POST SECTION
+ -->
 
-    <div class="col-md-4">
+<!-- my code below -->
+
+  
+  <section class="containter-fluid allycauses">
+    <div class="container">
+        <h3 class id="awardstitle">AWARDS</h3>
+    <div class="row">
+    <div class="col-md-3 awards">
         <img src="images/agm.png" alt="lecture standing over podium">
         <br>
-        <h4>AGM, History Awards, Annual History Council Lecture ‘On Truth-Telling’</h4>
-        <p class id="date"> Sunday 30th November 2024
-        <br> event info for them to have a quick read of what the issue is and the read more button for additional information. </p>
-        <a class="hero" href="mod-gallery.html">subscribe to event</a>
+        <h4>Awards 2024</h4>
+        <p class id="date"> Ally description, for cause, click learn more for additional information</p>
+        <a class="smallbutton" href="£">Learn More</a>
     </div>
-
-    <div class="col-md-4">
+    <div class="col-md-3 awards">
         <img src="images/woodside.png" alt="lecture standing over podium">
         <br>
-        <h4>Fremantle to Woodside Hospital to Aged Care Precinct</h4>
-        <p class id="date"> Sunday 30th November 2024
-        <br> Plans of redevelopment for Fremantle Woodside Hospital have been rejected. </p>
-        <a class="hero" href="mod-gallery.html">subscribe to event</a>
+        <h4>Awards 2023</h4>
+        <p class id="date">Ally description, for cause, click learn more for additional information</p>
+        <a class="smallbutton" href="£">Learn More</a>
     </div>
-
-    <div class="col-md-4">
+    <div class="col-md-3 awards">
         <img src="images/freo.png" alt="lecture standing over podium">
         <br>
-        <h4>Fini, Trimboli’s $8m Freo plan approved</h4>
-        <p class id="date"> Sunday 30th November 2024
-        <br> Multi-million-dollar proposal to redevelop a Fremantle heritage asset has been approved by a development panel</p>
-        <a class="hero" href="mod-gallery.html">subscribe to event</a>
+        <h4>Awards 2022</h4>
+        <p class id="date">Ally description, for cause, click learn more for additional informationl</p>
+        <a class="smallbutton" href="£">Learn More</a>      
+    </div>
+    <div class="col-md-3 awards">
+        <img src="images/woodside.png" alt="lecture standing over podium">
+        <br>
+        <h4>Awards 2021</h4>
+        <p class id="date">Ally description, for cause, click learn more for additional informationl</p>
+        <a class="smallbutton" href="£">Learn More</a>
             
     </div>
 

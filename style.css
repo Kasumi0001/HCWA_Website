@@ -151,12 +151,14 @@ h4
     font-weight: 700;
     font-style: normal;
     text-align: left;
+    color: #393836;
 }
 h5
 {
     font-size: 195px;
     font-weight: bolder;
     text-align: right;
+    color: #393836;
 }
 p
 {
@@ -276,3 +278,43 @@ p
     display: inline-block;
     border-radius: 12px;
 } */
+
+
+/* whats on sect meagans */
+
+.allycauses
+{
+    background-color: #3A3937;
+    height: 800px;
+    padding-bottom: 20%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.allyimg{
+    margin-top:0px;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.livebox{
+    background-color:#F1EDE5;
+    height: 830px;
+    width: 375px;
+    margin-top: -355px;
+}
+
+.awards{
+    padding-bottom: 10%;
+    padding-top: 2%;
+    color: white;
+    
+}
+
+.awardstitle{
+    padding-bottom: 2;
+    padding-top: 10%;
+    margin-top: 10%;
+    color: pink;
+    
+}
