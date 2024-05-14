@@ -16,8 +16,8 @@
 /* Custom-Container */
 .custom-container
 {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 /* Note: Live section */
 .livebox{
@@ -33,7 +33,7 @@
     background-color: #F1EDE5;
     background-size: cover;
     padding-bottom: 120px;
-    margin-top: 55px;
+    margin-top: 25px;
 }
 .charcoalbg
 {
@@ -45,31 +45,11 @@
     background-color: #C7892C;
     background-size: cover;
 }
-/* .footerbg2
-{
-    background-color: #825A1D;
-    background-size: cover;
-} */
-.whyhistorymattersbg
-{
-    background:url("images/whyhisotrymatters.png") no-repeat center center;
-    background-size: cover;
-    min-height: 370px;
-    min-width: 1470;
-}
+
 
 /* IMAGES */
-
-.nav-link
-{
-    color: black;
-}
-.nav-linkfooter
-{
-    color: white;
-}
 .liveissuesimg{
-    margin-top:-55px;
+    margin-top:-25px;
 }
 .lectureimage
 {
@@ -88,9 +68,28 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+.whyhistorymattersbg
+{
+    background:url("images/whyhisotrymatters.png") no-repeat center center;
+    background-size: cover;
+    min-height: 370px;
+    min-width: 1470;
+}
 
 
 /* TYPOGRAPHY */
+.nav-link
+{
+    color: black;
+}
+.nav-text
+{
+    margin-right: 5%;
+}
+.nav-linkfooter
+{
+    color: white;
+}
 h1
 {
     font-family: adobe-caslon-pro, serif;
@@ -172,7 +171,7 @@ p
     text-align: center;
     font-style: italic;
     color: white;
-    padding-top: 1%;
+    padding-top: 5%;
     padding-bottom: 2%;
 }
 .footerdetails
@@ -258,10 +257,22 @@ p
     border-radius: 12px;
     color: white;
 }
-
-
-
-
-
-
-
+.smallbutton2
+{
+    margin-left: 36%;
+    background-color:#C7892C;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+/* .invertedsmallbutton
+{
+    margin:auto;
+    border-color:#C7892C;
+    border-width: 3px;
+    border-style: solid;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+} */
