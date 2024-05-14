@@ -5,13 +5,13 @@
     src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
 }
 
-/* Custom-Container */
+/* Custom-Containers */
 .custom-container
 {
     margin-left: 100px;
     margin-right: 100px;
 }
-/* Note: Live section */
+/* Live issues posts */
 .livebox{
     background-color:#F1EDE5;
     height: 830px;
@@ -55,14 +55,12 @@
     background-color: #F1EDE5;
     width: 930px;
     height: 450px;
-    margin-left:-50%;
 }
 .sectionbgdarkbottom
 {
     background-color: #393836;
     width: 930px;
     height: 450px;
-    margin-left:-50%;
 }
 
 /* IMAGES */
@@ -285,7 +283,6 @@ p
     display: inline-block;
     border-radius: 12px;
     color: white;
-<<<<<<< Updated upstream
 }
 
 /* whats on sect meagans */
@@ -318,6 +315,4 @@ p
     margin-top: 10%;
     color: pink;
     
-=======
->>>>>>> Stashed changes
 }
