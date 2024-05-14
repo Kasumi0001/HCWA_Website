@@ -7,23 +7,32 @@
     --Blue: #64A1B8;
 }
 /* Font-faces */
-@font-face
-{
+@font-face{
     font-family: "CaslonBold";
     src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
 }
 /* Custom-Container */
-.custom-container
-{
+.custom-container{
     margin-left: 100px;
     margin-right: 100px;
+}
+.custom-navbar{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    padding: 0.5rem 1rem 
 }
 /* Live issues posts */
 .livebox{
     background-color:var(--Beige);
     height: 830px;
     width: 375px;
-    margin-top: -280px;
+    margin-top: -300px;
 }
 /* Background Colours */
 .creambg
@@ -78,9 +87,12 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+.navbar-brand{
+    margin-right: 20%;
+}
 /* Typography */
 .nav-text{
-    width: 100px;
+    width: 120px;
     color: black;
     text-align: center;
 }
@@ -147,6 +159,7 @@ p{
     padding: 10px 40px;
     display: inline-block;
     border-radius: 12px;
+    margin-left: 3%;
 }
 .bigbutton1{
     background-color:var(--Ochre);
@@ -181,7 +194,7 @@ p{
     color: white;
 }
 .smallbutton2{
-    margin-left: 36%;
+    margin-left: 31%;
     background-color:var(--Ochre);
     padding: 10px 40px;
     display: inline-block;
@@ -238,7 +251,7 @@ h1{
 .whyhistorymatterstitle{
     color: white;
     font-size: 48px;
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
     padding-top: 135px;
 }
