@@ -79,7 +79,7 @@
 }
 /* IMAGES */
 .socialmediaicons{
-    padding: 3%;
+    padding: 2%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -98,6 +98,7 @@
 }
 .nav-linkfooter{
     color: white;
+    margin-top: 5%;
 }
 h2{
     font-size: 20px;
@@ -136,9 +137,14 @@ p{
 .footerdetails{
     text-align: center;
     color: white;
-    padding-top: 2%;
-    padding-bottom: 3%;
-
+    padding-bottom: 2%;
+}
+.followus{
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    margin-left: 76%;
+    margin-bottom: -1%;
 }
 /* Buttons */
 .buttontext{    
