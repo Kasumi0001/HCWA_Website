@@ -1,21 +1,267 @@
+:root
+{
+    --Beige: #e4dece;
+    --LighterBlack: #393836;
+    --Ochre: #c5882c;
+    --Blue: #64a1b8;
+}
+
+/* FONT-FACES */
+@font-face
+{
+    font-family: "CaslonBold";
+    src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
+}
+
+/* Custom-Container */
+.custom-container
+{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+/* Note: Live section */
+.livebox{
+    background-color:#F1EDE5;
+    height: 830px;
+    width: 375px;
+    margin-top: -355px;
+}
+
+/* BACKGROUND COLOURS */
 .creambg
 {
     background-color: #F1EDE5;
     background-size: cover;
     padding-bottom: 120px;
+    margin-top: 55px;
 }
-
 .charcoalbg
 {
     background-color: #3A3937;
+    height: 800px;
+}
+.footerbg
+{
+    background-color: #C7892C;
+    background-size: cover;
+}
+/* .footerbg2
+{
+    background-color: #825A1D;
+    background-size: cover;
+} */
+.whyhistorymattersbg
+{
+    background:url("images/whyhisotrymatters.png") no-repeat center center;
+    background-size: cover;
+    min-height: 370px;
+    min-width: 1470;
 }
 
+/* IMAGES */
+
+.nav-link
+{
+    color: black;
+}
+.nav-linkfooter
+{
+    color: white;
+}
+.liveissuesimg{
+    margin-top:-55px;
+}
+.lectureimage
+{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 550px;    
+}
+.socialmediaicons
+{
+    padding: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footerlogo
+{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* TYPOGRAPHY */
 h1
 {
+    font-family: adobe-caslon-pro, serif;
     font-size: 120px;
+    font-weight: bold;
+}
+.for 
+{
+    margin-left: 150px;
+}
+.history
+{
+    margin-left: 50px;
 }
 h2
 {
     font-size: 20px;
+    font-family: "CaslonBold";
+    padding-top: 100px;
 }
+h3
+{
+    font-family: adobe-caslon-pro, serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    color:white;
+    text-align: center;
+}
+.livep{
+    margin-left: 89px;
+    color:white;
+    font-size: 20px;
+}
+.annualtitle
+{
+    color: black;
+    text-align: center;
+    margin-left: 85px;
+    margin-top: 120px;
+}
+.albanytitle
+{
+    color: black;
+    text-align: left;
+}
+.whyhistorymatterstitle
+{
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 135px;
+}
+h4
+{
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+}
+h5
+{
+    font-size: 195px;
+    font-weight: bolder;
+    text-align: right;
+}
+p
+{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+
+}
+.country
+{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.footerdetails
+{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 3%;
+
+}
+.annualtext
+{
+    margin-left: 90px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.albanytext
+{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+
+/* BUTTONS */
+.buttontext
+{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.smallbuttontext
+{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.signinbutton
+{
+    margin-right: 2%;
+    margin-left: 4%;
+    background-color: #64a1b8;
+    font-weight: 500;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+}
+.bigbutton1
+{
+    background-color:#C7892C;
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+.bigbutton2
+{
+    margin-left: 90px;
+    background-color:#C7892C;
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+    margin-top: 8%;
+}
+.bigbutton3
+{
+    margin-left: 100px;
+    background-color:#C7892C;
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+.smallbutton
+{
+    margin:auto;
+    background-color:#C7892C;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+
+
+
+
+
+
 
