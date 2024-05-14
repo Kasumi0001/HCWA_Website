@@ -1,19 +1,19 @@
+/* RULES THAT IS USED ACROSS ALL OR MULTIPLE HTML PAGES */
+/* Colour Palette */
 :root
 {
-    --Beige: #e4dece;
-    --LighterBlack: #393836;
-    --Ochre: #c5882c;
-    --Blue: #64a1b8;
+    --Beige: #F1EDE5;
+    --LighterBlack: #3A3937;
+    --Ochre: #C7892C;
+    --Blue: #64A1B8;
 }
-
-/* FONT-FACES */
+/* Font-faces */
 @font-face
 {
     font-family: "CaslonBold";
     src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
 }
-
-/* Custom-Containers */
+/* Custom-Container */
 .custom-container
 {
     margin-left: 100px;
@@ -21,121 +21,79 @@
 }
 /* Live issues posts */
 .livebox{
-    background-color:#F1EDE5;
+    background-color:var(--Beige);
     height: 830px;
     width: 375px;
     margin-top: -280px;
 }
-
-/* BACKGROUND COLOURS */
+/* Background Colours */
 .creambg
 {
-    background-color: #F1EDE5;
+    background-color:var(--Beige);
     background-size: cover;
     padding-bottom: 120px;
     margin-top: 25px;
 }
 .charcoalbg
 {
-    background-color: #3A3937;
+    background-color:var(--LighterBlack);
     height: 800px;
 }
 .footerbg
 {
-    background-color: #C7892C;
+    background-color:var(--Ochre);
     background-size: cover;
 }
-/* SECTION BOXES */
+/* Section Image and Content Overlap Boxes */
 .sectionbglighttop
 {
-    background-color: #F1EDE5;
+    background-color:var(--Beige);
     width: 930px;
     height: 450px;
 }
 .sectionbgdarktop
 {
-    background-color: #393836;
+    background-color:var(--LighterBlack);
     width: 930px;
     height: 450px;
 }
 .sectionbglightbottom
 {
-    background-color: #F1EDE5;
+    background-color:var(--Beige);
     width: 930px;
     height: 450px;
 }
 .sectionbgdarkbottom
 {
-    background-color: #393836;
+    background-color:var(--LighterBlack);
     width: 930px;
     height: 450px;
 }
-
 /* IMAGES */
-.liveissuesimg{
-    margin-top:-25px;
-}
-.lectureimage
-{
-    margin-top: 75px;
-    margin-bottom: 75px;
-    height: 550px;    
-}
-.socialmediaicons
-{
+.socialmediaicons{
     padding: 3%;
     margin-top: auto;
     margin-bottom: auto;
 }
-.footerlogo
-{
+.footerlogo{
     margin-top: auto;
     margin-bottom: auto;
 }
-.whyhistorymattersbg
-{
-    background:url("images/whyhisotrymatters.png") no-repeat center center;
-    background-size: cover;
-    min-height: 370px;
-    min-width: 1470;
-}
-
-
-/* TYPOGRAPHY */
-.nav-link
-{
+/* Typography */
+.nav-text{
+    width: 100px;
     color: black;
+    text-align: center;
 }
-.nav-text
-{
-    margin-right: 5%;
-}
-.nav-linkfooter
-{
+.nav-linkfooter{
     color: white;
 }
-h1
-{
-    font-family: adobe-caslon-pro, serif;
-    font-size: 120px;
-    font-weight: bold;
-}
-.for 
-{
-    margin-left: 150px;
-}
-.history
-{
-    margin-left: 50px;
-}
-h2
-{
+h2{
     font-size: 20px;
     font-family: "CaslonBold";
     padding-top: 100px;
 }
-h3
-{
+h3{
     font-family: adobe-caslon-pro, serif;
     font-size: 60px;
     font-weight: 700;
@@ -144,102 +102,46 @@ h3
     color:white;
     text-align: center;
 }
-.livep{
-    margin-left: 89px;
-    color:white;
-    font-size: 20px;
-}
-.annualtitle
-{
-    color: white;
-    text-align: center;
-    margin-left: 20%;
-    margin-top: 120px;
-}
-.albanytitle
-{
-    color: black;
-    text-align: left;
-}
-.whyhistorymatterstitle
-{
-    color: white;
-    font-size: 48px;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 135px;
-}
-h4
-{
+h4{
     font-family: adobe-caslon-pro, serif;
     font-weight: 700;
     font-style: normal;
     text-align: left;
-    color: #393836;
+    color:var(--LighterBlack);
 }
-h5
-{
+h5{
     font-size: 195px;
     font-weight: bolder;
     text-align: right;
-    color: #393836;
+    color:var(--LighterBlack);
 }
-p
-{
+p{
     font-family: "montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 0;
 
 }
-.country
-{
-    text-align: center;
-    font-style: italic;
-    color: white;
-    padding-top: 5%;
-    padding-bottom: 2%;
-}
-.footerdetails
-{
+.footerdetails{
     text-align: center;
     color: white;
     padding-top: 2%;
     padding-bottom: 3%;
 
 }
-.annualtext
-{
-    color:white;
-    margin-left: 20%;
-    margin-bottom: 5px;
-}
-.albanytext
-{
-    text-align: left;
-    font-size: 20px;
-    padding-bottom: 5%;
-}
-
-
-/* BUTTONS */
-.buttontext
-{
+/* Buttons */
+.buttontext{    
     color: white;
     font-size: 24px;
     font-weight: bolder;
 }
-.smallbuttontext
-{
+.smallbuttontext{
     color: white;
     font-size: 16px;
     font-weight: bolder;
 }
-.signinbutton
-{
-    margin-right: 2%;
-    margin-left: 4%;
-    background-color: #64a1b8;
+.signinbutton{
+    background-color:var(--Blue);
     font-weight: 500;
     text-align: center;
     font-size: 14px;
@@ -247,85 +149,132 @@ p
     display: inline-block;
     border-radius: 12px;
 }
-.bigbutton1
-{
-    background-color:#C7892C;
+.bigbutton1{
+    background-color:var(--Ochre);
     padding: 15px 60px;
     display: inline-block;
     border-radius: 12px;
     color: white;
 }
-.bigbutton2
-{
+.bigbutton2{
     margin-left: 90px;
-    background-color:#C7892C;
+    background-color:var(--Ochre);
     padding: 15px 60px;
     display: inline-block;
     border-radius: 12px;
     color: white;
     margin-top: 8%;
 }
-.bigbutton3
-{
+.bigbutton3{
     margin-left: 100px;
-    background-color:#C7892C;
+    background-color:var(--Ochre);
     padding: 15px 60px;
     display: inline-block;
     border-radius: 12px;
     color: white;
 }
-.smallbutton
-{
+.smallbutton{
     margin:auto;
-    background-color:#C7892C;
+    background-color:var(--Ochre);
     padding: 10px 40px;
     display: inline-block;
     border-radius: 12px;
     color: white;
 }
-.smallbutton2
-{
+.smallbutton2{
     margin-left: 36%;
-    background-color:#C7892C;
+    background-color:var(--Ochre);
     padding: 10px 40px;
     display: inline-block;
     border-radius: 12px;
     color: white;
 }
-/* .invertedsmallbutton
-{
-    margin:auto;
-    border-color:#C7892C;
-    border-width: 3px;
-    border-style: solid;
-    padding: 10px 40px;
-    display: inline-block;
-    border-radius: 12px;
-} */
 
+/* RULES FOR SPECIFIC HTML PAGES THAT ISN'T USED ON MULTIPLE */
 
-/* whats on sect meagans */
+/* INDEX PAGE - JESS */
+/* Images */
+.liveissuesimg{
+    margin-top:-25px;
+}
+.lectureimage{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 550px;    
+}
+.whyhistorymattersbg{
+    background:url("images/whyhisotrymatters.png") no-repeat center center;
+    background-size: cover;
+    min-height: 370px;
+    min-width: 1470;
+}
+/* Typography */
+h1{
+    font-family: adobe-caslon-pro, serif;
+    font-size: 120px;
+    font-weight: bold;
+}
+.for{
+    margin-left: 150px;
+}
+.history{
+    margin-left: 50px;
+}
+/* h3 special classes */
+.livep{
+    margin-left: 89px;
+    color:white;
+    font-size: 20px;
+}
+.annualtitle{
+    color: white;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 120px;
+}
+.albanytitle{
+    color: black;
+    text-align: left;
+}
+.whyhistorymatterstitle{
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 135px;
+}
+/* p special classes */
+.annualtext{
+    color:white;
+    margin-left: 20%;
+    margin-bottom: 5px;
+}
+.albanytext{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
 
+/* ABOUT US - ??? */
+
+/* WHAT'S ON - MEAGAN */
 .allycauses
 {
-    background-color: #3A3937;
+    background-color:var(--LighterBlack);
     height: 800px;
     margin-top: 10%;
 }
-
 .allyimg{
     margin-top:0px;
     padding-top: 10%;
     padding-bottom: 20%;
 }
-
 .livebox{
-    background-color:#F1EDE5;
+    background-color:var(--Beige);
     height: 830px;
     width: 375px;
     margin-top: -200px;
 }
-
 .awards{
     padding-bottom: 10%;
     padding-top: 2%;
@@ -333,18 +282,21 @@ p
     margin-right: 0%;
     
 }
-
 .awardstitle{
     padding-top: 5%;
     margin-top: 5%;
     color: white;
 }
-
 .awardsub{
     color: white;
     padding-top: 5%;
 }
-
 .text{
     padding-bottom: 5%;
 }
+
+/* LIVE ISSUES - ZARAH */
+
+/* MEMBERSHIP MAYBE - CHET */
+
+/* CONTACT US - THISARI */
