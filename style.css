@@ -339,9 +339,19 @@ p
 }
 
 .awardstitle{
-    padding-top: 10%;
-    margin-top: 10%;
-    color: pink;
+    padding-top: 5%;
+    margin-top: 5%;
+    color: white;
+}
+
+.awardsub{
+    color: white;
+    padding-top: 5%;
+}
+
+.text{
+    padding-bottom: 5%;
+}
     
 =======
 >>>>>>> Stashed changes
