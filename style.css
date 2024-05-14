@@ -24,7 +24,7 @@
     background-color:#F1EDE5;
     height: 830px;
     width: 375px;
-    margin-top: -355px;
+    margin-top: -280px;
 }
 
 /* BACKGROUND COLOURS */
@@ -45,7 +45,33 @@
     background-color: #C7892C;
     background-size: cover;
 }
-
+/* SECTION BOXES */
+.sectionbglighttop
+{
+    background-color: #F1EDE5;
+    width: 930px;
+    height: 450px;
+}
+.sectionbgdarktop
+{
+    background-color: #393836;
+    width: 930px;
+    height: 450px;
+}
+.sectionbglightbottom
+{
+    background-color: #F1EDE5;
+    width: 930px;
+    height: 450px;
+    margin-left:-50%;
+}
+.sectionbgdarkbottom
+{
+    background-color: #393836;
+    width: 930px;
+    height: 450px;
+    margin-left:-50%;
+}
 
 /* IMAGES */
 .liveissuesimg{
@@ -127,9 +153,9 @@ h3
 }
 .annualtitle
 {
-    color: black;
+    color: white;
     text-align: center;
-    margin-left: 85px;
+    margin-left: 20%;
     margin-top: 120px;
 }
 .albanytitle
@@ -186,9 +212,9 @@ p
 }
 .annualtext
 {
-    margin-left: 90px;
+    color:white;
+    margin-left: 20%;
     margin-bottom: 5px;
-    text-align: center;
 }
 .albanytext
 {
@@ -267,6 +293,7 @@ p
     display: inline-block;
     border-radius: 12px;
     color: white;
+<<<<<<< Updated upstream
 }
 /* .invertedsmallbutton
 {
@@ -316,4 +343,6 @@ p
     margin-top: 10%;
     color: pink;
     
+=======
+>>>>>>> Stashed changes
 }
