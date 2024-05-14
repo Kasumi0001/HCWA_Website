@@ -1,11 +1,3 @@
-:root
-{
-    --Beige: #e4dece;
-    --LighterBlack: #393836;
-    --Ochre: #c5882c;
-    --Blue: #64a1b8;
-}
-
 /* FONT-FACES */
 @font-face
 {
@@ -268,17 +260,6 @@ p
     border-radius: 12px;
     color: white;
 }
-/* .invertedsmallbutton
-{
-    margin:auto;
-    border-color:#C7892C;
-    border-width: 3px;
-    border-style: solid;
-    padding: 10px 40px;
-    display: inline-block;
-    border-radius: 12px;
-} */
-
 
 /* whats on sect meagans */
 
@@ -295,13 +276,6 @@ p
     margin-top:0px;
     padding-top: 10%;
     padding-bottom: 20%;
-}
-
-.livebox{
-    background-color:#F1EDE5;
-    height: 830px;
-    width: 375px;
-    margin-top: -355px;
 }
 
 .awards{
