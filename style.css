@@ -103,7 +103,9 @@
 h2{
     font-size: 20px;
     font-family: "CaslonBold";
+    font-weight: bold;
     padding-top: 100px;
+    padding-bottom: 30px;
 }
 h3{
     font-family: adobe-caslon-pro, serif;
@@ -212,9 +214,18 @@ p{
     height: 350px;
     position: relative;
 }
+.covertitle-container{
+    margin-left: -85%;
+    max-width: fit-content;
+}
 /* Images */
+.coverimage{
+    margin-top: -25px;
+    max-width: fit-content;
+    margin-left: 88%;
+}
 .liveissuesimg{
-    margin-top:-25px;
+    margin-top:-55px;
 }
 .image-livebox{
     float:right;
@@ -238,6 +249,7 @@ h1{
     font-family: adobe-caslon-pro, serif;
     font-size: 120px;
     font-weight: bold;
+    line-height: 100px;
 }
 .for{
     margin-left: 150px;
