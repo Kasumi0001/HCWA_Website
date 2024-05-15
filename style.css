@@ -121,12 +121,6 @@ h4{
     text-align: left;
     color:var(--LighterBlack);
 }
-h5{
-    font-size: 195px;
-    font-weight: bolder;
-    text-align: right;
-    color:var(--LighterBlack);
-}
 p{
     font-family: "montserrat", sans-serif;
     font-weight: 400;
@@ -192,7 +186,8 @@ p{
     color: white;
 }
 .smallbutton{
-    margin:auto;
+    margin-top: 2em;
+    margin-left: 1em;
     background-color:var(--Ochre);
     padding: 10px 40px;
     display: inline-block;
@@ -211,9 +206,21 @@ p{
 /* RULES FOR SPECIFIC HTML PAGES THAT ISN'T USED ON MULTIPLE */
 
 /* INDEX PAGE - JESS */
+/* Container */
+.livebox-image-container{
+    width: 375px;
+    height: 350px;
+    position: relative;
+}
 /* Images */
 .liveissuesimg{
     margin-top:-25px;
+}
+.image-livebox{
+    float:right;
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
 }
 .lectureimage{
     margin-top: 75px;
@@ -239,10 +246,9 @@ h1{
     margin-left: 50px;
 }
 /* h3 special classes */
-.livep{
-    margin-left: 89px;
-    color:white;
-    font-size: 20px;
+.liveissuestitle{
+    text-align: left;
+    margin-left: 15%;
 }
 .annualtitle{
     color: white;
@@ -261,7 +267,34 @@ h1{
     text-align: center;
     padding-top: 135px;
 }
+/* h4 special classes */
+.liveboxsubtitle{
+    font-size: 32px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+h5{
+    font-family: "montserrat", sans-serif;
+    font-size: 195px;
+    font-weight: bolder;
+    text-align: right;
+    color:var(--LighterBlack);
+    line-height: 170px;
+    margin-top: 0.05em;
+    margin-right: 0.15em;
+    margin-bottom: 0.05em;
+}
 /* p special classes */
+.livep{
+    margin-left: 15%;
+    color:white;
+    font-size: 20px;
+}
+.liveboxtext{
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+}
 .annualtext{
     color:white;
     margin-left: 20%;
