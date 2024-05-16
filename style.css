@@ -51,6 +51,7 @@
 {
     background-color:var(--Ochre);
     background-size: cover;
+    padding: 2%;
 }
 /* Note: This is the section coloured boxes for the image overlap ontop*/
 .sectionbglighttop
@@ -88,7 +89,7 @@
 }
 /* IMAGES */
 .socialmediaicons{
-    padding: 2%;
+    padding: 1%;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -144,7 +145,6 @@
     font-size: 20px;
     padding-bottom: 5%;
 }
-
 .nav-text{
     width: 120px;
     color: black;
@@ -152,7 +152,6 @@
 }
 .nav-linkfooter{
     color: white;
-    margin-top: 5%;
 }
 h2{
     font-size: 20px;
@@ -187,14 +186,9 @@ p{
 .footerdetails{
     text-align: center;
     color: white;
-    padding-bottom: 2%;
 }
 .followus{
-    text-align: center;
     color: white;
-    padding-top: 1%;
-    margin-left: 76%;
-    margin-bottom: -1%;
 }
 /* Buttons */
 .buttontext{    
@@ -256,7 +250,6 @@ p{
     border-radius: 12px;
     color: white;
 }
-
 /* RULES FOR SPECIFIC HTML PAGES THAT ISN'T USED ON MULTIPLE */
 
 /* INDEX PAGE - JESS */
