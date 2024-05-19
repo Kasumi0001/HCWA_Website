@@ -41,7 +41,7 @@
     <div>
         <nav class="custom-navbar navbar-expand-sm">
             <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="HCWA Logo">
+                <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo.png" alt="HCWA Logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
             <form class="form-inline" action="/action_page.php">
                 <input class="form-control mr-sm-2" placeholder="Search">
                 <a href="#">
-                <img src="images/searchicon.png" alt="searchicon">
+                <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/searchicon.png" alt="searchicon">
                 </a>
             </form>
             <!-- Note: Might be removed as the pro subscription plugin inserts their own button we just hack its CSS for -->
