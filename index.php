@@ -11,7 +11,7 @@
     <div class="creambg">
         <div class="row" style="margin:0;">
             <div class="col-md-6">
-                <img class="coverimage" src="images/CoverImage.png" alt="CoverImage">
+                <img class="coverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/CoverImage.png" alt="CoverImage">
             </div>
             <div class="col-md-6">
                 <div class="covertitle-container">
@@ -36,7 +36,7 @@
     <div class="custom-container">
         <div class="row">
             <div class="col-sm-6">
-        <img class="liveissuesimg" src="images/liveissues.png" alt="LiveIssues">
+        <img class="liveissuesimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/liveissues.png" alt="LiveIssues">
             </div>
             <div class="col-sm-6">
         <h3 class="liveissuestitle">LIVE ISSUES</h3>
@@ -61,7 +61,7 @@
                         <p class="smallbuttontext">LEARN MORE</p>
                     </a>
                     <div class="livebox-image-container">
-                        <img class="image-livebox" src="images/albany2026.png">
+                        <img class="image-livebox" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/albany2026.png">
                     </div>
                 </div>
             <div class="livebox">
@@ -72,7 +72,7 @@
                         <p class="smallbuttontext">LEARN MORE</p>
                     </a>
                     <div class="livebox-image-container">
-                        <img class="image-livebox" src="images/man.png">
+                        <img class="image-livebox" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/man.png">
                     </div>
             </div>
             <div class="livebox">
@@ -83,7 +83,7 @@
                         <p class="smallbuttontext">LEARN MORE</p>
                     </a>
                     <div class="livebox-image-container">
-                        <img class="image-livebox" style="margin-bottom: 20px;" src="images/normanhouse.png">
+                        <img class="image-livebox" style="margin-bottom: 20px;" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/normanhouse.png">
                     </div>
             </div>
             </div>
@@ -105,7 +105,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="lowerimage" src="images/lecture.png">
+                <img class="lowerimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/lecture.png">
             </div>
         </div>
     </div>
@@ -135,7 +135,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="upperimage" src="images/2029bicentenary.png" alt="LiveIssues">
+                <img class="upperimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
             </div>
         </div>
     </div>
