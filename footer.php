@@ -4,7 +4,7 @@
             <div class="col-md-3 d-flex justify-content-center flex-column">
                 <div class="p-2">
                     <a class="footerlogo" href="#">
-                        <img src="images/logo2.png" alt="HCWA Logo2">
+                        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo2.png" alt="HCWA Logo2">
                     </a>
                 </div>
                 <div class="p-2">
@@ -12,10 +12,10 @@
                 </div>
                 <div>
                     <a class="socialmediaicons" href="#">
-                        <img src="images/facebookicon.png" alt="facebookicon">
+                        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/facebookicon.png" alt="facebookicon">
                     </a>
                     <a class="socialmediaicons" href="#">
-                        <img src="images/xicon.png" alt="xicon">
+                        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/xicon.png" alt="xicon">
                     </a>
                 </div>
             
