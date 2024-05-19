@@ -40,19 +40,30 @@
 <header>
     <div>
         <nav class="custom-navbar navbar-expand-sm">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="http://170.187.231.66/~meshatmurdoch3/#">
                 <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo.png" alt="HCWA Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="d-flex">
-                    <a class="nav-text" href="#">About Us</a>
-                    <a class="nav-text" href="#">Live Issues</a>
-                    <a class="nav-text" href="#">Join Us</a>
-                    <a class="nav-text" href="#">What's On</a>
-                    <a class="nav-text" href="#">Contact Us</a>
-            </div>
+ <!-- Toggler/collapsibe Button -->
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      
+        <?php 
+
+wp_nav_menu( array(
+  'theme_location'  => 'primary',
+  'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+  'container'       => 'div',
+  'container_class' => 'collapse navbar-collapse',
+  'container_id'    => 'bs-example-navbar-collapse-1',
+  'menu_class'      => 'navbar-nav ml-auto',
+  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+  'walker'          => new WP_Bootstrap_Navwalker(),
+) );
+
+?>
+
+            
             <!-- Search Bar and buttons NOTE: This might be removed due to able to set up in wordpress rather manually-->
             <form class="form-inline" action="/action_page.php">
                 <input class="form-control mr-sm-2" placeholder="Search">
