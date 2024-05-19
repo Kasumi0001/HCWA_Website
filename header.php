@@ -66,26 +66,6 @@
             </div>
         </nav>
     </div> <!-- container -->
-    
-    <!-- COVER IMAGE SECTION -->
-    <div class="creambg">
-        <div class="row" style="margin:0;">
-            <div class="col-md-6">
-                <img class="coverimage" src="images/CoverImage.png" alt="CoverImage">
-            </div>
-            <div class="col-md-6">
-                <div class="covertitle-container">
-                    <h2>PROVIDING</h2>
-                    <h1>A VOICE </h1>
-                    <h1 class="for">FOR</h1>
-                    <h1 class="history">HISTORY</h1>
-                    <a class="bigbutton1" href="#">
-                        <p class="buttontext">About Us</p>
-                    </a>
-                </div>
-            </div>
-        </div> <!-- row -->
-    </div> <!-- container -->
 
     <?php wp_head(); ?> 
 
