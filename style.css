@@ -385,3 +385,31 @@ h5{
 /* MEMBERSHIP MAYBE AS IF CAN BE JUST DONE ON WORDPRESS - CHET */
 
 /* CONTACT US - THISARI */
+.contactlanding{
+    height: 10%;
+    background-color: #F1EDE5;
+    padding-bottom: 44%;
+}
+.contacttitle{
+    font-size:504%;
+    margin-left: 10%;
+    padding-top: 10%;
+}
+.contactsrow{
+    margin-left: 23%;
+    margin-top: 10%;
+}
+.contactcol{
+    margin-right: -107%;
+    padding-left: 47%;
+    padding-right: 47%;
+}
+.email{
+    margin-right:5%;
+}
+.socials{
+    margin-right:5%;
+}
+.address{
+    margin-right:5%;
+}
