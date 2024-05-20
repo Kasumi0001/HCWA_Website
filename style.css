@@ -11,6 +11,13 @@
     font-family: "CaslonBold";
     src: url(/HCWA_Website/Font_File/Caslon/Adobe\ Caslon\ Pro\ Bold.ttf);
 }
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 /* Custom-Container */
 .custom-container{
     margin-left: 100px;
@@ -76,6 +83,7 @@
     width: 930px;
     height: 450px;
     margin-bottom: 15%;
+    margin-left: 75%;
     margin-top: 15%;
 }
 .sectionbgdarkbottom
@@ -134,8 +142,17 @@
     text-align: left;
     margin: 0;
 }
+.lowertitledark{
+    color: black;
+    text-align: left;
+}
 .uppertitle{
     color: black;
+    text-align: left;
+    margin: 0;
+}
+.uppertitlelight{
+    color: white;
     text-align: left;
     margin: 0;
 }
@@ -148,6 +165,12 @@
 .uppertext{
     text-align: left;
     font-size: 20px;
+    padding-bottom: 5%;
+}
+.uppertextlight{
+    color: white;
+    text-align: left;
+    font-size: 16px;
     padding-bottom: 5%;
 }
 .nav-text{
@@ -173,6 +196,7 @@ h3{
     font-style: normal;
     margin-top: 50px;
     text-align: center;
+    width: 110%;
 }
 h4{
     font-family: adobe-caslon-pro, serif;
@@ -214,7 +238,7 @@ p{
     padding: 10px 40px;
     display: inline-block;
     border-radius: 12px;
-    margin-left: 3%;
+    margin-left: 1%;
 }
 .bigbutton1{
     background-color:var(--Ochre);
@@ -342,12 +366,51 @@ h5{
     padding-top: 0.5em;
 }
 
-/* ABOUT US - ??? */
+/* ABOUT US - Jess */
+.lowerimage2{
+    margin-left: -95%;
+}
+.council-section{
+    margin: 2%;
+}
+/* Colours */
+.creambg-aboutus{
+    background-color:var(--Beige);
+    background-size: cover;
+}
+/* Typography */
+.darkh3quote{
+    text-align: left;
+    color: black;
+    max-width: 695px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -25%;
+}
+.darkh3{
+    color: black;
+    width: auto;
+    margin-top: 0;
+}
+.committee-text{
+    text-align: center;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.profilename{
+    text-align: center;
+    padding-top: 10%;
+}
+.profiletitle{
+    font-weight: bold;
+    text-align: center;
+}
 
 /* WHAT'S ON - MEAGAN */
 /* Colours */
-.allycauses
-{
+.allycauses{
     background-color:var(--LighterBlack);
     height: 800px;
     margin-top: 10%;
