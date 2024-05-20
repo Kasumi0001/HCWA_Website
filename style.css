@@ -404,17 +404,24 @@ h5{
     margin-left: 23%;
     margin-top: 10%;
 }
-.contactcol{
-    margin-right: -107%;
-    padding-left: 47%;
-    padding-right: 47%;
+.contactemail{
+    margin-right: 5%;
+    margin-left: -21%;
+}
+.contactsocials{
+    margin-left: 28%;
+    margin-right: 0%;
+}
+.contactaddress{
+    margin-left: -6%;
+    margin-right: -10%;
 }
 .email{
-    margin-right:5%;
+    font-weight: bold;
 }
 .socials{
-    margin-right:5%;
+    font-weight: bold;
 }
 .address{
-    margin-right:5%;
+    font-weight: bold;
 }
