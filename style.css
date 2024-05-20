@@ -388,6 +388,13 @@ h5{
 /* LIVE ISSUES - ZARAH */
 
 /* MEMBERSHIP MAYBE AS IF CAN BE JUST DONE ON WORDPRESS - CHET */
+.pmpro_levels_table th:nth-child(1) {
+    min-width: 200px;
+    padding-top: 30%;
+}
+.pmpro_levels_table thead th, .pmpro_levels_table tbody th {
+    text-align: right;
+}
 
 /* CONTACT US - THISARI */
 .contactlanding{
