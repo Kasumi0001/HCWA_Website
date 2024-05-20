@@ -401,10 +401,10 @@ h5{
 }
 .contactemail{
     margin-right: 5%;
-    margin-left: -21%;
+    margin-left: -13%;
 }
 .contactsocials{
-    margin-left: 28%;
+    margin-left: 2%;
     margin-right: 0%;
 }
 .contactaddress{
@@ -413,10 +413,24 @@ h5{
 }
 .email{
     font-weight: bold;
+    margin-right:10%;
+    text-align: center;
+}
+.emaillink{
+    text-align: center;
+    margin-left: 10%;
 }
 .socials{
     font-weight: bold;
+    margin-left: 12%;
+}
+.contactfacebook{
+    margin-left: 11%;
 }
 .address{
     font-weight: bold;
+    text-align: center;
+}
+.addresstext{
+    text-align: center;
 }
