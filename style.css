@@ -415,18 +415,17 @@ h5{
     height: 800px;
     margin-top: 10%;
 }
-/* THIS IS A DUPLICATE NEED TO DOUBLE CHECK THIS ON THE whatson HTML CONSISTENCY */
-/* .livebox{
+
+/* Images */
+.livebox2{
     background-color:var(--Beige);
     height: 830px;
     width: 375px;
     margin-top: -200px;
-} */
-/* Images */
+}
 .allyimg{
     margin-top:0px;
     padding-top: 10%;
-    padding-bottom: 20%;
 }
 .awards{
     padding-bottom: 10%;
@@ -447,8 +446,6 @@ h5{
 .text{
     padding-bottom: 5%;
 }
-
-/* LIVE ISSUES - ZARAH */
 
 /* MEMBERSHIP MAYBE AS IF CAN BE JUST DONE ON WORDPRESS - CHET */
 .pmpro_levels_table .pmpro_btn
