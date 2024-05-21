@@ -1,3 +1,8 @@
+/* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from desktop to tablet*/
+@media only screen and (max-width: 1440px){
+
+}
+/* Tablet size */
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
         -ms-flex-preferred-size: 100%;
@@ -9,4 +14,8 @@
         display: flex;
         justify-content: flex-end;
     }
+}
+/* Mobile size, which is relatively larger for newer phones */
+@media only screen and (max-width: 510px){
+
 }
