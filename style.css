@@ -173,8 +173,8 @@ html,body{
     font-size: 16px;
     padding-bottom: 5%;
 }
-.nav-text{
-    width: 120px;
+.nav-link{
+    min-width: 120px;
     color: black;
     text-align: center;
 }
@@ -451,9 +451,16 @@ h5{
 /* LIVE ISSUES - ZARAH */
 
 /* MEMBERSHIP MAYBE AS IF CAN BE JUST DONE ON WORDPRESS - CHET */
-.pmpro_levels_table th:nth-child(1) {
-    min-width: 200px;
-    padding-top: 30%;
+.pmpro_levels_table .pmpro_btn
+{
+    color: #C7892C;
+}
+.pmpro_levels_table th:nth-child(1)
+{
+    color: #3A3937;
+    background-color: #64A1B8;
+    border: 10px solid #3A3937;
+    
 }
 .pmpro_levels_table thead th, .pmpro_levels_table tbody th {
     text-align: right;

@@ -33,18 +33,21 @@
 
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
-
+<!-- head start -->
+<?php wp_head(); ?>
+<!-- head end -->
 </head>
 <body>
 <!-- Navigation and Cover Section -->
 <header>
     <div>
     <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#" style="margin:0%;">
+        <!-- <a class="navbar-brand" href="#" style="margin:0%;"> -->
         <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo.png" alt="HCWA Logo"></img>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
         </button>
+        
       
         <?php 
 
