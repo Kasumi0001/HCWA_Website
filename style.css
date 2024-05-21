@@ -143,11 +143,11 @@ html,body{
     margin: 0;
 }
 .lowertitledark{
-    color: black;
+    color: var(--LighterBlack);
     text-align: left;
 }
 .uppertitle{
-    color: black;
+    color: var(--LighterBlack);
     text-align: left;
     margin: 0;
 }
@@ -227,7 +227,7 @@ p{
 }
 .smallbuttontext{
     color: white;
-    font-size: 16px;
+    font-size: 0.9em;
     font-weight: bolder;
 }
 .signinbutton{
@@ -523,6 +523,53 @@ h5{
     width: 100%;
 }
 
+.image1{
+    padding-bottom: 84px;
+}
+
+.image2{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/* typography */
+
+.liveissuestitle{
+    color: white;
+}
+
+.articletitles {
+    margin-top: 20%;
+    margin-bottom: 15%;
+    font-size: 2em;
+}
+
+.titleliveissues{
+    font-size: 5em;
+    color: var(--LighterBlack);
+}
+
+.liveissuesnumber{
+    margin-top: 15%;
+}
+
+.liveissuesparagraph {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.pastissues{
+    margin-top: 15%;
+}
+
+/* colours */
+
 .creambg-liveissues{
     background-color:var(--Beige);
     background-size: cover;
+}
+
+.darkbg-liveissues{
+    background-color:var(--LighterBlack);
+    background-size: cover;
+}
