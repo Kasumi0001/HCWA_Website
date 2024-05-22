@@ -450,17 +450,30 @@ h5{
 /* MEMBERSHIP MAYBE AS IF CAN BE JUST DONE ON WORDPRESS - CHET */
 .pmpro_levels_table .pmpro_btn
 {
-    color: #C7892C;
+    background-color: var(--Ochre);
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
 }
 .pmpro_levels_table th:nth-child(1)
 {
-    color: #3A3937;
-    background-color: #64A1B8;
-    border: 10px solid #3A3937;
-    
+    min-width: 200px;
+    color: white;
+    background-color: #52504D;
+    border: 10px solid var(--LighterBlack);
+    text-align: left;
 }
-.pmpro_levels_table thead th, .pmpro_levels_table tbody th {
-    text-align: right;
+.pmpro_levels_table thead th
+{
+    min-width: 200px;
+    color: white;
+    background-color: #52504D;
+    text-align: left;
+}
+*, ::after, ::before
+{
+    
 }
 
 /* CONTACT US - THISARI */

@@ -7,6 +7,23 @@
 
 <?php get_header();?> <!-- Tell WordPress to include header.php -->
 
+<!-- COVER IMAGE SECTION -->
+<section class="container-fluid allycauses">
+    <div class="custom-container">
+        <div class="row">
+        <div class="col-md-6">
+        <img class="allyimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/liveissues.png" alt="LiveIusses">
+        </div>
+        <div class="col-md-6">
+        <h3>ANNUAL 2024 LECTURE</h3>
+        <p class="livep">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
+       
+        </a>
+            </div>
+        </div>
+    </div>
+</section> <!-- container-fluid -->
+
 <section class="container-fluid">
     <div class="custom-container">
         <!-- NEED TO ADJUST FURTHER TO MATCH THE FIGMA DESIGN -->
