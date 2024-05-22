@@ -297,6 +297,7 @@ p{
     margin-top: -25px;
     max-width: fit-content;
     margin-left: 88%;
+    width: 130%;
 }
 .liveissuesimg{
     margin-top:-55px;
@@ -473,7 +474,7 @@ h5{
 }
 *, ::after, ::before
 {
-    
+
 }
 
 /* CONTACT US - THISARI */

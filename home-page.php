@@ -16,7 +16,7 @@
     <div class="creambg">
         <div class="row" style="margin:0;">
             <div class="col-md-6">
-                <img class="coverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/CoverImage.png" alt="CoverImage">
+                <img class="coverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/CoverImage_Updated.png" alt="CoverImage">
             </div>
             <div class="col-md-6">
                 <div class="covertitle-container">
