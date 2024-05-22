@@ -33,9 +33,11 @@
 
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
+
 <!-- head start -->
 <?php wp_head(); ?>
 <!-- head end -->
+
 </head>
 <body>
 <!-- Navigation and Cover Section -->
