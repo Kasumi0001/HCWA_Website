@@ -110,7 +110,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="lowerimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/lecture.png">
+                <img class="lowerimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/Lecture_Updated.jpg">
             </div>
         </div>
     </div>
