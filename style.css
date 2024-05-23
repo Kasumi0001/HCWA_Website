@@ -416,6 +416,12 @@ h5{
     height: 800px;
     margin-top: 10%;
 }
+.lecture{
+    background-color:var(--LighterBlack);
+    height: 800px;
+    margin-top: 10%;
+}
+
 
 /* Images */
 .livebox2{
@@ -436,6 +442,18 @@ h5{
 }
 /* Typography */
 .awardstitle{
+    padding-top: 5%;
+    margin-top: 5%;
+    color: white;
+}
+
+.lecturetitle{
+    padding-top: 5%;
+    margin-top: 5%;
+    color: white;
+}
+
+.title{
     padding-top: 5%;
     margin-top: 5%;
     color: white;
