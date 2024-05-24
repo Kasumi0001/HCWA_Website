@@ -17,7 +17,6 @@
     }
 
     .sectionbglighttop {
-        background-color: var(--Beige);
         width: 930px;
         height: 450px;
         margin-top: 15%;
@@ -60,7 +59,6 @@
 
     .livep {
         margin-left: 15%;
-        color: white;
         font-size: 14px;
     }
 
@@ -69,30 +67,25 @@
     }
 
     .bigbutton2 {
-        background-color: var(--Ochre);
         display: inline-block;
         border-radius: 12px;
-        color: white;
         margin-left: 37px;
         margin-top: 42px;
     }
 
     .buttontext {
-        color: white;
         font-size: 18px;
         font-weight: bolder;
         white-space: nowrap;
     }
 
     h1 {
-        font-family: adobe-caslon-pro, serif;
         font-size: 80px;
         font-weight: bold;
         line-height: 60px;
     }
 
     .livebox {
-        background-color: var(--Beige);
         height: 830px;
         width: 272px;
         margin-top: -300px;
@@ -119,7 +112,6 @@
     }
 
     .sectionbgdarkbottom {
-        background-color: var(--LighterBlack);
         width: 930px;
         height: 380px;
         margin-bottom: 15%;
@@ -128,8 +120,6 @@
     }
     
     h3 {
-        color: white;
-        font-family: adobe-caslon-pro, serif;
         font-size: 40px;
         font-weight: 700;
         font-style: normal;
@@ -139,14 +129,12 @@
     }
 
     .lowertitle {
-        color: white;
         text-align: left;
         margin-left: 80px;
         margin-top: -106px;
     }
 
     .lowertext {
-        color: white;
         text-align: left;
         font-size: 14px;
         padding-bottom: 5%;
@@ -155,18 +143,15 @@
     }
 
     .bigbutton3 {
-        background-color: var(--Ochre);
         padding: 15px 60px;
         display: inline-block;
         border-radius: 12px;
-        color: white;
         margin-left: 80px;
         padding-right: 20px;
         padding-left: 20px;
     }
 
     .sectionbglighttop {
-        background-color: var(--Beige);
         width: 629px;
         height: 324px;
         margin-top: 17%;
@@ -225,9 +210,47 @@
     }
 
     .creambg {
-        background-color: var(--Beige);
         background-size: cover;
         padding-bottom: 350px;
         margin-top: 25px;
+    }
+
+    .sectionbglighttop {
+        width: 629px;
+        height: 385px;
+        margin-top: 91%;
+        margin-left: -54%;
+        margin-bottom: 100px;
+        padding-top: 23%;
+    }
+
+    .upperimage {
+        margin-top: -225%;
+        position: absolute;
+        width: 359px;
+        right: -12%;
+    }
+
+    .uppertitle {
+        text-align: left;
+        margin-left: 25%;
+    }
+
+    .uppertext {
+        text-align: left;
+        font-size: 14px;
+        padding-bottom: 5%;
+        padding-right: 140px;
+        margin-left: 25%;
+    }
+
+    .bigbutton2 {
+        position: absolute;
+        right: 10%;
+        top: 90%;
+    }
+    
+    .footerbg {
+        margin-top: 2%;
     }
 }
