@@ -602,6 +602,8 @@ form#wpforms-form-862 {
     background-color: #3A3937;
     padding-top: 6%;
     padding-bottom: 6%;
+    margin-top: -2%;
+    margin-bottom: -2%;
 }
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
     width: 60%;
