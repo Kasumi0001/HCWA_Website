@@ -1,7 +1,15 @@
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
 @media only screen and (max-width:1440px){
+    .charcoalbg {
+        padding-bottom: 350px;
+    }
 
+    .lowerimage {
+        margin-top: 15%;
+        margin-left: -110%;
+    }
 }
+
 /* Tablet size */
 @media only screen and (max-width:768px) {
     .navbar-collapse {
@@ -30,14 +38,14 @@
     }
 
     .liveissuestitle {
-        font-size: 43px;
+        font-size: 40px;
         margin-top: 35px;
     }
 
     .livep {
         margin-left: 15%;
         color: white;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .charcoalbg {
@@ -45,15 +53,19 @@
     }
 
     .bigbutton2 {
-    position: absolute;
-    background-color: var(--Ochre);
-    display: inline-block;
-    border-radius: 12px;
-    color: white;
-    margin-top: 8%;
-    text-align: center;
-    width: 130%;
-    height: 8%;
+        background-color: var(--Ochre);
+        display: inline-block;
+        border-radius: 12px;
+        color: white;
+        margin-left: 37px;
+        margin-top: 42px;
+    }
+
+    .buttontext {
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+        white-space: nowrap;
     }
 
     h1 {
@@ -63,12 +75,143 @@
         line-height: 60px;
     }
 
+    .livebox {
+        background-color: var(--Beige);
+        height: 830px;
+        width: 272px;
+        margin-top: -300px;
+    }
+
+    .image-livebox {
+        float: right;
+        position: absolute;
+        right: 102px;
+        bottom: 0;
+    }
+
+    .lowerimage {
+        margin-top: 136px;
+        position: absolute;
+        width: 359px;
+        right: 95%;
+    }
+
+    .sectionlower-text {
+        padding-right: 196%;
+        padding-top: 60%;
+        padding-left: 22%;
+    }
+
+    .sectionbgdarkbottom {
+        background-color: var(--LighterBlack);
+        width: 930px;
+        height: 380px;
+        margin-bottom: 15%;
+        margin-left: 24%;
+        margin-top: 60%;
+    }
+    
+    h3 {
+        color: white;
+        font-family: adobe-caslon-pro, serif;
+        font-size: 40px;
+        font-weight: 700;
+        font-style: normal;
+        margin-top: 50px;
+        text-align: center;
+        width: 110%;
+    }
+
+    .lowertitle {
+        color: white;
+        text-align: left;
+        margin-left: 80px;
+        margin-top: -106px;
+    }
+
+    .lowertext {
+        color: white;
+        text-align: left;
+        font-size: 14px;
+        padding-bottom: 5%;
+        margin-left: 81px;
+        padding-right: 85px;
+    }
+
+    .bigbutton3 {
+        background-color: var(--Ochre);
+        padding: 15px 60px;
+        display: inline-block;
+        border-radius: 12px;
+        color: white;
+        margin-left: 80px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .sectionbglighttop {
+        background-color: var(--Beige);
+        width: 629px;
+        height: 324px;
+        margin-top: 17%;
+        margin-left: -32%;
+        margin-bottom: 100px;
+    }
+
+    .sectionlower-text {
+        padding-right: 130%;
+        padding-top: 60%;
+        padding-left: 67%;
+    }
+
+    .uppertext {
+        text-align: left;
+        font-size: 14px;
+        padding-bottom: 5%;
+        padding-right: 140px;
+    }
+
+    .upperimage {
+        margin-top: 155px;
+        position: absolute;
+        width: 359px;
+        right: -31%;
+    }
 }
-
-
-
 
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:510px){
+    h2 {
+        margin-left: 450px;
+    }
 
+    h1 {
+        margin-left: 450px;
+    }
+
+    .for {
+        margin-left: 500px;
+    }
+
+    .history {
+        margin-left: 475px;
+    }
+
+    .bigbutton1 {
+
+    }
+
+    .coverimage {
+        position: absolute;
+        margin-top: 355px;
+        width: 495px;
+        margin-left: 3px;
+    }
+
+    .creambg {
+        background-color: var(--Beige);
+        background-size: cover;
+        padding-bottom: 350px;
+        margin-top: 25px;
+    }
 }
