@@ -30,6 +30,7 @@
         </div>
     </div>
 
+<?php echo do_shortcode('[wpforms id="862"]');?>
 
 </body>
 </html>
