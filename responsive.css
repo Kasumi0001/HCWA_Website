@@ -16,12 +16,53 @@
     }
 
     .coverimage {
-        margin-top: 0px;
+        margin-top: -15px;
         max-width: fit-content;
-        margin-left: 0;
-        width: 200%;
-        padding-top: 600px;
+        margin-left: 248px;
+        width: 150%;
     }
+
+    .liveissuesimg {
+        margin-top: -25px;
+        position: absolute;
+        width: 359px;
+        right: -4%;
+    }
+
+    .liveissuestitle {
+        font-size: 43px;
+        margin-top: 35px;
+    }
+
+    .livep {
+        margin-left: 15%;
+        color: white;
+        font-size: 12px;
+    }
+
+    .charcoalbg {
+        padding-bottom: 400px;  
+    }
+
+    .bigbutton2 {
+    position: absolute;
+    background-color: var(--Ochre);
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+    margin-top: 8%;
+    text-align: center;
+    width: 130%;
+    height: 8%;
+    }
+
+    h1 {
+        font-family: adobe-caslon-pro, serif;
+        font-size: 80px;
+        font-weight: bold;
+        line-height: 60px;
+    }
+
 }
 
 
