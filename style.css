@@ -42,43 +42,37 @@ html,body{
     margin-top: -300px;
 }
 /* Background Colours */
-.creambg
-{
+.creambg{
     background-color:var(--Beige);
     background-size: cover;
     padding-bottom: 120px;
     margin-top: 25px;
 }
-.charcoalbg
-{
+.charcoalbg{
     background-color:var(--LighterBlack);
-    height: 800px;
+    background-size: cover;
 }
-.footerbg
-{
+.footerbg{
     background-color:var(--Ochre);
     background-size: cover;
     padding: 2%;
 }
 /* Note: This is the section coloured boxes for the image overlap ontop*/
-.sectionbglighttop
-{
+.sectionbglighttop{
     background-color:var(--Beige);
     width: 930px;
     height: 450px;
     margin-top: 15%;
     margin-left: 15%;
 }
-.sectionbgdarktop
-{
+.sectionbgdarktop{
     background-color:var(--LighterBlack);
     width: 930px;
     height: 450px;
     margin-top: 15%;
     margin-left: 15%;
 }
-.sectionbglightbottom
-{
+.sectionbglightbottom{
     background-color:var(--Beige);
     width: 930px;
     height: 450px;
@@ -86,8 +80,7 @@ html,body{
     margin-left: 75%;
     margin-top: 15%;
 }
-.sectionbgdarkbottom
-{
+.sectionbgdarkbottom{
     background-color:var(--LighterBlack);
     width: 930px;
     height: 450px;
@@ -410,90 +403,123 @@ h5{
 }
 
 /* WHAT'S ON - MEAGAN */
-/* Colours */
-.allycauses{
-    background-color:var(--LighterBlack);
-    height: 800px;
-    margin-top: 10%;
+.whiteborder{
+    margin-top: 5%;
+    margin-bottom: 15%;
 }
-.lecture{
-    background-color:var(--LighterBlack);
-    height: 800px;
-    margin-top: 10%;
-}
-
-
-/* Images */
-.livebox2{
-    background-color:var(--Beige);
-    height: 830px;
-    width: 375px;
-    margin-top: -200px;
-}
-.allyimg{
-    margin-top:0px;
-    padding-top: 10%;
-}
-.awards{
-    padding-bottom: 10%;
-    padding-top: 2%;
+.smallbutton3{
+    margin-top: 3%;
+    margin-left: 15%;
+    background-color:var(--Ochre);
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
     color: white;
-    margin-right: 0%;
+}
+.smallbutton4{
+    background-color:var(--Ochre);
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 50%;
+    margin-left: 12%;
+}
+/* Colours */
+.charcoalbg-whatson{
+    background-color:var(--LighterBlack);
+    background-size: cover;
+}
+/* Images */
+.awardsimg{
+    margin-top: -15%;
+}
+.listedawards{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
 }
 /* Typography */
+/* h3 special classes */
+.whatsontitlelight{
+    text-align: left;
+    width: 70%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whatsontitledark{
+    color: black;
+    text-align: left;
+    width: 70%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 .awardstitle{
-    padding-top: 5%;
-    margin-top: 5%;
+    text-align: left;
+}
+/* h4 special classes */
+.awardsubtitle{
     color: white;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+/* p special classes */
+.whatsontextlight{
+    color: white;
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+.whatsontextdark{
+    color: black;
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+.awardstext{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+}
+.awardslisttext{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 12%;
 }
 
-.lecturetitle{
-    padding-top: 5%;
-    margin-top: 5%;
-    color: white;
-}
-
-.title{
-    padding-top: 5%;
-    margin-top: 5%;
-    color: white;
-}
-.awardsub{
-    color: white;
-    padding-top: 5%;
-}
-.text{
-    padding-bottom: 5%;
-}
-
-/* MEMBERSHIP MAYBE AS IF CAN BE JUST DONE ON WORDPRESS - CHET */
-.pmpro_levels_table .pmpro_btn
-{
+/* MEMBERSHIP - CHET */
+.pmpro_levels_table .pmpro_btn{
     background-color: var(--Ochre);
     padding: 15px 60px;
     display: inline-block;
     border-radius: 12px;
     color: white;
 }
-.pmpro_levels_table th:nth-child(1)
-{
+.pmpro_levels_table th:nth-child(1){
     min-width: 200px;
     color: white;
     background-color: #52504D;
     border: 10px solid var(--LighterBlack);
     text-align: left;
 }
-.pmpro_levels_table thead th
-{
+.pmpro_levels_table thead th{
     min-width: 200px;
     color: white;
     background-color: #52504D;
     text-align: left;
 }
+/* Please comment out empty stylisationn classes
 *, ::after, ::before
 {
 
-}
+} */
 
 /* CONTACT US - THISARI */
 .contactlanding{
@@ -551,54 +577,42 @@ h5{
 .liveissuesimage{
     width: 100%;
 }
-
 .image1{
     padding-bottom: 84px;
 }
-
 .image2{
     padding-top: 20%;
     padding-bottom: 20%;
 }
-
 /* typography */
-
 .liveissuestitle{
     color: white;
 }
-
 .articletitles {
     margin-top: 20%;
     margin-bottom: 15%;
     font-size: 2em;
 }
-
 .titleliveissues{
     margin-top: 15%;
     font-size: 5em;
     color: var(--LighterBlack);
 }
-
 .liveissuesnumber{
     margin-top: 15%;
 }
-
 .liveissuesparagraph {
     margin-top: 20%;
     margin-bottom: 20%;
 }
-
 .pastissues{
     margin-top: 15%;
 }
-
 /* colours */
-
 .creambg-liveissues{
     background-color:var(--Beige);
     background-size: cover;
 }
-
 .darkbg-liveissues{
     background-color:var(--LighterBlack);
     background-size: cover;
