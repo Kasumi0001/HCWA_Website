@@ -14,7 +14,19 @@
         display: flex;
         justify-content: flex-end;
     }
+
+    .coverimage {
+        margin-top: 0px;
+        max-width: fit-content;
+        margin-left: 0;
+        width: 200%;
+        padding-top: 600px;
+    }
 }
+
+
+
+
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width: 510px){
 
