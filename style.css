@@ -576,19 +576,19 @@ h5{
 div.wpforms-container-full .wpforms-form .wpforms-title {
     font-weight: 700;
     line-height: 29px;
-    color: white;
+    color: white !important;
     text-align: center;
     font-family: adobe caslon pro;
 }
 div.wpforms-container-full .wpforms-form .wpforms-description {
     font-style: normal;
     font-weight: 300;
-    color:white;
+    color:white !important;
     text-align: center;
     font-family: montserrat;
 }
 div.wpforms-container-full .wpforms-field-label, .wp-core-ui div.wpforms-container-full .wpforms-field-label {
-    color: white;
+    color: white !important; 
     font-family: montserrat;
     font-weight: 400;
 }
