@@ -614,6 +614,9 @@ div.wpforms-container-full input[type=submit], div.wpforms-container-full button
     font-family: montserrat !important;
     font-weight: 700 !important;
 }
+.wpforms-form p {
+    margin-left: 34%;
+} 
 
 /* LIVE ISSUES PAGE - ZARAH */
 .liveissuesimage{
