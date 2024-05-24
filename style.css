@@ -572,6 +572,40 @@ h5{
 .addresstext{
     text-align: center;
 }
+/* contact form styles  */
+div.wpforms-container-full .wpforms-form .wpforms-title {
+    font-weight: 700;
+    line-height: 29px;
+    color: white;
+    text-align: center;
+    font-family: adobe caslon pro;
+}
+div.wpforms-container-full .wpforms-form .wpforms-description {
+    font-style: normal;
+    font-weight: 300;
+    color:white;
+    text-align: center;
+    font-family: montserrat;
+}
+div.wpforms-container-full .wpforms-field-label, .wp-core-ui div.wpforms-container-full .wpforms-field-label {
+    color: white;
+    font-family: montserrat;
+    font-weight: 400;
+}
+.wpforms-container .wpforms-field {
+    margin-left: 29%;
+}
+div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+    margin-left: 47%;
+}
+form#wpforms-form-862 {
+    background-color: #3A3937;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
+    width: 60%;
+}
 
 /* LIVE ISSUES PAGE - ZARAH */
 .liveissuesimage{
