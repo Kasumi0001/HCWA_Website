@@ -575,10 +575,11 @@ h5{
 /* contact form styles  */
 div.wpforms-container-full .wpforms-form .wpforms-title {
     font-weight: 700;
-    line-height: 29px;
     color: white !important;
     text-align: center;
     font-family: adobe caslon pro;
+    font-size: 64px;
+    margin-bottom: 4%;
 }
 div.wpforms-container-full .wpforms-form .wpforms-description {
     font-style: normal;
