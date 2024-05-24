@@ -609,20 +609,10 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
     width: 60%;
 }
 div.wpforms-container-full input[type=submit], div.wpforms-container-full button[type=submit], div.wpforms-container-full .wpforms-page-button, .wp-core-ui div.wpforms-container-full input[type=submit], .wp-core-ui div.wpforms-container-full button[type=submit], .wp-core-ui div.wpforms-container-full .wpforms-page-button {
-    background-color: #C7892C;
-    border-color: #C7892C;
-    border-width: var(--wpforms-button-border-size);
-    box-shadow: none;
-    color: var(--wpforms-button-text-color);
-    padding: 0 var(--wpforms-button-size-padding-h);
-    font-family: montserrat;
-    font-weight: 700;
-    font-size: var(--wpforms-button-size-font-size);
-    line-height: 100%;
-    cursor: pointer;
-    transition: all 0.15s ease-in-out;
-    position: relative;
-    text-decoration: none;
+    background-color: #C7892C !important;
+    border-color: #C7892C !important;
+    font-family: montserrat !important;
+    font-weight: 700 !important;
 }
 
 /* LIVE ISSUES PAGE - ZARAH */
