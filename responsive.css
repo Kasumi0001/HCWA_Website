@@ -189,6 +189,9 @@
         padding-bottom: 450px;
         margin-top: 25px;
     }
+    .liveissuesimg {
+        right: -9%;
+    }
     .liveissuestitle {
         font-size: 40px;
         margin-top: 283px;
@@ -200,11 +203,32 @@
     }
     .bigbuttonWH {
         position: absolute;
-        right: 0;
-        top: 100%;
+        right: -5px;
+        top: 103%;
     }
     .charcoalbg {
         padding-bottom: 485px;
+    }
+    .lowerimage {
+        top: -726px;
+        position: absolute;
+        width: 359px;
+        right: -5%;
+    }
+    .sectionlower-text {
+        padding-right: 150%;
+        padding-left: 0%;
+        margin-left: -48%;
+        margin-top: 97%;
+        height: 312px;
+        margin-bottom: 86px;
+    }
+    .lowertitle {
+        padding-right: 20%;
+    }
+    .bigbutton3 {
+        margin-left: 150px;
+        margin-top: 5%;
     }
     .sectionbglighttop {
         width: 629px;
