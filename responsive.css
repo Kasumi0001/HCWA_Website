@@ -3,19 +3,16 @@
     .charcoalbg {
         padding-bottom: 350px;
     }
-
     .lowerimage {
         margin-top: 15%;
         margin-left: -110%;
     }
-
     .sectionupper-text {
         padding-left: 5%;
         padding-top: 5%;
         padding-bottom: 5%;
         padding-right: 65%;
     }
-
     .sectionbglighttop {
         width: 930px;
         height: 450px;
@@ -37,80 +34,70 @@
         display: flex;
         justify-content: flex-end;
     }
-
     .coverimage {
         margin-top: -15px;
         max-width: fit-content;
         margin-left: 248px;
         width: 150%;
     }
-
     .liveissuesimg {
         margin-top: -25px;
         position: absolute;
         width: 359px;
         right: -4%;
     }
-
     .liveissuestitle {
         font-size: 40px;
         margin-top: 35px;
     }
-
     .livep {
         margin-left: 15%;
         font-size: 14px;
     }
-
     .charcoalbg {
         padding-bottom: 400px;  
     }
-
     .bigbutton2 {
         display: inline-block;
         border-radius: 12px;
         margin-left: 37px;
         margin-top: 42px;
     }
-
+    .bigbuttonWH {
+        margin-left: 36px;
+    }
     .buttontext {
         font-size: 18px;
         font-weight: bolder;
         white-space: nowrap;
     }
-
     h1 {
         font-size: 80px;
         font-weight: bold;
         line-height: 60px;
     }
-
     .livebox {
         height: 830px;
         width: 272px;
         margin-top: -300px;
     }
-
     .image-livebox {
         float: right;
         position: absolute;
         right: 102px;
         bottom: 0;
     }
-
     .lowerimage {
         margin-top: 136px;
         position: absolute;
         width: 359px;
         right: 95%;
     }
-
     .sectionlower-text {
         padding-right: 196%;
         padding-top: 60%;
         padding-left: 22%;
     }
-
     .sectionbgdarkbottom {
         width: 930px;
         height: 380px;
@@ -118,7 +105,6 @@
         margin-left: 24%;
         margin-top: 60%;
     }
-    
     h3 {
         font-size: 40px;
         font-weight: 700;
@@ -127,13 +113,11 @@
         text-align: center;
         width: 110%;
     }
-
     .lowertitle {
         text-align: left;
         margin-left: 80px;
         margin-top: -106px;
     }
-
     .lowertext {
         text-align: left;
         font-size: 14px;
@@ -141,7 +125,6 @@
         margin-left: 81px;
         padding-right: 85px;
     }
-
     .bigbutton3 {
         padding: 15px 60px;
         display: inline-block;
@@ -150,7 +133,6 @@
         padding-right: 20px;
         padding-left: 20px;
     }
-
     .sectionbglighttop {
         width: 629px;
         height: 324px;
@@ -158,20 +140,17 @@
         margin-left: -32%;
         margin-bottom: 100px;
     }
-
     .sectionlower-text {
         padding-right: 130%;
         padding-top: 60%;
         padding-left: 67%;
     }
-
     .uppertext {
         text-align: left;
         font-size: 14px;
         padding-bottom: 5%;
         padding-right: 140px;
     }
-
     .upperimage {
         margin-top: 155px;
         position: absolute;
@@ -184,58 +163,67 @@
 @media only screen and (max-width:510px){
     h2 {
         margin-left: 450px;
+        margin-top: -7%;
     }
-
     h1 {
         margin-left: 450px;
     }
-
     .for {
         margin-left: 500px;
     }
-
     .history {
         margin-left: 475px;
     }
-
     .bigbutton1 {
-
+        margin-left: 52%;
+        margin-top: 1%;
     }
-
     .coverimage {
         position: absolute;
-        margin-top: 355px;
+        margin-top: 412px;
         width: 495px;
         margin-left: 3px;
     }
-
     .creambg {
         background-size: cover;
-        padding-bottom: 350px;
+        padding-bottom: 450px;
         margin-top: 25px;
     }
-
+    .liveissuestitle {
+        font-size: 40px;
+        margin-top: 283px;
+        margin-left: 5%;
+    }
+    .livep {
+        margin-left: 5%;
+        font-size: 14px;
+    }
+    .bigbuttonWH {
+        position: absolute;
+        right: 0;
+        top: 100%;
+    }
+    .charcoalbg {
+        padding-bottom: 485px;
+    }
     .sectionbglighttop {
         width: 629px;
-        height: 385px;
+        height: 440px;
         margin-top: 91%;
         margin-left: -54%;
         margin-bottom: 100px;
         padding-top: 23%;
     }
-
     .upperimage {
-        margin-top: -225%;
+        margin-top: -243%;
         position: absolute;
         width: 359px;
         right: -12%;
     }
-
     .uppertitle {
         text-align: left;
         margin-left: 25%;
     }
-
     .uppertext {
         text-align: left;
         font-size: 14px;
@@ -243,13 +231,11 @@
         padding-right: 140px;
         margin-left: 25%;
     }
-
     .bigbutton2 {
         position: absolute;
         right: 10%;
-        top: 90%;
+        top: 85%;
     }
-    
     .footerbg {
         margin-top: 2%;
     }

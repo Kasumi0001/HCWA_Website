@@ -249,6 +249,15 @@ p{
     color: white;
     margin-top: 8%;
 }
+.bigbuttonWH{
+    margin-left: 90px;
+    background-color:var(--Ochre);
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+    margin-top: 8%;
+}
 .bigbutton3{
     background-color:var(--Ochre);
     padding: 15px 60px;
