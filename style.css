@@ -510,20 +510,51 @@ h5{
     display: inline-block;
     border-radius: 12px;
     color: white;
+    margin-left: 28%;
 }
 .pmpro_levels_table th:nth-child(1){
     min-width: 200px;
     color: white;
     background-color: #52504D;
-    border: 10px solid var(--LighterBlack);
+    /* border: 10px solid var(--LighterBlack); */
     text-align: left;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    font-size: 30px;
+    font-family: montserrat;
 }
 .pmpro_levels_table thead th{
     min-width: 200px;
     color: white;
     background-color: #52504D;
     text-align: left;
+    padding-left: 2%;
+    font-size: 30px;
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 2%;
+    background-color: var(--LighterBlack);
+}
+b, strong {
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+}
+.pmpro_levels_table {
+    margin-top: 200px;
+}
+table {
+    border-collapse: collapse;
+    background-color: #52504D;
+    border: 10px solid var(--LighterBlack);
+}
+
 /* Please comment out empty stylisationn classes
 *, ::after, ::before
 {
