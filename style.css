@@ -516,7 +516,7 @@ h5{
     min-width: 200px;
     color: white;
     background-color: #52504D;
-    /* border: 10px solid var(--LighterBlack); */
+    border: 10px solid var(--LighterBlack);
     text-align: left;
     padding-top: 5%;
     padding-left: 3%;
@@ -529,8 +529,10 @@ h5{
     color: white;
     background-color: #52504D;
     text-align: left;
-    padding-left: 2%;
+    padding-left: 7%;
     font-size: 30px;
+    padding-top: 3%;
+    font-family: montserrat;
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
@@ -545,6 +547,8 @@ b, strong {
     font-weight: bolder;
     color: white;
     font-size: 30px;
+    margin-left: 22%;
+    font-family: montserrat;
 }
 .pmpro_levels_table {
     margin-top: 200px;
@@ -554,6 +558,7 @@ table {
     background-color: #52504D;
     border: 10px solid var(--LighterBlack);
 }
+
 
 /* Please comment out empty stylisationn classes
 *, ::after, ::before
