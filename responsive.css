@@ -21,6 +21,23 @@
     }
 }
 
+@media only screen and (max-width:1020px) {
+    .live-issues-wrap{
+        margin-top: -300px;
+    }
+    
+    .live-issues-wrap .row{
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .livebox{
+        height: auto;
+        margin-top: 0;
+    }
+}
+
 
 /* Tablet size */
 @media only screen and (max-width:768px) {

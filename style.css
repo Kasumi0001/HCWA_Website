@@ -291,14 +291,16 @@ p{
     position: relative;
 }
 .covertitle-container{
-    margin-left: -85%;
+    margin-left: 15%;
+    z-index:1;
+    position: relative;
     max-width: fit-content;
 }
 /* Images */
 .coverimage{
     margin-top: -25px;
     max-width: fit-content;
-    margin-left: 88%;
+    margin-left: -15%;
     width: 100%;
 }
 .liveissuesimg{
@@ -549,9 +551,13 @@ tr.odd {
     padding-bottom: 2%;
     background-color: var(--LighterBlack);
 } */
-
+h3#post-807 {
+    text-align: left;
+    padding-left: 3%;
+}
 .container-fluid.maincontainer {
     background-color: var(--LighterBlack);
+    padding-bottom: 5%;
 }
 
 b, strong {
