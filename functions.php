@@ -24,3 +24,18 @@ register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'top-menu' ),
 ) );
 ?>
+
+<?php
+function theme_widgets_init() {
+    register_sidebar( array(
+        'name'          => __( 'Sidebar', 'textdomain' ),
+        'id'            => 'sidebar-1',
+        'description'   => __( 'Widgets in this area will be shown on the search results page.', 'textdomain' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'theme_widgets_init' );
+?>
