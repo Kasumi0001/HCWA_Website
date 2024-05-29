@@ -519,7 +519,7 @@ h5{
     margin-left: 12%;
 }
 
-/* MEMBERSHIP - CHET */
+/* MEMBERSHIP - CHET */ 
 .pmpro_levels_table .pmpro_btn{
     background-color: var(--Ochre);
     padding: 10px 20px;
@@ -545,26 +545,15 @@ h5{
     color: white;
     background-color: #52504D;
     text-align: left;
-    padding-left: 7%;
+    padding-left: 5.5%;
     font-size: 20px;
     padding-top: 3%;
     font-family: montserrat;
 }
-
 tr.odd {
   
     border: 10px solid var(--LighterBlack);
 }
-
-/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 2%;
-    background-color: var(--LighterBlack);
-} */
 h3#post-807 {
     text-align: left;
     padding-left: 3%;
@@ -578,7 +567,7 @@ b, strong {
     font-weight: bolder;
     color: white;
     font-size: 20px;
-    margin-left: 22%;
+    margin-left: 16%;
     font-family: montserrat;
 }
 .pmpro_levels_table {
@@ -592,6 +581,78 @@ table {
 .membershipP{
 
     padding:3%;
+}
+/* MEMBERSHIP CHECKOUT */
+h3#post-804 {
+    text-align: left;
+    padding-bottom: 3%;
+}
+.pmpro_checkout h2 span.pmpro_checkout-h2-name {
+    display: inline-block;
+    margin: 0 .5rem 1rem 0;
+    color: white;
+}
+p.pmpro_level_name_text {
+    color: white;
+}
+label {
+    color: white;
+}
+form.pmpro_form .lite {
+    color: white;
+}
+.pmpro_checkout h2 span.pmpro_checkout-h2-msg {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: var(--Blue);
+}
+/* WELCOME PAGE */
+h3#post-808 {
+    text-align: left;
+    padding-bottom: 3%;
+}
+h3.pmpro_member_display_name {
+    text-align: left;
+}
+/* YOUR PROFILE */
+h3#post-809 {
+    text-align: left;
+    padding-bottom: 3%;
+}
+/* MEMBERSHIP ACCOUNT */
+h3#post-801 {
+    text-align: left;
+    padding-bottom: 3%;
+}
+#pmpro_account .pmpro_box h2 {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+th {
+    text-align: inherit;
+    text-align: -webkit-match-parent;
+    color: white;
+}
+td {
+    color: white;
+}
+li {
+    color: white;
+}
+/* LOST PAASSWORD */
+p.pmpro_lost_password-instructions {
+    color: white;
+    padding-bottom: 3%;
+}
+a {
+    color: var(--Blue);
+    text-decoration: none;
+    background-color: transparent;
 }
 
 
