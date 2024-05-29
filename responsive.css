@@ -24,6 +24,23 @@
         width: 80%;
     }
     /* ABOUT US */
+    .darkh3quote{
+        margin-left: -15%;
+    }
+    .uppertitlelight{
+        font-size: 52px;
+    }
+    .uppertextlight{
+        width: 450px;
+    }
+    .lowertitledark{
+        font-size: 52px;
+        margin-left: 15%;
+    }
+    .lowertextdark{
+        margin-left: 15%;
+        width: 75%;
+    }
 }
 @media only screen and (max-width:1020px) {
     /* INDEX/HOMEPAGE */
@@ -36,6 +53,50 @@
         align-items: center;
     }
     /* ABOUT US */
+    .aboutuscoverimage{
+        width: 500px;
+    }
+    .darkh3quote{
+        font-size: 52px;
+    }
+    .darkh3{
+        font-size: 52px;
+    }
+    .upperimage{
+        margin-top: 30%;
+        margin-right: 40%;
+        width: 130%;
+    }
+    .sectionbgdarktop{
+        margin-left: -15%;
+        height: 350px;
+        width: 730px;
+    }
+    .uppetitlelight{
+        font-size: 48px;
+    }
+    .uppertextlight{
+        font-size: 14px;
+        width: 90%;
+    }
+    .lowerimage2{
+        margin-left: -135%;
+        width: 130%;
+    }
+    .sectionbglightbottom{
+        height: 350px;
+        width: 700px;
+        margin-left: 40%;
+    }
+    .lowertitledark{
+        font-size: 52px;
+        margin-top: 2%;
+        margin-left: 22%;
+    }
+    .lowertextdark{
+        font-size: 14px;
+        margin-left: 22%;
+    }
 }
 /* Tablet size */
 @media only screen and (max-width:768px) {
@@ -167,6 +228,20 @@
         right: -31%;
     }
     /* ABOUT US */
+    .aboutuscoverimage{
+        width: 400px;
+    }
+    .darkh3quote{
+        font-size: 48px;
+    }
+    .darkh3{
+        font-size: 48px;
+    }
+    .committee-text{
+        font-size: 14px;
+        width: 125%;
+        margin-left: -10%;
+    }
 }
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:510px){
@@ -287,4 +362,47 @@
 
     }
     /* ABOUT US */
+    /* CONTACT US */
+    .contacttitle{
+        margin: 0;
+    }
+    .contactsrow{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .contacttitle{
+        font-size: 58px;
+        text-align: center;
+        margin-left: 0;
+        line-height: normal;
+    }
+    .contactemail{
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 5%;
+    }
+    .email{
+        margin-right: 0;
+    }
+    .emaillink{
+        text-align: center;
+        margin-left: 28%;
+    }
+    .contactsocials{
+        margin: 0;
+        padding-bottom: 8%;
+    }
+    .socials{
+        margin: auto;
+        text-align: center;
+    }
+    .contactfacebook{
+        margin-left: 40%;
+    }
+    .contacttwitter{
+        margin-left: 2%;
+    }
+    .contactaddress{
+        margin: 0;
+    }
 }
