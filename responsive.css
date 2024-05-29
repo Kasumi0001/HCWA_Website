@@ -463,7 +463,25 @@
         margin-left: -2%;
     }
     .awardstext{
-        margin-left: -2%;
+        margin-left: -8%;
+    }
+    .listedawards{
+        margin-top: 5%;
+    }
+    .awardssubtitle{
+        margin-top: 2%;
+    }
+    .awardslisttext{
+        margin-top: 1%;
+        margin-bottom: 3%;
+        margin-right: 20%;
+        margin-left: 20%;
+        text-align: center;
+    }
+    .smallbutton4{
+        margin-bottom: 2%;
+        margin-top: 1%;
+        margin-left: 35%;
     }
     /* CONTACT US */
     .contacttitle{
