@@ -1,5 +1,6 @@
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
 @media only screen and (max-width:1440px){
+    /* INDEX/HOMEPAGE */
     .charcoalbg {
         padding-bottom: 350px;
     }
@@ -19,26 +20,23 @@
         margin-top: 15%;
         margin-left: 5%;
     }
+    .lowertext{
+        width: 80%;
+    }
+    /* ABOUT US */
 }
-
 @media only screen and (max-width:1020px) {
+    /* INDEX/HOMEPAGE */
     .live-issues-wrap{
         margin-top: -300px;
     }
-    
     .live-issues-wrap .row{
         flex-direction: column;
         gap: 12px;
         align-items: center;
     }
-
-/*     .livebox{
-        height: auto;
-        margin-top: 0;
-    } */
+    /* ABOUT US */
 }
-
-
 /* Tablet size */
 @media only screen and (max-width:768px) {
     .navbar-collapse {
@@ -51,11 +49,10 @@
         display: flex;
         justify-content: flex-end;
     }
+    /* INDEX/HOMEPAGE */
     .coverimage {
-        margin-top: -15px;
-        max-width: fit-content;
-        margin-left: 248px;
-        width: 150%;
+        max-width: 93%;
+        padding-top: 10%;
     }
     .liveissuesimg {
         margin-top: -25px;
@@ -93,11 +90,6 @@
         font-weight: bold;
         line-height: 60px;
     }
-/*     .livebox {
-        height: 830px;
-        width: 272px;
-        margin-top: -300px; 
-    }*/
     .image-livebox {
         float: right;
         position: absolute;
@@ -131,16 +123,16 @@
         width: 110%;
     }
     .lowertitle {
-        text-align: left;
-        margin-left: 80px;
+        text-align: center;
+        margin-left: 20px;
         margin-top: -106px;
     }
     .lowertext {
         text-align: left;
         font-size: 14px;
-        padding-bottom: 5%;
+        padding-bottom: 0%;
         margin-left: 81px;
-        padding-right: 85px;
+        padding-right: 81px;
     }
     .bigbutton3 {
         padding: 15px 60px;
@@ -174,37 +166,57 @@
         width: 359px;
         right: -31%;
     }
+    /* ABOUT US */
 }
-
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:510px){
     h2 {
-        margin-left: 450px;
+        margin-left: 1%;
         margin-top: -7%;
+        padding-top: 15%;
     }
     h1 {
-        margin-left: 450px;
+        margin-left: 1%;
     }
     .for {
-        margin-left: 500px;
+        margin-left: 10%;
     }
     .history {
-        margin-left: 475px;
+        margin-left: 20%;
+    }
+    .whyhistorymatterstitle{
+        text-align: left;
+        margin-left: 2%;
+        margin-top: 20px;
     }
     .bigbutton1 {
-        margin-left: 52%;
+        margin-left: 20%;
         margin-top: 1%;
+    }
+    .covertitle-container{
+        margin: 0%;
     }
     .coverimage {
         position: absolute;
         margin-top: 412px;
         width: 495px;
         margin-left: 3px;
+        margin-top: 0;
     }
     .creambg {
         background-size: cover;
         padding-bottom: 450px;
         margin-top: 25px;
+    }
+    .livebox{
+        margin-top: 10%;
+        margin-left: -12%;
+    }
+    .image-livebox{
+        float:right;
+        position: absolute; 
+        right: 0; 
+        bottom: 0;
     }
     .liveissuesimg {
         right: -9%;
@@ -222,9 +234,6 @@
         position: absolute;
         right: -5px;
         top: 103%;
-    }
-    .charcoalbg {
-        padding-bottom: 485px;
     }
     .lowerimage {
         top: -743px;
@@ -264,20 +273,18 @@
     .uppertitle {
         text-align: left;
         margin-left: 25%;
+        margin-top: 8%;
     }
     .uppertext {
         text-align: left;
         font-size: 14px;
         padding-bottom: 5%;
-        padding-right: 140px;
-        margin-left: 25%;
+        padding-right: 10px;
+        margin-left: 15%;
     }
-    .bigbutton2 {
-        position: absolute;
-        right: 10%;
-        top: 85%;
+    .whyhistorymattersbg{
+        min-width: 510px;
+
     }
-    .footerbg {
-        margin-top: 2%;
-    }
+    /* ABOUT US */
 }
