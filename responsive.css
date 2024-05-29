@@ -35,11 +35,14 @@
     }
     .lowertitledark{
         font-size: 52px;
-        margin-left: 15%;
+        margin-left: 27%;
     }
     .lowertextdark{
-        margin-left: 15%;
+        margin-left: 27%;
         width: 75%;
+    }
+    .sectionbglightbottom{
+        margin-left: 55%;
     }
     /* WHATS ON */
     .awardstitle{
@@ -153,11 +156,9 @@
         max-width: 93%;
         padding-top: 10%;
     }
-    .liveissuesimg {
-        margin-top: -25px;
-        position: absolute;
-        width: 359px;
-        right: -4%;
+    .custom-container{
+        margin-left: 50px;
+        margin-right: 50px;
     }
     .liveissuestitle {
         font-size: 40px;
@@ -265,6 +266,17 @@
         width: 359px;
         right: -31%;
     }
+    h5{
+        font-size: 150px;
+    }
+    .whyhistorymattersbg{
+        min-width: 768px;
+    }
+    .whyhistorymatterstitle{
+        text-align: left;
+        margin-left: 2%;
+        margin-top: 20px;
+    }
     /* ABOUT US */
     .aboutuscoverimage{
         width: 400px;
@@ -362,7 +374,7 @@
         margin-left: 3px;
         margin-top: 0;
     }
-    .creambg {
+    .creambg{
         background-size: cover;
         padding-bottom: 450px;
         margin-top: 25px;
@@ -376,9 +388,6 @@
         position: absolute; 
         right: 0; 
         bottom: 0;
-    }
-    .liveissuesimg {
-        right: -9%;
     }
     .liveissuestitle {
         font-size: 40px;
@@ -460,7 +469,7 @@
     }
     .awardsimg{
         width: 400px;
-        margin-left: -18%;
+        margin-left: 0;
     }
     .awardstitle{
         text-align: center;
