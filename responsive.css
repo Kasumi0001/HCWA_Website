@@ -41,6 +41,13 @@
         margin-left: 15%;
         width: 75%;
     }
+    /* WHATS ON */
+    .awardstitle{
+        margin-left: 8%;
+    }
+    .awardstext{
+        margin-left: 8%;
+    }
 }
 @media only screen and (max-width:1020px) {
     /* INDEX/HOMEPAGE */
@@ -96,6 +103,35 @@
     .lowertextdark{
         font-size: 14px;
         margin-left: 22%;
+    }
+    /* WHATS ON */
+    .whatsontitlelight{
+        font-size: 48px;
+    }
+    .whatsontitledark{
+        font-size: 48px;
+    }
+    .whatsontextdark{
+        font-size: 16px;
+    }
+    .awardsimg{
+        width: 500px;
+        margin-left: -15%;
+    }
+    .awardstitle{
+        font-size: 48px;
+        margin-left: 10%;
+    }
+    .awardstext{
+        font-size: 16px;
+        margin-left: 10%;
+        width: 110%;
+    }
+    .listedawards{
+        margin-top: 25%;
+    }
+    .awardslisttext{
+        font-size: 14px;
     }
 }
 /* Tablet size */
@@ -242,6 +278,49 @@
         width: 125%;
         margin-left: -10%;
     }
+    /* WHATS ON */
+    .whatsontitlelight{
+        font-size: 40px;
+    }
+    .whatsontextlight{
+        font-size: 16px;
+    }
+    .whatsoncover{
+        height: 400px;
+    }
+    .whatsontitledark{
+        font-size: 38px;
+    }
+    .whatsontextdark{
+        font-size: 14px;
+    }
+    .annuallectureimg{
+        height: 242px;
+    }
+    .awardsimg{
+        height: 250px;
+        width: 350px;
+        margin-left: -25%;
+    }
+    .awardstitle{
+        font-size: 38px;
+        margin-top: 15%;
+        margin-left: 5%;
+    }
+    .awardstext{
+        font-size: 14px;
+        margin-left: 5%;
+        width: 120%;
+    }
+    .listedawards{
+        width: 175px;
+    }
+    .awardslisttext{
+        font-size: 12px;
+    }
+    .smallbuttontext{
+        font-size: 9px;
+    }
 }
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:510px){
@@ -362,6 +441,30 @@
 
     }
     /* ABOUT US */
+    /* WHATS ON */
+    .whatsoncover{
+        height: 400px;
+        margin-top: 5%;
+    }
+    .whatsontitlelight{
+        margin-top: 5%;
+    }
+    .annuallectureimg{
+        margin-left: 10%;
+        width: 400px;
+        margin-top: 5%;
+    }
+    .awardsimg{
+        width: 400px;
+        margin-left: -18%;
+    }
+    .awardstitle{
+        text-align: center;
+        margin-left: -2%;
+    }
+    .awardstext{
+        margin-left: -2%;
+    }
     /* CONTACT US */
     .contacttitle{
         margin: 0;
