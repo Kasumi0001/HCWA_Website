@@ -48,6 +48,7 @@
     .awardstext{
         margin-left: 8%;
     }
+    /* LIVE ISSUES */
 }
 @media only screen and (max-width:1020px) {
     /* INDEX/HOMEPAGE */
@@ -133,6 +134,7 @@
     .awardslisttext{
         font-size: 14px;
     }
+    /* LIVE ISSUES */
 }
 /* Tablet size */
 @media only screen and (max-width:768px) {
@@ -146,6 +148,7 @@
         display: flex;
         justify-content: flex-end;
     }
+/* INDEX/HOMEPAGE */
     .coverimage {
         max-width: 93%;
         padding-top: 10%;
@@ -182,7 +185,7 @@
         white-space: nowrap;
     }
     h1 {
-        font-size: 80px;
+        font-size: 60px;
         font-weight: bold;
         line-height: 60px;
     }
@@ -320,6 +323,7 @@
     .smallbuttontext{
         font-size: 9px;
     }
+    /* LIVE ISSUES */
 }
 
 /* Mobile size, which is relatively larger for newer phones */
@@ -437,6 +441,9 @@
         padding-right: 10px;
         margin-left: 15%;
     }
+    .whyhistorymattersbg{
+        min-width: 510px;
+    }
     /* ABOUT US */
     /* WHATS ON */
     .whatsoncover{
@@ -480,6 +487,8 @@
         margin-top: 1%;
         margin-left: 35%;
     }
+    /* LIVE ISSUES */
+
     /* CONTACT US */
     .contacttitle{
         margin: 0;
