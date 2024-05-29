@@ -34,12 +34,21 @@ html,body{
     -ms-flex-pack: justify;
     padding: 0.5rem 1rem 
 }
+.navbar-brand{
+    margin:0%;
+}
+.navigationfooter-spacing{
+    margin:0%;
+}
+.footer{
+    margin:auto;
+}
 /* Live issues posts */
 .livebox{
     background-color:var(--Beige);
     height: 830px;
     width: 375px;
-    margin-top: -300px;
+    margin-top: -25%;
 }
 /* Background Colours */
 .creambg{
@@ -51,6 +60,7 @@ html,body{
 .charcoalbg{
     background-color:var(--LighterBlack);
     background-size: cover;
+    height: 80%;
 }
 .footerbg{
     background-color:var(--Ochre);
@@ -300,7 +310,7 @@ p{
 .coverimage{
     margin-top: -25px;
     max-width: fit-content;
-    margin-left: -15%;
+    margin-right: -15%;
     width: 100%;
 }
 .liveissuesimg{
@@ -317,6 +327,10 @@ p{
     background-size: cover;
     min-height: 370px;
     min-width: 1470px;
+}
+.line{
+    padding:1%;
+    opacity: 0.5;
 }
 /* Typography */
 h1{

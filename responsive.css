@@ -32,10 +32,10 @@
         align-items: center;
     }
 
-    .livebox{
+/*     .livebox{
         height: auto;
         margin-top: 0;
-    }
+    } */
 }
 
 
@@ -93,11 +93,11 @@
         font-weight: bold;
         line-height: 60px;
     }
-    .livebox {
+/*     .livebox {
         height: 830px;
         width: 272px;
-        margin-top: -300px;
-    }
+        margin-top: -300px; 
+    }*/
     .image-livebox {
         float: right;
         position: absolute;
