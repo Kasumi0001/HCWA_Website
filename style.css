@@ -534,7 +534,7 @@ h5{
     background-color: #52504D;
     border: 10px solid var(--LighterBlack);
     text-align: left;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 3%;
     padding-bottom: 2%;
     font-size: 20px;
@@ -600,6 +600,7 @@ label {
 }
 form.pmpro_form .lite {
     color: white;
+    padding-top: 3%;
 }
 .pmpro_checkout h2 span.pmpro_checkout-h2-msg {
     font-size: 13px;
@@ -608,6 +609,24 @@ form.pmpro_form .lite {
     letter-spacing: normal;
     color: var(--Blue);
 }
+input[type="button"]#discount_code_button, input[type="button"]#discount_code_button:hover, input[type="button"]#discount_code_button:focus, input[type="button"]#other_discount_code_button, input[type="button"]#other_discount_code_button:hover, input[type="button"]#other_discount_code_button:focus, button[type="button"]#other_discount_code_toggle, button[type="button"]#other_discount_code_toggle:hover, button[type="button"]#other_discount_code_toggle:focus {
+    color: var(--Blue);
+}
+.pmpro_message {
+    background-color: var(--Blue);
+    /* border: 1px solid var(--pmpro--color--info-border); */
+    /* -webkit-border-radius: 4px; */
+    -moz-border-radius: 4px;
+    /* border-radius: 0px; */
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-top: 3%;
+    /* padding: 10px 15px; */
+    text-align: left;
+}
+
 /* WELCOME PAGE */
 h3#post-808 {
     text-align: left;
