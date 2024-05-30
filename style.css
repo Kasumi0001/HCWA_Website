@@ -525,7 +525,7 @@ h5{
     margin-left: 12%;
 }
 
-/* MEMBERSHIP - CHET */ 
+/* MEMBERSHIP - CHET */
 .pmpro_levels_table .pmpro_btn{
     background-color: var(--Ochre);
     padding: 10px 20px;
@@ -634,7 +634,15 @@ input[type="button"]#discount_code_button, input[type="button"]#discount_code_bu
     text-align: left;
 }
 form.pmpro_form label, #loginform label {
-    padding-bottom: 1%;
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+input#pmpro_btn-submit {
+    background-color: var(--Ochre);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
 }
 
 /* WELCOME PAGE */
@@ -645,11 +653,20 @@ h3#post-808 {
 h3.pmpro_member_display_name {
     text-align: left;
 }
+
 /* YOUR PROFILE */
 h3#post-809 {
     text-align: left;
     padding-bottom: 3%;
 }
+input.pmpro_btn.pmpro_btn-submit {
+    background-color: var(--Ochre);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+
 /* MEMBERSHIP ACCOUNT */
 h3#post-801 {
     text-align: left;
