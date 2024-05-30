@@ -213,7 +213,6 @@ p{
     font-weight: 400;
     font-style: normal;
     margin: 0;
-
 }
 .footerdetails{
     text-align: center;
@@ -634,7 +633,7 @@ input[type="button"]#discount_code_button, input[type="button"]#discount_code_bu
     text-align: left;
 }
 form.pmpro_form label, #loginform label {
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     padding-top: 3%;
 }
 input#pmpro_btn-submit {
@@ -667,10 +666,11 @@ input.pmpro_btn.pmpro_btn-submit {
     color: white;
 }
 /* its affecting the home page h2 header "PROVIDING" */
-.h2, h2 {
-    color: white;
+/* .h2, h2 {
+    color: var(--Blue);
     font-size: 2em;
-}
+    margin-top: -12%;
+} */
 
 /* MEMBERSHIP ACCOUNT */
 h3#post-801 {

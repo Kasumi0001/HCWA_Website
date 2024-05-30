@@ -11,10 +11,10 @@
                     <p class="followus">Follow Us</p>
                 </div>
                 <div>
-                    <a class="socialmediaicons" href="#">
+                    <a class="socialmediaicons" href="https://www.facebook.com/Historycouncilwa/">
                         <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/facebookicon.png" alt="facebookicon">
                     </a>
-                    <a class="socialmediaicons" href="#">
+                    <a class="socialmediaicons" href="https://x.com/wahistccl?s=21&t=hKX78WBRi0IVWx_gedaR3A">
                         <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/xicon.png" alt="xicon">
                     </a>
                 </div>
@@ -22,11 +22,11 @@
             </div>
             <div class="col-md-9" style="margin:auto;"> 
             <ul class="d-flex justify-content-around" style="margin:0;">
-                <a class="nav-linkfooter" href="#">About Us</a>
-                <a class="nav-linkfooter" href="#">Live Issues</a>
-                <a class="nav-linkfooter" href="#">Join Us</a>
-                <a class="nav-linkfooter" href="#">What's On</a>
-                <a class="nav-linkfooter" href="#">Contact Us</a>
+                <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/about-us/">About Us</a>
+                <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">Live Issues</a>
+                <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/membership-account/membership-levels/">Join Us</a>
+                <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/whats-on/">What's On</a>
+                <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/contact-us/">Contact Us</a>
             </ul>
             </div>
         </div> <!-- row -->

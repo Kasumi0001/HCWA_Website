@@ -18,8 +18,8 @@
                      </div>
                      <div class="col-4 contactsocials">
                         <p class="contactheading socials">SOCIALS</p>
-                        <a  href="#"><img class="contactfacebook" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/contactfacebook.png"></a>
-                        <a  href="#"><img class="contacttwitter" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/contacttwitter.png"></a>
+                        <a  href="https://www.facebook.com/Historycouncilwa/"><img class="contactfacebook" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/contactfacebook.png"></a>
+                        <a  href="https://x.com/wahistccl?s=21&t=hKX78WBRi0IVWx_gedaR3A"><img class="contacttwitter" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/contacttwitter.png"></a>
                      </div>
                      <div class="col-4 contactaddress">
                         <p class="contactheading address">ADDRESS PO BOX</p>
