@@ -315,6 +315,8 @@ p{
 }
 .liveissuesimg{
     margin-top:-55px;
+    width: 100%;
+    height: auto;
 }
 .image-livebox{
     float:right;

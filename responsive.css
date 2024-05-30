@@ -52,6 +52,7 @@
         margin-left: 8%;
     }
     /* LIVE ISSUES */
+
 }
 @media only screen and (max-width:1020px) {
     /* INDEX/HOMEPAGE */
@@ -138,9 +139,10 @@
         font-size: 14px;
     }
     /* LIVE ISSUES */
+
 }
 /* Tablet size */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:770px) {
     .navbar-collapse {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -169,7 +171,8 @@
         font-size: 14px;
     }
     .charcoalbg {
-        padding-bottom: 400px;  
+        padding-bottom: 0;  
+        height: 60%;
     }
     .bigbutton2 {
         display: inline-block;
@@ -193,8 +196,10 @@
     .image-livebox {
         float: right;
         position: absolute;
-        right: 102px;
         bottom: 0;
+    }
+    .livebox{
+        margin-top: 5%;
     }
     .lowerimage {
         margin-top: 136px;
@@ -202,37 +207,23 @@
         width: 359px;
         right: 95%;
     }
-    .sectionlower-text {
-        padding-right: 196%;
-        padding-top: 60%;
-        padding-left: 22%;
-    }
     .sectionbgdarkbottom {
-        width: 930px;
-        height: 380px;
+        height: 320px; 
         margin-bottom: 15%;
         margin-left: 24%;
         margin-top: 60%;
     }
-    h3 {
-        font-size: 40px;
-        font-weight: 700;
-        font-style: normal;
-        margin-top: 50px;
-        text-align: center;
-        width: 110%;
-    }
     .lowertitle {
-        text-align: center;
-        margin-left: 20px;
-        margin-top: -106px;
+        margin-left: 30%;
+        margin-top: -75%;
+        font-size: 40px;
     }
     .lowertext {
         text-align: left;
         font-size: 14px;
-        padding-bottom: 0;
-        margin-left: 81px;
-        padding-right: 81px;
+        margin-left: 30%;
+        padding-right: 0;
+        width: 135%;
     }
     .bigbutton3 {
         padding: 15px 60px;
@@ -242,11 +233,13 @@
         padding-right: 20px;
         padding-left: 20px;
     }
+    .buttontext{
+        font-size: 14px;
+    }
     .sectionbglighttop {
         width: 629px;
-        height: 324px;
+        height: 310px;
         margin-top: 17%;
-        margin-left: -32%;
         margin-bottom: 100px;
     }
     .sectionlower-text {
@@ -254,17 +247,24 @@
         padding-top: 60%;
         padding-left: 67%;
     }
+    .uppertitle{
+        font-size: 40px;
+    }
     .uppertext {
         text-align: left;
         font-size: 14px;
         padding-bottom: 5%;
-        padding-right: 140px;
+        padding-right: 80px;
     }
     .upperimage {
         margin-top: 155px;
         position: absolute;
         width: 359px;
         right: -31%;
+    }
+    .custom-container{
+        margin-left: 0;
+        margin-right: 0;
     }
     h5{
         font-size: 150px;
