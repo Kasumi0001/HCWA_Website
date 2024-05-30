@@ -5,19 +5,9 @@
     ?>
 <?php get_header();?> <!-- Tell WordPress to include header.php -->
 
-<title>
-    Homepage
-</title>
-</head>
-<body>
-<!-- Navigation and Cover Section -->
-<header>    
     <!-- COVER IMAGE SECTION -->
     <div class="creambg">
-        <div class="row" style="margin:0;">
-            <div class="col-md-6">
-                <img class="coverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/CoverImage.png" alt="CoverImage">
-            </div>
+        <div class="row">
             <div class="col-md-6">
                 <div class="covertitle-container">
                     <h2>PROVIDING</h2>
@@ -29,10 +19,12 @@
                     </a>
                 </div>
             </div>
+            <div class="col-md-6">
+                <img class="coverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/CoverImage.png" alt="CoverImage">
+                
+            </div>
         </div> <!-- row -->
     </div> <!-- container -->
-
-    <?php wp_head(); ?> 
 
 </header> <!-- container-fluid -->
 
@@ -40,14 +32,14 @@
 <section class="container-fluid charcoalbg">
     <div class="custom-container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
         <img class="liveissuesimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/liveissues.png" alt="LiveIssues">
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
         <h3 class="liveissuestitle">LIVE ISSUES</h3>
         <p class="livep">The History Council of Western Australia provides a voice for history by promotingthe study, preservation and use of history in Western Australia.</p>
-        <a class="bigbutton2" href="#">
-            <p class="buttontext">SEE WHAT'S HAPPENING</p>
+        <a class="bigbuttonWH" href="#">
+            <p class="buttontext">WHAT'S HAPPENING</p>
         </a>
             </div>
         </div>
@@ -56,7 +48,8 @@
 
 <!-- Live Issues Post Section -->
 <section class="container-fluid">
-    <div class="custom-container">
+    <div class="custom-container live-issues-wrap">
+        
         <div class="row justify-content-around">
             <div class="livebox">
                     <h5>01</h5>
@@ -88,7 +81,7 @@
                         <p class="smallbuttontext">LEARN MORE</p>
                     </a>
                     <div class="livebox-image-container">
-                        <img class="image-livebox" style="margin-bottom: 20px;" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/normanhouse.png">
+                        <img class="image-livebox" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/normanhouse.png">
                     </div>
             </div>
             </div>
@@ -110,7 +103,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="lowerimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/Lecture_Updated.jpg">
+                <img class="lowerimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/Lecture.jpg">
             </div>
         </div>
     </div>
@@ -134,7 +127,7 @@
                 <div class="sectionbglighttop sectionupper-text">
                     <h3 class="uppertitle">2029<br>BICENTENARY</h3>
                     <p class="uppertext">The History Council of WA is coordinating with local communities and organisations to reflect and examine how we engage with our histories during the 2029 anniversary of the Swan River Colony.</p>
-                    <a class="bigbutton2" style="margin:0%" href="#">
+                    <a class="bigbutton1" href="#">
                         <p class="buttontext">LEARN MORE</p>
                     </a>
                 </div>
@@ -145,4 +138,5 @@
         </div>
     </div>
 </section>
+
 <?php get_footer();?> <!-- Tell WordPress to include footer.php -->

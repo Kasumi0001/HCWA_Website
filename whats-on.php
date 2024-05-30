@@ -8,102 +8,90 @@
 <?php get_header();?> <!-- Tell WordPress to include header.php -->
 
 <!-- COVER IMAGE SECTION -->
-<section class="container-fluid allycauses">
+<section class="charcoalbg-whatson">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 ">
+                <h3 class="whatsontitlelight">WHAT WE’VE <br> GOT GOING ON</h3>
+                <p class="whatsontextlight">Each year, the History Council of Western Australia presents a public lecture that shares fresh thinking and new evidence on an historical topic</p>
+            </div>
+            <div class="col-md-6">
+                <img class="whatsoncover" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/whatsoncover.png" alt="whatsoncover">
+            </div>
+        </div>
+    </section>
+</header> <!-- header end -->
+
+<!-- ANNUAL LECTURE SECTION -->
+<section class="whiteborder">
+    <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+            <h3 class="whatsontitledark">ANNUAL LECTURE 2024</h3>
+            <p class="whatsontextdark">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
+            <a class="smallbutton3" href="#">
+                <p class="smallbuttontext">LEARN MORE</p>
+            </a>
+        </div>
+        <div class="col-md-6">
+            <img class="annuallectureimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/Lecture.jpg" alt="Lecture">
+            </div>
+    </div>
+</section> <!-- container-fluid -->
+
+<!-- AWARDS SECTION -->
+<section class="charcoalbg-whatson">
     <div class="custom-container">
         <div class="row">
-        <div class="col-md-6">
-        <img class="allyimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/liveissues.png" alt="LiveIusses">
-        </div>
-        <div class="col-md-6">
-        <h3>ANNUAL 2024 LECTURE</h3>
-        <p class="livep">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
-       
-        </a>
-            </div>
-        </div>
-    </div>
-</section> <!-- container-fluid -->
-
-<section class="container-fluid">
-    <div class="custom-container">
-        <!-- NEED TO ADJUST FURTHER TO MATCH THE FIGMA DESIGN -->
-        <div class="row justify-content-around">
-            <div class="livebox">
-                    <h5>01</h5>
-                    <h4>AMP BUILDING</h4>
-                    <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
-                    <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
-                    <a class="bigbutton2" href="#">
-                    <p class="buttontext">LEARN MORE</p>
-                    </a>
-                    <img class="image-fluid" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/freo.png">
-            </div>
-            <div class="livebox">
-                    <h5>02</h5>
-                    <h4>HERITAGE RECORDS</h4>
-                    <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
-                    <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
-                    <a class="smallbutton" href="#">
-                        <p class="smallbuttontext">LEARN MORE</p>
-                    </a>
-                    <img class="image-fluid" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/freo.png">
-            </div>
-            <div class="livebox">
-                    <h5>03</h5>
-                    <h4>NORMAN HOUSE</h4>
-                    <p>AGM, Hisotry Awards, Annual History Council Lectures on 'Truth-Telling'</p>
-                    <p>SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
-                    <a class="smallbutton" href="#">
-                        <p class="smallbuttontext">LEARN MORE</p>
-                    </a>
-                    <img class="image-fluid" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/freo.png">
-            </div>
+            <div class="col-md-6">
+                <img class="awardsimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="Lecture">
+                </div>
+            <div class="col-md-6">
+                <h3 class="awardstitle">AWARDS</h3>
+                <p class="awardstext">As the peak body representing history in Western Australia, the History Council advances the practice and place of history within all levels of the community. Through two decades of advocacy, the History Council consults and liaises with many groups and organisations on a wide variety of historical issues. Through its events, the History Council brings together those interested in the role of history within Western Australia.</p>
             </div>
         </div> <!-- row -->
-    </div> <!-- container -->
+    </div> <!-- custom-container -->
 </section> <!-- container-fluid -->
-<!-- LIVE ISSUES POST SECTION
- -->
 
-<!-- my code below -->
-
-  
-  <section class="containter-fluid allycauses">
-    <div class="container">
-        <h3 class="awardstitle">AWARDS</h3>
+<!-- LIST OF AWARDS SECTION -->
+<section class="charcoalbg-whatson charcoalspacing">
     <div class="row">
-    <div class="col-md-3 awards">
-        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/agm.png" alt="lecture standing over podium">
-        <br>
-        <h4 class="awardsub">Awards 2024</h4>
-        <p class="text"> Ally description, for cause, click learn more for additional information</p>
-        <a class="smallbutton" href="£">Read More</a>
+        <div class="col-md-3">
+            <img class="listedawards" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/awards1.png" alt="lecture standing over podium">
+            <h4 class="awardsubtitle">Awards 2024</h4>
+            <p class="awardslisttext"> AGM, History Awards, Annual History Council Lecture ‘On Truth-Telling’</p>
+            <p class="awardslisttext"> SUNDAY 30th NOVEMBER 2024 State Library of Western Australia</p>
+            <a class="smallbutton4" href="#">
+                <p class="smallbuttontext">Read More</p>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <img class="listedawards" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/awards2.png" alt="lecture standing over podium">
+            <h4 class="awardsubtitle">Awards 2023</h4>
+            <p class="awardslisttext">2023 Fremantle Woodside Hospital to Aged Care Precinct</p>
+            <p class="awardslisttext">Plans of redevelopment for Fremantle Woodside Hospital have been rejected.</p>
+            <a class="smallbutton4" href="#">
+                <p class="smallbuttontext">Read More</p>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <img class="listedawards" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/awards3.png" alt="lecture standing over podium">
+            <h4 class="awardsubtitle">Awards 2022</h4>
+            <p class="awardslisttext">Plans of redevelopment for Fremantle Woodside Hospital have been rejected.</p>
+            <p class="awardslisttext">AGM, History Awards, Annual History Council Lecture ‘On Truth-Telling’</p>
+            <a class="smallbutton4" href="#">
+                <p class="smallbuttontext">Read More</p>
+            </a>     
+        </div>
+        <div class="col-md-3">
+            <img class="listedawards" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/awards1.png" alt="lecture standing over podium">
+            <h4 class="awardsubtitle">Awards 2021</h4>
+            <p class="awardslisttext">AGM, History Awards, Annual History Council Lecture ‘On Truth-Telling’</p>
+            <p class="awardslisttext">AGM, History Awards, Annual History Council Lecture ‘On Truth-Telling’</p>
+            <a class="smallbutton4" href="#">
+                <p class="smallbuttontext">Read More</p>
+            </a>
+        </div>
     </div>
-    <div class="col-md-3 awards">
-        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/woodside.png" alt="lecture standing over podium">
-        <br>
-        <h4 class="awardsub">Awards 2023</h4>
-        <p class="text">Ally description, for cause, click learn more for additional information</p>
-        <a class="smallbutton" href="£">Read More</a>
-    </div>
-    <div class="col-md-3 awards">
-        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/freo.png" alt="lecture standing over podium">
-        <br>
-        <h4 class="awardsub">Awards 2022</h4>
-        <p class="text">Ally description, for cause, click learn more for additional informationl</p>
-        <a class="smallbutton" href="£">Read More</a>      
-    </div>
-    <div class="col-md-3 awards">
-        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/woodside.png" alt="lecture standing over podium">
-        <br>
-        <h4 class="awardsub">Awards 2021</h4>
-        <p class="text">Ally description, for cause, click learn more for additional informationl</p>
-        <a class="smallbutton" href="£">Read More</a>
-            
-    </div>
-
- 
-</div>
-</div>
 </section>
+ 
 <?php get_footer();?> <!-- Tell WordPress to include footer.php -->

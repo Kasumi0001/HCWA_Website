@@ -6,9 +6,8 @@
 
 <?php get_header();?> <!-- Tell WordPress to include header.php -->
 
-<!-- title of page -->
-
-<section class="container-fluid"> 
+        <!-- title of page -->
+        <section class="container-fluid"> 
             <div class="container image1"> 
                 <div class="row">
                     <div class="col-md-6">
@@ -27,13 +26,13 @@
 <section class="container-fluid, creambg-liveissues"> 
     <div class="container">
          <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-3">
                 <h5 class="liveissuesnumber">01</h5>
             </div><!-- Column -->
-            <div class="col-md-6">
+            <div class="col-sm-6">
                 <img class="liveissuesimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/albany_2026.jpeg" alt="volunteers in front of building"> 
             </div> <!-- Column -->
-            <div class="col-md-3">
+            <div class="col-sm-3">
                 <h4 class="articletitles">Albany 2026 Bicentenary</h4>
                 <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
@@ -51,20 +50,20 @@
 <section class="container-fluid, darkbg-liveissues"> 
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <h4 class="liveissuestitle articletitles">Woodside Redevelopment</h4>
+            <div class="col-sm-3 information">
+                <h4 class="articletitleslight">Woodside Redevelopment</h4>
                 <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
                 </a>
-                <p class="liveissuestitle liveissuesparagraph">
+                <p class="liveissuesparagraphlight">
                     Between 2022-2023, the History Council of WA actively campaigend to protect the heritage of Woodside Maternity Hospital (1953-2006) following an application for redevelopment. 
                 </p>
             </div><!-- Column -->
-            <div class="col-md-6">
+            <div class="col-sm-6 images">
                 <img class="liveissuesimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/WoodsideBW.jpeg" alt="woodside building"> 
             </div>
-            <div class="col-md-3">
-                <h5 class="liveissuesnumber liveissuestitle">02</h5>
+            <div class="col-sm-3 number">
+                <h5 class="liveissuesnumberlight">02</h5>
             </div>
         </div><!-- Row -->
     </div><!-- Container -->
@@ -75,13 +74,13 @@
 <section class="container-fluid, creambg-liveissues"> 
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-3">
                 <h5 class="liveissuesnumber">03</h5>
             </div> <!-- Column -->
-            <div class="col-md-6">
+            <div class="col-sm-6">
                 <img class="liveissuesimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/norman_house.jpeg" alt="people in front of norman house"> 
             </div> <!-- Column -->
-            <div class="col-md-3">
+            <div class="col-sm-3">
                 <h4 class="articletitles">Norman House</h4>
                 <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
@@ -100,7 +99,7 @@
     <div class="container"> 
         <div class="row">
             <div class="col-md-6">
-                <h1 class="titleliveissues pastissues">PAST ADVOCACY</h1>
+                <h1 class="pastadvocacy">PAST ADVOCACY</h1>
                 <p>
                 Each year, the History Council of Western Australia presents a public lecture that shares fresh thinking and new evidence on an historical topic
                 </p>
@@ -115,7 +114,4 @@
     </div><!-- Container -->
 </section> <!-- Container Fluid -->
 
-
-</body>
-</html>
 <?php get_footer();?> <!-- Tell WordPress to include footer.php -->

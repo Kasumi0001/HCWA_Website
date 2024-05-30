@@ -6,8 +6,20 @@
 
 <?php get_header();?> <!-- Tell WordPress to include header.php -->
 
-<!-- Why we value hisotry -->
-<section class="container-fluid">
+        <!-- COVER SECTION -->
+        <div class="creambg-aboutus">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6">
+                    <img class="aboutuscoverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/aboutuscover.png" alt="AboutUsCover">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="darkh3quote">"History is an unending dialogue between the present and the past" - E.H.Carr</h3>
+                </div>
+            </div>
+        </div>
+
+    <!-- Why we value hisotry -->
+    <section class="container-fluid">
         <div class="custom-container">
             <div class="row">
                 <div class="col-md-6">
@@ -17,7 +29,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="upperimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
+                    <img class="upperimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/whywevaluehistory.png" alt="Value of History">
                 </div>
             </div>
         </div>
@@ -29,27 +41,27 @@
             <h3 class="darkh3">COUNCILLORS</h3>
             <div class="d-flex justify-content-center">
                 <div class="council-section">
-                    <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
+                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
                     <p class="profilename">Deborah Gare</p>
                     <p class="profiletitle">President</p>
                 </div>
                 <div class="council-section">
-                    <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
+                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
                     <p class="profilename">Michael Nind</p>
                     <p class="profiletitle">Vice President</p>
                 </div>
                 <div class="council-section">
-                    <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
+                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
                     <p class="profilename">Lorraine Clarke</p>
                     <p class="profiletitle">Treasurer</p>
                 </div>
                 <div class="council-section">
-                    <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
+                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
                     <p class="profilename">Sarah Fulford</p>
                     <p class="profiletitle">Secretary</p>
                 </div>
                 <div class="council-section">
-                    <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
+                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
                     <p class="profilename">Vacant</p>
                     <p class="profiletitle">Membership Secretary</p>
                 </div>
@@ -69,13 +81,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="lowerimage2" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png">
+                    <img class="lowerimage2" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/advocacy.png" alt="Advocacy">
                 </div>
             </div>
         </div>
     </section> <!-- container-fluid -->
 
-  
-</body>
-</html>
 <?php get_footer();?> <!-- Tell WordPress to include footer.php -->
