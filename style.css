@@ -686,6 +686,7 @@ th {
 }
 td {
     color: white;
+    background-color: var(--LighterBlack);
 }
 li {
     color: white;
