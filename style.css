@@ -388,6 +388,10 @@ h5{
 }
 
 /* ABOUT US - Jess */
+.profile{
+    width: 100%;
+    height: auto;
+}
 .lowerimage2{
     margin-left: -95%;
 }

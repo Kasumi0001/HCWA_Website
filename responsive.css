@@ -138,8 +138,6 @@
     .awardslisttext{
         font-size: 14px;
     }
-    /* LIVE ISSUES */
-
 }
 /* Tablet size */
 @media only screen and (max-width:770px) {
@@ -242,11 +240,6 @@
         margin-top: 17%;
         margin-bottom: 100px;
     }
-    .sectionlower-text {
-        padding-right: 130%;
-        padding-top: 60%;
-        padding-left: 67%;
-    }
     .uppertitle{
         font-size: 40px;
     }
@@ -279,18 +272,68 @@
     }
     /* ABOUT US */
     .aboutuscoverimage{
-        width: 400px;
+        width: 700px;
     }
     .darkh3quote{
-        font-size: 48px;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 1%;
+        padding-top: 3%;
+        padding-bottom: 3%;
     }
     .darkh3{
         font-size: 48px;
+        margin-top: 7%;
+    }
+    .profilename{
+        font-size: 12px;
+    }
+    .profiletitle{
+        font-size: 12px;
     }
     .committee-text{
-        font-size: 14px;
-        width: 125%;
-        margin-left: -10%;
+        font-size: 12px;
+        width: 100%;
+        margin-left: 2%;
+    }
+    .uppertitlelight{
+        font-size: 40px;
+        width: 300%;
+    }
+    .uppertextlight{
+        width: 230%;
+        font-size: 12px;
+    }
+    .sectionbgdarktop{
+        margin-left: 1%;
+        height: 360px;
+        width: 570px;
+    }
+    .upperimage {
+        margin-top: -35%;
+        width: 360px;
+        right: -42%;
+    }
+    .lowerimage2{
+        margin-left: 0;
+        width: 50%;
+        margin-top: -65%;
+    }
+    .sectionbglightbottom{
+        height: 350px;
+        width: 500px;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .lowertitledark{
+        font-size: 40px;
+        margin-left: -105%;
+        width: 150%;
+    }
+    .lowertextdark{
+        font-size: 12px;
+        margin-left: -20%;
+        width: 130%;
     }
     /* WHATS ON */
     .whatsontitlelight{
