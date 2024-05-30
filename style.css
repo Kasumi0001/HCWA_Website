@@ -666,6 +666,10 @@ input.pmpro_btn.pmpro_btn-submit {
     border-radius: 12px;
     color: white;
 }
+.h2, h2 {
+    color: white;
+    font-size: 2em;
+}
 
 /* MEMBERSHIP ACCOUNT */
 h3#post-801 {
@@ -686,7 +690,6 @@ th {
 }
 td {
     color: white;
-    background-color: var(--LighterBlack);
 }
 li {
     color: white;
@@ -820,6 +823,14 @@ div.wpforms-container-full input[type=submit], div.wpforms-container-full button
 .wpforms-form p {
     margin-left: 34% !important;
 } 
+button#wpforms-submit-862 {
+    background-color: var(--Ochre);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+    margin-left: -15px;
+}
 
 /* LIVE ISSUES PAGE - ZARAH */
 .liveissuesimage{
