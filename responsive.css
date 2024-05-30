@@ -663,6 +663,15 @@
     .liveissuesimage{
         padding-bottom: 3%;
     }
+    .number{
+        order: 1;
+    }
+    .images{
+        order: 2;
+    }
+    .information{
+        order: 3;
+    }
     /* CONTACT US */
     .contacttitle{
         margin: 0;
