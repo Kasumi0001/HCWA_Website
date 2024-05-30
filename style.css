@@ -597,6 +597,7 @@ h3#post-804 {
     display: inline-block;
     margin: 0 .5rem 1rem 0;
     color: white;
+    font-size: 2em;
 }
 p.pmpro_level_name_text {
     color: white;
@@ -631,6 +632,9 @@ input[type="button"]#discount_code_button, input[type="button"]#discount_code_bu
     margin-top: 3%;
     /* padding: 10px 15px; */
     text-align: left;
+}
+form.pmpro_form label, #loginform label {
+    padding-bottom: 1%;
 }
 
 /* WELCOME PAGE */
@@ -669,6 +673,7 @@ td {
 li {
     color: white;
 }
+
 /* LOST PAASSWORD */
 p.pmpro_lost_password-instructions {
     color: white;
@@ -680,12 +685,25 @@ a {
     background-color: transparent;
 }
 
+/* MEMBERSHIP INVOICE */
+h3#post-806 {
+    text-align: left;
+    padding-bottom: 3%;
+}
 
-/* Please comment out empty stylisationn classes
-*, ::after, ::before
-{
+/* SEARCH */
+h2.wp-block-heading {
+    font-size: 30px;
+}
+h1.search-query {
+    font-size: 5em;
+    padding-left: 3%;
+    color: var(--Blue);
+}
+h1.page-title {
+    font-size: 5em;
+}
 
-} */
 
 /* CONTACT US - THISARI */
 .contactlanding{
