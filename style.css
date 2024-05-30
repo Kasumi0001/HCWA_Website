@@ -597,7 +597,7 @@ h3#post-804 {
     display: inline-block;
     margin: 0 .5rem 1rem 0;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
 }
 p.pmpro_level_name_text {
     color: white;
@@ -666,6 +666,7 @@ input.pmpro_btn.pmpro_btn-submit {
     border-radius: 12px;
     color: white;
 }
+/* its affecting the home page h2 header "PROVIDING" */
 .h2, h2 {
     color: white;
     font-size: 2em;
