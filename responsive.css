@@ -379,6 +379,66 @@
         font-size: 9px;
     }
     /* LIVE ISSUES */
+    .titleliveissues{
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    p{
+        font-size: 12px;
+    }
+    .image1{
+        padding-bottom: 40px;
+        padding-top: 2%;
+    }
+    .articletitles{
+        font-size: 28px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    .articletitleslight{
+        font-size: 28px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-left: -10%;
+    }
+    .liveissuesnumber{
+        font-size: 128px;
+        margin-left: -5%;
+        margin-top: 5%;
+    }
+    .liveissuesnumberlight{
+        font-size: 128px;
+        margin-left: -5%;
+    }
+    .smallbutton{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .liveissuesparagraph{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 120%;
+    }
+    .liveissuesparagraphlight{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 120%;
+    }
+    .pastadvocacy{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bigbutton2{
+        margin-top: 10px;
+    }
+    .image2{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .buttontext{
+        font-size: 12px;
+    }
 }
 
 /* Mobile size, which is relatively larger for newer phones */
@@ -540,7 +600,69 @@
         margin-left: 35%;
     }
     /* LIVE ISSUES */
-
+    .titleliveissues{
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    p{
+        font-size: 12px;
+        padding-bottom: 5%;
+    }
+    .image1{
+        padding-bottom: 40px;
+        padding-top: 2%;
+    }
+    .articletitles{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .articletitleslight{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-left: 0%;
+    }
+    .liveissuesnumber{
+        margin-left: -5%;
+        margin-top: 0;
+    }
+    .liveissuesnumberlight{
+        margin-left: -5%;
+    }
+    .smallbutton{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .liveissuesparagraph{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .liveissuesparagraphlight{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .pastadvocacy{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .bigbutton2{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .image2{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .buttontext{
+        font-size: 12px;
+    }
+    .liveissuesimage{
+        padding-bottom: 3%;
+    }
     /* CONTACT US */
     .contacttitle{
         margin: 0;

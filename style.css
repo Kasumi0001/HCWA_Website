@@ -788,6 +788,7 @@ div.wpforms-container-full input[type=submit], div.wpforms-container-full button
 /* LIVE ISSUES PAGE - ZARAH */
 .liveissuesimage{
     width: 100%;
+    height: auto;
 }
 .image1{
     padding-bottom: 84px;
@@ -797,10 +798,13 @@ div.wpforms-container-full input[type=submit], div.wpforms-container-full button
     padding-bottom: 20%;
 }
 /* typography */
-.liveissuestitle{
-    color: white;
-}
 .articletitles {
+    margin-top: 20%;
+    margin-bottom: 15%;
+    font-size: 2em;
+}
+.articletitleslight {
+    color: white;
     margin-top: 20%;
     margin-bottom: 15%;
     font-size: 2em;
@@ -810,15 +814,25 @@ div.wpforms-container-full input[type=submit], div.wpforms-container-full button
     font-size: 5em;
     color: var(--LighterBlack);
 }
+.pastadvocacy{
+    margin-top: 15%;
+    font-size: 52px;
+    color: var(--LighterBlack);
+}
 .liveissuesnumber{
     margin-top: 15%;
+}
+.liveissuesnumberlight{
+    color: white;
 }
 .liveissuesparagraph {
     margin-top: 20%;
     margin-bottom: 20%;
 }
-.pastissues{
-    margin-top: 15%;
+.liveissuesparagraphlight {
+    color: white;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 /* colours */
 .creambg-liveissues{
