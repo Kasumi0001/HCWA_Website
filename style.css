@@ -550,7 +550,7 @@ h5{
     color: white;
     background-color: #52504D;
     text-align: left;
-    padding-left: 5.5%;
+    padding-left: 30px;
     font-size: 20px;
     padding-top: 3%;
     font-family: montserrat;
@@ -567,12 +567,11 @@ h3#post-807 {
     background-color: var(--LighterBlack);
     padding-bottom: 5%;
 }
-
 b, strong {
     font-weight: bolder;
     color: white;
     font-size: 20px;
-    margin-left: 16%;
+    margin-left: 8%;
     font-family: montserrat;
 }
 .pmpro_levels_table {
@@ -584,19 +583,20 @@ table {
     border: 10px solid var(--LighterBlack);
 }
 .membershipP{
-
     padding:3%;
 }
+
 /* MEMBERSHIP CHECKOUT */
 h3#post-804 {
     text-align: left;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 .pmpro_checkout h2 span.pmpro_checkout-h2-name {
     display: inline-block;
     margin: 0 .5rem 1rem 0;
     color: white;
-    font-size: 1em;
+    font-size: 2em;
+    margin-top: 2%;
 }
 p.pmpro_level_name_text {
     color: white;
@@ -631,10 +631,11 @@ input[type="button"]#discount_code_button, input[type="button"]#discount_code_bu
     margin-top: 3%;
     /* padding: 10px 15px; */
     text-align: left;
+    margin-top: 7%;
 }
 form.pmpro_form label, #loginform label {
     padding-bottom: 1%;
-    padding-top: 3%;
+    padding-top: 1%;
 }
 input#pmpro_btn-submit {
     background-color: var(--Ochre);
@@ -643,14 +644,27 @@ input#pmpro_btn-submit {
     border-radius: 12px;
     color: white;
 }
+.pmpro_level_description_text p {
+    color: white;
+    padding-top: 1%;
+  }
+.pmpro_level_cost_text p {
+    color: white;
+}
+.pmpro_small {
+    font-size: .8em;
+    color: var(--Beige);
+}
 
 /* WELCOME PAGE */
 h3#post-808 {
     text-align: left;
     padding-bottom: 3%;
+    text-transform: uppercase;
 }
 h3.pmpro_member_display_name {
     text-align: left;
+    text-transform: uppercase;
 }
 
 /* YOUR PROFILE */
@@ -665,12 +679,15 @@ input.pmpro_btn.pmpro_btn-submit {
     border-radius: 12px;
     color: white;
 }
-/* its affecting the home page h2 header "PROVIDING" */
-/* .h2, h2 {
-    color: var(--Blue);
-    font-size: 2em;
-    margin-top: -12%;
-} */
+.pmpro_checkout_box-more-information h2 {
+    color: white;
+    font-size: 37px;
+    margin-top: -10%;
+    margin-bottom: -4%;
+  }
+  input.pmpro_btn.pmpro_btn-cancel {
+    color: var(--Beige);
+}
 
 /* MEMBERSHIP ACCOUNT */
 h3#post-801 {
@@ -695,6 +712,10 @@ td {
 li {
     color: white;
 }
+.pmpro_table th {
+    background-color: var(--LighterBlack);
+}
+
 
 /* LOST PAASSWORD */
 p.pmpro_lost_password-instructions {
