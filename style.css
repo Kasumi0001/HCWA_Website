@@ -715,6 +715,15 @@ li {
 .pmpro_table th {
     background-color: var(--LighterBlack);
 }
+.pmpro_confirmation_wrap p {
+    color: white;
+    padding-bottom: 15px;
+}
+h3#post-805 {
+    text-align: left;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+}
 
 
 /* LOST PAASSWORD */
@@ -746,7 +755,16 @@ h1.search-query {
 h1.page-title {
     font-size: 5em;
 }
-
+section.container-fluid.aboutbg {
+    background-color: var(--Beige);
+}
+.wp-block-search__label {
+    color: black;
+}
+.wp-block-heading strong {
+    color: black;
+    margin-left: 0px;
+}
 
 /* CONTACT US - THISARI */
 .contactlanding{
