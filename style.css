@@ -763,6 +763,7 @@ h1.page-title {
 }
 section.container-fluid.aboutbg {
     background-color: var(--Beige);
+    padding-bottom: 21%;
 }
 .wp-block-search__label {
     color: black;
