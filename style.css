@@ -746,14 +746,20 @@ h3#post-806 {
 /* SEARCH */
 h2.wp-block-heading {
     font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 5%;
 }
 h1.search-query {
-    font-size: 5em;
+    font-size: 54px;
     padding-left: 3%;
     color: var(--Blue);
+    font-family: adobe-caslon-pro, serif;
+    text-transform: uppercase;
 }
 h1.page-title {
-    font-size: 5em;
+    font-size: 54px;
+    font-family: adobe-caslon-pro, serif;
+    text-transform: uppercase;
 }
 section.container-fluid.aboutbg {
     background-color: var(--Beige);
@@ -764,6 +770,26 @@ section.container-fluid.aboutbg {
 .wp-block-heading strong {
     color: black;
     margin-left: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: adobe-caslon-pro, serif;
+}
+.search-result h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+a.read-more-link {
+    position: absolute;
+    right: 42%;
+    background-color: var(--Ochre);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+[type=search] {
+    border-radius: 5px;
 }
 
 /* CONTACT US - THISARI */

@@ -18,6 +18,9 @@
     </div>   
     <div class="container">
         <div class="row">
+            <div id="blog-sidebar" class="col-md-4">
+                <?php get_sidebar(); ?>             
+            </div>
             <div class="search-results-container col-md-8">
             <?php if ( have_posts() ): ?>
                 <?php while( have_posts() ): ?>
@@ -34,9 +37,6 @@
             <?php else: ?>
                 <p><?php _e( 'No Search Results found', 'nd_dosth' ); ?></p>
             <?php endif; ?>
-            </div>
-            <div id="blog-sidebar" class="col-md-4">
-                <?php get_sidebar(); ?>             
             </div>
         </div>
     </div>
