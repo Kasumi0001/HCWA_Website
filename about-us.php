@@ -10,7 +10,7 @@
         <div class="creambg-aboutus">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
-                    <img class="aboutuscoverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/aboutuscover.png" alt="AboutUsCover">
+                    <img class="aboutuscoverimage" src="<?php the_field('aboutuscoverimage'); ?>" alt="AboutUsCover">
                 </div>
                 <div class="col-md-6">
                     <h3 class="darkh3quote"><?php the_field('titleforaboutuspage'); ?></h3>
