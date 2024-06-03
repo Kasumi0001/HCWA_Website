@@ -13,7 +13,7 @@
                     <img class="aboutuscoverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/aboutuscover.png" alt="AboutUsCover">
                 </div>
                 <div class="col-md-6">
-                    <h3 class="darkh3quote">"History is an unending dialogue between the present and the past" - E.H.Carr</h3>
+                    <h3 class="darkh3quote"><?php the_field('titleforaboutuspage'); ?></h3>
                 </div>
             </div>
         </div>
@@ -24,12 +24,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="sectionbgdarktop sectionupper-text">
-                        <h3 class="uppertitlelight">WHY WE VALUE HISTORY</h3>
-                        <p class="uppertextlight">As the peak body representing history in Western Australia, the History Council advances the practice and place of history within all levels of the community. Through two decades of advocacy, the History Council consults and liaises with many groups and organisations on a wide variety of historical issues. Through its events, the History Council brings together those interested in the role of history within Western Australia.</p>
+                        <h3 class="uppertitlelight"><?php the_field('titleforvalueofhistory'); ?></h3>
+                        <p class="uppertextlight"><?php the_field('textforvalueofhistory'); ?></p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="upperimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/whywevaluehistory.png" alt="Value of History">
+                    <img class="upperimage" src="<?php the_field('imageforvalueofhistory'); ?>" alt="Value of History">
                 </div>
             </div>
         </div>
@@ -38,35 +38,35 @@
     <!-- Councillors -->
     <section class="container-fluid">
         <div class="custom-container">
-            <h3 class="darkh3">COUNCILLORS</h3>
+            <h3 class="darkh3"><?php the_field('titleforcouncillorssection'); ?></h3>
             <div class="d-flex justify-content-center">
                 <div class="council-section">
-                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
-                    <p class="profilename">Deborah Gare</p>
-                    <p class="profiletitle">President</p>
+                    <img class="profile" src="<?php the_field('imageforcouncillorpresident'); ?>" alt="profile">
+                    <p class="profilename"><?php the_field('nameofpresident'); ?></p>
+                    <p class="profiletitle"><?php the_field('titleforpresident'); ?></p>
                 </div>
                 <div class="council-section">
-                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
-                    <p class="profilename">Michael Nind</p>
-                    <p class="profiletitle">Vice President</p>
+                    <img class="profile" src="<?php the_field('imageforcouncillorvicepresident'); ?>" alt="profile">
+                    <p class="profilename"><?php the_field('nameofvicepresident'); ?></p>
+                    <p class="profiletitle"><?php the_field('titleforvicepresident'); ?></p>
                 </div>
                 <div class="council-section">
-                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
-                    <p class="profilename">Lorraine Clarke</p>
-                    <p class="profiletitle">Treasurer</p>
+                    <img class="profile" src="<?php the_field('imageforcouncillortreasurer'); ?>" alt="profile">
+                    <p class="profilename"><?php the_field('nameoftreasurer'); ?></p>
+                    <p class="profiletitle"><?php the_field('titlefortreasurer'); ?></p>
                 </div>
                 <div class="council-section">
-                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
-                    <p class="profilename">Sarah Fulford</p>
-                    <p class="profiletitle">Secretary</p>
+                    <img class="profile" src="<?php the_field('imageforcouncillorsecretary'); ?>" alt="profile">
+                    <p class="profilename"><?php the_field('nameofsecretary'); ?></p>
+                    <p class="profiletitle"><?php the_field('titleforsecretary'); ?></p>
                 </div>
                 <div class="council-section">
-                    <img class="profile" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/profileplaceholder.png" alt="profile">
-                    <p class="profilename">Vacant</p>
-                    <p class="profiletitle">Membership Secretary</p>
+                    <img class="profile" src="<?php the_field('imageforcouncillormembershipsecretary'); ?>" alt="profile">
+                    <p class="profilename"><?php the_field('nameofmembershipsecretary'); ?></p>
+                    <p class="profiletitle"><?php the_field('titleformembershipsecretary'); ?></p>
                 </div>
             </div>
-            <p class="committee-text">Committee: André Brett, Annemarie McLaren, Elizabeth Burns-Dans, Erica Boyne, Joseph Christensen, Justin Owen, Lucy Hair, Paul Arthur, Paul Taucher, Rosinda Seara, Samantha Owen, Shino Konishi, Sian Ferraz, Sue Lefroy, Toni Church, Vashti Fox</p>  
+            <p class="committee-text"><?php the_field('listofcommitteemembers'); ?></p>  
         </div>
     </section>
 
@@ -76,12 +76,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="sectionbglightbottom sectionlower-text">
-                        <h3 class="lowertitledark">ADVOCACY <br> WHAT WE DO</h3>
-                        <p class="lowertextdark">As the peak body representing history in Western Australia, the History Council advances the practice and place of history within all levels of the community. Through two decades of advocacy, the History Council consults and liaises with many groups and organisations on a wide variety of historical issues. Through its events, the History Council brings together those interested in the role of history within Western Australia.</p>
+                        <h3 class="lowertitledark"><?php the_field('titleforadvocacy'); ?></h3>
+                        <p class="lowertextdark"><?php the_field('textforadvocacy'); ?></p>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img class="lowerimage2" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/advocacy.png" alt="Advocacy">
+                    <img class="lowerimage2" src="<?php the_field('imageforadvocacy'); ?>" alt="Advocacy">
                 </div>
             </div>
         </div>
