@@ -784,9 +784,9 @@ h2.wp-block-heading {
 h1.search-query {
     font-size: 54px;
     padding-left: 3%;
-    color: var(--Blue);
+    color: black;
     font-family: adobe-caslon-pro, serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 h1.page-title {
     font-size: 54px;
