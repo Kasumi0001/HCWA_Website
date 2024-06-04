@@ -524,6 +524,14 @@ h5{
 }
 
 /* MEMBERSHIP - CHET */
+
+p.pmpro_level_name_text {
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .pmpro_levels_table .pmpro_btn{
     background-color: var(--Ochre);
     padding: 10px 20px;
