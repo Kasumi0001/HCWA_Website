@@ -63,7 +63,7 @@
                 <img class="liveissuesimage" src=<?php the_field('issuetwoimage'); ?> alt="woodside building"> 
             </div>
             <div class="col-sm-3 number">
-                <h5 class="liveissuesnumberlight">0<?php the_field('issuetwonumber'); ?>2</h5>
+                <h5 class="liveissuesnumberlight"><?php the_field('issuetwonumber'); ?></h5>
             </div>
         </div><!-- Row -->
     </div><!-- Container -->
