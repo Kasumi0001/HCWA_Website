@@ -1,14 +1,6 @@
-/* For extremely large monitors desktop setup */
-@media only screen and (max-width:2500px){
-    /* INDEX/HOME */
-    /* ABOUT US */
-}
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
 @media only screen and (max-width:1440px){
     /* INDEX/HOMEPAGE */
-    .charcoalbg {
-        padding-bottom: 350px;
-    }
     .lowerimage {
         margin-top: 15%;
         margin-left: -110%;
@@ -155,10 +147,6 @@
         justify-content: flex-end;
     }
 /* INDEX/HOMEPAGE */
-    .coverimage {
-        max-width: 93%;
-        padding-top: 10%;
-    }
     .custom-container{
         margin-left: 50px;
         margin-right: 50px;
@@ -173,7 +161,7 @@
     }
     .charcoalbg {
         padding-bottom: 0;  
-        height: 60%;
+        height: 45%;
     }
     .bigbutton2 {
         display: inline-block;
@@ -200,39 +188,41 @@
         bottom: 0;
     }
     .livebox{
-        margin-top: 5%;
+        margin-top: 2%;
     }
     .lowerimage {
-        margin-top: 136px;
+        margin-top: 10%;
         position: absolute;
-        width: 359px;
+        width: 100%;
         right: 95%;
     }
     .sectionbgdarkbottom {
-        height: 320px; 
-        margin-bottom: 15%;
-        margin-left: 24%;
-        margin-top: 60%;
+        width: 650px;
+        height: 70%;
+        margin-left: 20%;
+    }
+    .sectionlower-text {
+        margin-bottom: 10%;
     }
     .lowertitle {
-        margin-left: 30%;
-        margin-top: -75%;
+        margin-left: 38%;
         font-size: 40px;
+        width: 60%;
     }
     .lowertext {
         text-align: left;
         font-size: 14px;
-        margin-left: 30%;
-        padding-right: 0;
-        width: 135%;
+        margin-top: 5%;
+        margin-left: 38%;
+        width: 60%;
+        padding-bottom: 2%;
     }
     .bigbutton3 {
-        padding: 15px 60px;
-        display: inline-block;
         border-radius: 12px;
-        margin-left: 80px;
+        margin-left: 38%;
         padding-right: 20px;
         padding-left: 20px;
+        margin-bottom: 2%;
     }
     .buttontext{
         font-size: 14px;
@@ -251,12 +241,6 @@
         font-size: 14px;
         padding-bottom: 5%;
         padding-right: 80px;
-    }
-    .upperimage {
-        margin-top: 155px;
-        position: absolute;
-        width: 359px;
-        right: -31%;
     }
     .custom-container{
         margin-left: 0;
@@ -310,12 +294,12 @@
     .sectionbgdarktop{
         margin-left: 1%;
         height: 360px;
-        width: 570px;
+        width: 500px;
     }
     .upperimage {
-        margin-top: -35%;
-        width: 360px;
-        right: -42%;
+        margin-top: 15%;
+        width: 100%;
+
     }
     .lowerimage2{
         margin-left: 0;
@@ -413,10 +397,6 @@
     .liveissuesnumberlight{
         font-size: 128px;
         margin-left: -5%;
-    }
-    .smallbutton{
-        margin-top: 0;
-        margin-left: 0;
     }
     .liveissuesparagraph{
         margin-top: 10%;
