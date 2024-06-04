@@ -240,6 +240,7 @@ p{
     display: inline-block;
     border-radius: 12px;
     margin-left: 1%;
+    text-transform: uppercase;
 }
 .bigbutton1{
     background-color:var(--Ochre);
@@ -249,7 +250,7 @@ p{
     color: white;
 }
 .bigbutton2{
-    margin-left: 90px;
+    margin-left: 0%;
     background-color:var(--Ochre);
     padding: 15px 60px;
     display: inline-block;
@@ -539,6 +540,7 @@ p.pmpro_level_name_text {
     border-radius: 12px;
     color: white;
     margin-left: 28%;
+    text-transform: uppercase;
 }
 .pmpro_levels_table th:nth-child(1){
     min-width: 200px;
@@ -650,6 +652,7 @@ input#pmpro_btn-submit {
     display: inline-block;
     border-radius: 12px;
     color: white;
+    text-transform: uppercase;
 }
 .pmpro_level_description_text p {
     color: white;
@@ -681,6 +684,7 @@ h3.pmpro_member_display_name {
     display: inline-block;
     border-radius: 12px;
     color: white;
+    text-transform: uppercase;
 }
 input#wp-submit {
     margin-top: 3%;
@@ -691,6 +695,7 @@ input#wp-submit {
     border-radius: 12px;
     color: white;
     border-color: transparent;
+    text-transform: uppercase;
 }
 
 /* YOUR PROFILE */
@@ -704,6 +709,7 @@ input.pmpro_btn.pmpro_btn-submit {
     display: inline-block;
     border-radius: 12px;
     color: white;
+    text-transform: uppercase;
 }
 .pmpro_checkout_box-more-information h2 {
     color: white;
@@ -814,6 +820,7 @@ a.read-more-link {
     display: inline-block;
     border-radius: 12px;
     color: white;
+    text-transform: uppercase;
 }
 [type=search] {
     border-radius: 5px;

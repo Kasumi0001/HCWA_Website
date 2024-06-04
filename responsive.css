@@ -283,10 +283,10 @@
     }
     .uppertitlelight{
         font-size: 40px;
-        width: 300%;
+        width: 90%;
     }
     .uppertextlight{
-        width: 230%;
+        width: 85%;
         font-size: 12px;
     }
     .sectionbgdarktop{
@@ -315,10 +315,11 @@
         margin-left: -105%;
         width: 150%;
     }
-    .lowertextdark{
+    .lowertextdark {
         font-size: 12px;
-        margin-left: -20%;
-        width: 130%;
+        margin-left: 33%;
+        width: 68%;
+        margin-top: -15%;
     }
     /* WHATS ON */
     .whatsontitlelight{
@@ -681,7 +682,7 @@
     }
     .emaillink{
         text-align: center;
-        margin-left: 28%;
+        margin-left: -10%;
     }
     .contactsocials{
         margin: 0;
@@ -695,9 +696,63 @@
         margin-left: 40%;
     }
     .contacttwitter{
-        margin-left: 2%;
+        margin-left: 40%;
+        padding-top: 5%;
     }
     .contactaddress{
         margin: 0;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-description {
+        padding: 13%;
+        margin-left: -1%;
+        margin-top: -8%;
+        margin-bottom: -12%;
+    }
+    .wpforms-container .wpforms-form * {
+        word-break: break-word;
+        box-sizing: border-box;
+        margin-left: -30%;
+    }
+    div#wpforms-862-field_4-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_5-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_1-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_3-container {
+        margin-left: 30%;
+    }
+    input#wpforms-862-field_4 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_5 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_1 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_3 {
+        max-width: 90%;
+    }
+    button#wpforms-submit-862 {
+        margin-left: -50px;
+        margin-top: 5%;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-title {
+        margin-bottom: 4%;
+        line-height: 100%;
+        margin-left: -3%;
+    }
+    div#wpforms-862-field_2-container {
+        margin-left: 30%;
+    }
+    textarea#wpforms-862-field_2 {
+        padding-right: 115%;
+    }
+    .contactlanding {
+        padding-bottom: 55%;
     }
 }
