@@ -41,8 +41,8 @@
 </head>
 <body>
 <!-- Navigation and Cover Section -->
-<header>
-    <div>
+<!-- <header> -->
+    
     <nav class="navbar navbar-expand-md">
         <!-- <a class="navbar-brand" href="#" style="margin:0%;"> -->
         <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo.png" alt="HCWA Logo"></img>
@@ -82,8 +82,8 @@ wp_nav_menu( array(
                 <a class="smallbuttontext" href="http://170.187.231.66/~meshatmurdoch3/login/">Sign In</a>
             </div>
         </nav>
-    </div> <!-- container -->
+    
 
     <?php wp_head(); ?> 
 
-</header> <!-- container-fluid -->
+<!-- </header> --> <!-- container-fluid -->

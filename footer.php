@@ -51,5 +51,3 @@
     </div> <!-- container -->
 </footer> <!-- container-fluid -->
 <?php wp_footer(); ?>
-</body>
-</html>
