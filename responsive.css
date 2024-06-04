@@ -210,12 +210,10 @@
         width: 60%;
     }
     .lowertext {
-        text-align: left;
         font-size: 14px;
-        margin-top: 5%;
+        margin-top: 3%;
         margin-left: 38%;
         width: 60%;
-        padding-bottom: 2%;
     }
     .bigbutton3 {
         border-radius: 12px;
@@ -465,7 +463,7 @@
         margin-top: 25px;
     }
     .livebox{
-        margin-top: 10%;
+        margin-top: 12%;
         margin-left: -12%;
     }
     .image-livebox{
@@ -476,67 +474,73 @@
     }
     .liveissuestitle {
         font-size: 40px;
-        margin-top: 283px;
         margin-left: 5%;
     }
     .livep {
         margin-left: 5%;
         font-size: 14px;
+        padding-bottom: 2%;
     }
     .bigbuttonWH {
-        position: absolute;
-        right: -5px;
-        top: 103%;
+        margin-left: 25px;
+        margin-top: 0%;
+        margin-bottom: 2%;
     }
     .lowerimage {
-        top: -743px;
-        position: absolute;
-        width: 359px;
-        right: -5%;
+        right: 0%;
+        margin-top: -8%;
     }
     .sectionlower-text {
-        padding-right: 150%;
         padding-left: 0%;
-        margin-left: -48%;
-        margin-top: 105%;
-        height: 312px;
-        margin-bottom: 86px;
+        margin-left: -35%;
     }
     .lowertitle {
-        padding-right: 20%;
+        margin-left: 30%;
+    }
+    .lowertext{
+        margin-left: 30%;
+        padding-bottom: 1%;
     }
     .bigbutton3 {
-        margin-left: 150px;
-        margin-top: 5%;
+        margin-top: 2%;
+        margin-left: 30%;
+        margin-bottom: 0;
     }
     .sectionbglighttop {
-        width: 629px;
-        height: 440px;
-        margin-top: 91%;
-        margin-left: -54%;
-        margin-bottom: 100px;
-        padding-top: 23%;
+        margin-left: -3%;
+        margin-bottom: 0%;
     }
     .upperimage {
-        margin-top: -243%;
-        position: absolute;
-        width: 359px;
-        right: -12%;
+        width: 110%;
+        margin-left: -2%;
+        margin-top: 0;
+        margin-right: 0;
     }
-    .uppertitle {
-        text-align: left;
-        margin-left: 25%;
-        margin-top: 8%;
+    .uppertitle{
+        padding-top: 5%;
+        padding-left: 3%;
     }
     .uppertext {
-        text-align: left;
         font-size: 14px;
-        padding-bottom: 5%;
-        padding-right: 10px;
-        margin-left: 15%;
+        padding-bottom: 3%;
+        padding-left: 3%;
+    }
+    .sectionupper-text {
+        padding-left: 0%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        padding-right: 0%;
+    }
+    .bigbutton1 {
+        margin-left: 2%;
+        margin-top: 1%;
     }
     .whyhistorymattersbg{
         min-width: 510px;
+        margin-top: 70%;
+    }
+    .liveissuesimg{
+        width: 50%;
     }
     /* ABOUT US */
     /* WHATS ON */
@@ -613,7 +617,6 @@
     }
     .smallbutton{
         margin-top: 0;
-        margin-left: 0;
     }
     .liveissuesparagraph{
         margin-top: 2%;
