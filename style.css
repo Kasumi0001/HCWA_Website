@@ -656,7 +656,7 @@ input#pmpro_btn-submit {
     color: var(--Beige);
 }
 
-/* WELCOME PAGE */
+/* WELCOME PAGE - LOG IN */
 h3#post-808 {
     text-align: left;
     padding-bottom: 3%;
@@ -665,6 +665,25 @@ h3#post-808 {
 h3.pmpro_member_display_name {
     text-align: left;
     text-transform: uppercase;
+}
+.pmpro_member_log_out a {
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color: var(--Ochre);
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+}
+input#wp-submit {
+    margin-top: 3%;
+    margin-left: 0%;
+    background-color: var(--Ochre);
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 12px;
+    color: white;
+    border-color: transparent;
 }
 
 /* YOUR PROFILE */
