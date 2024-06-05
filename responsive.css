@@ -3,7 +3,8 @@
     /* INDEX/HOMEPAGE */
     .lowerimage {
         margin-top: 15%;
-        margin-left: -110%;
+        margin-left: -121%;
+        width: 108%;
     }
     .sectionupper-text {
         padding-left: 5%;
@@ -19,7 +20,22 @@
     }
     .lowertext{
         width: 80%;
+        margin-left: -17%;
     }
+    .charcoalbg {
+        height: 65%;
+    }
+    .lowertitle {
+        margin-left: -17%;
+    }
+    .bigbutton3 {
+        margin-left: -17%;
+    }
+    .upperimage_2029 {
+        padding-top: 31%;
+        margin-bottom: 5%;
+    }
+
     /* ABOUT US */
     .darkh3quote{
         margin-left: -15%;
@@ -32,21 +48,28 @@
     }
     .lowertitledark{
         font-size: 52px;
-        margin-left: 27%;
+        margin-left: 1%;
     }
     .lowertextdark{
-        margin-left: 27%;
+        margin-left: 1%;
         width: 75%;
     }
     .sectionbglightbottom{
-        margin-left: 55%;
+        margin-left: 64%;
     }
+    .lowerimage2 {
+        margin-left: -123%;
+    }
+
     /* WHATS ON */
     .awardstitle{
-        margin-left: 8%;
+        margin-left: 13%;
     }
     .awardstext{
-        margin-left: 8%;
+        margin-left: 13%;
+    }
+    .whatsontitlelight {
+        width: 72%;
     }
 }
 @media only screen and (max-width:1020px) {
@@ -59,6 +82,48 @@
         gap: 12px;
         align-items: center;
     }
+    .bigbuttonWH {
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 5px 54px;
+    }
+    .sectionlower-text {
+        margin-top: 126%;
+        margin-left: -9%;
+    }
+    .lowertitle {
+        margin-top: 12%;
+        margin-left: -11%;
+    }
+    .lowerimage {
+        margin-top: 26%;
+        width: 185%;
+    }
+    .whyhistorymatterstitle {
+        margin-left: -24%;
+    }
+    .smallbutton2 {
+        margin-left: -19%;
+    }
+    .sectionbglighttop {
+        margin-left: -15%;
+        margin-bottom: 60%;
+    }
+    .lowertext {
+        width: 80%;
+        margin-left: -11%;
+    }
+    .bigbutton3 {
+        margin-left: -11%;
+    }
+    .liveissuesimg {
+        width: 120%;
+        margin-left: -12%;
+    }
+    .charcoalbg {
+        height: 74%;
+    }
+
     /* ABOUT US */
     .aboutuscoverimage{
         width: 500px;
@@ -70,9 +135,16 @@
         font-size: 52px;
     }
     .upperimage{
-        margin-top: 30%;
+        margin-top: -110%;
         margin-right: 40%;
         width: 130%;
+        padding-top: 158%;
+    }
+    .upperimage_2029 {
+        margin-top: -110%;
+        margin-right: 40%;
+        width: 130%;
+        padding-top: 205%;
     }
     .sectionbgdarktop{
         margin-left: -15%;
@@ -94,19 +166,23 @@
         height: 350px;
         width: 700px;
         margin-left: 40%;
+        margin-top: 25%;
     }
     .lowertitledark{
         font-size: 52px;
         margin-top: 2%;
         margin-left: 22%;
+        width: 73%;
     }
     .lowertextdark{
         font-size: 14px;
         margin-left: 22%;
     }
     /* WHATS ON */
-    .whatsontitlelight{
+    .whatsontitlelight {
         font-size: 48px;
+        width: 189%;
+        margin-left: 14%;
     }
     .whatsontitledark{
         font-size: 48px;
@@ -120,18 +196,25 @@
     }
     .awardstitle{
         font-size: 48px;
-        margin-left: 10%;
+        margin-left: 15%;
     }
-    .awardstext{
+    .awardstext {
         font-size: 16px;
-        margin-left: 10%;
-        width: 110%;
+        margin-left: 15%;
+        width: 106%;
     }
     .listedawards{
         margin-top: 25%;
     }
     .awardslisttext{
         font-size: 14px;
+    }
+    /* CONTACT US */
+    .contactlanding {
+        margin-bottom: -3%;
+    }
+    form#wpforms-form-862 {
+        margin-bottom: -3%;
     }
 }
 /* Tablet size */
@@ -201,11 +284,12 @@
     }
     .sectionbgdarkbottom {
         width: 650px;
-        height: 70%;
+        height: 80%;
         margin-left: 20%;
     }
     .sectionlower-text {
         margin-bottom: 10%;
+        margin-top: 23%;
     }
     .lowertitle {
         margin-left: 38%;
@@ -233,6 +317,7 @@
         height: 310px;
         margin-top: 17%;
         margin-bottom: 100px;
+        margin-left: 5%;
     }
     .uppertitle{
         font-size: 40px;
@@ -258,6 +343,11 @@
         margin-left: 2%;
         margin-top: 20px;
     }
+    .upperimage_2029 {
+        padding-top: 160%;
+        width: 105%;
+    }
+
     /* ABOUT US */
     .aboutuscoverimage {
         width: 150%;
@@ -269,7 +359,6 @@
         padding-top: 3%;
         padding-bottom: 3%;
     }
-}
     .darkh3{
         font-size: 48px;
         margin-top: 7%;
@@ -299,19 +388,18 @@
         width: 500px;
     }
     .upperimage {
-        margin-top: 15%;
         width: 100%;
-
+        margin-top: -107%;
     }
     .lowerimage2 {
         margin-left: -109%;
-        width: 81%;
+        width: 110%;
         margin-top: -6%;
     }
     .sectionbglightbottom{
         height: 350px;
         width: 500px;
-        margin-left: 20%;
+        margin-left: 50%;
         margin-top: 5%;
     }
     .lowertitledark {
@@ -404,7 +492,7 @@
     .liveissuesparagraph{
         margin-top: 10%;
         margin-bottom: 10%;
-        width: 120%;
+        width: 100%;
     }
     .liveissuesparagraphlight{
         margin-top: 10%;
@@ -432,24 +520,25 @@
     }
     form#wpforms-form-862 {
         margin-bottom: -4%;
-    }
-}
+    }}
+    
+
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:510px){
     /* INDEX/HOMEPAGE */
     h2 {
-        margin-left: 1%;
+        margin-left: 11%;
         margin-top: -7%;
         padding-top: 15%;
     }
     h1 {
-        margin-left: 1%;
+        margin-left: 11%;
     }
     .for {
-        margin-left: 10%;
+        margin-left: 20%;
     }
     .history {
-        margin-left: 20%;
+        margin-left: 30%;
     }
     .whyhistorymatterstitle{
         text-align: left;
@@ -505,18 +594,19 @@
     }
     .sectionlower-text {
         padding-left: 0%;
-        margin-left: -35%;
+        margin-left: -22%;
+        margin-top: 45%;
     }
     .lowertitle {
-        margin-left: 30%;
+        margin-left: 20%;
     }
     .lowertext{
-        margin-left: 30%;
+        margin-left: 20%;
         padding-bottom: 1%;
     }
     .bigbutton3 {
         margin-top: 2%;
-        margin-left: 30%;
+        margin-left: 20%;
         margin-bottom: 0;
     }
     .sectionbglighttop {
@@ -526,7 +616,7 @@
     .upperimage {
         width: 110%;
         margin-left: -2%;
-        margin-top: 0;
+        margin-top: -160%;
         margin-right: 0;
     }
     .uppertitle{
@@ -537,6 +627,7 @@
         font-size: 14px;
         padding-bottom: 3%;
         padding-left: 3%;
+        max-width: 84%;
     }
     .sectionupper-text {
         padding-left: 0%;
@@ -545,25 +636,41 @@
         padding-right: 0%;
     }
     .bigbutton1 {
-        margin-left: 2%;
+        margin-left: 12%;
         margin-top: 1%;
     }
     .whyhistorymattersbg{
         min-width: 510px;
         margin-top: 70%;
     }
-    .liveissuesimg{
-        width: 50%;
+    .liveissuesimg {
+        width: 90%;
+        margin-left: 5%;
     }
+    .upperimage_2029 {
+        padding-top: 108%;
+    }
+    .charcoalbg {
+        padding-bottom: 0;
+        height: 59%;
+    }
+
     /* ABOUT US */
     .darkh3quote {
         max-width: 99%;
+        margin-left: 1%;
     }
     .uppertitlelight {
         margin-left: 3%;
     }
     .uppertextlight {
         margin-left: 3%;
+        width: 85%;
+    }
+    .lowerimage2 {
+        margin-left: -3%;
+        width: 81%;
+        margin-top: -232%;
     }
 
     /* WHATS ON */

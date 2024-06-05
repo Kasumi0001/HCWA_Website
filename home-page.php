@@ -133,7 +133,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="upperimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
+                <img class="upperimage_2029" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
             </div>
         </div>
     </div>
