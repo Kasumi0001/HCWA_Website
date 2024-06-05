@@ -456,7 +456,7 @@
         margin-top: 412px;
         width: 495px;
         margin-left: 3px;
-        margin-top: 0;
+        margin-top: 15px;
     }
     .creambg{
         background-size: cover;
@@ -544,6 +544,16 @@
         width: 50%;
     }
     /* ABOUT US */
+    .darkh3quote {
+        max-width: 99%;
+    }
+    .uppertitlelight {
+        margin-left: 3%;
+    }
+    .uppertextlight {
+        margin-left: 3%;
+    }
+
     /* WHATS ON */
     .whatsoncover{
         height: 400px;
@@ -561,12 +571,15 @@
         width: 400px;
         margin-left: 0;
     }
-    .awardstitle{
+    .awardstitle {
         text-align: center;
-        margin-left: -2%;
+        margin-left: -4%;
     }
-    .awardstext{
-        margin-left: -8%;
+    .awardstext {
+        margin-left: 6%;
+        max-width: 88%;
+        text-align: center;
+        padding-top: 5%;
     }
     .listedawards{
         margin-top: 5%;
@@ -582,10 +595,11 @@
         text-align: center;
     }
     .smallbutton4{
-        margin-bottom: 2%;
+        margin-bottom: 6%;
         margin-top: 1%;
         margin-left: 35%;
     }
+
     /* LIVE ISSUES */
     .titleliveissues{
         font-size: 40px;
@@ -677,27 +691,29 @@
         margin-left: 0;
         padding-bottom: 5%;
     }
-    .email{
-        margin-right: 0;
+    .email {
+        margin-right: -238%;
+        padding-top: 13%;
     }
     .emaillink{
         text-align: center;
-        margin-left: -10%;
+        margin-left: 87%;
     }
     .contactsocials{
         margin: 0;
         padding-bottom: 8%;
     }
     .socials{
-        margin: auto;
+        margin-left: -14%;
         text-align: center;
+        margin-top: 137%;
+        padding-bottom: 18%;
     }
     .contactfacebook{
-        margin-left: 40%;
+        margin-left: 2%;
     }
-    .contacttwitter{
-        margin-left: 40%;
-        padding-top: 5%;
+    .contacttwitter {
+        margin-left: 16%;
     }
     .contactaddress{
         margin: 0;
@@ -745,6 +761,7 @@
         margin-bottom: 4%;
         line-height: 100%;
         margin-left: -3%;
+        padding-top: 7%;
     }
     div#wpforms-862-field_2-container {
         margin-left: 30%;
@@ -753,6 +770,19 @@
         padding-right: 115%;
     }
     .contactlanding {
-        padding-bottom: 55%;
+        padding-bottom: 90%;
+        margin-bottom: -5%;
+    }
+    .address {
+        font-weight: bold;
+        text-align: center;
+        margin-top: 81%;
+        margin-left: -251%;
+    }
+    p.addresstext {
+        margin-left: -246%;
+    }
+    form#wpforms-form-862 {
+        margin-bottom: -5%;
     }
 }
