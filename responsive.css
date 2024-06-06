@@ -654,6 +654,28 @@
         padding-bottom: 0;
         height: 59%;
     }
+    input#navbar-search {
+        margin: 0 auto;
+    }
+    /* .signinbutton {
+        margin-top: 69%;
+    } */
+    .searchicon {
+        margin-top: 50%;
+    }
+
+    /* SEARCH */
+    a.read-more-link {
+        position: absolute;
+        right: 30%;
+        background-color: var(--Ochre);
+        padding: 10px 20px;
+        display: inline-block;
+        border-radius: 12px;
+        color: white;
+        text-transform: uppercase;
+        margin-top: -6%;
+    }
 
     /* ABOUT US */
     .darkh3quote {
