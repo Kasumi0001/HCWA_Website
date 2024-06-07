@@ -22,6 +22,7 @@
             </div>
             <div class="col-md-9" style="margin:auto;"> 
             <ul class="d-flex justify-content-around" style="margin:0;">
+                <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/home-page/">Home</a>
                 <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/about-us/">About Us</a>
                 <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">Live Issues</a>
                 <a class="nav-linkfooter" href="http://170.187.231.66/~meshatmurdoch3/membership-account/membership-levels/">Join Us</a>

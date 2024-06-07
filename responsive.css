@@ -526,6 +526,9 @@
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:510px){
     /* INDEX/HOMEPAGE */
+    .navbar-collapse {
+        margin-top: -7%;
+    }
     h2 {
         margin-left: 11%;
         margin-top: -7%;
@@ -657,11 +660,22 @@
     input#navbar-search {
         margin: 0 auto;
     }
-    /* .signinbutton {
-        margin-top: 69%;
-    } */
+    .signinbutton {
+        margin-top: 69.5%;
+        margin-left: -18%;
+        padding: 7px 63px;
+    }
+    .smallbuttontext {
+        font-size: 9px;
+        margin-left: -65%;
+    }
     .searchicon {
         margin-top: 50%;
+    }
+    .no-gutters {
+        margin-right: 91%;
+        margin-left: -159%;
+        margin-top: 229%;
     }
 
     /* SEARCH */
