@@ -1046,6 +1046,26 @@
     .pmpro_checkout-fields {
         width: 43%;
     }
+    p.pmpro_level_name_text {
+        color: white;
+        margin-left: -2%;
+        width: 0%;
+    }
+    input#pmpro_btn-submit {
+        width: 59%;
+    }
+    h3#post-808 {
+        font-size: 2.5em;
+    }
+    h3.pmpro_member_display_name {
+        font-size: 2.5em;
+    }
+    h3#post-808 {
+        font-size: 2.5em;
+    }
+    h3#post-801 {
+        font-size: 2.5em;
+    }
 
     /* FOOTER */
     img.footerlogo {
