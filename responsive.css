@@ -3,55 +3,123 @@
     /* INDEX/HOMEPAGE */
     .lowerimage {
         margin-top: 15%;
-        margin-left: -110%;
+        margin-left: -121%;
+        width: 108%;
     }
     .sectionupper-text {
         padding-left: 5%;
         padding-top: 5%;
         padding-bottom: 5%;
         padding-right: 65%;
+        margin-left: -7%;
     }
-    .sectionbglighttop {
-        width: 930px;
-        height: 450px;
+    .sectionbgdarktop {
+        width: 156%;
+        height: 64%;
         margin-top: 15%;
+    }
+    .lowertext {
+        width: 80%;
+        margin-left: -11%;
+    }
+    .charcoalbg {
+        height: 65%;
+    }
+    .lowertitle {
+        margin-left: -11%;
+        width: 71%;
+    }
+    .bigbutton3 {
+        margin-left: -11%;
+    }
+    .smallbutton2 {
         margin-left: 5%;
     }
-    .lowertext{
-        width: 80%;
+    .upperimage_2029 {
+        padding-top: 31%;
+        margin-bottom: 5%;
     }
+    .coverimage {
+        margin-top: -4%;
+        max-width: fit-content;
+        width: 134%;
+        margin-left: -33%;
+    }
+
     /* ABOUT US */
     .darkh3quote{
         margin-left: -15%;
     }
-    .uppertitlelight{
-        font-size: 52px;
+    .uppertitlelight {
+        font-size: 4em;
+        margin-left: 5%;
     }
-    .uppertextlight{
-        width: 450px;
+    .uppertextlight {
+        width: 111%;
+        font-size: 1em;
+        margin-left: 5%;
     }
-    .lowertitledark{
-        font-size: 52px;
-        margin-left: 27%;
+    .lowertitledark {
+        font-size: 4em;
+        margin-left: 1%;
+        width: 71%;
+        margin-top: 1%;
     }
-    .lowertextdark{
-        margin-left: 27%;
+    .lowertextdark {
+        margin-left: 1%;
         width: 75%;
+        font-size: 1em;
     }
     .sectionbglightbottom{
-        margin-left: 55%;
+        margin-left: 64%;
     }
+    .lowerimage2 {
+        margin-left: -123%;
+    }
+
     /* WHATS ON */
     .awardstitle{
-        margin-left: 8%;
+        margin-left: 13%;
     }
     .awardstext{
-        margin-left: 8%;
+        margin-left: 13%;
+    }
+    .whatsontitlelight {
+        width: 72%;
+    }
+    /* FOOTER */
+    .homefooter{
+        color: white;
+    }
+    .aboutusfooter {
+        color: white;
+    }
+    .joinusfooter{
+        color: white;
+    }
+    .whatsonfooter {
+        color: white;
+    }
+    .contactusfooter{
+        color: white;
+    }
+    .liveissuefooter{
+        color: white;
     }
 }
-@media only screen and (max-width:1020px) {
+@media only screen and (max-width:1024px) {
+    
+
     /* INDEX/HOMEPAGE */
-    .live-issues-wrap{
+    h1 {
+        font-size: 4em;
+        font-weight: bold;
+        width: 185%;
+    }
+    .liveissuestitle {
+        font-size: 3.5em;
+    }
+    .live-issues-wrap {
         margin-top: -300px;
     }
     .live-issues-wrap .row{
@@ -59,6 +127,48 @@
         gap: 12px;
         align-items: center;
     }
+    .bigbuttonWH {
+        margin-left: 15%;
+        margin-right: 15%;
+        padding: 5px 54px;
+    }
+    .sectionlower-text {
+        margin-top: 126%;
+        margin-left: -9%;
+    }
+    .lowertitle {
+        margin-top: 12%;
+        margin-left: -11%;
+    }
+    .lowerimage {
+        margin-top: 26%;
+        width: 185%;
+    }
+    .whyhistorymatterstitle {
+        margin-left: -24%;
+    }
+    .smallbutton2 {
+        margin-left: -19%;
+    }
+    .sectionbglighttop {
+        margin-left: -15%;
+        margin-bottom: 60%;
+    }
+    .lowertext {
+        width: 80%;
+        margin-left: -11%;
+    }
+    .bigbutton3 {
+        margin-left: -11%;
+    }
+    .liveissuesimg {
+        width: 120%;
+        margin-left: -12%;
+    }
+    .charcoalbg {
+        height: 74%;
+    }
+
     /* ABOUT US */
     .aboutuscoverimage{
         width: 500px;
@@ -70,9 +180,16 @@
         font-size: 52px;
     }
     .upperimage{
-        margin-top: 30%;
+        margin-top: -110%;
         margin-right: 40%;
         width: 130%;
+        padding-top: 158%;
+    }
+    .upperimage_2029 {
+        margin-top: -110%;
+        margin-right: 40%;
+        width: 130%;
+        padding-top: 205%;
     }
     .sectionbgdarktop{
         margin-left: -15%;
@@ -94,19 +211,23 @@
         height: 350px;
         width: 700px;
         margin-left: 40%;
+        margin-top: 25%;
     }
     .lowertitledark{
         font-size: 52px;
         margin-top: 2%;
         margin-left: 22%;
+        width: 73%;
     }
     .lowertextdark{
         font-size: 14px;
         margin-left: 22%;
     }
     /* WHATS ON */
-    .whatsontitlelight{
+    .whatsontitlelight {
         font-size: 48px;
+        width: 189%;
+        margin-left: 14%;
     }
     .whatsontitledark{
         font-size: 48px;
@@ -120,12 +241,12 @@
     }
     .awardstitle{
         font-size: 48px;
-        margin-left: 10%;
+        margin-left: 15%;
     }
-    .awardstext{
+    .awardstext {
         font-size: 16px;
-        margin-left: 10%;
-        width: 110%;
+        margin-left: 15%;
+        width: 106%;
     }
     .listedawards{
         margin-top: 25%;
@@ -133,9 +254,17 @@
     .awardslisttext{
         font-size: 14px;
     }
+    /* CONTACT US */
+    .contactlanding {
+        margin-bottom: -3%;
+    }
+    form#wpforms-form-862 {
+        margin-bottom: -3%;
+    }
 }
+
 /* Tablet size */
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:768px) {
     .navbar-collapse {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -170,12 +299,15 @@
         margin-top: 42px;
     }
     .bigbuttonWH {
-        margin-left: 36px;
+        margin-left: 51px;
     }
     .buttontext {
         font-size: 18px;
         font-weight: bolder;
         white-space: nowrap;
+    }
+    .smallbutton2 {
+        margin-left: 2%;
     }
     h1 {
         font-size: 60px;
@@ -198,11 +330,12 @@
     }
     .sectionbgdarkbottom {
         width: 650px;
-        height: 70%;
+        height: 80%;
         margin-left: 20%;
     }
     .sectionlower-text {
         margin-bottom: 10%;
+        margin-top: 23%;
     }
     .lowertitle {
         margin-left: 38%;
@@ -230,6 +363,7 @@
         height: 310px;
         margin-top: 17%;
         margin-bottom: 100px;
+        margin-left: 5%;
     }
     .uppertitle{
         font-size: 40px;
@@ -255,14 +389,19 @@
         margin-left: 2%;
         margin-top: 20px;
     }
-    /* ABOUT US */
-    .aboutuscoverimage{
-        width: 700px;
+    .upperimage_2029 {
+        padding-top: 160%;
+        width: 105%;
     }
-    .darkh3quote{
+
+    /* ABOUT US */
+    .aboutuscoverimage {
+        width: 150%;
+    }
+    .darkh3quote {
         font-size: 40px;
         text-align: center;
-        margin-left: 1%;
+        margin-left: -7%;
         padding-top: 3%;
         padding-bottom: 3%;
     }
@@ -283,10 +422,10 @@
     }
     .uppertitlelight{
         font-size: 40px;
-        width: 300%;
+        width: 90%;
     }
     .uppertextlight{
-        width: 230%;
+        width: 109%;
         font-size: 12px;
     }
     .sectionbgdarktop{
@@ -295,30 +434,30 @@
         width: 500px;
     }
     .upperimage {
-        margin-top: 15%;
         width: 100%;
-
+        margin-top: -107%;
     }
-    .lowerimage2{
-        margin-left: 0;
-        width: 50%;
-        margin-top: -65%;
+    .lowerimage2 {
+        margin-left: -109%;
+        width: 110%;
+        margin-top: -6%;
     }
     .sectionbglightbottom{
         height: 350px;
         width: 500px;
-        margin-left: 20%;
+        margin-left: 50%;
         margin-top: 5%;
     }
-    .lowertitledark{
+    .lowertitledark {
         font-size: 40px;
-        margin-left: -105%;
-        width: 150%;
+        margin-left: 25%;
+        width: 88%;
     }
-    .lowertextdark{
+    .lowertextdark {
         font-size: 12px;
-        margin-left: -20%;
-        width: 130%;
+        margin-left: 26%;
+        width: 68%;
+        margin-top: 0%;
     }
     /* WHATS ON */
     .whatsontitlelight{
@@ -342,17 +481,17 @@
     .awardsimg{
         height: 250px;
         width: 350px;
-        margin-left: -25%;
+        margin-left: 0%;
     }
     .awardstitle{
         font-size: 38px;
         margin-top: 15%;
         margin-left: 5%;
     }
-    .awardstext{
+    .awardstext {
         font-size: 14px;
         margin-left: 5%;
-        width: 120%;
+        width: 88%;
     }
     .listedawards{
         width: 175px;
@@ -399,12 +538,13 @@
     .liveissuesparagraph{
         margin-top: 10%;
         margin-bottom: 10%;
-        width: 120%;
+        width: 100%;
     }
     .liveissuesparagraphlight{
         margin-top: 10%;
         margin-bottom: 10%;
         width: 120%;
+        margin-left: -5%;
     }
     .pastadvocacy{
         font-size: 40px;
@@ -420,23 +560,41 @@
     .buttontext{
         font-size: 12px;
     }
-}
+    /* CONTACT US */
+    .contactlanding {
+        margin-bottom: -25px;
+    }
+    form#wpforms-form-862 {
+        margin-bottom: -4%;
+    }}
+    
+
 /* Mobile size, which is relatively larger for newer phones */
-@media only screen and (max-width:510px){
+@media only screen and (max-width:425px){
+    .hcwaicon {
+        width: 35%;
+        margin-top: 1%;
+    }
     /* INDEX/HOMEPAGE */
+    .navbar-collapse {
+        margin-top: -7%;
+    }
     h2 {
-        margin-left: 1%;
+        margin-left: 6%;
         margin-top: -7%;
         padding-top: 15%;
     }
     h1 {
-        margin-left: 1%;
+        margin-left: 5%;
+        width: 88%;
+        font-size: 3.5em;
+        line-height: 78%;
     }
     .for {
-        margin-left: 10%;
+        margin-left: 20%;
     }
     .history {
-        margin-left: 20%;
+        margin-left: 30%;
     }
     .whyhistorymatterstitle{
         text-align: left;
@@ -455,7 +613,7 @@
         margin-top: 412px;
         width: 495px;
         margin-left: 3px;
-        margin-top: 0;
+        margin-top: 15px;
     }
     .creambg{
         background-size: cover;
@@ -492,18 +650,21 @@
     }
     .sectionlower-text {
         padding-left: 0%;
-        margin-left: -35%;
+        margin-left: -22%;
+        margin-top: 53%;
     }
     .lowertitle {
-        margin-left: 30%;
+        margin-left: 18%;
+        margin-top: 2%;
     }
-    .lowertext{
-        margin-left: 30%;
+    .lowertext {
+        margin-left: 18%;
         padding-bottom: 1%;
+        width: 45%;
     }
     .bigbutton3 {
         margin-top: 2%;
-        margin-left: 30%;
+        margin-left: 18%;
         margin-bottom: 0;
     }
     .sectionbglighttop {
@@ -513,17 +674,32 @@
     .upperimage {
         width: 110%;
         margin-left: -2%;
-        margin-top: 0;
+        margin-top: -159%;
         margin-right: 0;
     }
     .uppertitle{
         padding-top: 5%;
         padding-left: 3%;
+        font-size: 2.5em;
+        margin-left: 3%;
     }
     .uppertext {
-        font-size: 14px;
+        font-size: 1em;
         padding-bottom: 3%;
         padding-left: 3%;
+        width: 65%;
+        margin-left: 3%;
+    }
+    .liveboxsubtitle {
+        font-size: 2.5em;
+        margin-left: 8%;
+    }
+    .live-issues-wrap .row {
+        margin-left: 8%;
+    }
+    .liveboxtext {
+        margin-left: 10%;
+        font-size: 1em;
     }
     .sectionupper-text {
         padding-left: 0%;
@@ -531,18 +707,111 @@
         padding-bottom: 0%;
         padding-right: 0%;
     }
+    .sectionbglighttop {
+        background-color: var(--Beige);
+        height: 106%;
+    }
     .bigbutton1 {
-        margin-left: 2%;
+        margin-left: 6%;
         margin-top: 1%;
     }
     .whyhistorymattersbg{
         min-width: 510px;
         margin-top: 70%;
     }
-    .liveissuesimg{
-        width: 50%;
+    .liveissuesimg {
+        width: 90%;
+        margin-left: 5%;
     }
+    .upperimage_2029 {
+        padding-top: 122%;
+    }
+    .sectionbglightbottom {
+        background-color: var(--Beige);
+        height: 71%;
+        margin-left: 1%;
+    }
+    .lowertitledark {
+        margin-top: 25%;
+        margin-left: 5%;
+        width: 70%;
+        font-size: 2.5em;
+    }
+    .charcoalbg {
+        padding-bottom: 0;
+        height: 59%;
+    }
+    input#navbar-search {
+        margin: 0 auto;
+    }
+    .signinbutton {
+        margin-top: 72.5%;
+        margin-left: -18%;
+        padding: 7px 63px;
+    }
+    .smallbuttontext {
+        font-size: 9px;
+        margin-left: -65%;
+    }
+    .searchicon {
+        margin-top: 50%;
+    }
+    .no-gutters {
+        margin-right: 91%;
+        margin-left: -140%;
+        margin-top: 229%;
+    }
+
+    /* SEARCH */
+    a.read-more-link {
+        position: absolute;
+        right: 30%;
+        background-color: var(--Ochre);
+        padding: 10px 20px;
+        display: inline-block;
+        border-radius: 12px;
+        color: white;
+        text-transform: uppercase;
+        margin-top: -6%;
+    }
+
     /* ABOUT US */
+    .darkh3quote {
+        max-width: 99%;
+        margin-left: 1%;
+    }
+    .uppertextlight {
+        margin-left: 3%;
+        width: 64%;
+    }
+    .uppertextlight {
+        margin-left: 29%;
+        width: 58%;
+        font-size: 1em;
+    }
+    .lowerimage2 {
+        margin-left: -3%;
+        width: 110%;
+        margin-top: -355%;
+    }
+    .uppertitlelight {
+        font-size: 2.5em;
+        width: 90%;
+        padding-top: 5%;
+        margin-left: 29%;
+    }
+    .lowertextdark {
+        font-size: 1em;
+        margin-left: 7%;
+        width: 68%;
+        margin-top: 0%;
+    }
+    .sectionbgdarktop {
+        background-color: var(--LighterBlack);
+        height: 94%;
+        margin-left: -38%;
+    }
+
     /* WHATS ON */
     .whatsoncover{
         height: 400px;
@@ -550,22 +819,41 @@
     }
     .whatsontitlelight{
         margin-top: 5%;
+        font-size: 2.5em;
     }
-    .annuallectureimg{
-        margin-left: 10%;
-        width: 400px;
+    .whatsontextlight {
+        font-size: 1em;
+    }
+    .annuallectureimg {
+        margin-left: 0%;
+        width: 102%;
         margin-top: 5%;
+    }
+    .whatsontitledark {
+        font-size: 2.5em;
+    }
+    .whatsontitledark {
+        font-size: 2.5em;
+        width: 73%;
+        margin-left: 15%;
+    }
+    .whatsontextdark {
+        font-size: 1em;
     }
     .awardsimg{
         width: 400px;
         margin-left: 0;
+        margin-top: -11%;
     }
-    .awardstitle{
+    .awardstitle {
         text-align: center;
-        margin-left: -2%;
+        margin-left: -4%;
     }
-    .awardstext{
-        margin-left: -8%;
+    .awardstext {
+        margin-left: 6%;
+        max-width: 88%;
+        text-align: center;
+        padding-top: 5%;
     }
     .listedawards{
         margin-top: 5%;
@@ -581,19 +869,22 @@
         text-align: center;
     }
     .smallbutton4{
-        margin-bottom: 2%;
+        margin-bottom: 6%;
         margin-top: 1%;
         margin-left: 35%;
     }
+
     /* LIVE ISSUES */
     .titleliveissues{
-        font-size: 40px;
+        font-size: 2.5em;
         margin-top: 0;
         margin-bottom: 0;
+        margin-left: 1%;
     }
     p{
-        font-size: 12px;
+        font-size: 1em;
         padding-bottom: 5%;
+        margin-top: 5%;
     }
     .image1{
         padding-bottom: 40px;
@@ -602,11 +893,14 @@
     .articletitles{
         margin-top: 5%;
         margin-bottom: 2%;
+        font-size: 2.5em;
+        margin-left: 5%;
     }
     .articletitleslight{
         margin-top: 5%;
         margin-bottom: 2%;
-        margin-left: 0%;
+        margin-left: 4%;
+        font-size: 2.5em;
     }
     .liveissuesnumber{
         margin-left: -5%;
@@ -623,16 +917,19 @@
         margin-bottom: 5%;
         width: 100%;
         padding-bottom: 0;
+        margin-left: 5%;
     }
     .liveissuesparagraphlight{
         margin-top: 2%;
         margin-bottom: 5%;
         width: 100%;
         padding-bottom: 0;
+        font-size: 1em;
+        margin-left: 4%;
     }
     .pastadvocacy{
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 2.5em;
+        margin-left: 0%;
     }
     .bigbutton2{
         margin-top: 0;
@@ -657,6 +954,9 @@
     .information{
         order: 3;
     }
+    .liveissuesparagraph {
+        font-size: 1em;
+    }
     /* CONTACT US */
     .contacttitle{
         margin: 0;
@@ -665,39 +965,470 @@
         margin-left: 0;
         margin-top: 0;
     }
-    .contacttitle{
-        font-size: 58px;
+    .contacttitle {
+        font-size: 2.5em;
         text-align: center;
-        margin-left: 0;
-        line-height: normal;
+        margin-left: 7%;
+        margin-bottom: 5%;
     }
     .contactemail{
         margin-right: 0;
         margin-left: 0;
         padding-bottom: 5%;
     }
-    .email{
-        margin-right: 0;
+    .email {
+        margin-right: -238%;
+        padding-top: 13%;
     }
     .emaillink{
         text-align: center;
-        margin-left: 28%;
+        margin-left: 87%;
     }
     .contactsocials{
         margin: 0;
         padding-bottom: 8%;
     }
     .socials{
-        margin: auto;
+        margin-left: -14%;
         text-align: center;
+        margin-top: 137%;
+        padding-bottom: 18%;
     }
     .contactfacebook{
-        margin-left: 40%;
-    }
-    .contacttwitter{
         margin-left: 2%;
+    }
+    .contacttwitter {
+        margin-left: 49%;
+        margin-top: -66%;
     }
     .contactaddress{
         margin: 0;
+    }
+    span.wpforms-required-label {
+        position: relative;
+        right: -32%;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-description {
+        padding: 13%;
+        margin-left: -1%;
+        margin-top: -8%;
+        margin-bottom: -12%;
+    }
+    .wpforms-container .wpforms-form * {
+        word-break: break-word;
+        box-sizing: border-box;
+        margin-left: -30%;
+    }
+    div#wpforms-862-field_4-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_5-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_1-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_3-container {
+        margin-left: 30%;
+    }
+    input#wpforms-862-field_4 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_5 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_1 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_3 {
+        max-width: 90%;
+    }
+    button#wpforms-submit-862 {
+        margin-left: -50px;
+        margin-top: 5%;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-title {
+        margin-bottom: 4%;
+        line-height: 100%;
+        margin-left: 21%;
+        padding-top: 7%;
+        font-size: 2.5em;
+        width: 57%;
+    }
+    div#wpforms-862-field_2-container {
+        margin-left: 30%;
+    }
+    textarea#wpforms-862-field_2 {
+        padding-right: 115%;
+    }
+    .contactlanding {
+        padding-bottom: 90%;
+        margin-bottom: -5%;
+    }
+    .address {
+        font-weight: bold;
+        text-align: center;
+        margin-top: 81%;
+        margin-left: -251%;
+    }
+    p.addresstext {
+        margin-left: -246%;
+    }
+    form#wpforms-form-862 {
+        margin-bottom: -7%;
+        margin-top: -8%;
+    }
+    /* JOIN US */
+    .pmpro_levels_table .pmpro_btn {
+        margin-left: -3%;
+    }
+    .membershipP {
+        width: 88%;
+    }
+    h3#post-807 {
+        font-size: 2.5em;
+    }
+    .pmpro_checkout_box-more-information h2 {
+        margin-left: 0%;
+    }
+    h3#post-809 {
+        font-size: 2.5em;
+    }
+    input.pmpro_btn.pmpro_btn-submit {
+        margin-top: -114%;
+    }
+    input.pmpro_btn.pmpro_btn-cancel {
+        margin-top: -49%;
+    }
+    .pmpro_confirmation_wrap p {
+        width: 86%;
+    }
+    li {
+        width: 62%;
+    }
+    h3#post-805 {
+        font-size: 2.5em;
+    }
+    h3#post-804 {
+        font-size: 2.5em;
+        width: 20%;
+    }
+    .pmpro_checkout h2 span.pmpro_checkout-h2-name {
+        font-size: 1.5em;
+        width: 5%;
+    }
+    .pmpro_message {
+        width: 57%;
+    }
+    .pmpro_checkout-fields {
+        width: 43%;
+    }
+    p.pmpro_level_name_text {
+        color: white;
+        margin-left: -2%;
+        width: 0%;
+    }
+    input#pmpro_btn-submit {
+        width: 59%;
+    }
+    h3#post-808 {
+        font-size: 2.5em;
+    }
+    h3.pmpro_member_display_name {
+        font-size: 2.5em;
+    }
+    h3#post-808 {
+        font-size: 2.5em;
+    }
+    h3#post-801 {
+        font-size: 2.5em;
+    }
+
+    /* FOOTER */
+    img.footerlogo {
+        margin-top: 7%;
+        margin-left: 27%;
+    }
+    .followus {
+        margin-left: 41%;
+    }
+    img.facebookicon {
+        margin-left: 36%;
+        margin-top: -12%;
+    }
+    img.xtwittericon {
+        margin-top: -12%;
+        color: white;
+    }
+    .homefooter{
+        color: white;
+        position: absolute;
+        left: 43%;
+    }
+    .aboutusfooter {
+        color: white;
+        margin-top: 10%;
+        position: absolute;
+        left: 41%;
+    }
+    .joinusfooter{
+        color: white;
+        margin-top: 30%;
+        position: absolute;
+        left: 42.5%;
+    }
+    .whatsonfooter {
+        color: white;
+        margin-top: 40%;
+        position: absolute;
+        left: 40%;
+    }
+    .contactusfooter{
+        color: white;
+        margin-top: 50%;
+        position: absolute;
+        left: 40%;
+    }
+    .liveissuefooter{
+        color: white;
+        margin-top: 20%;
+        position: absolute;
+        left: 40%;
+    }
+    .footerbg {
+        height: 43%;
+    }
+    hr {
+        margin-top: 67%;
+    }
+
+}
+@media only screen and (max-width:375px){
+
+}
+@media only screen and (max-width:320px){
+    /* HOME */
+    h2 {
+        font-size: 1.5em;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .bigbuttonWH {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .livebox {
+        margin-top: 64%;
+        width: 109%;
+    }
+    .charcoalbg {
+        height: 43%;
+    }
+    .liveboxsubtitle {
+        font-size: 2.5em;
+        margin-left: -5%;
+    }
+    .liveboxtext {
+        margin-left: -2%;
+        font-size: 1em;
+        width: 110%;
+    }
+    .lowertitle {
+        margin-left: 9%;
+    }
+    .lowertext {
+        margin-left: 9%;
+        width: 41%;
+    }
+    .bigbutton3 {
+        margin-left: 9%;
+    }
+    .whyhistorymatterstitle {
+        font-size: 2.5em;
+        width: 5%;
+    }
+    .uppertitle {
+        font-size: 2em;
+        margin-left: -1%;
+    }
+    .uppertext {
+        width: 56%;
+        margin-left: -1%;
+    }
+    .bigbutton1 {
+        margin-left: 2%;
+    }
+
+    /* SEARCH */
+    .no-gutters {
+        margin-right: 80%;
+        margin-left: -113%;
+        margin-top: 307%;
+    }
+    .smallbuttontext {
+        font-size: 1em;
+        margin-left: -185%;
+    }
+    .signinbutton {
+        margin-top: 103.5%;
+        margin-left: -20%;
+        padding-right: 2%;
+    }
+
+    /* ABOUT US */
+    .uppertitlelight {
+        font-size: 2em;
+        width: 72%;
+        padding-top: 5%;
+        margin-left: 19%;
+    }
+    .uppertextlight {
+        margin-left: 19%;
+        width: 51%;
+        font-size: 1em;
+    }
+    .lowertitledark {
+        margin-top: 25%;
+        margin-left: 5%;
+        width: 56%;
+        font-size: 2em;
+    }
+    .lowertextdark {
+        font-size: 1em;
+        margin-left: 5%;
+        width: 48%;
+        margin-top: 0%;
+    }
+    .lowerimage2 {
+        margin-top: -553%;
+        margin-left: -7%;
+    }
+    .sectionbglightbottom {
+        height: 80%;
+    }
+    
+
+    /* WHATS ON */
+    .whatsontitlelight {
+        margin-top: 5%;
+        font-size: 2em;
+        margin-left: 8%;
+    }
+    .whatsontextlight {
+        font-size: 1em;
+        margin-left: 9%;
+    }
+    .whatsontitledark {
+        font-size: 2em;
+        width: 89%;
+        margin-left: 9%;
+    }
+    .whatsontextdark {
+        margin-left: 9%;
+    }
+    .titleliveissues {
+        font-size: 2em;
+    }
+    p {
+        padding-top: 5%;
+    }
+    .liveissuesparagraphlight {
+        width: 97%;
+    }
+    .liveissuesparagraph {
+        width: 93%;
+    }
+
+    /* LIVE ISSUES */
+    .articletitleslight {
+        font-size: 2em;
+    }
+    .articletitles {
+        font-size: 2em;
+    }
+    .pastadvocacy {
+        font-size: 2em;
+        margin-left: -2%;
+    }
+    p {
+        padding-top: 5%;
+        margin-left: -2%;
+    }
+
+    /* JOIN US */
+    h3#post-807 {
+        margin-left: -7%;
+    }
+    h3#post-805 {
+        margin-left: -3%;
+    }
+
+    /* CONTACT US */
+    div.wpforms-container-full .wpforms-form .wpforms-title {
+        margin-left: 13%;
+        width: 73%;
+    }
+    .contactlanding {
+        padding-bottom: 116%;
+    }
+    .emaillink {
+        text-align: center;
+        margin-left: 31%;
+    }
+    .email {
+        margin-right: -270%;
+    }
+    .address {
+        margin-top: 101%;
+        margin-left: -292%;
+    }
+    p.addresstext {
+        margin-left: -297%;
+    }
+    .socials {
+        margin-top: 191%;
+    }
+    .contactfacebook {
+        margin-left: -22%;
+    }
+    .contacttwitter {
+        margin-left: 49%;
+        margin-top: -98%;
+    }
+    .contacttitle {
+        width: 111%;
+        margin-bottom: 5%;
+        margin-left: -6%;
+    }
+
+    /* FOOTER */
+    .followus {
+        margin-left: 35%;
+    }
+    .homefooter {
+        left: 41%;
+    }
+    .aboutusfooter {
+        left: 38%;
+    }
+    .liveissuefooter {
+        left: 37%;
+    }
+    .joinusfooter {
+        left: 40.5%;
+    }
+    .whatsonfooter {
+        left: 37%;
+    }
+    .contactusfooter {
+        left: 37%;
+    }
+    form#wpforms-form-862 {
+        margin-bottom: -9%;
+        margin-top: -9%;
+    }
+    .footerbg {
+        height: 39%;
     }
 }

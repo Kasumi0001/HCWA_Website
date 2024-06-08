@@ -27,8 +27,7 @@
         <div class="col-md-6">
             <h3 class="whatsontitledark">ANNUAL LECTURE 2024</h3>
             <p class="whatsontextdark">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
-            <a class="smallbutton3" href="#">
-                <p class="smallbuttontext">LEARN MORE</p>
+
             </a>
         </div>
         <div class="col-md-6">

@@ -10,10 +10,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="covertitle-container">
-                    <h2>PROVIDING</h2>
-                    <h1>A VOICE </h1>
-                    <h1 class="for">FOR</h1>
-                    <h1 class="history">HISTORY</h1>
+                    <h2>WELCOME TO</h2>
+                    <h1>THE HISTORY COUNCIL OF WESTERN AUSTRALIA</h1>
                     <a class="bigbutton1" href="http://170.187.231.66/~meshatmurdoch3/about-us/">
                         <p class="buttontext">ABOUT US</p>
                     </a>
@@ -133,7 +131,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="upperimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
+                <img class="upperimage_2029" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
             </div>
         </div>
     </div>

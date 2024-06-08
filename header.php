@@ -46,7 +46,7 @@
     <nav class="navbar navbar-expand-md">
         <!-- <a class="navbar-brand" href="#" style="margin:0%;"> -->
 
-        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo.png" alt="HCWA Logo"></img>
+        <img class="hcwaicon" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo.png" alt="HCWA Logo"></img>
        
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -57,10 +57,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-        
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">   
       
-        <?php 
-
+<?php 
 wp_nav_menu( array(
   'theme_location'  => 'primary',
   'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
@@ -71,24 +70,28 @@ wp_nav_menu( array(
   'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
   'walker'          => new WP_Bootstrap_Navwalker(),
 ) );
-
 ?>
 
             
-            <!-- Search Bar and buttons NOTE: This might be removed due to able to set up in wordpress rather manually-->
-            <form method="get" class="form-inline" role="search" action="<?php echo esc_url(home_url('/')); ?>">
-
+        <form method="get" class="navbar-form search-container" role="search" action="<?php echo esc_url(home_url('/')); ?>">
             <label for="navbar-search" class="sr-only"><?php _e('Search', 'textdomain'); ?></label>
+            <div class="row no-gutters">
+                <div class="col">
+                    <input type="text" class="form-control border-secondary border-right-0 rounded-0" name="s" id="navbar-search" placeholder="<?php _e('Search', 'textdomain'); ?>">
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right" aria-label="search"type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </form>
 
-                <input class="form-control mr-sm-2" name="s" id="navbar-search" placeholder="<?php _e('Search', 'textdomain'); ?>">
-                <a href="#">
-                <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/searchicon.png" alt="searchicon">
-                </a>
-            </form>
             <!-- Note: Might be removed as the pro subscription plugin inserts their own button we just hack its CSS for -->
             <div class="signinbutton"> 
                 <a class="smallbuttontext" href="http://170.187.231.66/~meshatmurdoch3/login/">Sign In</a>
             </div>
+</div>
         </nav>
     
 
