@@ -344,12 +344,13 @@
         margin-right: 50px;
     }
     .liveissuestitle {
-        font-size: 40px;
-        margin-top: 35px;
+        font-size: 2em;
+        margin-top: 9%;
+        margin-left: 11%;
     }
     .livep {
-        margin-left: 15%;
-        font-size: 14px;
+        margin-left: 11%;
+        font-size: 1em;
     }
     .charcoalbg {
         padding-bottom: 0;  
@@ -467,15 +468,9 @@
     .aboutuscoverimage {
         width: 150%;
     }
-    .darkh3quote {
-        font-size: 40px;
-        text-align: center;
-        margin-left: -7%;
-        padding-top: 3%;
-        padding-bottom: 3%;
-    }
+    
     .darkh3{
-        font-size: 48px;
+        font-size: 3em;
         margin-top: 7%;
     }
     .profilename{
@@ -489,22 +484,23 @@
         width: 100%;
         margin-left: 2%;
     }
-    .uppertitlelight{
-        font-size: 40px;
-        width: 90%;
+    .uppertitlelight {
+        font-size: 2em;
+        width: 123%;
+        padding-bottom: 3%;
     }
     .uppertextlight{
-        width: 109%;
-        font-size: 12px;
+        width: 96%;
+        font-size: 1em;
     }
-    .sectionbgdarktop{
+    .sectionbgdarktop {
         margin-left: 1%;
-        height: 360px;
-        width: 500px;
+        height: 77%;
+        width: 167%;
     }
     .upperimage {
         width: 100%;
-        margin-top: -97%;
+        margin-top: -88%;
     }
     .lowerimage2 {
         margin-left: -109%;
@@ -512,7 +508,7 @@
         margin-top: -6%;
     }
     .sectionbglightbottom {
-        height: 88%;
+        height: 89%;
         width: 157%;
         margin-left: 50%;
         margin-top: 5%;
@@ -523,26 +519,30 @@
         width: 88%;
     }
     .lowertextdark {
-        font-size: 12px;
+        font-size: 1em;
         margin-left: 26%;
         width: 68%;
         margin-top: 0%;
     }
+    .awardsubtitle {
+        font-size: 1.5em;
+    }
+
     /* WHATS ON */
     .whatsontitlelight{
-        font-size: 40px;
+        font-size: 2em;
     }
     .whatsontextlight{
-        font-size: 16px;
+        font-size: 1em;
     }
     .whatsoncover{
         height: 400px;
     }
     .whatsontitledark{
-        font-size: 38px;
+        font-size: 2em;
     }
     .whatsontextdark{
-        font-size: 14px;
+        font-size: 1em;
     }
     .annuallectureimg{
         height: 242px;
@@ -553,12 +553,12 @@
         margin-left: 0%;
     }
     .awardstitle{
-        font-size: 38px;
+        font-size: 2em;
         margin-top: 15%;
         margin-left: 5%;
     }
     .awardstext {
-        font-size: 14px;
+        font-size: 1em;
         margin-left: 5%;
         width: 88%;
     }
@@ -572,25 +572,30 @@
         font-size: 9px;
     }
     /* LIVE ISSUES */
+    .liveissuesimage {
+        width: 100%;
+        height: auto;
+        margin-left: 7%;
+    }
     .titleliveissues{
-        font-size: 40px;
+        font-size: 2em;
         margin-top: 0;
         margin-bottom: 0;
     }
     p{
-        font-size: 12px;
+        font-size: 1em;
     }
     .image1{
         padding-bottom: 40px;
         padding-top: 2%;
     }
     .articletitles{
-        font-size: 28px;
+        font-size: 2em;
         margin-top: 10%;
         margin-bottom: 5%;
     }
     .articletitleslight{
-        font-size: 28px;
+        font-size: 2em;
         margin-top: 10%;
         margin-bottom: 5%;
         margin-left: -10%;
@@ -608,6 +613,7 @@
         margin-top: 10%;
         margin-bottom: 10%;
         width: 100%;
+        font-size: 1em;
     }
     .liveissuesparagraphlight{
         margin-top: 10%;
@@ -623,7 +629,7 @@
         margin-top: 10px;
     }
     .image2{
-        padding-top: 10%;
+        padding-top: 12%;
         padding-bottom: 10%;
     }
     .buttontext{
@@ -635,7 +641,40 @@
     }
     form#wpforms-form-862 {
         margin-bottom: -4%;
-    }}
+    }
+    
+    /* JOIN US */
+    h3#post-807 {
+        font-size: 3.5em;
+    }
+    h3#post-809 {
+        font-size: 3.5em;
+    }
+    input.pmpro_btn.pmpro_btn-submit {
+        width: 50%;
+    }
+    input.pmpro_btn.pmpro_btn-cancel {
+        text-align: left;
+        margin-left: -2%;
+    }
+    h3#post-805 {
+        font-size: 3.5em;
+    }
+    .contacttitle {
+        font-size: 2em;
+        margin-left: 37%;
+    }
+
+    /* FOOTER */
+    img.footerlogo {
+        width: 112%;
+    }
+    img.facebookicon {
+        width: 20%;
+        margin-left: 3%;
+    }
+
+}
     
 
 /* Mobile size, which is relatively larger for newer phones */
