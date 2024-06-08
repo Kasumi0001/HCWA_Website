@@ -242,33 +242,50 @@ p{
     margin-top: 1%;
 }
 /* Buttons */
+
 .buttontext{    
-    color: white;
-    font-size: 24px;
+    font-size: 1em;
     font-weight: bolder;
 }
 .smallbuttontext{
-    color: white;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bolder;
 }
 .signinbutton{
-    background-color:var(--Blue);
-    font-weight: 500;
+    background-color:var(--Ochre);
+    color: white;
+    font-weight: 400;
     text-align: center;
-    font-size: 14px;
-    padding: 10px 40px;
+    font-size: 0.875em;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     margin-left: 1%;
     text-transform: uppercase;
 }
+.signinbutton:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
+}
 .bigbutton1{
     background-color:var(--Ochre);
-    padding: 15px 60px;
-    display: inline-block;
-    border-radius: 12px;
+    display:inline-block;
+    padding: 0.625em 2.5em;
+    margin:0.3em 0.3em;
+    border-radius: 0.75em;
+    text-decoration:none;
+    box-sizing: border-box;
+    text-align:center;
+    transition: all 0.2s;
     color: white;
+}
+.bigbutton1:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .bigbutton2{
     margin-left: 0%;
