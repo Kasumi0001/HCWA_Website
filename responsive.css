@@ -832,7 +832,7 @@
         margin-left: 5%;
     }
     .upperimage_2029 {
-        padding-top: 122%;
+        padding-top: 155%;
     }
     .sectionbglightbottom {
         background-color: var(--Beige);
@@ -1255,18 +1255,22 @@
     /* FOOTER */
     img.footerlogo {
         margin-top: 7%;
-        margin-left: 27%;
+        margin-left: 22%;
+        width: 57%;
     }
     .followus {
-        margin-left: 41%;
+        margin-left: 38%;
+        margin-top: 1%;
     }
     img.facebookicon {
-        margin-left: 36%;
-        margin-top: -12%;
+        margin-left: 32%;
+        margin-top: -7%;
+        width: 15%;
     }
     img.xtwittericon {
-        margin-top: -12%;
+        margin-top: -7%;
         color: white;
+        width: 15%;
     }
     .homefooter{
         color: white;
@@ -1304,7 +1308,7 @@
         left: 40%;
     }
     .footerbg {
-        height: 43%;
+        height: 50%;
     }
     hr {
         margin-top: 67%;
@@ -1554,6 +1558,17 @@
         margin-top: 7%;
         margin-left: 17%;
         width: 68%;
+    }
+    /* SEARCH */
+    h1.page-title {
+        font-size: 2em;
+        padding-top: 15%;
+        margin-left: -18%;
+    }
+    h1.search-query {
+        padding-left: 25%;
+        margin-top: -18%;
+        font-size: 2em;
     }
 
 }
