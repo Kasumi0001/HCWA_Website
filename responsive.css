@@ -514,9 +514,9 @@
         margin-top: 5%;
     }
     .lowertitledark {
-        font-size: 40px;
+        font-size: 2em;
         margin-left: 25%;
-        width: 88%;
+        width: 59%;
     }
     .lowertextdark {
         font-size: 1em;
@@ -529,8 +529,9 @@
     }
 
     /* WHATS ON */
-    .whatsontitlelight{
+    .whatsontitlelight {
         font-size: 2em;
+        width: 79%;
     }
     .whatsontextlight{
         font-size: 1em;
@@ -621,9 +622,8 @@
         width: 120%;
         margin-left: -5%;
     }
-    .pastadvocacy{
-        font-size: 40px;
-        line-height: 40px;
+    .pastadvocacy {
+        font-size: 2em;
     }
     .bigbutton2{
         margin-top: 10px;
@@ -645,10 +645,10 @@
     
     /* JOIN US */
     h3#post-807 {
-        font-size: 3.5em;
+        font-size: 2em;
     }
     h3#post-809 {
-        font-size: 3.5em;
+        font-size: 2em;
     }
     input.pmpro_btn.pmpro_btn-submit {
         width: 50%;
@@ -658,11 +658,20 @@
         margin-left: -2%;
     }
     h3#post-805 {
-        font-size: 3.5em;
+        font-size: 2em;
     }
     .contacttitle {
         font-size: 2em;
-        margin-left: 37%;
+        margin-left: 15%;
+    }
+    h3#post-804 {
+        font-size: 2em;
+    }
+    .pmpro_checkout h2 span.pmpro_checkout-h2-name {
+        font-size: 1em;
+    }
+    input#pmpro_btn-submit {
+        width: 38%;
     }
 
     /* FOOTER */
@@ -704,10 +713,11 @@
     .history {
         margin-left: 30%;
     }
-    .whyhistorymatterstitle{
+    .whyhistorymatterstitle {
         text-align: left;
-        margin-left: 2%;
+        margin-left: -10%;
         margin-top: 20px;
+        font-size: 2em;
     }
     .bigbutton1 {
         margin-left: 20%;
@@ -739,7 +749,7 @@
         bottom: 0;
     }
     .liveissuestitle {
-        font-size: 40px;
+        font-size: 2em;
         margin-left: 5%;
     }
     .livep {
@@ -762,11 +772,11 @@
         margin-top: 53%;
     }
     .lowertitle {
-        margin-left: 18%;
+        margin-left: 16%;
         margin-top: 2%;
     }
     .lowertext {
-        margin-left: 18%;
+        margin-left: 16%;
         padding-bottom: 1%;
         width: 45%;
     }
@@ -785,21 +795,22 @@
         margin-top: -159%;
         margin-right: 0;
     }
-    .uppertitle{
+    .uppertitle {
         padding-top: 5%;
         padding-left: 3%;
-        font-size: 2.5em;
-        margin-left: 3%;
+        font-size: 2em;
+        margin-left: 2%;
     }
     .uppertext {
         font-size: 1em;
         padding-bottom: 3%;
         padding-left: 3%;
-        width: 65%;
-        margin-left: 3%;
+        width: 62%;
+        margin-left: 2%;
+        margin-top: 1%;
     }
     .liveboxsubtitle {
-        font-size: 2.5em;
+        font-size: 2em;
         margin-left: 8%;
     }
     .live-issues-wrap .row {
@@ -892,32 +903,30 @@
         margin-left: 3%;
         width: 64%;
     }
+    .sectionbgdarktop {
+        height: 96%;
+    }
     .uppertextlight {
-        margin-left: 29%;
-        width: 58%;
+        margin-left: 7%;
+        width: 54%;
         font-size: 1em;
+        margin-top: 0%;
     }
     .lowerimage2 {
         margin-left: -3%;
         width: 110%;
-        margin-top: -355%;
+        margin-top: -327%;
     }
     .uppertitlelight {
         font-size: 2.5em;
-        width: 90%;
+        width: 66%;
         padding-top: 5%;
-        margin-left: 29%;
+        margin-left: 7%;
     }
     .lowertextdark {
         font-size: 1em;
-        margin-left: 7%;
-        width: 68%;
-        margin-top: 0%;
-    }
-    .sectionbgdarktop {
-        background-color: var(--LighterBlack);
-        height: 94%;
-        margin-left: -38%;
+        margin-left: 6%;
+        width: 56%;
     }
 
     /* WHATS ON */
@@ -925,9 +934,10 @@
         height: 400px;
         margin-top: 5%;
     }
-    .whatsontitlelight{
+    .whatsontitlelight {
         margin-top: 5%;
-        font-size: 2.5em;
+        font-size: 2em;
+        width: 61%;
     }
     .whatsontextlight {
         font-size: 1em;
@@ -941,8 +951,8 @@
         font-size: 2.5em;
     }
     .whatsontitledark {
-        font-size: 2.5em;
-        width: 73%;
+        font-size: 2em;
+        width: 62%;
         margin-left: 15%;
     }
     .whatsontextdark {
@@ -998,17 +1008,17 @@
         padding-bottom: 40px;
         padding-top: 2%;
     }
-    .articletitles{
+    .articletitles {
         margin-top: 5%;
         margin-bottom: 2%;
-        font-size: 2.5em;
+        font-size: 2em;
         margin-left: 5%;
     }
-    .articletitleslight{
+    .articletitleslight {
         margin-top: 5%;
         margin-bottom: 2%;
         margin-left: 4%;
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .liveissuesnumber{
         margin-left: -5%;
@@ -1035,8 +1045,8 @@
         font-size: 1em;
         margin-left: 4%;
     }
-    .pastadvocacy{
-        font-size: 2.5em;
+    .pastadvocacy {
+        font-size: 2em;
         margin-left: 0%;
     }
     .bigbutton2{
@@ -1064,6 +1074,7 @@
     }
     .liveissuesparagraph {
         font-size: 1em;
+        width: 92%;
     }
     /* CONTACT US */
     .contacttitle{
@@ -1107,7 +1118,7 @@
     }
     .contacttwitter {
         margin-left: 49%;
-        margin-top: -66%;
+        margin-top: -60%;
     }
     .contactaddress{
         margin: 0;
@@ -1235,6 +1246,7 @@
         color: white;
         margin-left: -2%;
         width: 0%;
+        font-size: 0.9em;
     }
     input#pmpro_btn-submit {
         width: 59%;
@@ -1313,11 +1325,18 @@
     hr {
         margin-top: 67%;
     }
+    /* SEARCH */
+    h1.page-title {
+        padding-top: 15%;
+        margin-left: -6%;
+    }
+    h1.search-query {
+        padding-left: 34%;
+        margin-top: -15%;
+    }
 
 }
-@media only screen and (max-width:375px){
 
-}
 @media only screen and (max-width:320px){
     /* HOME */
     h2 {
@@ -1351,28 +1370,29 @@
     }
     .lowertext {
         margin-left: 15%;
-        width: 41%;
+        width: 51%;
     }
     .bigbutton3 {
         margin-left: 9%;
     }
     .whyhistorymatterstitle {
-        font-size: 2.5em;
-        width: 5%;
+        font-size: 2em;
+        width: 71%;
+        margin-left: -5%;
     }
     .uppertitle {
         font-size: 2em;
         margin-left: 1%;
     }
     .uppertext {
-        width: 56%;
+        width: 66%;
         margin-left: 1%;
         margin-top: 0%;
     }
     .bigbutton1 {
         margin-left: 2%;
     }
-    
+
     /* SEARCH */
     .no-gutters {
         margin-right: 80%;
@@ -1394,12 +1414,13 @@
         font-size: 2em;
         width: 72%;
         padding-top: 5%;
-        margin-left: 19%;
+        margin-left: 24%;
     }
     .uppertextlight {
-        margin-left: 19%;
+        margin-left: 24%;
         width: 51%;
         font-size: 1em;
+        margin-top: -4%;
     }
     .lowertitledark {
         margin-top: 25%;
@@ -1476,6 +1497,28 @@
     h3#post-805 {
         margin-left: -3%;
     }
+    .pmpro_checkout_box-more-information h2 {
+        margin-left: 0%;
+        font-size: 2em;
+    }
+    h3#post-809 {
+        font-size: 2em;
+    }
+    h3#post-805 {
+        font-size: 2em;
+    }
+    h3#post-804 {
+        font-size: 2em;
+    }
+    .pmpro_checkout h2 span.pmpro_checkout-h2-msg {
+        width: 54%;
+    }
+    p.pmpro_level_name_text {
+        color: white;
+        margin-left: -2%;
+        width: 0%;
+        font-size: 0.67em;
+    }
 
     /* CONTACT US */
     div.wpforms-container-full .wpforms-form .wpforms-title {
@@ -1507,7 +1550,7 @@
     }
     .contacttwitter {
         margin-left: 49%;
-        margin-top: -98%;
+        margin-top: -86%;
     }
     .contacttitle {
         width: 111%;
