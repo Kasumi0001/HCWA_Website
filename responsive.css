@@ -1,55 +1,4 @@
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
-@media only screen and (max-width:2560px){
-/* HOME */
-.charcoalbg {
-    height: 115%;
-}
-.lowerimage {
-    margin-left: -117%;
-    width: 105%;
-    margin-top: 1%;
-}
-.lowertitle {
-    margin-left: -33%;
-    margin-top: 1%;
-}
-.uppertext {
-    padding-bottom: 5%;
-    width: 137%;
-}
-.sectionupper-text {
-    margin-left: 10%;
-    margin-bottom: 5%;
-    margin-top: 26%;
-}
-img {
-    padding-top: 5%;
-    width: 76%;
-    margin-left: 5%;
-}
-.livep {
-    margin-left: 8%;
-    width: 48%;
-}
-.liveissuestitle {
-    margin-left: 8%;
-}
-.lowertext {
-    margin-left: -33%;
-    width: 133%;
-}
-.sectionbgdarkbottom {
-    width: 110%;
-    height: 60%;
-}
-.sectionbglighttop {
-    width: 105%;
-    height: 56%;
-    margin-top: 15%;
-    margin-left: 15%;
-}
-
-}
 @media only screen and (max-width:1440px){
     /* INDEX/HOMEPAGE */
     .lowerimage {
@@ -62,48 +11,64 @@ img {
         padding-top: 5%;
         padding-bottom: 5%;
         padding-right: 65%;
+        margin-left: -7%;
     }
-    .sectionbglighttop {
-        width: 930px;
-        height: 450px;
+    .sectionbgdarktop {
+        width: 156%;
+        height: 64%;
         margin-top: 15%;
-        margin-left: 5%;
     }
-    .lowertext{
+    .lowertext {
         width: 80%;
-        margin-left: -17%;
+        margin-left: -11%;
     }
     .charcoalbg {
         height: 65%;
     }
     .lowertitle {
-        margin-left: -17%;
+        margin-left: -11%;
+        width: 71%;
     }
     .bigbutton3 {
-        margin-left: -17%;
+        margin-left: -11%;
+    }
+    .smallbutton2 {
+        margin-left: 5%;
     }
     .upperimage_2029 {
         padding-top: 31%;
         margin-bottom: 5%;
+    }
+    .coverimage {
+        margin-top: -4%;
+        max-width: fit-content;
+        width: 134%;
+        margin-left: -33%;
     }
 
     /* ABOUT US */
     .darkh3quote{
         margin-left: -15%;
     }
-    .uppertitlelight{
-        font-size: 52px;
+    .uppertitlelight {
+        font-size: 4em;
+        margin-left: 5%;
     }
-    .uppertextlight{
-        width: 450px;
+    .uppertextlight {
+        width: 111%;
+        font-size: 1em;
+        margin-left: 5%;
     }
-    .lowertitledark{
-        font-size: 52px;
+    .lowertitledark {
+        font-size: 4em;
         margin-left: 1%;
+        width: 71%;
+        margin-top: 1%;
     }
-    .lowertextdark{
+    .lowertextdark {
         margin-left: 1%;
         width: 75%;
+        font-size: 1em;
     }
     .sectionbglightbottom{
         margin-left: 64%;
@@ -576,6 +541,10 @@ img {
 
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:425px){
+    .hcwaicon {
+        width: 35%;
+        margin-top: 1%;
+    }
     /* INDEX/HOMEPAGE */
     .navbar-collapse {
         margin-top: -7%;
@@ -649,7 +618,7 @@ img {
     .sectionlower-text {
         padding-left: 0%;
         margin-left: -22%;
-        margin-top: 45%;
+        margin-top: 53%;
     }
     .lowertitle {
         margin-left: 20%;
@@ -670,7 +639,7 @@ img {
     .upperimage {
         width: 110%;
         margin-left: -2%;
-        margin-top: -160%;
+        margin-top: -159%;
         margin-right: 0;
     }
     .uppertitle{
@@ -704,6 +673,17 @@ img {
     .upperimage_2029 {
         padding-top: 108%;
     }
+    .sectionbglightbottom {
+        background-color: var(--Beige);
+        height: 71%;
+        margin-left: 1%;
+    }
+    .lowertitledark {
+        margin-top: 25%;
+        margin-left: 5%;
+        width: 70%;
+        font-size: 2.5em;
+    }
     .charcoalbg {
         padding-bottom: 0;
         height: 59%;
@@ -712,7 +692,7 @@ img {
         margin: 0 auto;
     }
     .signinbutton {
-        margin-top: 69.5%;
+        margin-top: 72.5%;
         margin-left: -18%;
         padding: 7px 63px;
     }
@@ -725,7 +705,7 @@ img {
     }
     .no-gutters {
         margin-right: 91%;
-        margin-left: -159%;
+        margin-left: -140%;
         margin-top: 229%;
     }
 
@@ -747,17 +727,36 @@ img {
         max-width: 99%;
         margin-left: 1%;
     }
-    .uppertitlelight {
-        margin-left: 3%;
-    }
     .uppertextlight {
         margin-left: 3%;
-        width: 85%;
+        width: 64%;
+    }
+    .uppertextlight {
+        margin-left: 29%;
+        width: 58%;
+        font-size: 1em;
     }
     .lowerimage2 {
         margin-left: -3%;
-        width: 81%;
-        margin-top: -232%;
+        width: 110%;
+        margin-top: -355%;
+    }
+    .uppertitlelight {
+        font-size: 2.5em;
+        width: 90%;
+        padding-top: 5%;
+        margin-left: 29%;
+    }
+    .lowertextdark {
+        font-size: 1em;
+        margin-left: 7%;
+        width: 68%;
+        margin-top: 0%;
+    }
+    .sectionbgdarktop {
+        background-color: var(--LighterBlack);
+        height: 94%;
+        margin-left: -38%;
     }
 
     /* WHATS ON */
@@ -809,12 +808,13 @@ img {
 
     /* LIVE ISSUES */
     .titleliveissues{
-        font-size: 40px;
+        font-size: 2.5em;
         margin-top: 0;
         margin-bottom: 0;
+        margin-left: 1%;
     }
     p{
-        font-size: 12px;
+        font-size: 1em;
         padding-bottom: 5%;
     }
     .image1{
@@ -824,11 +824,14 @@ img {
     .articletitles{
         margin-top: 5%;
         margin-bottom: 2%;
+        font-size: 2.5em;
+        margin-left: 5%;
     }
     .articletitleslight{
         margin-top: 5%;
         margin-bottom: 2%;
-        margin-left: 0%;
+        margin-left: 4%;
+        font-size: 2.5em;
     }
     .liveissuesnumber{
         margin-left: -5%;
@@ -845,16 +848,19 @@ img {
         margin-bottom: 5%;
         width: 100%;
         padding-bottom: 0;
+        margin-left: 5%;
     }
     .liveissuesparagraphlight{
         margin-top: 2%;
         margin-bottom: 5%;
         width: 100%;
         padding-bottom: 0;
+        font-size: 1em;
+        margin-left: 4%;
     }
     .pastadvocacy{
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 2.5em;
+        margin-left: 0%;
     }
     .bigbutton2{
         margin-top: 0;
@@ -878,6 +884,9 @@ img {
     }
     .information{
         order: 3;
+    }
+    .liveissuesparagraph {
+        font-size: 1em;
     }
     /* CONTACT US */
     .contacttitle{
@@ -992,6 +1001,110 @@ img {
     form#wpforms-form-862 {
         margin-bottom: -5%;
     }
+    /* JOIN US */
+    .pmpro_levels_table .pmpro_btn {
+        margin-left: -3%;
+    }
+    .membershipP {
+        width: 88%;
+    }
+    h3#post-807 {
+        font-size: 2.5em;
+    }
+    .pmpro_checkout_box-more-information h2 {
+        margin-left: 0%;
+    }
+    h3#post-809 {
+        font-size: 2.5em;
+    }
+    input.pmpro_btn.pmpro_btn-submit {
+        margin-top: -114%;
+    }
+    input.pmpro_btn.pmpro_btn-cancel {
+        margin-top: -49%;
+    }
+    .pmpro_confirmation_wrap p {
+        width: 86%;
+    }
+    li {
+        width: 62%;
+    }
+    h3#post-805 {
+        font-size: 2.5em;
+    }
+    h3#post-804 {
+        font-size: 2.5em;
+        width: 20%;
+    }
+    .pmpro_checkout h2 span.pmpro_checkout-h2-name {
+        font-size: 1.5em;
+        width: 5%;
+    }
+    .pmpro_message {
+        width: 57%;
+    }
+    .pmpro_checkout-fields {
+        width: 43%;
+    }
+
+    /* FOOTER */
+    img.footerlogo {
+        margin-top: 7%;
+        margin-left: 27%;
+    }
+    .followus {
+        margin-left: 41%;
+    }
+    img.facebookicon {
+        margin-left: 36%;
+        margin-top: -12%;
+    }
+    img.xtwittericon {
+        margin-top: -12%;
+        color: white;
+    }
+    .homefooter{
+        color: white;
+        position: absolute;
+        left: 43%;
+    }
+    .aboutusfooter {
+        color: white;
+        margin-top: 10%;
+        position: absolute;
+        left: 41%;
+    }
+    .joinusfooter{
+        color: white;
+        margin-top: 30%;
+        position: absolute;
+        left: 42.5%;
+    }
+    .whatsonfooter {
+        color: white;
+        margin-top: 40%;
+        position: absolute;
+        left: 40%;
+    }
+    .contactusfooter{
+        color: white;
+        margin-top: 50%;
+        position: absolute;
+        left: 40%;
+    }
+    .liveissuefooter{
+        color: white;
+        margin-top: 20%;
+        position: absolute;
+        left: 40%;
+    }
+    .footerbg {
+        height: 43%;
+    }
+    hr {
+        margin-top: 67%;
+    }
+
 }
 @media only screen and (max-width:375px){
 

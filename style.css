@@ -104,7 +104,22 @@ html,body{
     min-width: 85px;
     min-height: 90px;
 }
-.socialmediaicons{
+.facebookicon{
+    padding: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+img.facebookicon {
+    width: 10%;
+}
+img.xtwittericon {
+    width: 10%;
+}
+img.footerlogo {
+    width: 46%;
+    margin-top: -8%;
+}
+.xtwittericon{
     padding: 1%;
     margin-top: auto;
     margin-bottom: auto;
@@ -125,6 +140,7 @@ html,body{
     margin-top: 15%;
     margin-left: -95%;
 }
+
 /* Typography */
 /* NOTE: this is the text rules for the section boxes that has an image overlaping */
 .sectionupper-text{
@@ -184,7 +200,7 @@ html,body{
     color: white;
 }
 h2{
-    font-size: 20px;
+    font-size: 2em;
     font-family: "CaslonBold";
     font-weight: bold;
     padding-top: 100px;
@@ -217,8 +233,13 @@ p{
     text-align: center;
     color: white;
 }
-.followus{
+.followus {
     color: white;
+    margin-left: 5%;
+}
+.hcwaicon {
+    width: 10%;
+    margin-top: 1%;
 }
 /* Buttons */
 .buttontext{    
@@ -334,11 +355,12 @@ p{
     opacity: 0.5;
 }
 /* Typography */
-h1{
+h1 {
     font-family: adobe-caslon-pro, serif;
-    font-size: 120px;
+    font-size: 5em;
     font-weight: bold;
-    line-height: 100px;
+    line-height: 81%;
+    width: 160%;
 }
 .for{
     margin-left: 150px;
