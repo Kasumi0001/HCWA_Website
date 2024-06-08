@@ -87,10 +87,39 @@
     .whatsontitlelight {
         width: 72%;
     }
+    /* FOOTER */
+    .homefooter{
+        color: white;
+    }
+    .aboutusfooter {
+        color: white;
+    }
+    .joinusfooter{
+        color: white;
+    }
+    .whatsonfooter {
+        color: white;
+    }
+    .contactusfooter{
+        color: white;
+    }
+    .liveissuefooter{
+        color: white;
+    }
 }
 @media only screen and (max-width:1024px) {
+    
+
     /* INDEX/HOMEPAGE */
-    .live-issues-wrap{
+    h1 {
+        font-size: 4em;
+        font-weight: bold;
+        width: 185%;
+    }
+    .liveissuestitle {
+        font-size: 3.5em;
+    }
+    .live-issues-wrap {
         margin-top: -300px;
     }
     .live-issues-wrap .row{
@@ -233,6 +262,7 @@
         margin-bottom: -3%;
     }
 }
+
 /* Tablet size */
 @media only screen and (max-width:768px) {
     .navbar-collapse {
@@ -854,6 +884,7 @@
     p{
         font-size: 1em;
         padding-bottom: 5%;
+        margin-top: 5%;
     }
     .image1{
         padding-bottom: 40px;
@@ -937,7 +968,8 @@
     .contacttitle {
         font-size: 2.5em;
         text-align: center;
-        margin-left: -27%;
+        margin-left: 7%;
+        margin-bottom: 5%;
     }
     .contactemail{
         margin-right: 0;
@@ -1176,6 +1208,12 @@
 }
 @media only screen and (max-width:320px){
     /* HOME */
+    h2 {
+        font-size: 1.5em;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
     .bigbuttonWH {
         margin-left: 5%;
         margin-top: 5%;
@@ -1196,17 +1234,134 @@
         font-size: 1em;
         width: 110%;
     }
-}
+    .lowertitle {
+        margin-left: 9%;
+    }
+    .lowertext {
+        margin-left: 9%;
+        width: 41%;
+    }
+    .bigbutton3 {
+        margin-left: 9%;
+    }
+    .whyhistorymatterstitle {
+        font-size: 2.5em;
+        width: 5%;
+    }
+    .uppertitle {
+        font-size: 2em;
+        margin-left: -1%;
+    }
+    .uppertext {
+        width: 56%;
+        margin-left: -1%;
+    }
+    .bigbutton1 {
+        margin-left: 2%;
+    }
 
     /* SEARCH */
     .no-gutters {
         margin-right: 80%;
         margin-left: -113%;
-        margin-top: 243%;
+        margin-top: 307%;
     }
     .smallbuttontext {
-        font-size: 9px;
-        margin-left: -59%;
+        font-size: 1em;
+        margin-left: -185%;
+    }
+    .signinbutton {
+        margin-top: 103.5%;
+        margin-left: -20%;
+        padding-right: 2%;
+    }
+
+    /* ABOUT US */
+    .uppertitlelight {
+        font-size: 2em;
+        width: 72%;
+        padding-top: 5%;
+        margin-left: 19%;
+    }
+    .uppertextlight {
+        margin-left: 19%;
+        width: 51%;
+        font-size: 1em;
+    }
+    .lowertitledark {
+        margin-top: 25%;
+        margin-left: 5%;
+        width: 56%;
+        font-size: 2em;
+    }
+    .lowertextdark {
+        font-size: 1em;
+        margin-left: 5%;
+        width: 48%;
+        margin-top: 0%;
+    }
+    .lowerimage2 {
+        margin-top: -553%;
+        margin-left: -7%;
+    }
+    .sectionbglightbottom {
+        height: 80%;
+    }
+    
+
+    /* WHATS ON */
+    .whatsontitlelight {
+        margin-top: 5%;
+        font-size: 2em;
+        margin-left: 8%;
+    }
+    .whatsontextlight {
+        font-size: 1em;
+        margin-left: 9%;
+    }
+    .whatsontitledark {
+        font-size: 2em;
+        width: 89%;
+        margin-left: 9%;
+    }
+    .whatsontextdark {
+        margin-left: 9%;
+    }
+    .titleliveissues {
+        font-size: 2em;
+    }
+    p {
+        padding-top: 5%;
+    }
+    .liveissuesparagraphlight {
+        width: 97%;
+    }
+    .liveissuesparagraph {
+        width: 93%;
+    }
+
+    /* LIVE ISSUES */
+    .articletitleslight {
+        font-size: 2em;
+    }
+    .articletitles {
+        font-size: 2em;
+    }
+    .pastadvocacy {
+        font-size: 2em;
+        margin-left: -2%;
+    }
+    p {
+        padding-top: 5%;
+        margin-left: -2%;
+    }
+
+    /* JOIN US */
+    h3#post-807 {
+        margin-left: -7%;
+    }
+    h3#post-805 {
+        margin-left: -3%;
     }
 
     /* CONTACT US */
@@ -1240,6 +1395,11 @@
     .contacttwitter {
         margin-left: 49%;
         margin-top: -98%;
+    }
+    .contacttitle {
+        width: 111%;
+        margin-bottom: 5%;
+        margin-left: -6%;
     }
 
     /* FOOTER */
