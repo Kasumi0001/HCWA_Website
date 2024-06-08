@@ -262,6 +262,7 @@ p{
     border-radius: 0.75em;
     margin-left: 1%;
     text-transform: uppercase;
+    border: 0.15em solid var(--Ochre);
 }
 .signinbutton:hover{
     background-color:transparent;
@@ -280,6 +281,7 @@ p{
     text-align:center;
     transition: all 0.2s;
     color: white;
+    border: 0.15em solid var(--Ochre);
 }
 .bigbutton1:hover{
     background-color:transparent;
@@ -290,43 +292,78 @@ p{
 .bigbutton2{
     margin-left: 0%;
     background-color:var(--Ochre);
-    padding: 15px 60px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
     margin-top: 8%;
+    border: 0.15em solid var(--Ochre);
+}
+.bigbutton2:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .bigbuttonWH{
     margin-left: 90px;
     background-color:var(--Ochre);
-    padding: 15px 60px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
     margin-top: 8%;
+    border: 0.15em solid var(--Ochre);
+}
+.bigbuttonWH:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .bigbutton3{
     background-color:var(--Ochre);
-    padding: 15px 60px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
+    border: 0.15em solid var(--Ochre);
+}
+.bigbutton3:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .smallbutton{
     margin-top: 2em;
     margin-left: 1em;
     background-color:var(--Ochre);
-    padding: 10px 40px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
+    border: 0.15em solid var(--Ochre);
+}
+.smallbutton:hover{    
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .smallbutton2{
     background-color:var(--Ochre);
-    padding: 10px 40px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
+    border: 0.15em solid var(--Ochre);
+}
+.smallbutton2:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 /* RULES FOR SPECIFIC HTML PAGES THAT ISN'T USED ON MULTIPLE */
 
