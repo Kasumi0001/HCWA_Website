@@ -36,7 +36,7 @@
             <div class="col-md-6">
         <h3 class="liveissuestitle">LIVE ISSUES</h3>
         <p class="livep">The History Council of Western Australia provides a voice for history by promotingthe study, preservation and use of history in Western Australia.</p>
-        <a class="bigbuttonWH" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">
+        <a class="bigbutton1" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">
             <p class="buttontext">WHAT'S HAPPENING</p>
         </a>
             </div>
@@ -53,7 +53,7 @@
                     <h5>01</h5>
                     <h4 class="liveboxsubtitle">Albany 2026 <br> Bicentary</h4>
                     <p class="liveboxtext">Established in 1826, three years before the Swan River Colony, Albany is currently navigating how best to acknowledge and commemorate the upcoming 2026 Albany Bicentenary.</p>
-                    <a class="smallbutton" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">
+                    <a class="bigbutton1" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">
                         <p class="smallbuttontext">LEARN MORE</p>
                     </a>
                     <div class="livebox-image-container">
@@ -64,7 +64,7 @@
                     <h5>02</h5>
                     <h4 class="liveboxsubtitle">Woodside <br> Redevelopment</h4>
                     <p class="liveboxtext">Between 2022-2023, the History Council of WA actively campaigend to protect the heritage of Woodside Maternity Hospital (1953-2006) following an application for redevelopment. </p>
-                    <a class="smallbutton" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">
+                    <a class="bigbutton1" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">
                         <p class="smallbuttontext">LEARN MORE</p>
                     </a>
                     <div class="livebox-image-container">
@@ -75,7 +75,7 @@
                     <h5>03</h5>
                     <h4 class="liveboxsubtitle">Norman <br> House</h4>
                     <p class="liveboxtext">A significant example of Victorian-Georgian architeture in Western Australia, Norman House (c.1858) was successfully advocated for by the History Council of WA and saved from demolition in 2023.</p>
-                    <a class="smallbutton" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">
+                    <a class="bigbutton1" href="http://170.187.231.66/~meshatmurdoch3/live-issues/">
                         <p class="smallbuttontext">LEARN MORE</p>
                     </a>
                     <div class="livebox-image-container">
@@ -95,7 +95,7 @@
                 <div class="sectionbgdarkbottom sectionlower-text">
                     <h3 class="lowertitle">2024 ANNUAL LECTURE</h3>
                     <p class="lowertext">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
-                    <a class="bigbutton3" href="http://170.187.231.66/~meshatmurdoch3/whats-on/">
+                    <a class="bigbutton1" href="http://170.187.231.66/~meshatmurdoch3/whats-on/">
                         <p class="buttontext">LEARN MORE</p>
                     </a>
                 </div>
@@ -111,7 +111,7 @@
 <section class="container-fluid whyhistorymattersbg d-flex align-items-center justify-content-center">
     <div>
         <h3 class="whyhistorymatterstitle">WHY HISTORY MATTERS</h3>
-        <a class="smallbutton2" href="http://170.187.231.66/~meshatmurdoch3/about-us/">
+        <a class="bigbutton1" href="http://170.187.231.66/~meshatmurdoch3/about-us/">
             <p class="smallbuttontext">LEARN MORE</p>
         </a>
     </div>

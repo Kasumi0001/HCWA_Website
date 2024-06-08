@@ -46,16 +46,16 @@ html,body{
 /* Live issues posts */
 .livebox{
     background-color:var(--Beige);
-    height: 830px;
-    width: 375px;
+    height: 51.875em;
+    width: 23.438em;
     margin-top: -25%;
 }
 /* Background Colours */
 .creambg{
     background-color:var(--Beige);
     background-size: cover;
-    padding-bottom: 120px;
-    margin-top: 25px;
+    padding-bottom: 7.5em;
+    margin-top: 1.563em;
 }
 .charcoalbg{
     background-color:var(--LighterBlack);
@@ -70,30 +70,30 @@ html,body{
 /* Note: This is the section coloured boxes for the image overlap ontop*/
 .sectionbglighttop{
     background-color:var(--Beige);
-    width: 930px;
-    height: 450px;
+    width: 58.125em;
+    height: 28.125em;
     margin-top: 15%;
     margin-left: 15%;
 }
 .sectionbgdarktop{
     background-color:var(--LighterBlack);
-    width: 930px;
-    height: 450px;
+    width: 58.125em;
+    height: 28.125em;
     margin-top: 15%;
     margin-left: 15%;
 }
 .sectionbglightbottom{
     background-color:var(--Beige);
-    width: 930px;
-    height: 450px;
+    width: 58.125em;
+    height: 28.125em;
     margin-bottom: 15%;
     margin-left: 75%;
     margin-top: 15%;
 }
 .sectionbgdarkbottom{
     background-color:var(--LighterBlack);
-    width: 930px;
-    height: 450px;
+    width: 58.125em;
+    height: 28.125em;
     margin-bottom: 15%;
     margin-left: 75%;
     margin-top: 25%;
@@ -242,74 +242,128 @@ p{
     margin-top: 1%;
 }
 /* Buttons */
+
 .buttontext{    
-    color: white;
-    font-size: 24px;
+    font-size: 1em;
     font-weight: bolder;
 }
 .smallbuttontext{
-    color: white;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bolder;
 }
 .signinbutton{
-    background-color:var(--Blue);
-    font-weight: 500;
+    background-color:var(--Ochre);
+    color: white;
+    font-weight: 400;
     text-align: center;
-    font-size: 14px;
-    padding: 10px 40px;
+    font-size: 0.875em;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     margin-left: 1%;
     text-transform: uppercase;
+    border: 0.15em solid var(--Ochre);
+}
+.signinbutton:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .bigbutton1{
     background-color:var(--Ochre);
-    padding: 15px 60px;
-    display: inline-block;
-    border-radius: 12px;
+    display:inline-block;
+    padding: 0.625em 2.5em;
+    margin:0.3em 0.3em;
+    border-radius: 0.75em;
+    text-decoration:none;
+    box-sizing: border-box;
+    text-align:center;
+    transition: all 0.2s;
     color: white;
+    border: 0.15em solid var(--Ochre);
+}
+.bigbutton1:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .bigbutton2{
     margin-left: 0%;
     background-color:var(--Ochre);
-    padding: 15px 60px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
     margin-top: 8%;
+    border: 0.15em solid var(--Ochre);
+}
+.bigbutton2:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .bigbuttonWH{
     margin-left: 90px;
     background-color:var(--Ochre);
-    padding: 15px 60px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
     margin-top: 8%;
+    border: 0.15em solid var(--Ochre);
+}
+.bigbuttonWH:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .bigbutton3{
     background-color:var(--Ochre);
-    padding: 15px 60px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
+    border: 0.15em solid var(--Ochre);
+}
+.bigbutton3:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .smallbutton{
     margin-top: 2em;
     margin-left: 1em;
     background-color:var(--Ochre);
-    padding: 10px 40px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
+    border: 0.15em solid var(--Ochre);
+}
+.smallbutton:hover{    
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 .smallbutton2{
     background-color:var(--Ochre);
-    padding: 10px 40px;
+    padding: 0.625em 2.5em;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 0.75em;
     color: white;
+    border: 0.15em solid var(--Ochre);
+}
+.smallbutton2:hover{
+    background-color:transparent;
+    color: #C7892C;
+    border: 0.15em solid var(--Ochre);
+    text-decoration: none;
 }
 /* RULES FOR SPECIFIC HTML PAGES THAT ISN'T USED ON MULTIPLE */
 
@@ -491,6 +545,8 @@ h5{
     margin-left: auto;
     margin-right: auto;
     margin-top: 35%;
+    width: 100%;
+    height: auto;
 }
 /* Typography */
 /* h3 special classes */
@@ -964,7 +1020,7 @@ button#wpforms-submit-862 {
     height: auto;
 }
 .image1{
-    padding-bottom: 84px;
+    padding-bottom: 5.25em;
 }
 .image2{
     padding-top: 20%;
