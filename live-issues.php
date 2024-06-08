@@ -34,7 +34,7 @@
             </div> <!-- Column -->
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issueoneheading'); ?></h4>
-                <a class="bigbutton1" href="#">
+                <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
                 </a>
                 <p class="liveissuesparagraph">
@@ -52,7 +52,7 @@
         <div class="row">
             <div class="col-sm-3 information">
                 <h4 class="articletitleslight"><?php the_field('issuetwoheading'); ?></h4>
-                <a class="bigbutton1" href="#">
+                <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
                 </a>
                 <p class="liveissuesparagraphlight">
@@ -82,7 +82,7 @@
             </div> <!-- Column -->
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issuethreeheading'); ?></h4>
-                <a class="bigbutton1" href="#">
+                <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
                 </a>
                 <p class="liveissuesparagraph">
@@ -103,7 +103,7 @@
                 <p>
                 <?php the_field('pastadvocacyparagraph'); ?>
                 </p>
-                <a class="bigbutton1" href="#">
+                <a class="bigbutton2" href="#">
                 <p class="buttontext">PAST CASES</p>
                 </a>
             </div> <!-- Column -->
