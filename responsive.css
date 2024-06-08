@@ -108,8 +108,11 @@
     }
 }
 @media only screen and (max-width:1024px) {
-    
-
+    /* SEARCH */
+    h1.search-query {
+        padding-left: 74%;
+        margin-top: -6%;
+    }
     /* INDEX/HOMEPAGE */
     h1 {
         font-size: 4em;
@@ -127,23 +130,35 @@
         gap: 12px;
         align-items: center;
     }
+    .livebox {
+        margin-top: 2%;
+    }
     .bigbuttonWH {
         margin-left: 15%;
         margin-right: 15%;
         padding: 5px 54px;
     }
     .sectionlower-text {
-        margin-top: 126%;
+        margin-top: 74%;
         margin-left: -9%;
     }
     .lowertitle {
-        margin-top: 12%;
-        margin-left: -11%;
+        margin-top: 3%;
+        margin-left: 10%;
+        font-size: 3.5em;
+        width: 89%;
     }
     .lowerimage {
-        margin-top: 26%;
-        width: 185%;
+        margin-top: 59%;
+        width: 130%;
+        margin-left: -138%;
     }
+    .sectionbgdarkbottom {
+        width: 171%;
+        height: 55%;
+        margin-left: 57%;
+    }
+
     .whyhistorymatterstitle {
         margin-left: -24%;
     }
@@ -153,20 +168,30 @@
     .sectionbglighttop {
         margin-left: -15%;
         margin-bottom: 60%;
+        width: 173%;
+    }
+    .uppertitle {
+        font-size: 3.5em;
+    }
+    .uppertext {
+        text-align: left;
+        font-size: 1em;
+        padding-bottom: 5%;
     }
     .lowertext {
-        width: 80%;
-        margin-left: -11%;
+        width: 84%;
+        margin-left: 10%;
+        font-size: 1em;
     }
     .bigbutton3 {
-        margin-left: -11%;
+        margin-left: 10%;
     }
     .liveissuesimg {
         width: 120%;
         margin-left: -12%;
     }
     .charcoalbg {
-        height: 74%;
+        height: 58%;
     }
 
     /* ABOUT US */
@@ -186,15 +211,15 @@
         padding-top: 158%;
     }
     .upperimage_2029 {
-        margin-top: -110%;
+        margin-top: -147%;
         margin-right: 40%;
         width: 130%;
         padding-top: 205%;
     }
     .sectionbgdarktop{
         margin-left: -15%;
-        height: 350px;
-        width: 730px;
+        height: 64%;
+        width: 214%;
     }
     .uppetitlelight{
         font-size: 48px;

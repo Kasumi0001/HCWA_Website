@@ -805,15 +805,16 @@ h2.wp-block-heading {
 }
 h1.search-query {
     font-size: 54px;
-    padding-left: 3%;
+    padding-left: 61%;
     color: black;
     font-family: adobe-caslon-pro, serif;
-    /* text-transform: uppercase; */
+    margin-top: -5%;
 }
 h1.page-title {
     font-size: 54px;
     font-family: adobe-caslon-pro, serif;
     text-transform: uppercase;
+    padding-top: 5%;
 }
 section.container-fluid.aboutbg {
     background-color: var(--Beige);
@@ -1012,4 +1013,24 @@ button#wpforms-submit-862 {
 .darkbg-liveissues{
     background-color:var(--LighterBlack);
     background-size: cover;
+}
+
+/* FOOTER */
+.homefooter{
+    color: white;
+}
+.aboutusfooter {
+    color: white;
+}
+.joinusfooter{
+    color: white;
+}
+.whatsonfooter {
+    color: white;
+}
+.contactusfooter{
+    color: white;
+}
+.liveissuefooter{
+    color: white;
 }
