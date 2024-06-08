@@ -12,10 +12,10 @@
                 </div>
                 <div>
                     <a class="socialmediaicons" href="https://www.facebook.com/Historycouncilwa/">
-                        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/facebookicon.png" alt="facebookicon">
+                        <img class="socialmediaicons" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/facebookicon.png" alt="facebookicon">
                     </a>
                     <a class="socialmediaicons" href="https://x.com/wahistccl?s=21&t=hKX78WBRi0IVWx_gedaR3A">
-                        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/xicon.png" alt="xicon">
+                        <img class="socialmediaicons" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/xicon.png" alt="xicon">
                     </a>
                 </div>
             

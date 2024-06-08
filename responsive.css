@@ -1,4 +1,55 @@
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
+@media only screen and (max-width:2560px){
+/* HOME */
+.charcoalbg {
+    height: 115%;
+}
+.lowerimage {
+    margin-left: -117%;
+    width: 105%;
+    margin-top: 1%;
+}
+.lowertitle {
+    margin-left: -33%;
+    margin-top: 1%;
+}
+.uppertext {
+    padding-bottom: 5%;
+    width: 137%;
+}
+.sectionupper-text {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 26%;
+}
+img {
+    padding-top: 5%;
+    width: 76%;
+    margin-left: 5%;
+}
+.livep {
+    margin-left: 8%;
+    width: 48%;
+}
+.liveissuestitle {
+    margin-left: 8%;
+}
+.lowertext {
+    margin-left: -33%;
+    width: 133%;
+}
+.sectionbgdarkbottom {
+    width: 110%;
+    height: 60%;
+}
+.sectionbglighttop {
+    width: 105%;
+    height: 56%;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+}
 @media only screen and (max-width:1440px){
     /* INDEX/HOMEPAGE */
     .lowerimage {
@@ -72,7 +123,7 @@
         width: 72%;
     }
 }
-@media only screen and (max-width:1020px) {
+@media only screen and (max-width:1024px) {
     /* INDEX/HOMEPAGE */
     .live-issues-wrap{
         margin-top: -300px;
@@ -218,7 +269,7 @@
     }
 }
 /* Tablet size */
-@media only screen and (max-width:770px) {
+@media only screen and (max-width:768px) {
     .navbar-collapse {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -524,7 +575,7 @@
     
 
 /* Mobile size, which is relatively larger for newer phones */
-@media only screen and (max-width:510px){
+@media only screen and (max-width:425px){
     /* INDEX/HOMEPAGE */
     .navbar-collapse {
         margin-top: -7%;
@@ -941,4 +992,10 @@
     form#wpforms-form-862 {
         margin-bottom: -5%;
     }
+}
+@media only screen and (max-width:375px){
+
+}
+@media only screen and (max-width:320px){
+
 }
