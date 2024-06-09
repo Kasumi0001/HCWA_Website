@@ -1126,10 +1126,12 @@ button#wpforms-submit-862 {
 }
 /* typography */
 .articletitles {
+    margin-top: 20%;
     font-size: 2em;
 }
 .articletitleslight {
     color: white;
+    margin-top: 20%;
     font-size: 2em;
 }
 .titleliveissues{
