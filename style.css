@@ -314,7 +314,7 @@ p{
     font-size: 24px;
     font-weight: bolder;
 } */
-.btn btn-outline-secondary :hover{
+.btn btn-outline-secondary:hover{
     color:white;
     border-color:var(--Ochre);
     background-color:var(--Ochre);
