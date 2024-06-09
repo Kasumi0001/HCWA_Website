@@ -7,11 +7,11 @@
         width: 108%;
     }
     .sectionupper-text {
-        padding-left: 5%;
+        /* padding-left: 5%;
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-right: 65%;
-        margin-left: -7%;
+      padding-right: 65%; 
+        margin-left: -7%; */
     }
     .sectionbgdarktop {
         width: 156%;
@@ -166,12 +166,12 @@
         margin-left: -19%;
     }
     .sectionbglighttop {
-        margin-left: -15%;
-        margin-bottom: 60%;
-        width: 173%;
+        /* margin-left: -15%;
+        margin-bottom: 0%;
+        width: 173%; */
     }
     .uppertitle {
-        font-size: 3.5em;
+        font-size: 2.5em;
     }
     .uppertext {
         text-align: left;
@@ -186,10 +186,10 @@
     .bigbutton3 {
         margin-left: 10%;
     }
-    .liveissuesimg {
-        width: 120%;
+    /* .liveissuesimg {/*@@@@@@@@@@@@@@@@@@@@ */
+        /* width: 120%;
         margin-left: -12%;
-    }
+    } */ */
     .charcoalbg {
         height: 58%;
     }
@@ -321,6 +321,58 @@
         width: 20%;
     }
 
+    .sectionbglighttop {
+        background-color: var(--Beige);
+        /* width: 930px;
+        height: 450px; */
+        margin-top: 15%;
+        margin-left: 0%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 0%;
+     margin-bottom: 0%; 
+        padding-right: 14%;
+      }
+
+      .upperimage1 {
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 100%;
+      }
+
+}
+
+
+
+@media only screen and (max-width:1024px) { /* @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+    .liveissuesimg {
+        margin-top: -35px;
+        width: 118%;
+    height: 77%;
+     
+      }
+
+      .img-fluid.lectimg { /* @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        display: block;
+        margin-left: 0%;
+        position: relative;
+        z-index: 100;
+        margin-top: 0%;
+      }
+      .lowertext1 {/* @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+        color: white;
+        margin-left: 0%;
+      }
+
+      .lowertitle1 {
+        padding-top: 10%;
+        margin-left: 0%;
+        text-align: left;
+        padding-bottom: 5%;
+        margin-top: 0%;
+      }
+
 }
 
 /* Tablet size */
@@ -339,10 +391,14 @@
     .coverimage {
         width: 193%;
     }
-    .custom-container{
+
+  
+    
+
+    /* .custom-container{
         margin-left: 50px;
         margin-right: 50px;
-    }
+    } */
     .liveissuestitle {
         font-size: 2em;
         margin-top: 9%;
@@ -429,11 +485,12 @@
         font-size: 14px;
     }
     .sectionbglighttop {
-        width: 190%;
+        /* width: 0%;
         height: 310px;
         margin-top: 17%;
         margin-bottom: 100px;
-        margin-left: 5%;
+        margin-left: 5%; */
+        padding-left: 21%;
     }
     .uppertitle{
         font-size: 2em;
@@ -683,6 +740,62 @@
         margin-left: 3%;
     }
 
+
+
+    .liveissuesimg {/* @@@@@@@@@@@@@@@@@@@@@@ */
+        margin-top: -35px;
+        width: 100%;
+        height: 100%;
+      }
+
+
+      .creambg {
+        background-color: var(--Beige);
+        background-image: url(images/CoverImage-small.png);
+        background-size: cover;
+        /* padding-bottom: 120px;
+        margin-top: 25px;
+        background-position: -118px; */
+      }
+
+
+.covertitle-container /* @@@@@@@@@@@@@@@@@@@@@@ */
+h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 85%;
+    width: 201%;
+    margin-top: 0%;
+  }
+  .for {
+    margin-left: 0px;
+  }
+  .history {
+    margin-left: 0px;
+  }
+
+  .img-fluid.lectimg {/* @@@@@@@@@@@@@@@@@@@@@@ */
+    /* display: block;
+  
+    position: relative;
+    z-index: 100; */
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+  .lowertitle1 {
+    padding-top: 11%;
+    margin-left: 5%;
+    text-align: left;
+    padding-bottom: 5%;
+    margin-top: 0%;
+  }
+  .annuallecturetextbg {
+    background-color: var(--LighterBlack);
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+  }
 }
     
 
@@ -1334,6 +1447,8 @@
         padding-left: 34%;
         margin-top: -15%;
     }
+
+
 
 }
 
