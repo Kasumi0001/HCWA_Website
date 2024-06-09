@@ -165,7 +165,7 @@
         margin-left: 57%;
     }
 
-    .whyhistorymatterstitle {
+    .acknowledgementtitle {
         margin-left: -24%;
     }
     .smallbutton2 {
@@ -522,10 +522,10 @@
     h5{
         font-size: 150px;
     }
-    .whyhistorymattersbg{
+    .acknowledgementbg{
         min-width: 768px;
     }
-    .whyhistorymatterstitle{
+    .acknowledgementtitle{
         text-align: left;
         margin-left: 2%;
         margin-top: 20px;
@@ -840,7 +840,7 @@ h1 {
     .history {
         margin-left: 30%;
     }
-    .whyhistorymatterstitle {
+    .acknowledgementtitle {
         text-align: left;
         margin-left: -10%;
         margin-top: 20px;
@@ -961,7 +961,7 @@ h1 {
         margin-left: 6%;
         margin-top: 1%;
     }
-    .whyhistorymattersbg{
+    .acknowledgementbg{
         min-width: 510px;
         margin-top: 70%;
     }
@@ -1504,7 +1504,7 @@ h1 {
     .bigbutton3 {
         margin-left: 9%;
     }
-    .whyhistorymatterstitle {
+    .acknowledgementtitle {
         font-size: 2em;
         width: 71%;
         margin-left: -5%;
