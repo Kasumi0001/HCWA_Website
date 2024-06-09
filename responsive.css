@@ -451,6 +451,9 @@
         font-weight: bolder;
         white-space: nowrap;
     }
+    .col-lg-4 {
+        padding-bottom: 5%;
+    }
     .smallbutton2 {
         margin-left: 2%;
     }
@@ -847,6 +850,9 @@ h1 {
     }
     .history {
         margin-left: 30%;
+    }
+    .paddingbg {
+        padding-top: 15%;
     }
     .acknowledgementtitle {
         text-align: left;
