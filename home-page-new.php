@@ -49,7 +49,7 @@
                 <div class="creambg-ls">
                     <h5>01</h5>
                     <h4 class="liveboxsubtitle">Albany 2026 <br> Bicentary</h4>
-                    <p class="liveboxtext">Established in 1826, three years before the Swan River Colony, Albany is currently navigating how best to acknowledge and commemorate the upcoming 2026 Albany Bicentenary.</p>
+                    <p class="liveboxtext">Established in 1826, just three years before the founding of the Swan River Colony, Albany is currently navigating how best to acknowledge, celebrate, and commemorate the upcoming 2026 Albany Bicentenary.</p>
                     <button type="button" class="btn btn-outline-secondary smallbutton" href="#">LEARN MORE</button>
                 </div>
             </div>
