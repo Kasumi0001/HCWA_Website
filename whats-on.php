@@ -56,7 +56,7 @@
 <section class="charcoalbg-whatson charcoalspacing">
     <div class="row">
         <div class="col-md-3">
-            <img class="listedawards" src="<?php the_field('imageforawards2024'); ?>" alt="awards 2024">
+            <img class="awardsimg" src="<?php the_field('imageforawards2024'); ?>" alt="awards 2024">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2024'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2024'); ?></p>
             <a class="bigbutton1" href="#">
@@ -64,7 +64,7 @@
             </a>
         </div>
         <div class="col-md-3">
-            <img class="listedawards" src="<?php the_field('imageforawards2023'); ?>" alt="awards 2023">
+            <img class="awardsimg" src="<?php the_field('imageforawards2023'); ?>" alt="awards 2023">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2023'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2023'); ?></p>
             <a class="bigbutton1" href="#">
@@ -72,7 +72,7 @@
             </a>
         </div>
         <div class="col-md-3">
-            <img class="listedawards" src="<?php the_field('imageforawards2022'); ?>" alt="awards 2022">
+            <img class="awardsimg" src="<?php the_field('imageforawards2022'); ?>" alt="awards 2022">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2022'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2022'); ?></p>
             <a class="bigbutton1" href="#">
@@ -80,7 +80,7 @@
             </a>
         </div>
         <<div class="col-md-3">
-            <img class="listedawards" src="<?php the_field('imageforawards2021'); ?>" alt="awards 2021">
+            <img class="awardsimg" src="<?php the_field('imageforawards2021'); ?>" alt="awards 2021">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2021'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2021'); ?></p>
             <a class="bigbutton1" href="#">
