@@ -83,7 +83,7 @@
 </section> <!-- container-fluid -->
 
 <!-- 2024 Annual Lecture -->
-<section class="container-fluid lecturebg">
+<section class="container-fluid">
     <div class="custom-container">
         <div class="row">
             <div class="col-lg-6">
@@ -118,7 +118,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="sectionbglighttop1">
+                <div class="sectionbglighttop1 sectionupper-text">
                     <h3 class="uppertitle">2029<br>BICENTENARY</h3>
                     <p class="uppertext">The History Council of WA is coordinating with local communities and organisations to reflect and examine how we engage with our histories during the 2029 anniversary of the Swan River Colony.</p>
                     <a class="bigbutton12" href="#">
@@ -132,4 +132,5 @@
         </div>
     </div>
 </section>
+
 <?php get_footer();?> <!-- Tell WordPress to include footer.php -->
