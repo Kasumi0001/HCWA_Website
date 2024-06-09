@@ -19,7 +19,6 @@
             </div>
         </div>
     </section>
-</header> <!-- header end -->
 
 <!-- ANNUAL LECTURE SECTION -->
 <section class="whiteborder">

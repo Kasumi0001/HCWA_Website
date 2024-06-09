@@ -603,7 +603,9 @@ h5{
 }
 
 /* MEMBERSHIP - CHET */
-
+.pmpro_level_description_text {
+    color: white;
+}
 p.pmpro_level_name_text {
     margin-left: 120px;
     display: flex;
@@ -657,7 +659,7 @@ h3#post-807 {
 b, strong {
     font-weight: bolder;
     color: white;
-    font-size: 20px;
+    font-size: 1em;
     margin-left: 8%;
     font-family: montserrat;
 }
