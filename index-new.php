@@ -71,8 +71,7 @@
                     <h1>A VOICE </h1>
                     <h1 class="for">FOR</h1>
                     <h1 class="history">HISTORY</h1>
-                    <a class="bigbutton1" href="#">
-                        <p class="buttontext">ABOUT US</p>
+                    <button type="button" class="btn btn-outline-secondary coverbtn" href="#">ABOUT US</button>
                     </a>
                 </div>
             </div>
