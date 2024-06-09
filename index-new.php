@@ -84,9 +84,7 @@
                 <div class="annuallecturetextbg ">
                     <h3 class="lowertitle1">2024 ANNUAL LECTURE</h3>
                     <p class="lowertext1">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
-                    <a class="bigbutton12" href="#">
-                        <p class="buttontext">READ MORE</p>
-                    </a>
+                    <button type="button" class="btn btn-outline-secondary bigbutton12" href="#">LEARN MORE</button>
                 </div>
             </div>
        
@@ -111,9 +109,7 @@
                 <div class="sectionbglighttop">
                     <h3 class="uppertitle">2029<br>BICENTENARY</h3>
                     <p class="uppertext">The History Council of WA is coordinating with local communities and organisations to reflect and examine how we engage with our histories during the 2029 anniversary of the Swan River Colony.</p>
-                    <a class="bigbutton12" href="#">
-                        <p class="buttontext">LEARN MORE</p>
-                    </a>
+                    <button type="button" class="btn btn-outline-secondary bigbutton12" href="#">LEARN MORE</button>
                 </div>
             </div>
             <div class="col-lg-6">
