@@ -110,7 +110,7 @@
             <div class="col-lg-6">
                 <div class="sectionbglighttop1 sectionupper-text">
                     <h3 class="uppertitle">2029<br>BICENTENARY</h3>
-                    <p class="uppertext">The History Council of WA is coordinating with local communities and organisations to reflect and examine how we engage with our histories during the 2029 anniversary of the Swan River Colony.</p>
+                    <p class="uppertext">Established in 1826, just three years before the founding of the Swan River Colony, Albany is currently navigating how best to acknowledge, celebrate, and commemorate the upcoming 2026 Albany Bicentenary.</p>
                     <button type="button" class="btn btn-outline-secondary bigbutton12" href="#">LEARN MORE</button>
                 </div>
             </div>
