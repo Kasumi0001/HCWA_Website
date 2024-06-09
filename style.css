@@ -114,22 +114,15 @@ html,body{
     margin-top: 8%;
     margin-left: -9%;
   }
-.sectionbglightbottom{
-    background-color:var(--Beige);
-    width: 930px;
-    height: 450px;
-    margin-bottom: 15%;
-    margin-left: 75%;
-    margin-top: 15%;
-}
-.sectionbgdarkbottom{
+
+/* .sectionbgdarkbottom{
     background-color:var(--LighterBlack);
     width: 930px;
     height: 450px;
     margin-bottom: 15%;
     margin-left: 75%;
     margin-top: 25%;
-}
+} */
 /* IMAGES */
 .navbar-toggler-icon{
     background:url("images/hamburger.png") no-repeat center center;
@@ -194,7 +187,18 @@ img.footerlogo {
 }
 .lowertitledark{
     color: var(--LighterBlack);
+    padding-top: 11%;
+    margin-left: 40%;
+    width: 50%;
     text-align: left;
+    padding-bottom: 5%;
+    margin-top: 24%;
+}
+
+.lowertextdark{
+color: var(--LighterBlack);
+text-align: left;
+margin-left: 40%;
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
@@ -536,7 +540,26 @@ h5{
     height: auto;
 }
 .lowerimage2{
-    margin-left: -95%;
+    /* display: block; */
+    position: relative;
+    z-index: 100;
+    margin-top: 10%;
+}
+
+.advocacytext{
+    padding-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+  }
+.advocacybg{
+    background-color: var(--Beige);
+    width: 150%;
+    /* height: 65%; */
+    /* margin-top: 7%; */
+    padding-right: 25%;
+    margin-left: -45%;
+    margin-top: -15%;
 }
 .council-section{
     margin: 2%;
