@@ -265,13 +265,15 @@ margin-left: 40%;
 }
 .uppertext{
     text-align: left;
-    font-size: 20px;
-    padding-bottom: 5%;
+    font-size: 1.25em;
+    margin-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .uppertextlight{
     color: white;
     text-align: left;
-    font-size: 16px;
+    font-size: 1em;
     padding-bottom: 5%;
 }
 .nav-link{
