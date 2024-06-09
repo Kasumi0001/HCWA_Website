@@ -93,8 +93,8 @@ html,body{
 .sectionbglighttop1{
     background-color: var(--Beige);
     width: 150%;
-    height: 65%;
-    margin-top: 15%;
+    height: 62%;
+    margin-top: 20%;
     margin-left: -5%;
 }
 
@@ -154,7 +154,7 @@ img.footerlogo {
 }
 /* Note: This images that are going to overlap the coloured boxes on code line 55 */
 .upperimage1{
-    margin-top: 22%;
+    margin-top: 30%;
     margin-left: -9%;
 }
 .lowerimage{
@@ -173,7 +173,7 @@ img.footerlogo {
 .sectionupper-text{
     padding-left: 5%;
     padding-top: 5%;
-    padding-bottom: 28%;
+    padding-bottom: 20%;
     padding-right: 55%;
 }
 .lowertitle{
@@ -241,6 +241,10 @@ margin-left: 40%;
     margin-left: 38%;
     margin-bottom: 10%;
     margin-top: 5%;
+  }
+
+  .bicenbtn{
+    margin-top: -42%;
   }
 
   .img-fluid.lectimg {
