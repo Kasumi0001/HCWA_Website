@@ -306,7 +306,7 @@ h2{
     font-family: "CaslonBold";
     font-weight: bold;
     padding-top: 100px;
-    padding-bottom: 12px;
+    padding-bottom: 2%;
   }
 
 h3{
@@ -377,8 +377,8 @@ p{
     border-color: #c7892c;
     margin-bottom: 60%;
     font-weight: bolder;
-    width: 55%;
-    padding: 7%;
+    width: 35%;
+    padding: 3%;
     margin-left: -20%;
 }
 .bigbutton2{
@@ -441,9 +441,9 @@ p{
 }
 
 .titlepadding{
-    padding-bottom: 10%;
-    width: 368%;
-    margin-top: 12%;
+    padding-bottom: 2%;
+    width: 179%;
+    margin-top: 6%;
     margin-left: -20%;
 }
 
