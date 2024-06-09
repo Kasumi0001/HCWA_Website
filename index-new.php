@@ -1,66 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!-- <meta name="Description" content="Enter your description here"/> NOTE: Don't really need this as it isn't that important-->
-
-<!-- Reference to fonts and css sheets-->
-<link rel="stylesheet" href="https://use.typekit.net/qnv7ntv.css"> <!-- Aktiv Grotesk and Adobe Caslon font -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="style.css"> <!-- Reference to stylesheet -->
-<link rel="stylesheet" href="responsive.css"> <!-- Reference to responsive css -->
-
-<title>Homepage</title>
-</head>
-<body>
-<!-- Navigation and Cover Section -->
-
-    <div>
-        <nav class="navbar navbar-expand-md">
-        <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="HCWA Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Links and search to be collapsible test -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <div class="ml-auto d-flex align-items-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Live Issues</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Join Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">What's On</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="#">Contact Us</a>
-                    </li>
-                </ul>
-        
-
-            </div>
-            <form class="form-inline" action="/action_page.php">
-                <input class="form-control mr-sm-2" placeholder="Search">
-                <a href="#">
-                <img src="images/searchicon.png" alt="searchicon">
-                </a>
-            </form>
-            <div class="signinbutton"> 
-                <a class="smallbuttontext" href="#">Sign In</a>
-            </div>
-            </nav>
-        </div>
-        </div> <!-- container -->
-        <header>
+<?php get_header();?> <!-- Tell WordPress to include header.php -->
     <!-- COVER IMAGE SECTION -->
     <div class="creambg">
         <div class=" container">
@@ -80,17 +18,17 @@
                 
             </div>
         </div> <!-- row -->
-    </div>
+        </div>
     </div> <!-- container -->
 
-</header> <!-- container-fluid -->
+<div class="paddingbg"> </div>
 
 <!-- Live Issues Section -->
 <section class="container-fluid charcoalbg1">
     <div class=" container">
         <div class="row">
             <div class="col-md-6">
-        <img class="liveissuesimg" src="images/liveissues.png" alt="LiveIssues">
+        <img class="liveissuesimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/liveissues.png" alt="LiveIssues">
             </div>
             <div class="col-md-6">
         <h3 class="liveissuestitle">LIVE ISSUES</h3>
@@ -147,7 +85,7 @@
     <div class="custom-container">
         <div class="row">
             <div class="col-lg-6">
-                <img class="img-fluid lectimg " src="images/Lecture.jpg">
+                <img class="img-fluid lectimg " src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/Lecture.jpg">
             </div>
             
             <div class="col-lg-6">
@@ -164,11 +102,10 @@
     </div>
 </section> <!-- container-fluid -->
 
-<!-- Why History Matters Image -->
-<section class="container-fluid whyhistorymattersbg d-flex align-items-center justify-content-center">
+<!-- Acknowledgement To Country -->
+<section class="container-fluid acknowledgementbg d-flex align-items-center justify-content-center">
     <div>
-        <h3 class="whyhistorymatterstitle">WHY HISTORY MATTERS</h3>
-        <a class="smallbutton2" href="#">
+        <h3 class="acknowledgementtitle">The History Council of Western Australia acknowledges the Traditional Custodians and the many Aboriginal nations within the lands represented by the work and research of the HCWA.  We call for truth-telling in the sharing of our history, and pay our respects to past, present and emerging Elders of this land</h3>
             <p class="smallbuttontext">LEARN MORE</p>
         </a>
     </div>
@@ -188,68 +125,9 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img class="upperimage1" src="images/2029bicentenary.png" alt="LiveIssues">
+                <img class="upperimage1" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
             </div>
         </div>
     </div>
 </section>
-
-<footer class="container-fluid footerbg">
-    <div>
-        <div class="row">
-            <div class="col-md-3 d-flex justify-content-center flex-column">
-                <div class="p-2">
-                    <a class="footerlogo" href="#">
-                        <img src="images/logo2.png" alt="HCWA Logo2">
-                    </a>
-                </div>
-                <div class="p-2">
-                    <p class="followus">Follow Us</p>
-                </div>
-                <div>
-                    <a class="socialmediaicons" href="#">
-                        <img src="images/facebookicon.png" alt="facebookicon">
-                    </a>
-                    <a class="socialmediaicons" href="#">
-                        <img src="images/xicon.png" alt="xicon">
-                    </a>
-                </div>
-            
-            </div>
-            <div class="col-md-9 footer"> 
-            <ul class="d-flex justify-content-around navigationfooter-spacing">
-                <a class="nav-linkfooter" href="#">Home</a>
-                <a class="nav-linkfooter" href="#">About Us</a>
-                <a class="nav-linkfooter" href="#">Live Issues</a>
-                <a class="nav-linkfooter" href="#">Join Us</a>
-                <a class="nav-linkfooter" href="#">What's On</a>
-                <a class="nav-linkfooter" href="#">Contact Us</a>
-            </ul>
-            </div>
-        </div> <!-- row -->
-        <div class="line">
-            <hr color="white" size="1px"/>
-        </div>
-        <div class="row footerdetails">
-            <div class="col-md-3">
-                <a class="nav-linkfooter" href="#">
-                    <p>Privacy Policy</p>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <p>© History Council of Western Australia. 2024</p>
-            </div>
-            <div class="col-md-3">
-                <a class="nav-linkfooter" href="#">
-                    <p >Terms and Conditions</p>
-                </a>
-            </div>
-        </div>
-    </div> <!-- container -->
-</footer> <!-- container-fluid -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-</body>
-</html>
+<?php get_footer();?> <!-- Tell WordPress to include footer.php -->
