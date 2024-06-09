@@ -328,11 +328,11 @@ p{
     border-color:var(--Ochre);
     background-color:var(--Ochre);
 }
-.smallbuttontext{
+/* .smallbuttontext{
     color: white;
     font-size: 0.9em;
     font-weight: bolder;
-}
+} */
 .signinbutton{
     background-color:var(--Blue);
     font-weight: 500;
@@ -375,6 +375,9 @@ p{
     /* color: white; */
     margin-top: 8%;
     margin-bottom: 10%;
+    font-weight: bolder;
+    border-color: #c7892c;
+    color: #c7892c;
 }
 .bigbutton3{
     background-color:var(--Ochre);
@@ -387,11 +390,12 @@ p{
     margin-top: 2em;
     margin-bottom: 2em;
     margin-left: 1em;
-    background-color:var(--Ochre);
-    padding: 10px 40px;
+    border-color:var(--Ochre);
+    /* padding: 10px 40px; */
     display: inline-block;
-    border-radius: 12px;
-    color: white;
+    /* border-radius: 12px; */
+    color: #c7892c;
+    font-weight: bolder;
 }
 .smallbutton2{
     background-color:var(--Ochre);
