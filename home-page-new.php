@@ -1,3 +1,8 @@
+<?php
+    /*
+    Template Name: Home page new
+    */
+    ?>
 <?php get_header();?> <!-- Tell WordPress to include header.php -->
     <!-- COVER IMAGE SECTION -->
     <div class="creambg">
@@ -15,7 +20,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <!-- <img class="coverimage" src="images/CoverImage.png" alt="CoverImage"> -->
+                <!-- <img class="coverimage" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/CoverImage.png" alt="CoverImage"> -->
                 
             </div>
         </div> <!-- row -->
@@ -103,10 +108,11 @@
     </div>
 </section> <!-- container-fluid -->
 
-<!-- Acknowledgement To Country -->
-<section class="container-fluid acknowledgementbg d-flex align-items-center justify-content-center">
+<!-- Why History Matters Image -->
+<section class="container-fluid whyhistorymattersbg d-flex align-items-center justify-content-center">
     <div>
-        <h3 class="acknowledgementtitle">The History Council of Western Australia acknowledges the Traditional Custodians and the many Aboriginal nations within the lands represented by the work and research of the HCWA.  We call for truth-telling in the sharing of our history, and pay our respects to past, present and emerging Elders of this land</h3>
+        <h3 class="whyhistorymatterstitle">WHY HISTORY MATTERS</h3>
+        <a class="smallbutton2" href="#">
             <p class="smallbuttontext">LEARN MORE</p>
         </a>
     </div>
