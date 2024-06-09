@@ -71,8 +71,6 @@ html,body{
 /* Note: This is the section coloured boxes for the image overlap ontop*/
 .sectionbglighttop{
     background-color:var(--Beige);
-    /* width: 930px;
-    height: 450px; */
     margin-top: 15%;
     margin-left: 15%;
     padding-left: 5%;
@@ -155,10 +153,6 @@ img.footerlogo {
 
 /* Typography */
 /* NOTE: this is the text rules for the section boxes that has an image overlaping */
-.sectionupper-text{
-
-    /* padding-right: 50%; */   /*  @@@@@@@@@@@@@@@ */
-}
 .sectionlower-text{
     padding-right: 5%;
     padding-top: 5%;
@@ -206,7 +200,7 @@ img.footerlogo {
   display: inline-block;
   border-radius: 12px;
   color: white;
-  margin-bottom: 18%;
+  margin-bottom: 10%;
   margin-top: 5%;
   }
 
@@ -368,6 +362,7 @@ p{
 }
 .smallbutton{
     margin-top: 2em;
+    margin-bottom: 2em;
     margin-left: 1em;
     background-color:var(--Ochre);
     padding: 10px 40px;
@@ -493,7 +488,7 @@ h5{
 /* Colours */
 .creambg-aboutus{
     background-color:var(--Beige);
-    /* background-size: cover; */
+    height: 100%;
 }
 /* Typography */
 .darkh3quote{
