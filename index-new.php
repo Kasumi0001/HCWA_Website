@@ -165,11 +165,10 @@
     </div>
 </section> <!-- container-fluid -->
 
-<!-- Why History Matters Image -->
-<section class="container-fluid whyhistorymattersbg d-flex align-items-center justify-content-center">
+<!-- Acknowledgement To Country -->
+<section class="container-fluid acknowledgementbg d-flex align-items-center justify-content-center">
     <div>
-        <h3 class="whyhistorymatterstitle">WHY HISTORY MATTERS</h3>
-        <a class="smallbutton2" href="#">
+        <h3 class="acknowledgementtitle">The History Council of Western Australia acknowledges the Traditional Custodians and the many Aboriginal nations within the lands represented by the work and research of the HCWA.  We call for truth-telling in the sharing of our history, and pay our respects to past, present and emerging Elders of this land</h3>
             <p class="smallbuttontext">LEARN MORE</p>
         </a>
     </div>
