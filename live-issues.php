@@ -37,7 +37,7 @@
                 <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
                 </a>
-                <p class="liveissuesparagraph">
+                <p>
                 <?php the_field('issueoneparagraph'); ?>
                 </p>
             </div> <!-- Column -->
@@ -55,7 +55,7 @@
                 <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
                 </a>
-                <p class="liveissuesparagraphlight">
+                <p>
                 <?php the_field('issuetwoparagraph'); ?>
                 </p>
             </div><!-- Column -->
@@ -85,7 +85,7 @@
                 <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
                 </a>
-                <p class="liveissuesparagraph">
+                <p>
                 <?php the_field('issuethreeparagraph'); ?>
                 </p>
             </div> <!-- Column -->
