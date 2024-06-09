@@ -115,6 +115,9 @@
         min-width: 102px;
         font-size: 0.8em;
     }
+    .signinbutton {
+        padding: 0px 40px;
+    }
     /* SEARCH */
     h1.search-query {
         padding-left: 74%;
