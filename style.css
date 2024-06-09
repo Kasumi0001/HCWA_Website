@@ -223,13 +223,14 @@ img.footerlogo {
   }
 
   .bigbutton12{
-    background-color: var(--Ochre);
-  padding: 15px 60px;
-  display: inline-block;
-  border-radius: 12px;
-  color: white;
-  margin-bottom: 10%;
-  margin-top: 5%;
+    border-color: var(--Ochre);
+    /* padding: 15px 60px; */
+    display: inline-block;
+    /* border-radius: 12px; */
+    color: var(--Ochre);
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-weight: bolder;
   }
 
   .img-fluid.lectimg {
