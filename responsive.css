@@ -1,5 +1,14 @@
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
 @media only screen and (max-width:1440px){
+    .signinbutton {
+        padding: 5px 34px;
+    }
+    .smallbuttontext {
+        font-size: 0.8em;
+        width: 160%;
+        display: block;
+        margin-left: -30%;
+    }
     /* INDEX/HOMEPAGE */
     h1 {
         width: 172%;
@@ -18,7 +27,7 @@
     } */
     .sectionbgdarktop {
         width: 136%;
-        height: 73%;
+        height: 75%;
         margin-top: 15%;
         margin-left: -21%;
     }
@@ -51,6 +60,10 @@
     }
 
     /* ABOUT US */
+    img.upperimage {
+        margin-top: 11%;
+        padding-bottom: 5%;
+    }
     .creambg-aboutus {
         height: 80%;
     }
@@ -61,6 +74,9 @@
     .uppertitlelight {
         font-size: 4em;
         margin-left: 5%;
+        width: 76%;
+        margin-top: -7%;
+        padding-top: 2%;
     }
     .uppertextlight {
         width: 82%;
@@ -95,6 +111,12 @@
     .whatsontitlelight {
         width: 72%;
     }
+    .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 24%;
+    }
+
     /* FOOTER */
     .homefooter{
         color: white;
@@ -124,7 +146,13 @@
         font-size: 0.8em;
     }
     .signinbutton {
-        padding: 0px 40px;
+        padding: 5px 34px;
+    }
+    .smallbuttontext {
+        font-size: 0.8em;
+        width: 160%;
+        display: block;
+        margin-left: -30%;
     }
     /* SEARCH */
     h1.search-query {
@@ -242,8 +270,12 @@
     }
     .sectionbgdarktop{
         margin-left: -25%;
-        height: 73%;
+        height: 92%;
         width: 214%;
+    }
+    img.upperimage {
+        margin-top: -136%;
+        padding-bottom: 5%;
     }
     .uppetitlelight{
         font-size: 48px;
@@ -294,7 +326,7 @@
     /* WHATS ON */
     .whatsontitlelight {
         font-size: 48px;
-        width: 189%;
+        width: 84%;
         margin-left: 14%;
     }
     .whatsontitledark{
@@ -316,12 +348,17 @@
         margin-left: 15%;
         width: 106%;
     }
-    .listedawards{
+    .listedawards {
         margin-top: 25%;
+        width: 105%;
     }
     .awardslisttext{
         font-size: 14px;
     }
+    .col-md-3 {
+        max-width: 24%;
+    }
+
     /* CONTACT US */
     .contactlanding {
         margin-bottom: -3%;
@@ -669,8 +706,14 @@
     .awardslisttext{
         font-size: 12px;
     }
-    .smallbuttontext{
-        font-size: 9px;
+    .signinbutton {
+        padding: 5px 34px;
+    }
+    .smallbuttontext {
+        font-size: 0.8em;
+        width: 160%;
+        display: block;
+        margin-left: -30%;
     }
     /* LIVE ISSUES */
     .liveissuesimage {
@@ -849,6 +892,9 @@ h1 {
         margin-top: 1%;
     }
     /* INDEX/HOMEPAGE */
+    .covertitle-container h1 {
+        width: 88%;
+    }
     .navbar-collapse {
         margin-top: -7%;
     }
@@ -972,7 +1018,7 @@ h1 {
         font-size: 1em;
         padding-bottom: 3%;
         padding-left: 3%;
-        width: 62%;
+        width: 139%;
         margin-left: 2%;
         margin-top: 1%;
     }
@@ -1034,11 +1080,11 @@ h1 {
     .signinbutton {
         margin-top: 72.5%;
         margin-left: -18%;
-        padding: 7px 63px;
+        padding: 11px 63px;
     }
     .smallbuttontext {
-        font-size: 9px;
-        margin-left: -65%;
+        font-size: 1em;
+        margin-left: -44%;
     }
     .searchicon {
         margin-top: 50%;
@@ -1046,10 +1092,18 @@ h1 {
     .no-gutters {
         margin-right: 91%;
         margin-left: -140%;
-        margin-top: 229%;
+        margin-top: 242%;
     }
 
     /* SEARCH */
+    .navbar-expand-md .navbar-nav .nav-link {
+        font-size: 1em;
+    }
+    .ml-auto, .mx-auto {
+        margin-right: -73%;
+        margin-top: -6%;
+        width: 100%;
+    }
     a.read-more-link {
         position: absolute;
         right: 30%;
