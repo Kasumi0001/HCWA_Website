@@ -99,10 +99,15 @@ html,body{
 
 .sectionbgdarktop{
     background-color:var(--LighterBlack);
-    /* width: 930px;   /*@@@@@@@@@@@@@@@@@@@@ */
-    /* height: 450px;
-    margin-top: 15%;
-    margin-left: 15%; */  
+    width: 137%;
+    height: 58%;
+    margin-top: 15%; 
+}
+
+.upperimage{
+    margin-top: 22%;
+    margin-bottom: 15%;
+    margin-left: -10%;
 }
 
 .upperimage1 {
@@ -175,6 +180,12 @@ img.footerlogo {
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 40%;
+}
+.sectionupper-text{
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 55%;
 }
 .lowertitle{
     color: white;
