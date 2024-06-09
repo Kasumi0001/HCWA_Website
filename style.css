@@ -46,21 +46,22 @@ html,body{
 /* Live issues posts */
 .livebox{
     background-color:var(--Beige);
-    height: 51.875em;
-    width: 23.438em;
+    height: 830px;
+    width: 375px;
     margin-top: -25%;
 }
 /* Background Colours */
-.creambg{
+ .creambg{  /*@@@@@@@@@@@@@@@@@@@@ */
     background-color:var(--Beige);
+    background-image:url(images/coverImage1.png);
     background-size: cover;
-    padding-bottom: 7.5em;
-    margin-top: 1.563em;
+    /* padding-bottom: 120px;
+    margin-top: 25px; */
 }
-.charcoalbg{
+.charcoalbg1{/*@@@@@@@@@@@@@@@@@@@@ */
     background-color:var(--LighterBlack);
     background-size: cover;
-    height: 80%;
+    /* height: 80%; */
 }
 .footerbg{
     background-color:var(--Ochre);
@@ -70,30 +71,41 @@ html,body{
 /* Note: This is the section coloured boxes for the image overlap ontop*/
 .sectionbglighttop{
     background-color:var(--Beige);
-    width: 58.125em;
-    height: 28.125em;
+    /* width: 930px;
+    height: 450px; */
     margin-top: 15%;
     margin-left: 15%;
-}
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin-bottom: 10%;
+    padding-right: 14%;
+  }
+
 .sectionbgdarktop{
     background-color:var(--LighterBlack);
-    width: 58.125em;
-    height: 28.125em;
+    /* width: 930px;   /*@@@@@@@@@@@@@@@@@@@@ */
+    /* height: 450px;
     margin-top: 15%;
-    margin-left: 15%;
+    margin-left: 15%; */  
 }
+
+.upperimage1 {
+    margin-top: 8%;
+    margin-left: -9%;
+  }
 .sectionbglightbottom{
     background-color:var(--Beige);
-    width: 58.125em;
-    height: 28.125em;
+    width: 930px;
+    height: 450px;
     margin-bottom: 15%;
     margin-left: 75%;
     margin-top: 15%;
 }
 .sectionbgdarkbottom{
     background-color:var(--LighterBlack);
-    width: 58.125em;
-    height: 28.125em;
+    width: 930px;
+    height: 450px;
     margin-bottom: 15%;
     margin-left: 75%;
     margin-top: 25%;
@@ -144,10 +156,8 @@ img.footerlogo {
 /* Typography */
 /* NOTE: this is the text rules for the section boxes that has an image overlaping */
 .sectionupper-text{
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 50%;
+
+    /* padding-right: 50%; */   /*  @@@@@@@@@@@@@@@ */
 }
 .sectionlower-text{
     padding-right: 5%;
@@ -164,6 +174,52 @@ img.footerlogo {
     color: var(--LighterBlack);
     text-align: left;
 }
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.lecturebg{
+    
+}
+.annuallecturetextbg{
+    background-color: var(--LighterBlack);
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.lowertitle1 {
+    padding-top: 11%;
+    margin-left: 5%;
+    text-align: left;
+    padding-bottom: 5%;
+    margin-top: 24%;
+  }
+
+  .lowertext1 {
+    color: white;
+    margin-left: 5%;
+  }
+
+  .bigbutton12{
+    background-color: var(--Ochre);
+  padding: 15px 60px;
+  display: inline-block;
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 18%;
+  margin-top: 5%;
+  }
+
+  .img-fluid.lectimg {
+    /* display: block; */
+    margin-left: 14%;
+    position: relative;
+    z-index: 100;
+    margin-top: 10%;
+  }
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+
 .uppertitle{
     color: var(--LighterBlack);
     text-align: left;
@@ -206,10 +262,23 @@ h2{
     padding-top: 100px;
     padding-bottom: 30px;
 }
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.covertitle-container h2 {
+    font-size: 2em;
+    font-family: "CaslonBold";
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 12px;
+  }
+
+
+
+
+
 h3{
     color: white;
     font-family: adobe-caslon-pro, serif;
-    font-size: 64px;
+    font-size: 3em;   /* @@@@@@@@@@@@@@@ */
     font-weight: 700;
     font-style: normal;
     margin-top: 50px;
@@ -242,128 +311,76 @@ p{
     margin-top: 1%;
 }
 /* Buttons */
-
 .buttontext{    
-    font-size: 1em;
+    color: white;
+    font-size: 24px;
     font-weight: bolder;
 }
 .smallbuttontext{
-    font-size: 1em;
+    color: white;
+    font-size: 0.9em;
     font-weight: bolder;
 }
 .signinbutton{
-    background-color:var(--Ochre);
-    color: white;
-    font-weight: 400;
+    background-color:var(--Blue);
+    font-weight: 500;
     text-align: center;
-    font-size: 0.875em;
-    padding: 0.625em 2.5em;
+    font-size: 14px;
+    padding: 10px 40px;
     display: inline-block;
-    border-radius: 0.75em;
+    border-radius: 12px;
     margin-left: 1%;
     text-transform: uppercase;
-    border: 0.15em solid var(--Ochre);
-}
-.signinbutton:hover{
-    background-color:transparent;
-    color: #C7892C;
-    border: 0.15em solid var(--Ochre);
-    text-decoration: none;
 }
 .bigbutton1{
     background-color:var(--Ochre);
-    display:inline-block;
-    padding: 0.625em 2.5em;
-    margin:0.3em 0.3em;
-    border-radius: 0.75em;
-    text-decoration:none;
-    box-sizing: border-box;
-    text-align:center;
-    transition: all 0.2s;
+    padding: 15px 60px;
+    display: inline-block;
+    border-radius: 12px;
     color: white;
-    border: 0.15em solid var(--Ochre);
-}
-.bigbutton1:hover{
-    background-color:transparent;
-    color: #C7892C;
-    border: 0.15em solid var(--Ochre);
-    text-decoration: none;
+   margin-bottom: 60%; /* @@@@@@@@@@@@@@ */
 }
 .bigbutton2{
     margin-left: 0%;
     background-color:var(--Ochre);
-    padding: 0.625em 2.5em;
+    padding: 15px 60px;
     display: inline-block;
-    border-radius: 0.75em;
+    border-radius: 12px;
     color: white;
     margin-top: 8%;
-    border: 0.15em solid var(--Ochre);
 }
-.bigbutton2:hover{
-    background-color:transparent;
-    color: #C7892C;
-    border: 0.15em solid var(--Ochre);
-    text-decoration: none;
-}
-.bigbuttonWH{
+.bigbuttonWH{ /* @@@@@@@@@@@@@@@@@@@@@ */
     margin-left: 90px;
     background-color:var(--Ochre);
-    padding: 0.625em 2.5em;
+    padding: 15px 60px;
     display: inline-block;
-    border-radius: 0.75em;
+    border-radius: 12px;
     color: white;
     margin-top: 8%;
-    border: 0.15em solid var(--Ochre);
-}
-.bigbuttonWH:hover{
-    background-color:transparent;
-    color: #C7892C;
-    border: 0.15em solid var(--Ochre);
-    text-decoration: none;
+    margin-bottom: 10%;
 }
 .bigbutton3{
     background-color:var(--Ochre);
-    padding: 0.625em 2.5em;
+    padding: 15px 60px;
     display: inline-block;
-    border-radius: 0.75em;
+    border-radius: 12px;
     color: white;
-    border: 0.15em solid var(--Ochre);
-}
-.bigbutton3:hover{
-    background-color:transparent;
-    color: #C7892C;
-    border: 0.15em solid var(--Ochre);
-    text-decoration: none;
 }
 .smallbutton{
     margin-top: 2em;
     margin-left: 1em;
     background-color:var(--Ochre);
-    padding: 0.625em 2.5em;
+    padding: 10px 40px;
     display: inline-block;
-    border-radius: 0.75em;
+    border-radius: 12px;
     color: white;
-    border: 0.15em solid var(--Ochre);
-}
-.smallbutton:hover{    
-    background-color:transparent;
-    color: #C7892C;
-    border: 0.15em solid var(--Ochre);
-    text-decoration: none;
 }
 .smallbutton2{
     background-color:var(--Ochre);
-    padding: 0.625em 2.5em;
+    padding: 10px 40px;
     display: inline-block;
-    border-radius: 0.75em;
+    border-radius: 12px;
     color: white;
-    border: 0.15em solid var(--Ochre);
-}
-.smallbutton2:hover{
-    background-color:transparent;
-    color: #C7892C;
-    border: 0.15em solid var(--Ochre);
-    text-decoration: none;
 }
 /* RULES FOR SPECIFIC HTML PAGES THAT ISN'T USED ON MULTIPLE */
 
@@ -374,12 +391,7 @@ p{
     height: 350px;
     position: relative;
 }
-.covertitle-container{
-    margin-left: 15%;
-    z-index:1;
-    position: relative;
-    max-width: fit-content;
-}
+
 /* Images */
 .coverimage{
     margin-top: -25px;
@@ -387,11 +399,16 @@ p{
     margin-right: -15%;
     width: 100%;
 }
-.liveissuesimg{
-    margin-top:-55px;
+
+.container-fluid.liveissuescon { /*  @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    background-color: var(--LighterBlack);
+  }
+
+.liveissuesimg {   /*  @@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    margin-top: -35px;
     width: 100%;
     height: auto;
-}
+  }
 .image-livebox{
     float:right;
     position: absolute; 
@@ -445,7 +462,7 @@ h5{
     font-weight: bolder;
     text-align: right;
     color:var(--LighterBlack);
-    line-height: 170px;
+    line-height: 158px;/*  @@@@@@@@@@@@@ */
     margin-top: 0.05em;
     margin-right: 0.15em;
     margin-bottom: 0.05em;
@@ -476,7 +493,7 @@ h5{
 /* Colours */
 .creambg-aboutus{
     background-color:var(--Beige);
-    background-size: cover;
+    /* background-size: cover; */
 }
 /* Typography */
 .darkh3quote{
@@ -545,8 +562,6 @@ h5{
     margin-left: auto;
     margin-right: auto;
     margin-top: 35%;
-    width: 100%;
-    height: auto;
 }
 /* Typography */
 /* h3 special classes */
@@ -1020,7 +1035,7 @@ button#wpforms-submit-862 {
     height: auto;
 }
 .image1{
-    padding-bottom: 5.25em;
+    padding-bottom: 84px;
 }
 .image2{
     padding-top: 20%;
