@@ -84,6 +84,11 @@ html,body{
     padding-right: 14%;
   }
 
+.creambg-ls{
+    background-color:var(--Beige);
+    height: 100%;
+} 
+
 .sectionbglighttop1{
     background-color:var(--Beige);
     width: 58.125em;
