@@ -323,8 +323,7 @@
 
 }
 
-/* Tablet size */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
     .navbar-collapse {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -335,6 +334,10 @@
         display: flex;
         justify-content: flex-end;
     }
+}
+/* Tablet size */
+@media only screen and (max-width:768px) {
+    
 /* INDEX/HOMEPAGE */
     .coverimage {
         width: 193%;
