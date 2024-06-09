@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img class="upperimage2" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
+                <img class="upperimage1" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
             </div>
         </div>
     </div>
