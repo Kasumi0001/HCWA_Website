@@ -301,7 +301,7 @@ h2{
     margin-left: -20%;
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-.covertitle-container {
+.covertitle-container h2 {
     font-size: 2em;
     font-family: "CaslonBold";
     font-weight: bold;
