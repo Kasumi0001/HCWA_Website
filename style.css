@@ -170,9 +170,9 @@ img.footerlogo {
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-.lecturebg{
+/* .lecturebg{
     
-}
+} */
 .annuallecturetextbg{
     background-color: var(--LighterBlack);
   padding-left: 10%;
@@ -453,7 +453,7 @@ h1 {
 .sensitivitytag{
     margin:auto;
     color: white;
-    font-style: 'montserrat';
+    font-family: 'montserrat';
     font-style: italic;
     text-align: center;
     width: 35%;
