@@ -305,10 +305,15 @@ p{
     margin-top: 1%;
 }
 /* Buttons */
-.buttontext{    
+/* .buttontext{    
     color: white;
     font-size: 24px;
     font-weight: bolder;
+} */
+.btn btn-outline-secondary :hover{
+    color:white;
+    border-color:var(--Ochre);
+    background-color:var(--Ochre);
 }
 .smallbuttontext{
     color: white;
@@ -326,13 +331,18 @@ p{
     margin-left: 1%;
     text-transform: uppercase;
 }
-.bigbutton1{
-    background-color:var(--Ochre);
-    padding: 15px 60px;
+.coverbtn{
+    color:var(--Ochre);
+    /* padding: 15px 60px;
     display: inline-block;
-    border-radius: 12px;
-    color: white;
-   margin-bottom: 60%; /* @@@@@@@@@@@@@@ */
+    border-radius: 12px; */
+    /* font-size: 24px; */
+    color: #c7892c;
+    margin-bottom: 60%;
+    font-weight: bolder;
+    border-color: #c7892c;
+    margin-bottom: 60%;
+    font-weight: bolder; /* @@@@@@@@@@@@@@ */
 }
 .bigbutton2{
     margin-left: 0%;
@@ -343,13 +353,13 @@ p{
     color: white;
     margin-top: 8%;
 }
-.bigbuttonWH{ /* @@@@@@@@@@@@@@@@@@@@@ */
+.liveHome{ /* @@@@@@@@@@@@@@@@@@@@@ */
     margin-left: 90px;
-    background-color:var(--Ochre);
-    padding: 15px 60px;
-    display: inline-block;
-    border-radius: 12px;
-    color: white;
+    /* background-color:var(--Ochre); */
+    /* padding: 15px 60px;
+    display: inline-block; */
+    /* border-radius: 12px; */
+    /* color: white; */
     margin-top: 8%;
     margin-bottom: 10%;
 }
