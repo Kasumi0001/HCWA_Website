@@ -10,10 +10,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="covertitle-container">
-                    <h2>PROVIDING</h2>
-                    <h1>A VOICE </h1>
-                    <h1 class="for">FOR</h1>
-                    <h1 class="history">HISTORY</h1>
+                <h2>WELCOME TO</h2>
+                    <h1>THE HISTORY COUNCIL OF WESTERN AUSTRALIA</h1>
                     <a class="bigbutton1" href="#">
                         <p class="buttontext">ABOUT US</p>
                     </a>
@@ -27,7 +25,7 @@
         </div>
     </div> <!-- container -->
 
-
+    <div class="paddingbg"> </div>
 
 <!-- Live Issues Section -->
 <section class="container-fluid charcoalbg1">
@@ -47,14 +45,12 @@
     </div>
 </section> <!-- container-fluid -->
 
-<div class="paddingbg"> </div>
-
 <!-- Live Issues Post Section -->
 <section class="container-fluid liveissuescon">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <div class="creambg-aboutus">
+                <div class="creambg-ls">
                     <h5>01</h5>
                     <h4 class="liveboxsubtitle">Albany 2026 <br> Bicentary</h4>
                     <p class="liveboxtext">Established in 1826, three years before the Swan River Colony, Albany is currently navigating how best to acknowledge and commemorate the upcoming 2026 Albany Bicentenary.</p>
@@ -64,7 +60,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="creambg-aboutus">
+                <div class="creambg-ls">
                     <h5>02</h5>
                     <h4 class="liveboxsubtitle">Woodside <br> Redevelopment</h4>
                     <p class="liveboxtext">Between 2022-2023, the History Council of WA actively campaigend to protect the heritage of Woodside Maternity Hospital (1953-2006) following an application for redevelopment. </p>
@@ -74,7 +70,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="creambg-aboutus">
+                <div class="creambg-ls">
                     <h5>03</h5>
                     <h4 class="liveboxsubtitle">Norman <br> House</h4>
                     <p class="liveboxtext">A significant example of Victorian-Georgian architeture in Western Australia, Norman House (c.1858) was successfully advocated for by the History Council of WA and saved from demolition in 2023.</p>

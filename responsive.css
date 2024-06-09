@@ -1,6 +1,9 @@
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
 @media only screen and (max-width:1440px){
     /* INDEX/HOMEPAGE */
+    h1 {
+        width: 172%;
+    }
     .lowerimage {
         margin-top: 15%;
         margin-left: -121%;
@@ -14,9 +17,10 @@
         margin-left: -7%;
     } */
     .sectionbgdarktop {
-        width: 156%;
-        height: 64%;
+        width: 136%;
+        height: 73%;
         margin-top: 15%;
+        margin-left: -21%;
     }
     .lowertext {
         width: 80%;
@@ -47,15 +51,19 @@
     }
 
     /* ABOUT US */
+    .creambg-aboutus {
+        height: 80%;
+    }
     .darkh3quote{
         margin-left: -15%;
+        width: 89%;
     }
     .uppertitlelight {
         font-size: 4em;
         margin-left: 5%;
     }
     .uppertextlight {
-        width: 111%;
+        width: 82%;
         font-size: 1em;
         margin-left: 5%;
     }
@@ -127,7 +135,7 @@
     h1 {
         font-size: 4em;
         font-weight: bold;
-        width: 185%;
+        width: 164%;
     }
     .liveissuestitle {
         font-size: 3.5em;
@@ -208,6 +216,9 @@
     }
 
     /* ABOUT US */
+    .creambg-aboutus {
+        height: 59%;
+    }
     .aboutuscoverimage {
         width: 500px;
     }
@@ -239,12 +250,13 @@
     }
     .uppertextlight {
         font-size: 1em;
-        width: 78%;
+        width: 53%;
         margin-left: 3%;
     }
     .uppertitlelight {
         font-size: 3.5em;
         margin-left: 3%;
+        width: 67%;
     }
     .lowerimage2{
         margin-left: -135%;
@@ -426,6 +438,9 @@
         margin-top: 9%;
         margin-left: 11%;
     }
+    .col-lg-4 {
+        padding-bottom: 5%;
+    }
     .livep {
         margin-left: 11%;
         font-size: 1em;
@@ -536,10 +551,13 @@
     .acknowledgementbg{
         min-width: 768px;
     }
-    .acknowledgementtitle{
-        text-align: left;
-        margin-left: 2%;
+    .acknowledgementtitle {
+        text-align: center;
+        margin-left: 23%;
         margin-top: 20px;
+    }
+    .sensitivitytag {
+        margin-left: 29%;
     }
     .upperimage_2029 {
         padding-top: 195%;
@@ -789,7 +807,7 @@ h1 {
     font-size: 3.5em;
     font-weight: bold;
     line-height: 85%;
-    width: 201%;
+    width: 188%;
     margin-top: 0%;
   }
   .for {
@@ -855,10 +873,18 @@ h1 {
         padding-top: 15%;
     }
     .acknowledgementtitle {
-        text-align: left;
-        margin-left: -10%;
+        text-align: center;
+        margin-left: 13%;
         margin-top: 20px;
-        font-size: 2em;
+        font-size: 1em;
+    }
+    .sensitivitytag {
+        margin-left: 19%;
+        font-size: 0.7em;
+        padding-top: 8%;
+    }
+    .sensitivitytag {
+        margin-left: 19%;
     }
     .bigbutton1 {
         margin-left: 20%;
@@ -975,9 +1001,10 @@ h1 {
         margin-left: 6%;
         margin-top: 1%;
     }
-    .acknowledgementbg{
+    .acknowledgementbg {
         min-width: 510px;
-        margin-top: 70%;
+        margin-top: 7%;
+        height: 53%;
     }
     .liveissuesimg {
         width: 90%;
@@ -1461,7 +1488,7 @@ h1 {
         left: 40%;
     }
     .footerbg {
-        height: 50%;
+        height: 68%;
     }
     hr {
         margin-top: 67%;
