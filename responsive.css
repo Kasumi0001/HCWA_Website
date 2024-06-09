@@ -623,21 +623,24 @@
     }
     .uppertitlelight {
         font-size: 2em;
-        width: 123%;
+        width: 62%;
         padding-bottom: 3%;
     }
-    .uppertextlight{
-        width: 96%;
+    .uppertextlight {
+        width: 56%;
         font-size: 1em;
     }
     .sectionbgdarktop {
         margin-left: 1%;
-        height: 77%;
+        height: 85%;
         width: 167%;
     }
     .upperimage {
         width: 100%;
         margin-top: -88%;
+    }
+    img.upperimage {
+        margin-top: -84%;
     }
     .lowerimage2 {
         margin-left: -109%;
