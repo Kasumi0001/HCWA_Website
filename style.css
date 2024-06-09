@@ -90,11 +90,11 @@ html,body{
 } 
 
 .sectionbglighttop1{
-    background-color:var(--Beige);
-    width: 58.125em;
-    height: 28.125em;
+    background-color: var(--Beige);
+    width: 150%;
+    height: 65%;
     margin-top: 15%;
-    margin-left: 15%;
+    margin-left: -5%;
 }
 
 .sectionbgdarktop{
