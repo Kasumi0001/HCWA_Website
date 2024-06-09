@@ -22,13 +22,13 @@
     <section class="container-fluid">
         <div class="custom-container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="sectionbgdarktop sectionupper-text">
                         <h3 class="uppertitlelight"><?php the_field('titleforvalueofhistory'); ?></h3>
                         <p class="uppertextlight"><?php the_field('textforvalueofhistory'); ?></p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <img class="upperimage" src="<?php the_field('imageforvalueofhistory'); ?>" alt="Value of History">
                 </div>
             </div>
@@ -74,14 +74,14 @@
     <section class="container-fluid">
         <div class="custom-container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="sectionbglightbottom sectionlower-text">
+            <div class="col-lg-6">
+                    <img class="lowerimage2" src="<?php the_field('imageforadvocacy'); ?>" alt="Advocacy">
+                </div>
+            <div class="col-lg-6">
+                        <div class="advocacybg advocacytext">
                         <h3 class="lowertitledark"><?php the_field('titleforadvocacy'); ?></h3>
                         <p class="lowertextdark"><?php the_field('textforadvocacy'); ?></p>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <img class="lowerimage2" src="<?php the_field('imageforadvocacy'); ?>" alt="Advocacy">
                 </div>
             </div>
         </div>
