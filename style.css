@@ -84,6 +84,14 @@ html,body{
     padding-right: 14%;
   }
 
+.sectionbglighttop1{
+    background-color:var(--Beige);
+    width: 58.125em;
+    height: 28.125em;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
 .sectionbgdarktop{
     background-color:var(--LighterBlack);
     /* width: 930px;   /*@@@@@@@@@@@@@@@@@@@@ */
@@ -269,10 +277,6 @@ h2{
     padding-bottom: 12px;
   }
 
-
-
-
-
 h3{
     color: white;
     font-family: adobe-caslon-pro, serif;
@@ -314,7 +318,7 @@ p{
     font-size: 24px;
     font-weight: bolder;
 } */
-.btn btn-outline-secondary:hover{
+.btn-outline-secondary:hover {
     color:white;
     border-color:var(--Ochre);
     background-color:var(--Ochre);
