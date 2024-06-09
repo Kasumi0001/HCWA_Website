@@ -58,6 +58,10 @@ html,body{
     /* padding-bottom: 120px;
     margin-top: 25px; */
 }
+.paddingbg{
+    background-color: #F1EDE5;
+    padding-top: 7%;
+}
 .charcoalbg1{/*@@@@@@@@@@@@@@@@@@@@ */
     background-color:var(--LighterBlack);
     background-size: cover;
