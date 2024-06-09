@@ -410,8 +410,8 @@ p{
     right: 0; 
     bottom: 0;
 }
-.whyhistorymattersbg{
-    background:url("images/whyhisotrymatters.png") no-repeat center center;
+.acknowledgementbg{
+    background:url("images/acknowledgementbg.png") no-repeat center center;
     background-size: cover;
     min-height: 370px;
     min-width: 1470px;
@@ -439,11 +439,28 @@ h1 {
     text-align: left;
     margin-left: 15%;
 }
-.whyhistorymatterstitle{
+.acknowledgementtitle{
     color: white;
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 100;
+    font-style: italic;
+    font-family: 'montserrat';
     text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.sensitivitytag{
+    margin:auto;
+    color: white;
+    font-style: 'montserrat';
+    font-style: italic;
+    text-align: center;
+    width: 35%;
+    font-weight: 100;
+    font-size: 0.8em;
+    padding-top: 2%;
+
 }
 /* h4 special classes */
 .liveboxsubtitle{
