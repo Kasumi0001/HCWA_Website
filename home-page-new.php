@@ -35,9 +35,7 @@
             <div class="col-md-6">
         <h3 class="liveissuestitle">LIVE ISSUES</h3>
         <p class="livep">The History Council of Western Australia provides a voice for history by promotingthe study, preservation and use of history in Western Australia.</p>
-        <a class="bigbuttonWH" href="#">
-            <p class="buttontext">WHAT'S HAPPENING</p>
-        </a>
+        <button type="button" class="btn btn-outline-secondary liveHome" href="#">LEARN MORE</button>
             </div>
         </div>
     </div>
@@ -52,9 +50,7 @@
                     <h5>01</h5>
                     <h4 class="liveboxsubtitle">Albany 2026 <br> Bicentary</h4>
                     <p class="liveboxtext">Established in 1826, three years before the Swan River Colony, Albany is currently navigating how best to acknowledge and commemorate the upcoming 2026 Albany Bicentenary.</p>
-                    <a class="smallbutton" href="#">
-                        <p class="smallbuttontext">LEARN MORE</p>
-                    </a>
+                    <button type="button" class="btn btn-outline-secondary smallbutton" href="#">LEARN MORE</button>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -62,9 +58,7 @@
                     <h5>02</h5>
                     <h4 class="liveboxsubtitle">Woodside <br> Redevelopment</h4>
                     <p class="liveboxtext">Between 2022-2023, the History Council of WA actively campaigend to protect the heritage of Woodside Maternity Hospital (1953-2006) following an application for redevelopment. </p>
-                    <a class="smallbutton" href="#">
-                        <p class="smallbuttontext">LEARN MORE</p>
-                    </a>
+                    <button type="button" class="btn btn-outline-secondary smallbutton" href="#">LEARN MORE</button>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -72,9 +66,7 @@
                     <h5>03</h5>
                     <h4 class="liveboxsubtitle">Norman <br> House</h4>
                     <p class="liveboxtext">A significant example of Victorian-Georgian architeture in Western Australia, Norman House (c.1858) was successfully advocated for by the History Council of WA and saved from demolition in 2023.</p>
-                    <a class="smallbutton" href="#">
-                        <p class="smallbuttontext">LEARN MORE</p>
-                    </a>
+                    <button type="button" class="btn btn-outline-secondary smallbutton" href="#">LEARN MORE</button>
                 </div>
             </div>
         
@@ -94,9 +86,7 @@
                 <div class="annuallecturetextbg ">
                     <h3 class="lowertitle1">2024 ANNUAL LECTURE</h3>
                     <p class="lowertext1">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
-                    <a class="bigbutton12" href="#">
-                        <p class="buttontext">READ MORE</p>
-                    </a>
+                    <button type="button" class="btn btn-outline-secondary bigbutton12" href="#">LEARN MORE</button>
                 </div>
             </div>
        
@@ -121,9 +111,7 @@
                 <div class="sectionbglighttop1 sectionupper-text">
                     <h3 class="uppertitle">2029<br>BICENTENARY</h3>
                     <p class="uppertext">The History Council of WA is coordinating with local communities and organisations to reflect and examine how we engage with our histories during the 2029 anniversary of the Swan River Colony.</p>
-                    <a class="bigbutton12" href="#">
-                        <p class="buttontext">LEARN MORE</p>
-                    </a>
+                    <button type="button" class="btn btn-outline-secondary bigbutton12" href="#">LEARN MORE</button>
                 </div>
             </div>
             <div class="col-lg-6">
