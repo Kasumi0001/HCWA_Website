@@ -108,6 +108,12 @@
     }
 }
 @media only screen and (max-width:1024px) {
+    /* NAV BAR */
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        min-width: 95px;
+    }
     /* SEARCH */
     h1.search-query {
         padding-left: 74%;
@@ -375,8 +381,7 @@
 
 }
 
-/* Tablet size */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
     .navbar-collapse {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -387,6 +392,15 @@
         display: flex;
         justify-content: flex-end;
     }
+}
+/* Tablet size */
+@media only screen and (max-width:768px) {
+/* NAV HEADER */ 
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    min-width: 0%;
+}
 /* INDEX/HOMEPAGE */
     .coverimage {
         width: 193%;
