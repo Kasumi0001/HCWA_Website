@@ -55,7 +55,7 @@
                 <a class="smallbutton" href="#">
                 <p class="smallbuttontext">HOW CAN WE HELP</p>
                 </a>
-                <p>
+                <p class="liveissuesparagraphlight">
                 <?php the_field('issuetwoparagraph'); ?>
                 </p>
             </div><!-- Column -->
