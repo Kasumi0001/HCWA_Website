@@ -12,9 +12,7 @@
                 <div class="covertitle-container">
                 <h2>WELCOME TO</h2>
                     <h1>THE HISTORY COUNCIL OF WESTERN AUSTRALIA</h1>
-                    <a class="bigbutton1" href="#">
-                        <p class="buttontext">ABOUT US</p>
-                    </a>
+                    <button type="button" class="btn btn-outline-secondary coverbtn" href="#">ABOUT US</button>
                 </div>
             </div>
             <div class="col-md-6">
