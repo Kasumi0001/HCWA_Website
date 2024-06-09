@@ -10,8 +10,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="covertitle-container">
-                <h2>WELCOME TO</h2>
-                    <h1>THE HISTORY COUNCIL OF WESTERN AUSTRALIA</h1>
+                <h2 class="welcomepadding">WELCOME TO</h2>
+                    <h1 class="titlepadding">THE HISTORY COUNCIL OF WESTERN AUSTRALIA</h1>
                     <button type="button" class="btn btn-outline-secondary coverbtn" href="#">ABOUT US</button>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                 <div class="annuallecturetextbg ">
                     <h3 class="lowertitle1">2024 ANNUAL LECTURE</h3>
                     <p class="lowertext1">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
-                    <button type="button" class="btn btn-outline-secondary bigbutton12" href="#">LEARN MORE</button>
+                    <button type="button" class="btn btn-outline-secondary bigbutton12 homelecture" href="#">LEARN MORE</button>
                 </div>
             </div>
        
@@ -115,7 +115,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img class="upperimage1" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
+                <img class="upperimage2" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
             </div>
         </div>
     </div>
