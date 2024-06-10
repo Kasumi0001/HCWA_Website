@@ -6,6 +6,12 @@
     --Ochre: #C7892C;
     --Blue: #64A1B8;
 }
+.thepost h2 {
+    color: white;
+}
+.thepost p {
+    color: white;
+}
 /* Font-faces */
 @font-face{
     font-family: "CaslonBold";
@@ -173,8 +179,9 @@ img.footerlogo {
     width: 50%;
     text-align: left;
     padding-bottom: 5%;
-    margin-top: 24%; */
-}
+    margin-top: 24%;
+ } */
+
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* .lecturebg{
