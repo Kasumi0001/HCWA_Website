@@ -1,14 +1,12 @@
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
 @media only screen and (max-width:1440px){
-    .signinbutton {
-        padding: 2% 5%; /* Adjust padding */
-        text-align: center; /* Center the button */
+
+/* NAV BAR */
+    .row.no-gutters {
+        width: 90%;
     }
+    .signinbtn{
     
-    .smallbuttontext {
-        font-size: 1em; /* Adjust font size */
-        max-width: 100%; /* Ensure text doesn't overflow */
-        margin: 0 auto; /* Center the text */
     }
     /* INDEX/HOMEPAGE */
     h1 {
@@ -18,12 +16,6 @@
         margin-top: 15%;
         margin-left: -121%;
         width: 108%;
-    }
-    .sectionbgdarktop {
-        /* width: 136%;
-        height: 75%;
-        margin-top: 15%;
-        margin-left: -21%; */
     }
     .lowertext {
         width: 80%;
