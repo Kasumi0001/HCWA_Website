@@ -11,6 +11,15 @@
     margin-left: -53%;
     font-size: 1em;
     }
+    .navbar-expand-md {
+    padding: 2%;
+    margin-top: 1%;
+    }
+
+    .nav-link{
+    font-size: 1.1em;
+    }
+
     /* INDEX/HOMEPAGE */
     h1 {
         width: 172%;
