@@ -64,11 +64,12 @@ html,body{
 }
 .paddingbg{
     background-color: #F1EDE5;
-    padding-top: 7%;
+    padding-top: 4%;
 }
 .charcoalbg1{/*@@@@@@@@@@@@@@@@@@@@ */
     background-color:var(--LighterBlack);
     background-size: cover;
+    padding-top: 5%;
 }
 .footerbg{
     background-color:var(--Ochre);
