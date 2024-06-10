@@ -1196,3 +1196,10 @@ button#wpforms-submit-862 {
 .liveissuefooter{
     color: white;
 }
+/* From Marks week 7 video code he added in to thumbnail display rules of the list past advocacy's */
+img.attachment-thumbnail.size-thumbnail.wp-post-image{
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
+}
