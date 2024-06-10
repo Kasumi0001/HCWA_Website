@@ -683,6 +683,11 @@ p.pmpro_level_name_text {
     margin-left: 28%;
     text-transform: uppercase;
 }
+.pmpro_levels_table .pmpro_btn:hover {
+    color:white;
+    border-color:var(--Ochre);
+    background-color:var(--Ochre);
+}
 .pmpro_levels_table th:nth-child(1){
     min-width: 200px;
     color: white;
@@ -823,18 +828,28 @@ h3.pmpro_member_display_name {
     padding: 10px 20px;
     display: inline-block;
     border-radius: 12px;
-    border: 2px solid orange;
+    border: 1px solid orange;
     color: orange;
     text-transform: uppercase;
+}
+.pmpro_member_log_out a:hover {
+    color:white;
+    border-color:var(--Ochre);
+    background-color:var(--Ochre);
 }
 input#wp-submit {
     background-color: transparent;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 12px;
-    border-color: orange;
+    border: 1px solid orange;
     color: orange;
     text-transform: uppercase;
+}
+input#wp-submit:hover {
+    color:white;
+    border-color:var(--Ochre);
+    background-color:var(--Ochre);
 }
 
 /* YOUR PROFILE */
@@ -850,6 +865,11 @@ input.pmpro_btn.pmpro_btn-submit {
     border-color: orange;
     color: orange;
     text-transform: uppercase;
+}
+input.pmpro_btn.pmpro_btn-submit:hover {
+    color:white;
+    border-color:var(--Ochre);
+    background-color:var(--Ochre);
 }
 .pmpro_checkout_box-more-information h2 {
     color: white;
@@ -1062,8 +1082,6 @@ div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
     width: 60%;
 }
 div.wpforms-container-full input[type=submit], div.wpforms-container-full button[type=submit], div.wpforms-container-full .wpforms-page-button, .wp-core-ui div.wpforms-container-full input[type=submit], .wp-core-ui div.wpforms-container-full button[type=submit], .wp-core-ui div.wpforms-container-full .wpforms-page-button {
-    background-color: #C7892C !important;
-    border-color: #C7892C !important;
     font-family: montserrat !important;
     font-weight: 700 !important;
 }
@@ -1071,11 +1089,12 @@ div.wpforms-container-full input[type=submit], div.wpforms-container-full button
     margin-left: 34% !important;
 } 
 button#wpforms-submit-862 {
-    background-color: var(--Ochre);
+    background-color: transparent;
+    border: 2px solid var(--Ochre);
     padding: 10px 20px;
     display: inline-block;
     border-radius: 12px;
-    color: white;
+    color: var(--Ochre);
     margin-left: -15px;
 }
 
