@@ -13,11 +13,13 @@
     }
     .navbar-expand-md {
     padding: 2%;
-    margin-top: 1%;
+    padding-top: 0.3%;
     }
-
     .nav-link{
     font-size: 1.1em;
+    }
+    .hcwaicon {
+        width: 13%;
     }
 
     /* INDEX/HOMEPAGE */
