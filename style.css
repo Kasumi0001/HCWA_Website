@@ -666,6 +666,7 @@ tr.odd {
 h3#post-807 {
     text-align: left;
     padding-left: 3%;
+    padding-top: 8%;
 }
 .container-fluid.maincontainer {
     background-color: var(--LighterBlack);
@@ -694,6 +695,7 @@ table {
 h3#post-804 {
     text-align: left;
     padding-bottom: 1%;
+    padding-top: 8%;
 }
 .pmpro_checkout h2 span.pmpro_checkout-h2-name {
     display: inline-block;
@@ -767,6 +769,7 @@ h3#post-808 {
     text-align: left;
     padding-bottom: 3%;
     text-transform: uppercase;
+    padding-top: 15%;
 }
 h3.pmpro_member_display_name {
     text-align: left;
@@ -805,6 +808,7 @@ input#wp-submit:hover {
 h3#post-809 {
     text-align: left;
     padding-bottom: 3%;
+    padding-top: 8%;
 }
 input.pmpro_btn.pmpro_btn-submit {
     background-color: transparent;
@@ -834,6 +838,7 @@ input.pmpro_btn.pmpro_btn-submit:hover {
 h3#post-801 {
     text-align: left;
     padding-bottom: 3%;
+    padding-top: 8%;
 }
 #pmpro_account .pmpro_box h2 {
     background: none;
@@ -864,6 +869,7 @@ h3#post-805 {
     text-align: left;
     padding-bottom: 3%;
     text-transform: uppercase;
+    padding-top: 8%;
 }
 
 
