@@ -56,25 +56,25 @@
             <img class="listedawards" src="<?php the_field('imageforawards2024'); ?>" alt="awards 2024">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2024'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2024'); ?></p>
-            <button type="button" class="btn btn-outline-secondary smallbutton awardbtn1" href="#">LEARN MORE</button> 
+            <a class="btn btn-outline-secondary smallbutton awardbtn1" href="#">LEARN MORE</a> 
         </div>
         <div class="col-md-6 col-lg-3 mb-4">
             <img class="listedawards" src="<?php the_field('imageforawards2023'); ?>" alt="awards 2023">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2023'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2023'); ?></p>
-            <button type="button" class="btn btn-outline-secondary smallbutton awardbtn2" href="#">LEARN MORE</button> 
+            <a class="btn btn-outline-secondary smallbutton awardbtn2" href="#">LEARN MORE</a> 
         </div>
         <div class="col-md-6 col-lg-3 mb-4">
             <img class="listedawards" src="<?php the_field('imageforawards2022'); ?>" alt="awards 2022">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2022'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2022'); ?></p>
-            <button type="button" class="btn btn-outline-secondary smallbutton awardbtn3" href="#">LEARN MORE</button> 
+            <a class="btn btn-outline-secondary smallbutton awardbtn3" href="#">LEARN MORE</a> 
         </div>
         <div class="col-md-6 col-lg-3 mb-4">
             <img class="listedawards" src="<?php the_field('imageforawards2021'); ?>" alt="awards 2021">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2021'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2021'); ?></p>
-            <button type="button" class="btn btn-outline-secondary smallbutton awardbtn4" href="#">LEARN MORE</button> 
+            <a class="btn btn-outline-secondary smallbutton awardbtn4" href="#">LEARN MORE</a> 
         </div>
     </div>
 </section>
