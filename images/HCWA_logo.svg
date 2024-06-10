@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 927.43 230.83">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2, .cls-3 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #42788e;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: ACaslonPro-Semibold, 'Adobe Caslon Pro';
+        font-size: 150px;
+        font-weight: 600;
+      }
+
+      .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-6 {
+        letter-spacing: .06em;
+      }
+    </style>
+  </defs>
+  <text class="cls-5" transform="translate(1.45 106.59)"><tspan class="cls-2" x="0" y="0">Histo</tspan><tspan class="cls-6" x="369" y="0">r</tspan><tspan class="cls-1" x="432.29" y="0">y</tspan></text>
+  <path class="cls-4" d="M267.11,27.78c0-13.32-14.72-24.11-32.87-24.11s-32.87,10.8-32.87,24.11c0,11.58,8.61,21.03,23.44,23.36-2.68-1.65-1.79-2.61-2.89-5.57-7.81-3.24-13.4-10.73-13.4-17.78,0-10.42,11.52-18.87,25.72-18.87s25.72,8.45,25.72,18.87c0,6.28-2.38,15.05-15.96,22.04,14.45-2.54,23.11-10.66,23.11-22.04Z"/>
+  <text class="cls-3" transform="translate(-7.8 227.98)"><tspan x="0" y="0">Council</tspan></text>
+  <path class="cls-4" d="M797.75,44.5l-60.81,185.73h-36.17l-45.35-138.03-46.13,138.03h-36.43l-60.81-185.73h35.39l45.61,139.45,47.44-139.45h31.45l46.39,140.23,46.92-140.23h32.5Z"/>
+  <path class="cls-4" d="M875.57,191.18h-76.51s-14.35,39.65-14.35,39.65h-34.97l64.54-186.14,41.09-.36,69.62,186.5h-33.69l-15.73-39.65ZM866.4,163.03l-30.69-76.51-27.2,76.51h57.89Z"/>
+</svg>
