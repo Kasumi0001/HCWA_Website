@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="coverimage" src=<?php the_field('coverimg'); ?> alt="CoverImage">
+                <img class="coverimage" src=<?php echo get_field('coverimg'); ?>alt="CoverImage">
                 
             </div>
         </div> <!-- row -->
@@ -97,12 +97,12 @@
     </section> <!-- container-fluid -->
 
 <!-- Acknowledgement To Country -->
-<section class="container-fluid acknowledgementbg">
+<section class="container-fluid acknowledgementbg <?php echo get_field('imageforcountry'); ?>">
     <div class="text-center">
         <h3 class="acknowledgementtitle"><?php the_field('largetextforcountry'); ?></h3>
-            <p class="sensitivitytag"><?php the_field('smalltextforcountry'); ?></p>
+        <p class="sensitivitytag"><?php the_field('smalltextforcountry'); ?></p>
     </div>
-</section> <!-- container-fluid -->
+</section>
 
     <!-- 2029 Bicentenary -->
     <section class="container-fluid">
