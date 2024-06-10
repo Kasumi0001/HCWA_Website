@@ -47,6 +47,14 @@ html,body{
 .navigationfooter-spacing{
     margin:0%;
 }
+.navbar-form.search-container input[type="text"] {
+    border: none; /* Remove the border */
+    border-bottom: 1px solid #ccc; /* Add a bottom border */
+    padding: 8px 30px; /* Adjust padding */
+}
+.navbar-form.search-container .input-group-append button i {
+    border: none; /* Remove border from the icon */
+}
 .footer{
     margin:auto;
 }
