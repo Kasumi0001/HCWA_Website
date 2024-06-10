@@ -88,11 +88,10 @@
 </section> <!-- Container Fluid -->
 
 <!-- past cases -->
-
 <section class="container-fluid"> 
     <div class="container"> 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <h1 class="pastadvocacy"><?php the_field('pastadvocacytitle'); ?></h1>
                 <p>
                 <?php the_field('pastadvocacyparagraph'); ?>
