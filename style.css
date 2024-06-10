@@ -55,6 +55,13 @@ html,body{
 .navbar-form.search-container .input-group-append button i {
     border: none; /* Remove border from the icon */
 }
+.navbar-form.search-container .input-group-append button {
+    border: none; /* Remove the button border */
+    border-radius: 0; /* Ensure button corners match input */
+}
+.search-btn{
+    border: none;
+}
 .footer{
     margin:auto;
 }
@@ -175,55 +182,21 @@ img.footerlogo {
     padding-bottom: 5%;
     padding-left: 40%;
 }
-
 .lowertitle{
     color: white;
     text-align: left;
     margin: 0;
 }
-/* .lowertitledark{
-    color: var(--LighterBlack);
-    padding-top: 11%;
-    margin-left: 40%;
-    width: 50%;
-    text-align: left;
-    padding-bottom: 5%;
-    margin-top: 24%;
- } */
-
-
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* .lecturebg{
-    
-} */
-.annuallecturetextbg{
-    /* background-color: var(--LighterBlack);
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-top: -5%;
-    margin-bottom: 10%;
-    height: 68%;
-    width: 132%;
-    margin-left: -42%; */
-}
-
 .lowertitle1 {
-    /* padding-top: 5%;
-    margin-left: 38%;
-    width: 50%;
-    text-align: left;
-    padding-bottom: 2%;
-    margin-top: 24%; */
-    color: #52504D;
-    padding-top: 10%;
+    color: var(--LighterBlack);
+    padding-top: 18%;
     margin: auto;
   }
 
-  .lowertext1 {
-    /* color: white;
-    margin-left: 38%; */
-    width: 64%;
-  }
+.lowertext1{
+    width: 70%;
+    padding-top: 2%;
+}
 
   .lowertext2{
     width: 72%;
@@ -231,23 +204,27 @@ img.footerlogo {
 
   .bigbutton12{
     border-color: var(--Ochre);
-    /* padding: 15px 60px; */
     display: inline-block;
-    /* border-radius: 12px; */
     color: var(--Ochre);
-    /* margin-bottom: 10%;
-    margin-top: 5%; */
     font-weight: bolder;
   }
 
   .homelecture{
-    /* margin-left: 38%;
-    margin-bottom: 10%; */
     margin-top: 3%;
+    width: 24%;
+    padding: 2%;
+    font-size: 1.3em;
   }
 
   .bicenbtn{
     margin-top: 3%;
+    margin-left: 5%;
+    width: 30%;
+    padding: 2%;
+    font-size: 1.3em;
+  }
+  .eventimg{
+    margin-left: 3%;
   }
 
   .img-fluid.lectimg {
@@ -261,8 +238,9 @@ img.footerlogo {
 
 .uppertitle{
     color: var(--LighterBlack);
-    padding-top: 10%;
+    padding-top: 18%;
     margin: auto;
+    margin-left: 5%;
 }
 .h3light{
     color: white;
@@ -282,7 +260,9 @@ img.footerlogo {
     padding-bottom: 5%;
 }
 .uppertext{
-    width: 85%;
+    width: 69%;
+    padding-top: 2%;
+    margin-left: 5%;
 }
 .uppertextlight{
     color: white;
@@ -290,8 +270,9 @@ img.footerlogo {
 }
 .nav-link{
     min-width: 120px;
-    color: black;
+    color: var(--LighterBlack)
     text-align: center;
+    font-family: "montserrat", sans-serif;
 }
 .nav-linkfooter{
     color: white;
@@ -300,20 +281,17 @@ h2{
     font-size: 2em;
     font-family: "CaslonBold";
     font-weight: bold;
-    padding-top: 100px;
-    padding-bottom: 30px;
 }
 .welcomepadding{
-    padding-top: 70%;
-    margin-left: -20%;
+    /* padding-top: 70%;
+    margin-left: -20%; */
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 .covertitle-container h2{
     font-size: 2em;
     font-family: "CaslonBold";
-    font-weight: bold;
-    padding-top: 100px;
-    padding-bottom: 2%;
+    font-weight: 200;
+    padding-top: 22%;
   }
 
 h3{
@@ -349,35 +327,25 @@ p{
     width: 10%;
     margin-top: 1%;
 }
-/* Buttons */
-/* .buttontext{    
-    color: white;
-    font-size: 24px;
-    font-weight: bolder;
-} */
 .btn-outline-secondary:hover {
     color:white;
     border-color:var(--Ochre);
     background-color:var(--Ochre);
 }
-/* .smallbuttontext{
-    color: white;
-    font-size: 0.9em;
-    font-weight: bolder;
-} */
 
 .bttmtxtheader{
     font-size: 1.5em;
+    font-family: adobe-caslon-pro, serif;
 }
 .coverbtn{
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: #c7892c;
     border-color: #c7892c;
     margin-bottom: 60%;
     font-weight: bolder;
     width: 35%;
     padding: 3%;
-    margin-left: -20%;
+    margin-top: 2%;
 }
 .bigbutton2{
     margin-left: 0%;
@@ -389,11 +357,13 @@ p{
     margin-top: 8%;
 }
 .liveHome{ /* @@@@@@@@@@@@@@@@@@@@@ */
-    margin-left: 10%;
     margin-top: 5%;
     font-weight: bolder;
     border-color: #c7892c;
     color: #c7892c;
+    width: 37%;
+    padding: 2.5%;
+    font-size: 1.3em;
 }
 .bigbutton3{
     background-color:var(--Ochre);
@@ -404,9 +374,7 @@ p{
 }
 .smallbutton{
     border-color:var(--Ochre);
-    /* padding: 10px 40px; */
     display: inline-block;
-    /* border-radius: 12px; */
     color: #c7892c;
     font-weight: bolder;
 }
@@ -444,15 +412,12 @@ p{
 }
 
 .titlepadding{
-    padding-bottom: 2%;
-    width: 179%;
-    margin-top: 6%;
-    margin-left: -20%;
+    width: 135%;
 }
 
 .container-fluid.liveissuescon { /*  @@@@@@@@@@@@@@@@@@@@@@@@@@ */
     background-color: var(--LighterBlack);
-    padding-bottom: 5%;
+    padding-bottom: 7%;
   }
 
 .liveissuesimg {   /*  @@@@@@@@@@@@@@@@@@@@@@@@@@ */
@@ -489,7 +454,6 @@ h1 {
 /* h3 special classes */
 .liveissuestitle {
     text-align: left;
-    margin-left: 10%;
 }
 .acknowledgementtitle{
     color: white;
@@ -516,31 +480,32 @@ h1 {
 }
 /* h4 special classes */
 .liveboxsubtitle{
-    font-size: 32px;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    font-size: 2em;
+    padding-left: 7%;
+    width: 66%;
 }
 h5{
     font-family: "montserrat", sans-serif;
-    font-size: 195px;
+    font-size: 12em;
     font-weight: bolder;
     text-align: right;
-    color:var(--LighterBlack);
-    line-height: 158px;/*  @@@@@@@@@@@@@ */
-    margin-top: 0.05em;
-    margin-right: 0.15em;
-    margin-bottom: 0.05em;
+    color: var(--LighterBlack);
+    margin-top: 1%;
+    margin-right: 6%;
+    margin-bottom: 1%;
 }
 /* p special classes */
 .livep {
-    margin-left: 10%;
     color: white;
     font-size: 1.3em;
 }
 .liveboxtext{
-    padding-left: 1em;
-    padding-right: 2em;
-    padding-top: 0.5em;
+    padding-left: 8%;
+    height: 31%;
+    width: 88%;
+}
+.livebtn{
+    margin-left: 7%;
 }
 
 /* ABOUT US - Jess */
