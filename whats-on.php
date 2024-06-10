@@ -27,9 +27,6 @@
         <div class="col-md-6">
             <h3 class="whatsontitledark"><?php the_field('titleforannuallecture'); ?></h3>
             <p class="whatsontextdark"><?php the_field('textforannuallecture'); ?></p></p>
-            <a class="smallbutton3" href="#">
-                <p class="smallbuttontext">LEARN MORE</p>
-            </a>
         </div>
         <div class="col-md-6">
             <img class="annuallectureimg" src="<?php the_field('imageforannuallecture'); ?>" alt="Lecture">
@@ -59,33 +56,25 @@
             <img class="listedawards" src="<?php the_field('imageforawards2024'); ?>" alt="awards 2024">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2024'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2024'); ?></p>
-            <a class="smallbutton4" href="#">
-                <p class="smallbuttontext">Read More</p>
-            </a>
+            <button type="button" class="btn btn-outline-secondary smallbutton awardbtn1" href="#">LEARN MORE</button> 
         </div>
         <div class="col-md-3">
             <img class="listedawards" src="<?php the_field('imageforawards2023'); ?>" alt="awards 2023">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2023'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2023'); ?></p>
-            <a class="smallbutton4" href="#">
-                <p class="smallbuttontext">Read More</p>
-            </a>
+            <button type="button" class="btn btn-outline-secondary smallbutton awardbtn2" href="#">LEARN MORE</button> 
         </div>
         <div class="col-md-3">
             <img class="listedawards" src="<?php the_field('imageforawards2022'); ?>" alt="awards 2022">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2022'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2022'); ?></p>
-            <a class="smallbutton4" href="#">
-                <p class="smallbuttontext">Read More</p>
-            </a>
+            <button type="button" class="btn btn-outline-secondary smallbutton awardbtn3" href="#">LEARN MORE</button> 
         </div>
         <<div class="col-md-3">
             <img class="listedawards" src="<?php the_field('imageforawards2021'); ?>" alt="awards 2021">
             <h4 class="awardsubtitle"><?php the_field('titleforawards2021'); ?></h4>
             <p class="awardslisttext"> <?php the_field('textforawards2021'); ?></p>
-            <a class="smallbutton4" href="#">
-                <p class="smallbuttontext">Read More</p>
-            </a>
+            <button type="button" class="btn btn-outline-secondary smallbutton awardbtn4" href="#">LEARN MORE</button> 
         </div>
     </div>
 </section>
