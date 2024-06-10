@@ -97,12 +97,6 @@
     }
 
     /* WHATS ON */
-    .awardstitle{
-        margin-left: 13%;
-    }
-    .awardstext{
-        margin-left: 13%;
-    }
     .whatsontitlelight {
         width: 72%;
     }
@@ -317,31 +311,12 @@
         width: 84%;
         margin-left: 14%;
     }
-    .whatsontitledark{
-        font-size: 48px;
-    }
-    .whatsontextdark{
-        font-size: 16px;
-    }
-    .awardsimg{
-        width: 500px;
-        margin-left: -15%;
-    }
-    .awardstitle{
-        font-size: 48px;
-        margin-left: 15%;
-    }
-    .awardstext {
-        font-size: 16px;
-        margin-left: 15%;
-        width: 106%;
-    }
-    .listedawards {
+    /* .listedawards {
         margin-top: 25%;
         width: 105%;
-    }
+    } */
     .awardslisttext{
-        font-size: 14px;
+        /* font-size: 14px; */
     }
     .col-md-3 {
         max-width: 24%;
@@ -643,9 +618,9 @@
         margin-left: 25%;
         width: 59%;
     }
-    .awardsubtitle {
+    /* .awardsubtitle {
         font-size: 1.5em;
-    }
+    } */
 
     /* WHATS ON */
     .whatsontitlelight {
@@ -658,35 +633,15 @@
     .whatsoncover{
         height: 400px;
     }
-    .whatsontitledark{
-        font-size: 2em;
-    }
-    .whatsontextdark{
-        font-size: 1em;
-    }
+
     .annuallectureimg{
         height: 242px;
     }
-    .awardsimg{
-        height: 250px;
-        width: 350px;
-        margin-left: 0%;
-    }
-    .awardstitle{
-        font-size: 2em;
-        margin-top: 15%;
-        margin-left: 5%;
-    }
-    .awardstext {
-        font-size: 1em;
-        margin-left: 5%;
-        width: 88%;
-    }
-    .listedawards{
+    /* .listedawards{
         width: 175px;
-    }
+    } */
     .awardslisttext{
-        font-size: 12px;
+        /* font-size: 12px; */
     }
     .signinbutton {
         padding: 5px 34px;
@@ -1143,44 +1098,19 @@ h1 {
         width: 102%;
         margin-top: 5%;
     }
-    .whatsontitledark {
-        font-size: 2.5em;
-    }
-    .whatsontitledark {
-        font-size: 2em;
-        width: 62%;
-        margin-left: 15%;
-    }
-    .whatsontextdark {
-        font-size: 1em;
-    }
-    .awardsimg{
-        width: 400px;
-        margin-left: 0;
-        margin-top: -11%;
-    }
-    .awardstitle {
-        text-align: center;
-        margin-left: -4%;
-    }
-    .awardstext {
-        margin-left: 6%;
-        max-width: 88%;
-        text-align: center;
-        padding-top: 5%;
-    }
-    .listedawards{
+
+    /* .listedawards{
         margin-top: 5%;
-    }
+    } */
     .awardssubtitle{
         margin-top: 2%;
     }
     .awardslisttext{
-        margin-top: 1%;
+        /* margin-top: 1%;
         margin-bottom: 3%;
         margin-right: 20%;
         margin-left: 20%;
-        text-align: center;
+        text-align: center; */
     }
     .smallbutton4{
         margin-bottom: 6%;
@@ -1642,14 +1572,7 @@ h1 {
         font-size: 1em;
         margin-left: 9%;
     }
-    .whatsontitledark {
-        font-size: 2em;
-        width: 89%;
-        margin-left: 9%;
-    }
-    .whatsontextdark {
-        margin-left: 9%;
-    }
+
     .titleliveissues {
         font-size: 2em;
     }
