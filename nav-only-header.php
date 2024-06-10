@@ -74,7 +74,7 @@
 
         <!-- Sign In Button -->
         <div> 
-        <button type="button" class="btn btn-outline-secondary btn-sm smallbutton" href="#">SIGN IN</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm smallbutton signinbtn" href="http://170.187.231.66/~meshatmurdoch3/login/">SIGN IN</button>
         </div>
     </div>
 </nav>
