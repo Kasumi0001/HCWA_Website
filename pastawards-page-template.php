@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Past Advocacy
+Template Name: Past Awards
 */
 ?>
 <?php require_once('awards_header.php'); ?>
