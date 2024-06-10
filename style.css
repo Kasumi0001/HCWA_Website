@@ -56,8 +56,11 @@ html,body{
     background-image:url(http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/coverImage1.jpg);
     background-size: cover;
     padding-bottom: 5%;
-    /* padding-bottom: 120px;
-    margin-top: 25px; */
+}
+
+.creambg2{
+    background-color: var(--Beige);
+    background-size: cover;
 }
 .paddingbg{
     background-color: #F1EDE5;
@@ -66,7 +69,6 @@ html,body{
 .charcoalbg1{/*@@@@@@@@@@@@@@@@@@@@ */
     background-color:var(--LighterBlack);
     background-size: cover;
-    /* height: 80%; */
 }
 .footerbg{
     background-color:var(--Ochre);
@@ -111,14 +113,11 @@ html,body{
     margin-left: -10%;
 }
 
-/* .sectionbgdarkbottom{
-    background-color:var(--LighterBlack);
-    width: 930px;
-    height: 450px;
-    margin-bottom: 15%;
-    margin-left: 75%;
-    margin-top: 25%;
-} */
+
+.lectureimg{
+    margin-left: -1%;
+}
+
 /* IMAGES */
 .navbar-toggler-icon{
     background:url("images/hamburger.png") no-repeat center center;
@@ -202,28 +201,32 @@ margin-left: 40%;
     
 } */
 .annuallecturetextbg{
-    background-color: var(--LighterBlack);
+    /* background-color: var(--LighterBlack);
     padding-left: 10%;
     padding-right: 10%;
     margin-top: -5%;
     margin-bottom: 10%;
     height: 68%;
     width: 132%;
-    margin-left: -42%;
+    margin-left: -42%; */
 }
 
 .lowertitle1 {
-    padding-top: 5%;
+    /* padding-top: 5%;
     margin-left: 38%;
     width: 50%;
     text-align: left;
     padding-bottom: 2%;
-    margin-top: 24%;
+    margin-top: 24%; */
+    color: #52504D;
+    padding-top: 10%;
+    margin: auto;
   }
 
   .lowertext1 {
-    color: white;
-    margin-left: 38%;
+    /* color: white;
+    margin-left: 38%; */
+    width: 64%;
   }
 
   .bigbutton12{
@@ -232,15 +235,15 @@ margin-left: 40%;
     display: inline-block;
     /* border-radius: 12px; */
     color: var(--Ochre);
-    margin-bottom: 10%;
-    margin-top: 5%;
+    /* margin-bottom: 10%;
+    margin-top: 5%; */
     font-weight: bolder;
   }
 
   .homelecture{
-    margin-left: 38%;
-    margin-bottom: 10%;
-    margin-top: 5%;
+    /* margin-left: 38%;
+    margin-bottom: 10%; */
+    margin-top: 3%;
   }
 
   .bicenbtn{
@@ -319,8 +322,6 @@ h3{
     font-size: 3em;   /* @@@@@@@@@@@@@@@ */
     font-weight: 700;
     font-style: normal;
-    margin-top: 50px;
-    text-align: center;
     width: 110%;
 }
 h4{
@@ -453,6 +454,7 @@ p{
 
 .container-fluid.liveissuescon { /*  @@@@@@@@@@@@@@@@@@@@@@@@@@ */
     background-color: var(--LighterBlack);
+    padding-bottom: 5%;
   }
 
 .liveissuesimg {   /*  @@@@@@@@@@@@@@@@@@@@@@@@@@ */
