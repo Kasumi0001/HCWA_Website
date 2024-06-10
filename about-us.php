@@ -36,36 +36,36 @@
 
     <!-- Councillors -->
     <section class="container-fluid">
-        <div class="custom-container">
-            <h3 class="darkh3"><?php the_field('titleforcouncillorssection'); ?></h3>
-            <div class="d-flex justify-content-center">
-                <div class="council-section">
+            <div class="custom-container">
+            <h3 class="darkh3 text-center"><?php the_field('titleforcouncillorssection'); ?></h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 council-section">
                     <img class="profile" src="<?php the_field('imageforcouncillorpresident'); ?>" alt="profile">
                     <p class="profilename"><?php the_field('nameofpresident'); ?></p>
                     <p class="profiletitle"><?php the_field('titleforpresident'); ?></p>
                 </div>
-                <div class="council-section">
+                <div class="col-lg-3 col-md-6 council-section">
                     <img class="profile" src="<?php the_field('imageforcouncillorvicepresident'); ?>" alt="profile">
                     <p class="profilename"><?php the_field('nameofvicepresident'); ?></p>
                     <p class="profiletitle"><?php the_field('titleforvicepresident'); ?></p>
                 </div>
-                <div class="council-section">
+                <div class="col-lg-3 col-md-6 council-section">
                     <img class="profile" src="<?php the_field('imageforcouncillortreasurer'); ?>" alt="profile">
                     <p class="profilename"><?php the_field('nameoftreasurer'); ?></p>
                     <p class="profiletitle"><?php the_field('titlefortreasurer'); ?></p>
                 </div>
-                <div class="council-section">
+                <div class="col-lg-3 col-md-6 council-section">
                     <img class="profile" src="<?php the_field('imageforcouncillorsecretary'); ?>" alt="profile">
                     <p class="profilename"><?php the_field('nameofsecretary'); ?></p>
                     <p class="profiletitle"><?php the_field('titleforsecretary'); ?></p>
                 </div>
-                <div class="council-section">
+                <div class="col-lg-3 col-md-6 council-section">
                     <img class="profile" src="<?php the_field('imageforcouncillormembershipsecretary'); ?>" alt="profile">
                     <p class="profilename"><?php the_field('nameofmembershipsecretary'); ?></p>
                     <p class="profiletitle"><?php the_field('titleformembershipsecretary'); ?></p>
                 </div>
             </div>
-            <p class="committee-text"><?php the_field('listofcommitteemembers'); ?></p>  
+            <p class="committee-text text-center"><?php the_field('listofcommitteemembers'); ?></p>  
         </div>
     </section>
 
