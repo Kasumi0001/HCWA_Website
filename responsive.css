@@ -3,10 +3,13 @@
 
 /* NAV BAR */
     .row.no-gutters {
-        width: 90%;
+        width: 77%;
     }
     .signinbtn{
-    
+    padding: 14%;
+    width: 140%;
+    margin-left: -53%;
+    font-size: 1em;
     }
     /* INDEX/HOMEPAGE */
     h1 {
