@@ -12,6 +12,14 @@
 .thepost p {
     color: white;
 }
+
+/* YOUTUBE */
+.embed-responsive {
+    height: 100%;
+}
+.embed-responsive-item {
+    height: 100%;
+}
 /* Font-faces */
 @font-face{
     font-family: "CaslonBold";
