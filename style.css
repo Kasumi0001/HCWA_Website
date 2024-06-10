@@ -367,6 +367,9 @@ p{
     margin-left: 1%;
     text-transform: uppercase;
 }
+.bttmtxtheader{
+    font-size: 1.5em;
+}
 .coverbtn{
     font-size: 1.2em;
     color: #c7892c;
@@ -795,11 +798,12 @@ form.pmpro_form label, #loginform label {
     padding-top: 1%;
 }
 input#pmpro_btn-submit {
-    background-color: var(--Ochre);
+    background-color: transparent;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 12px;
-    color: white;
+    border-color: orange;
+    color: orange;
     text-transform: uppercase;
 }
 .pmpro_level_description_text p {
@@ -825,24 +829,21 @@ h3.pmpro_member_display_name {
     text-transform: uppercase;
 }
 .pmpro_member_log_out a {
-    margin-top: 3%;
-    margin-left: 3%;
-    background-color: var(--Ochre);
-    padding: 10px 40px;
+    background-color: transparent;
+    padding: 10px 20px;
     display: inline-block;
     border-radius: 12px;
-    color: white;
+    border: 2px solid orange;
+    color: orange;
     text-transform: uppercase;
 }
 input#wp-submit {
-    margin-top: 3%;
-    margin-left: 0%;
-    background-color: var(--Ochre);
-    padding: 10px 40px;
+    background-color: transparent;
+    padding: 10px 20px;
     display: inline-block;
     border-radius: 12px;
-    color: white;
-    border-color: transparent;
+    border-color: orange;
+    color: orange;
     text-transform: uppercase;
 }
 
@@ -852,11 +853,12 @@ h3#post-809 {
     padding-bottom: 3%;
 }
 input.pmpro_btn.pmpro_btn-submit {
-    background-color: var(--Ochre);
+    background-color: transparent;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 12px;
-    color: white;
+    border-color: orange;
+    color: orange;
     text-transform: uppercase;
 }
 .pmpro_checkout_box-more-information h2 {
