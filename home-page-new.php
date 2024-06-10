@@ -30,7 +30,7 @@
     <div class=" container">
         <div class="row">
             <div class="col-md-6">
-        <img class="liveissuesimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/female_lecture_blue" alt="LiveIssues">
+        <img class="liveissuesimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/female_lecture_blue.jpg" alt="LiveIssues">
             </div>
             <div class="col-md-6">
         <h3 class="liveissuestitle">LIVE ISSUES</h3>
