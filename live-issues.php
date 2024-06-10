@@ -94,12 +94,13 @@
             <div class="col-md-7">
                 <h1 class="pastadvocacy"><?php the_field('pastadvocacytitle'); ?></h1>
                 <p>
-                <?php the_field('pastadvocacyparagraph'); ?>
+                    <?php the_field('pastadvocacyparagraph'); ?>
                 </p>
-                <button type="button" class="btn btn-outline-secondary smallbutton pastcase" href="#">PAST CASES</button>
+                <!-- Use <a> tag for linking -->
+                <a href="#" class="btn btn-outline-secondary smallbutton pastcase" role="button">PAST CASES</a>
             </div> <!-- Column -->
             <div class="col-md-5">
-                <img class="liveissuesimage" src= <?php the_field('pastadvocacyimage'); ?> alt="crowd holding umbrellas"> 
+                <img class="liveissuesimage" src="<?php the_field('pastadvocacyimage'); ?>" alt="crowd holding umbrellas"> 
             </div><!-- Column -->
         </div><!-- Row -->
     </div><!-- Container -->
