@@ -22,27 +22,9 @@
     }
 
     /* INDEX/HOMEPAGE */
-    h1 {
-        width: 172%;
-    }
-    .lowerimage {
-        margin-top: 15%;
-        margin-left: -121%;
-        width: 108%;
-    }
-    .lowertext {
-        width: 80%;
-        margin-left: -11%;
-    }
-    .charcoalbg {
-        height: 65%;
-    }
     .lowertitle {
         margin-left: -11%;
         width: 71%;
-    }
-    .bigbutton3 {
-        margin-left: -11%;
     }
     .smallbutton2 {
         margin-left: 5%;
@@ -182,16 +164,6 @@
         font-size: 3.5em;
         width: 89%;
     }
-    .lowerimage {
-        margin-top: 59%;
-        width: 130%;
-        margin-left: -138%;
-    }
-    /* .sectionbgdarkbottom {
-        width: 171%;
-        height: 55%;
-        margin-left: 57%;
-    } */
     .acknowledgementtitle {
         margin-left: 8%;
     }
@@ -214,18 +186,6 @@
         font-size: 1em;
         padding-bottom: 5%;
     }
-    .lowertext {
-        width: 84%;
-        margin-left: 10%;
-        font-size: 1em;
-    }
-    .bigbutton3 {
-        margin-left: 10%;
-    }
-    /* .liveissuesimg {/*@@@@@@@@@@@@@@@@@@@@ */
-        /* width: 120%;
-        margin-left: -12%;
-    } */ */
     .charcoalbg {
         height: 58%;
     }
@@ -372,10 +332,6 @@
         z-index: 100;
         margin-top: 0%;
       }
-      .lowertext1 {/* @@@@@@@@@@@@@@@@@@@@@@@@@@ */
-        color: white;
-        margin-left: 0%;
-      }
       .lowertitle1 {
         padding-top: 10%;
         margin-left: 0%;
@@ -467,17 +423,6 @@
     .livebox{
         margin-top: 2%;
     }
-    .lowerimage {
-        margin-top: 10%;
-        position: absolute;
-        width: 100%;
-        right: 96%;
-    }
-    /* .sectionbgdarkbottom {
-        width: 181%;
-        height: 66%;
-        margin-left: 25%;
-    } */
     .sectionlower-text {
         margin-bottom: 10%;
         margin-top: 23%;
@@ -487,19 +432,6 @@
         font-size: 2em;
         width: 60%;
         margin-top: 1%;
-    }
-    .lowertext {
-        font-size: 1em;
-        margin-top: 1%;
-        margin-left: 38%;
-        width: 60%;
-    }
-    .bigbutton3 {
-        border-radius: 12px;
-        margin-left: 38%;
-        padding-right: 20px;
-        padding-left: 20px;
-        margin-bottom: 2%;
     }
     .buttontext{
         font-size: 14px;
@@ -880,10 +812,6 @@ h1 {
         margin-top: 0%;
         margin-bottom: 2%;
     }
-    .lowerimage {
-        right: 0%;
-        margin-top: -8%;
-    }
     .sectionlower-text {
         padding-left: 0%;
         margin-left: -22%;
@@ -892,16 +820,6 @@ h1 {
     .lowertitle {
         margin-left: 16%;
         margin-top: 2%;
-    }
-    .lowertext {
-        margin-left: 16%;
-        padding-bottom: 1%;
-        width: 45%;
-    }
-    .bigbutton3 {
-        margin-top: 2%;
-        margin-left: 18%;
-        margin-bottom: 0;
     }
     .sectionbglighttop {
         margin-left: -3%;
@@ -1457,13 +1375,6 @@ h1 {
     }
     .lowertitle {
         margin-left: 15%;
-    }
-    .lowertext {
-        margin-left: 15%;
-        width: 51%;
-    }
-    .bigbutton3 {
-        margin-left: 9%;
     }
     .acknowledgementtitle {
         font-size: 2em;
