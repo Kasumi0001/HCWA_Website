@@ -401,9 +401,6 @@ p{
     color: white;
 }
 .smallbutton{
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: 1em;
     border-color:var(--Ochre);
     /* padding: 10px 40px; */
     display: inline-block;
@@ -417,6 +414,14 @@ p{
     display: inline-block;
     border-radius: 12px;
     color: white;
+}
+
+.liveissuebtn{
+    margin-bottom: 5%;
+}
+
+.pastcase{
+    margin-top: 4%;
 }
 /* RULES FOR SPECIFIC HTML PAGES THAT ISN'T USED ON MULTIPLE */
 
@@ -1106,10 +1111,7 @@ button#wpforms-submit-862 {
 .image1{
     padding-bottom: 84px;
 }
-.image2{
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
+
 /* typography */
 .articletitles {
     margin-top: 20%;
@@ -1122,12 +1124,12 @@ button#wpforms-submit-862 {
 }
 .titleliveissues{
     margin-top: 15%;
-    font-size: 5em;
+    font-size: 4em;
     color: var(--LighterBlack);
 }
 .pastadvocacy{
-    margin-top: 15%;
-    font-size: 52px;
+    padding-top: 10%;
+    font-size: 3.5em;
     color: var(--LighterBlack);
 }
 .liveissuesnumber{
