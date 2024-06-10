@@ -92,14 +92,6 @@ html,body{
     height: 104%;
 } 
 
-.sectionbglighttop1{
-    background-color: var(--Beige);
-    width: 150%;
-    height: 62%;
-    margin-top: 20%;
-    margin-left: -5%;
-}
-
 .sectionbgdarktop{
     background-color:var(--LighterBlack);
     width: 137%;
@@ -169,12 +161,7 @@ img.footerlogo {
     padding-bottom: 5%;
     padding-left: 40%;
 }
-.sectionupper-text{
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 20%;
-    padding-right: 55%;
-}
+
 .lowertitle{
     color: white;
     text-align: left;
@@ -247,7 +234,7 @@ margin-left: 40%;
   }
 
   .bicenbtn{
-    margin-top: -38%;
+    margin-top: 3%;
   }
 
   .img-fluid.lectimg {
@@ -261,13 +248,11 @@ margin-left: 40%;
 
 .uppertitle{
     color: var(--LighterBlack);
-    text-align: left;
-    margin: 0;
+    padding-top: 10%;
+    margin: auto;
 }
 .uppertitlelight{
     color: white;
-    text-align: left;
-    margin: 0;
 }
 .lowertext{
     color:white;
@@ -276,17 +261,13 @@ margin-left: 40%;
     padding-bottom: 5%;
 }
 .uppertext{
-    text-align: left;
-    font-size: 1.25em;
-    margin-right: 15%;
-    padding-top: 3%;
-    padding-bottom: 30%;
+    width: 85%;
 }
 .uppertextlight{
-    color: white;
+    /* color: white;
     text-align: left;
     font-size: 1em;
-    padding-bottom: 5%;
+    padding-bottom: 5%; */
 }
 .nav-link{
     min-width: 120px;
