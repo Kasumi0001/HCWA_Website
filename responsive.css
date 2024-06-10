@@ -310,9 +310,6 @@
         font-size: 3.5em;
         margin-top: 22%;
     }
-    .image2 {
-        margin-top: -11%;
-    }
 
     /* WHATS ON */
     .whatsontitlelight {
@@ -756,10 +753,7 @@
     .bigbutton2{
         margin-top: 10px;
     }
-    .image2{
-        padding-top: 12%;
-        padding-bottom: 10%;
-    }
+
     .buttontext{
         font-size: 12px;
     }
@@ -1255,10 +1249,7 @@ h1 {
         margin-top: 0;
         margin-left: 0;
     }
-    .image2{
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
+
     .buttontext{
         font-size: 12px;
     }
