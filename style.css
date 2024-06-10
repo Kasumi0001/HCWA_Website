@@ -739,7 +739,7 @@ input[type="button"]#discount_code_button, input[type="button"]#discount_code_bu
 }
 form.pmpro_form label, #loginform label {
     padding-bottom: 1%;
-    padding-top: 1%;
+    padding-top: 5%;
 }
 input#pmpro_btn-submit {
     background-color: transparent;
@@ -823,7 +823,7 @@ input.pmpro_btn.pmpro_btn-submit:hover {
 .pmpro_checkout_box-more-information h2 {
     color: white;
     font-size: 37px;
-    margin-top: -10%;
+    margin-top: 1%;
     margin-bottom: -4%;
   }
   input.pmpro_btn.pmpro_btn-cancel {
