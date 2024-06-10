@@ -80,7 +80,7 @@ wp_nav_menu( array(
                     <input type="text" class="form-control border-secondary border-right-0 rounded-0" name="s" id="navbar-search" placeholder="<?php _e('Search', 'textdomain'); ?>">
                 </div>
                 <div class="col-auto">
-                    <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right" aria-label="search"type="submit">
+                    <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right search-btn" aria-label="search"type="submit">
                         <i class="fa fa-search"></i>
                     </button>
                 </div>
