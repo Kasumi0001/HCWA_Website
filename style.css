@@ -1055,7 +1055,12 @@ button#wpforms-submit-862 {
     display: inline-block;
     border-radius: 12px;
     color: var(--Ochre);
-    margin-left: -15px;
+    margin-left: -25px;
+}
+button#wpforms-submit-862:hover {
+    color:white;
+    border-color:var(--Ochre);
+    background-color:var(--Ochre);
 }
 
 /* LIVE ISSUES PAGE - ZARAH */
