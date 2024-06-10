@@ -169,10 +169,6 @@ img.footerlogo {
     margin-top: 30%;
     margin-left: -9%;
 }
-.lowerimage{
-    margin-top: 15%;
-    margin-left: -95%;
-}
 
 /* Typography */
 /* NOTE: this is the text rules for the section boxes that has an image overlaping */
@@ -270,7 +266,7 @@ img.footerlogo {
 }
 .nav-link{
     min-width: 120px;
-    color: var(--LighterBlack)
+    color: var(--LighterBlack);
     text-align: center;
     font-family: "montserrat", sans-serif;
 }
@@ -364,13 +360,6 @@ p{
     width: 37%;
     padding: 2.5%;
     font-size: 1.3em;
-}
-.bigbutton3{
-    background-color:var(--Ochre);
-    padding: 15px 60px;
-    display: inline-block;
-    border-radius: 12px;
-    color: white;
 }
 .smallbutton{
     border-color:var(--Ochre);
