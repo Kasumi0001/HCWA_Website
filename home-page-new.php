@@ -10,8 +10,9 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="covertitle-container">
-                <h2 class="welcomepadding">WELCOME TO</h2>
-                    <h1 class="titlepadding">THE HISTORY COUNCIL OF WESTERN AUSTRALIA</h1>
+                <h2 class="welcomepadding">WELCOME TO THE</h2>
+                    <h1 class="titlepadding">HISTORY COUNCIL</h1>
+                    <p class="bttmtxtheader">OF WESTERN AUSTRALIA</p>
                     <button type="button" class="btn btn-outline-secondary coverbtn" href="#">ABOUT US</button>
                 </div>
             </div>
