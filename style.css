@@ -1013,10 +1013,11 @@ a.read-more-link {
     padding-bottom: 44%;
 }
 .contacttitle{
-    font-size: 64px;
+    font-size: 4em;
     margin-left: 10%;
     padding-top: 10%;
     margin-top: 2%;
+    color:var(--LighterBlack)
 }
 .contactsrow{
     margin-left: 23%;
@@ -1038,6 +1039,7 @@ a.read-more-link {
     font-weight: bold;
     margin-right:10%;
     text-align: center;
+    color:var(--LighterBlack)
 }
 .emaillink{
     text-align: center;
@@ -1046,6 +1048,7 @@ a.read-more-link {
 .socials{
     font-weight: bold;
     margin-left: 12%;
+    color:var(--LighterBlack)
 }
 .contactfacebook{
     margin-left: 11%;
@@ -1053,9 +1056,11 @@ a.read-more-link {
 .address{
     font-weight: bold;
     text-align: center;
+    color:var(--LighterBlack)
 }
 .addresstext{
     text-align: center;
+    color:var(--LighterBlack)
 }
 /* contact form styles  */
 div.wpforms-container-full .wpforms-form .wpforms-title {
