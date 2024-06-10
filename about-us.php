@@ -18,18 +18,17 @@
             </div>
         </div>
 
-    <!-- Why we value hisotry -->
+    <!-- Why We Value History -->
     <section class="container-fluid">
-        <div class="custom-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="sectionbgdarktop sectionupper-text">
-                        <h3 class="uppertitlelight"><?php the_field('titleforvalueofhistory'); ?></h3>
+     <div class="row row-no-gutters charcoalbg">
+            <div class="col-lg-7">
+                    <div>
+                        <h3 class="h3light"><?php the_field('titleforvalueofhistory'); ?></h3>
                         <p class="uppertextlight"><?php the_field('textforvalueofhistory'); ?></p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6">
-                    <img class="upperimage" src="<?php the_field('imageforvalueofhistory'); ?>" alt="Value of History">
+                <div class="col-lg-5">
+                    <img class="img-fluid" src="<?php the_field('imageforvalueofhistory'); ?>" alt="Value of History">
                 </div>
             </div>
         </div>
@@ -70,21 +69,19 @@
         </div>
     </section>
 
-    <!-- ADVOCACY -->
-    <section class="container-fluid">
-        <div class="custom-container">
-            <div class="row">
-            <div class="col-lg-6">
-                    <img class="lowerimage2" src="<?php the_field('imageforadvocacy'); ?>" alt="Advocacy">
-                </div>
-            <div class="col-lg-6">
-                        <div class="advocacybg advocacytext">
-                        <h3 class="lowertitledark"><?php the_field('titleforadvocacy'); ?></h3>
-                        <p class="lowertextdark"><?php the_field('textforadvocacy'); ?></p>
-                    </div>
-                </div>
+<!-- ADVOCACY -->
+<section class="container-fluid">
+    <div class="row row-no-gutters creambg2">
+        <div class="col-lg-5">
+            <img class="img-fluid" src="<?php the_field('imageforadvocacy'); ?>" alt="Advocacy">
+        </div>
+        <div class="col-lg-7">
+            <div>
+                <h3 class="h3dark"><?php the_field('titleforadvocacy'); ?></h3>
+                <p class="lowertext2"><?php the_field('textforadvocacy'); ?></p>
             </div>
         </div>
-    </section> <!-- container-fluid -->
+    </div>
+</section> <!-- container-fluid -->
 
 <?php get_footer();?> <!-- Tell WordPress to include footer.php -->
