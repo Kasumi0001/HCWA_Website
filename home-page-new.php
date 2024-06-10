@@ -74,25 +74,21 @@
     </div> <!-- container -->
 </section> <!-- container-fluid -->
 
-<!-- 2024 Annual Lecture -->
-<section class="container-fluid">
-    <div class="custom-container">
-        <div class="row">
-            <div class="col-lg-6">
-                <img class="img-fluid lectimg " src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/Lecture.jpg">
+    <!-- 2024 Annual Lecture -->
+    <section class="container-fluid">
+        <div class="row row-no-gutters creambg2">
+            <div class="col-lg-5 lectureimg">
+                <img class="img-fluid" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/Lecture.jpg" alt="Lecture Image">
             </div>
-            
-            <div class="col-lg-6">
-                <div class="annuallecturetextbg ">
+            <div class="col-lg-7">
+                <div class="annuallecturetextbg">
                     <h3 class="lowertitle1">2024 ANNUAL LECTURE</h3>
                     <p class="lowertext1">Opened by Professor Geoffrey Bolton OA in 2004, the Annual Lecture is a public lecture series of original work that constitutes a significant contribution to historical knowledge.</p>
-                    <button type="button" class="btn btn-outline-secondary bigbutton12 homelecture" href="#">LEARN MORE</button>
+                    <button type="button" class="btn btn-outline-secondary bigbutton12 homelecture">LEARN MORE</button>
                 </div>
             </div>
-       
         </div>
-    </div>
-</section> <!-- container-fluid -->
+    </section> <!-- container-fluid -->
 
 <!-- Acknowledgement To Country -->
 <section class="container-fluid acknowledgementbg d-flex align-items-center justify-content-center">
