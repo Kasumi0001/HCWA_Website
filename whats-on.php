@@ -39,7 +39,7 @@
     <div class="custom-container">
         <div class="row">
             <div class="col-md-6">
-                <img class="awardsimg" src="<?php the_field('imageforawardsmain'); ?>" alt="Lecture">
+                <img src="<?php the_field('imageforawardsmain'); ?>" alt="Lecture">
                 </div>
             <div class="col-md-6">
                 <h3 class="awardstitle"><?php the_field('titleforawardsmain'); ?></h3>
