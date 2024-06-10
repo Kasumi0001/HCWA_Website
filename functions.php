@@ -39,3 +39,6 @@ function theme_widgets_init() {
 }
 add_action( 'widgets_init', 'theme_widgets_init' );
 ?>
+<?php
+add_theme_support('post-thumbnails');
+?>
