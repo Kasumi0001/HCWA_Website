@@ -657,6 +657,14 @@ h5{
     margin-left: auto;
     margin-right: auto;
 }
+.whatsontitlelight2{
+    text-align: left;
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 .whatsontitledark{
     color: black;
     text-align: left;
@@ -1189,4 +1197,11 @@ button#wpforms-submit-862 {
 }
 .liveissuefooter{
     color: white;
+}
+/* From Marks week 7 video code he added in to thumbnail display rules of the list past advocacy's */
+img.attachment-thumbnail.size-thumbnail.wp-post-image{
+    margin-left: 10px;
+    float: left;
+    margin-right: 10px;
+    padding: 10px;
 }

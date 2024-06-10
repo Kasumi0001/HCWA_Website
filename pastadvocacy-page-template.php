@@ -3,7 +3,7 @@
 Template Name: Past Advocacy
 */
 ?>
-<?php require_once('header.php'); ?>
+<?php require_once('archive_header.php'); ?>
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
