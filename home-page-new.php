@@ -30,7 +30,7 @@
     <div class=" container">
         <div class="row">
             <div class="col-md-6">
-        <img class="liveissuesimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/female_lecture_blue.jpg" alt="LiveIssues">
+        <img class="liveissuesimg" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/liveissues.png" alt="LiveIssues">
             </div>
             <div class="col-md-6">
         <h3 class="liveissuestitle">LIVE ISSUES</h3>
@@ -78,7 +78,7 @@
     <section class="container-fluid">
         <div class="row row-no-gutters creambg2">
             <div class="col-lg-5 lectureimg">
-                <img class="img-fluid" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/Lecture.jpg" alt="Lecture Image">
+                <img class="img-fluid" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/female_lecture_blue.jpg" alt="Lecture Image">
             </div>
             <div class="col-lg-7">
                 <div class="annuallecturetextbg">
