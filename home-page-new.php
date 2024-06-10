@@ -56,7 +56,7 @@
                     <h5>01</h5>
                     <h4 class="liveboxsubtitle"><?php the_field('titleforliveissue1'); ?></h4>
                     <p class="liveboxtext"><?php the_field('textforliveissue1'); ?></p>
-                    <a type="button" class="btn btn-outline-secondary smallbutton" href="#">LEARN MORE</a>
+                    <a type="button" class="btn btn-outline-secondary smallbutton livebtn" href="#">LEARN MORE</a>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -64,7 +64,7 @@
                     <h5>02</h5>
                     <h4 class="liveboxsubtitle"><?php the_field('titleforliveissue2'); ?></h4>
                     <p class="liveboxtext"><?php the_field('textforliveissue2'); ?></p>
-                    <a type="button" class="btn btn-outline-secondary smallbutton" href="#">LEARN MORE</a>
+                    <a type="button" class="btn btn-outline-secondary smallbutton livebtn" href="#">LEARN MORE</a>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -72,7 +72,7 @@
                     <h5>03</h5>
                     <h4 class="liveboxsubtitle"><?php the_field('titleforliveissue3'); ?></h4>
                     <p class="liveboxtext"><?php the_field('textforliveissue3'); ?></p>
-                    <a type="button" class="btn btn-outline-secondary smallbutton" href="#">LEARN MORE</a>
+                    <a type="button" class="btn btn-outline-secondary smallbutton livebtn" href="#">LEARN MORE</a>
                 </div>
             </div>
         
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid" src=<?php the_field('imageforevent'); ?> alt="LiveIssues">
+                <img class="img-fluid eventimg" src=<?php the_field('imageforevent'); ?> alt="LiveIssues">
             </div>
         </div>
     </section>
