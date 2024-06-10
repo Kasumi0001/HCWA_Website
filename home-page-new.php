@@ -99,22 +99,20 @@
     </div>
 </section> <!-- container-fluid -->
 
-<!-- 2029 Bicentary -->
-<section class="container-fluid">
-    <div class="container">
-        <div class="row">
+    <!-- 2029 Bicentenary -->
+    <section class="container-fluid">
+        <div class="row row-no-gutters creambg2">
             <div class="col-lg-6">
-                <div class="sectionbglighttop1 sectionupper-text">
+                <div>
                     <h3 class="uppertitle">2029<br>BICENTENARY</h3>
                     <p class="uppertext">Established in 1826, just three years before the founding of the Swan River Colony, Albany is currently navigating how best to acknowledge, celebrate, and commemorate the upcoming 2026 Albany Bicentenary.</p>
                     <button type="button" class="btn btn-outline-secondary bigbutton12 bicenbtn" href="#">LEARN MORE</button>
                 </div>
             </div>
             <div class="col-lg-6">
-                <img class="upperimage1" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
+                <img class="img-fluid" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/2029bicentenary.png" alt="LiveIssues">
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 <?php get_footer();?> <!-- Tell WordPress to include footer.php -->
