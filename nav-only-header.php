@@ -36,7 +36,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-md">
     <a class="navbar-brand" href="#">
-        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo.png" alt="HCWA Logo">
+        <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/HCWA_logo.svg" alt="HCWA Logo">
     </a>
 
     <!-- Toggler Button -->
