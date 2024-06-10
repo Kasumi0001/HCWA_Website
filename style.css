@@ -71,6 +71,11 @@ html,body{
     background-size: cover;
     padding-top: 5%;
 }
+
+.charcoalbg{
+    background-color: var(--LighterBlack);
+    background-size: cover;
+}
 .footerbg{
     background-color:var(--Ochre);
     background-size: cover;
@@ -92,13 +97,6 @@ html,body{
     background-color:var(--Beige);
     height: 104%;
 } 
-
-.sectionbgdarktop{
-    background-color:var(--LighterBlack);
-    width: 137%;
-    height: 58%;
-    margin-top: 15%; 
-}
 
 .upperimage{
     margin-top: 22%;
@@ -168,20 +166,14 @@ img.footerlogo {
     text-align: left;
     margin: 0;
 }
-.lowertitledark{
+/* .lowertitledark{
     color: var(--LighterBlack);
     padding-top: 11%;
     margin-left: 40%;
     width: 50%;
     text-align: left;
     padding-bottom: 5%;
-    margin-top: 24%;
-}
-
-.lowertextdark{
-color: var(--LighterBlack);
-text-align: left;
-margin-left: 40%;
+    margin-top: 24%; */
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
@@ -215,6 +207,10 @@ margin-left: 40%;
     /* color: white;
     margin-left: 38%; */
     width: 64%;
+  }
+
+  .lowertext2{
+    width: 72%;
   }
 
   .bigbutton12{
@@ -252,8 +248,16 @@ margin-left: 40%;
     padding-top: 10%;
     margin: auto;
 }
-.uppertitlelight{
+.h3light{
     color: white;
+    padding-top: 10%;
+    margin: auto;
+}
+
+.h3dark{
+    color: var(--LighterBlack);
+    padding-top: 10%;
+    margin: auto;
 }
 .lowertext{
     color:white;
@@ -265,10 +269,8 @@ margin-left: 40%;
     width: 85%;
 }
 .uppertextlight{
-    /* color: white;
-    text-align: left;
-    font-size: 1em;
-    padding-bottom: 5%; */
+    color: white;
+    width: 85%;
 }
 .nav-link{
     min-width: 120px;
@@ -532,28 +534,6 @@ h5{
     width: 100%;
     height: auto;
 }
-.lowerimage2{
-    /* display: block; */
-    position: relative;
-    z-index: 100;
-    margin-top: 10%;
-}
-
-.advocacytext{
-    padding-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding-bottom: 10%;
-  }
-.advocacybg{
-    background-color: var(--Beige);
-    width: 150%;
-    /* height: 65%; */
-    /* margin-top: 7%; */
-    padding-right: 25%;
-    margin-left: -45%;
-    margin-top: -15%;
-}
 .council-section{
     margin: 2%;
 }
@@ -575,6 +555,8 @@ h5{
     color: black;
     width: auto;
     margin-top: 0;
+    text-align: center;
+    padding-top: 8%;
 }
 .committee-text{
     text-align: center;
