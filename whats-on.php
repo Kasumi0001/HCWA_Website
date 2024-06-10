@@ -9,13 +9,13 @@
 
 <!-- COVER IMAGE SECTION -->
 <section class="charcoalbg-whatson">
-        <div class="row d-flex align-items-center">
-            <div class="col-md-6 ">
+    <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12">
                 <h3 class="whatsontitlelight"><?php the_field('titleforwhatsgoingon'); ?></h3>
                 <p class="whatsontextlight"><?php the_field('textforwhatsgoingon'); ?></p>
             </div>
-            <div class="col-md-6">
-                <img class="whatsoncover" src="<?php the_field('imageforwhatsgoingon'); ?>" alt="whatsoncover">
+            <div class="col-md-6 col-sm-12">
+                <img class="whatsoncover img-fluid" src="<?php the_field('imageforwhatsgoingon'); ?>" alt="whatsoncover">
             </div>
         </div>
     </section>
@@ -23,13 +23,13 @@
 
 <!-- ANNUAL LECTURE SECTION -->
 <section>
-    <div class="row d-flex align-items-center">
-        <div class="col-md-6">
+    <div class="row align-items-center">
+        <div class="col-md-7">
             <h3 class="whatsontitledark"><?php the_field('titleforannuallecture'); ?></h3>
             <p class="whatsontextdark"><?php the_field('textforannuallecture'); ?></p></p>
         </div>
-        <div class="col-md-6">
-            <img class="annuallectureimg" src="<?php the_field('imageforannuallecture'); ?>" alt="Lecture">
+        <div class="col-md-5">
+            <img class="annuallectureimg img-fluid" src="<?php the_field('imageforannuallecture'); ?>" alt="Lecture">
             </div>
     </div>
 </section> <!-- container-fluid -->
