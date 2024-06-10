@@ -6,30 +6,23 @@
 <?php get_header();?> <!-- Tell WordPress to include header.php -->
 <!-- COVER IMAGE SECTION -->
 <div class="creambg">
-    <div class="container">
+        <div class=" container">
         <div class="row">
             <div class="col-md-6">
                 <div class="covertitle-container">
-                    <h2 class="welcomepadding">WELCOME TO THE</h2>
+                <h2 class="welcomepadding">WELCOME TO THE</h2>
                     <h1 class="titlepadding">HISTORY COUNCIL</h1>
                     <p class="bttmtxtheader">OF WESTERN AUSTRALIA</p>
                     <a type="button" class="btn btn-outline-secondary coverbtn" href="http://170.187.231.66/~meshatmurdoch3/about-us/">ABOUT US</a>
                 </div>
             </div>
-            <div class="col-md-6 d-flex align-items-center">
-                <!-- YouTube Video -->
-                <?php if (function_exists('get_field')): ?>
-                    <?php $youtube_url = get_field('youtube_video_url'); ?>
-                    <?php if ($youtube_url): ?>
-                        <div class="embed-responsive embed-responsive-16by9 w-100">
-                            <iframe class="embed-responsive-item" src="<?php echo esc_url($youtube_url); ?>" allowfullscreen></iframe>
-                        </div>
-                    <?php endif; ?>
-                <?php endif; ?>
+            <div class="col-md-6">
+                <!-- <img class="coverimage" src="images/CoverImage.png" alt="CoverImage"> -->
+                
             </div>
         </div> <!-- row -->
+        </div>
     </div> <!-- container -->
-</div> <!-- creambg -->
                 
             </div>
         </div> <!-- row -->
