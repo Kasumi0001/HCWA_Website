@@ -34,9 +34,7 @@
             </div> <!-- Column -->
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issueoneheading'); ?></h4>
-                <a class="smallbutton" href="#">
-                <p class="smallbuttontext">HOW CAN WE HELP</p>
-                </a>
+                <button type="button" class="btn btn-outline-secondary smallbutton liveissue1" href="#">HOW CAN WE HELP</button>
                 <p>
                 <?php the_field('issueoneparagraph'); ?>
                 </p>
@@ -52,9 +50,7 @@
         <div class="row">
             <div class="col-sm-3 information">
                 <h4 class="articletitleslight"><?php the_field('issuetwoheading'); ?></h4>
-                <a class="smallbutton" href="#">
-                <p class="smallbuttontext">HOW CAN WE HELP</p>
-                </a>
+                <button type="button" class="btn btn-outline-secondary smallbutton liveissue2" href="#">HOW CAN WE HELP</button>
                 <p class="liveissuesparagraphlight">
                 <?php the_field('issuetwoparagraph'); ?>
                 </p>
@@ -82,9 +78,7 @@
             </div> <!-- Column -->
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issuethreeheading'); ?></h4>
-                <a class="smallbutton" href="#">
-                <p class="smallbuttontext">HOW CAN WE HELP</p>
-                </a>
+                <button type="button" class="btn btn-outline-secondary smallbutton liveissue3" href="#">HOW CAN WE HELP</button>
                 <p>
                 <?php the_field('issuethreeparagraph'); ?>
                 </p>
@@ -103,9 +97,7 @@
                 <p>
                 <?php the_field('pastadvocacyparagraph'); ?>
                 </p>
-                <a class="bigbutton2" href="#">
-                <p class="buttontext">PAST CASES</p>
-                </a>
+                <button type="button" class="btn btn-outline-secondary smallbutton pastcase" href="#">PAST CASES</button>
             </div> <!-- Column -->
             <div class="col-md-6">
                 <img class="liveissuesimage image2" src= <?php the_field('pastadvocacyimage'); ?> alt="crowd holding umbrellas"> 
