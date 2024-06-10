@@ -34,7 +34,7 @@
             </div> <!-- Column -->
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issueoneheading'); ?></h4>
-                <button type="button" class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</button>
+                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</a>
                 <p>
                 <?php the_field('issueoneparagraph'); ?>
                 </p>
@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-sm-3 information">
                 <h4 class="articletitleslight"><?php the_field('issuetwoheading'); ?></h4>
-                <button type="button" class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</button>
+                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</a>
                 <p class="liveissuesparagraphlight">
                 <?php the_field('issuetwoparagraph'); ?>
                 </p>
@@ -78,7 +78,7 @@
             </div> <!-- Column -->
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issuethreeheading'); ?></h4>
-                <button type="button" class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</button>
+                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</a>
                 <p>
                 <?php the_field('issuethreeparagraph'); ?>
                 </p>
