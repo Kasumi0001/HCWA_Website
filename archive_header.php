@@ -92,7 +92,7 @@ wp_nav_menu( array(
         </nav>
     
         <div class="charcoalbg1">
-            <h1 class="whatsontitlelight">Past Advocacy</h1>
+            <h3 class="whatsontitlelight">Past Advocacy</h3>
         </div>
 
     <?php wp_head(); ?> 
