@@ -4,20 +4,29 @@
     */
     ?>
 <?php get_header();?> <!-- Tell WordPress to include header.php -->
-    <!-- COVER IMAGE SECTION -->
+<!-- COVER IMAGE SECTION -->
     <div class="creambg">
-        <div class=" container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="covertitle-container">
-                <h2 class="welcomepadding">WELCOME TO THE</h2>
-                    <h1 class="titlepadding">HISTORY COUNCIL</h1>
-                    <p class="bttmtxtheader">OF WESTERN AUSTRALIA</p>
-                    <a type="button" class="btn btn-outline-secondary coverbtn" href="http://170.187.231.66/~meshatmurdoch3/about-us/">ABOUT US</a>
+        <div class="container">
+         <div class="row">
+                <div class="col-md-6">
+                    <div class="covertitle-container">
+                        <h2 class="welcomepadding">WELCOME TO THE</h2>
+                        <h1 class="titlepadding">HISTORY COUNCIL</h1>
+                        <p class="bttmtxtheader">OF WESTERN AUSTRALIA</p>
+                        <a type="button" class="btn btn-outline-secondary coverbtn" href="http://170.187.231.66/~meshatmurdoch3/about-us/">ABOUT US</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <!-- <img class="coverimage" src="images/CoverImage.png" alt="CoverImage"> -->
+                <div class="col-md-6">
+                <?php if (function_exists('get_field')): ?>
+                    <?php $lottie_url = get_field('lottie_animation_url'); ?>
+                    <?php if ($lottie_url): ?>
+                        <lottie-player src="<?php echo esc_url($lottie_url); ?>" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></lottie-player>
+                    <?php endif; ?>
+                <?php endif; ?>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> <!-- creambg -->
                 
             </div>
         </div> <!-- row -->
