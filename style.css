@@ -752,6 +752,11 @@ input#pmpro_btn-submit {
     color: orange;
     text-transform: uppercase;
 }
+input#pmpro_btn-submit:hover {
+    color:white;
+    border-color:var(--Ochre);
+    background-color:var(--Ochre);
+}
 .pmpro_level_description_text p {
     color: white;
     padding-top: 1%;
