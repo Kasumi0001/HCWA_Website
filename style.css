@@ -356,16 +356,8 @@ p{
     font-size: 0.9em;
     font-weight: bolder;
 } */
-.signinbutton{
-    background-color:var(--Blue);
-    font-weight: 500;
-    text-align: center;
-    font-size: 14px;
-    padding: 10px 40px;
-    display: inline-block;
-    border-radius: 12px;
+.signinbtn{
     margin-left: 1%;
-    text-transform: uppercase;
 }
 .bttmtxtheader{
     font-size: 1.5em;
