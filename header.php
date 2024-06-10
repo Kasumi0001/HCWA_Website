@@ -88,8 +88,8 @@ wp_nav_menu( array(
         </form>
 
             <!-- Note: Might be removed as the pro subscription plugin inserts their own button we just hack its CSS for -->
-            <div class="signinbutton"> 
-                <a class="smallbuttontext" href="http://170.187.231.66/~meshatmurdoch3/login/">Sign In</a>
+            <div> 
+            <button type="button" class="btn btn-outline-secondary btn-sm smallbutton" href="http://170.187.231.66/~meshatmurdoch3/login/">SIGN IN</button>
             </div>
 </div>
         </nav>
