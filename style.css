@@ -680,12 +680,13 @@ p.pmpro_level_name_text {
     align-items: center;
 }
 
-.pmpro_levels_table .pmpro_btn{
-    background-color: var(--Ochre);
+.pmpro_levels_table .pmpro_btn {
+    background-color: transparent;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 12px;
-    color: white;
+    border-color: orange;
+    color: orange;
     margin-left: 28%;
     text-transform: uppercase;
 }
