@@ -199,11 +199,11 @@
         width: 130%;
         margin-left: -138%;
     }
-    .sectionbgdarkbottom {
+    /* .sectionbgdarkbottom {
         width: 171%;
         height: 55%;
         margin-left: 57%;
-    }
+    } */
 
     .acknowledgementtitle {
         margin-left: 8%;
@@ -530,11 +530,11 @@
         width: 100%;
         right: 96%;
     }
-    .sectionbgdarkbottom {
+    /* .sectionbgdarkbottom {
         width: 181%;
         height: 66%;
         margin-left: 25%;
-    }
+    } */
     .sectionlower-text {
         margin-bottom: 10%;
         margin-top: 23%;
@@ -623,24 +623,21 @@
     }
     .uppertitlelight {
         font-size: 2em;
-        width: 62%;
+        width: 123%;
         padding-bottom: 3%;
     }
-    .uppertextlight {
-        width: 56%;
+    .uppertextlight{
+        width: 96%;
         font-size: 1em;
     }
     .sectionbgdarktop {
         margin-left: 1%;
-        height: 85%;
+        height: 77%;
         width: 167%;
     }
     .upperimage {
         width: 100%;
         margin-top: -88%;
-    }
-    img.upperimage {
-        margin-top: -84%;
     }
     .lowerimage2 {
         margin-left: -109%;
