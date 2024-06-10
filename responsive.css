@@ -2,8 +2,6 @@
 @media (min-width: 1200px) {
     /* Your CSS rules for extra large screens */
 }
-
-
 /* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
 @media only screen and (max-width:1440px){
     .signinbutton {
@@ -23,13 +21,6 @@
         margin-top: 15%;
         margin-left: -121%;
         width: 108%;
-    }
-   .sectionupper-text {
-        /* padding-left: 5%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-      padding-right: 65%; 
-        margin-left: -7%; */
     }
     .sectionbgdarktop {
         /* width: 136%;
@@ -199,7 +190,6 @@
         height: 55%;
         margin-left: 57%;
     } */
-
     .acknowledgementtitle {
         margin-left: 8%;
     }
@@ -237,7 +227,6 @@
     .charcoalbg {
         height: 58%;
     }
-
     /* ABOUT US */
     .creambg-aboutus {
         height: 59%;
@@ -301,7 +290,6 @@
         margin-left: 22%;
         width: 73%;
     }
-
     /* LIVE ISSUE */
     .titleliveissues {
         font-size: 3.5em;
@@ -310,7 +298,6 @@
         font-size: 3.5em;
         margin-top: 22%;
     }
-
     /* WHATS ON */
     .whatsontitlelight {
         font-size: 48px;
@@ -327,7 +314,6 @@
     .col-md-3 {
         max-width: 24%;
     }
-
     /* CONTACT US */
     .contactlanding {
         margin-bottom: -3%;
@@ -335,7 +321,6 @@
     form#wpforms-form-862 {
         margin-bottom: -3%;
     }
-
     /* FOOTER */
     img.footerlogo {
         width: 79%;
@@ -351,7 +336,6 @@
     img.xtwittericon {
         width: 20%;
     }
-
     .sectionbglighttop {
         background-color: var(--Beige);
         /* width: 930px;
@@ -372,18 +356,13 @@
       }
 
 }
-
-
-
 @media only screen and (max-width:1024px) { /* @@@@@@@@@@@@@@@@@@@@@@@@@@ */
-
     .liveissuesimg {
         margin-top: -35px;
         width: 118%;
     height: 77%;
      
       }
-
       .img-fluid.lectimg { /* @@@@@@@@@@@@@@@@@@@@@@@@@@ */
         display: block;
         margin-left: 0%;
@@ -395,7 +374,6 @@
         color: white;
         margin-left: 0%;
       }
-
       .lowertitle1 {
         padding-top: 10%;
         margin-left: 0%;
@@ -403,9 +381,7 @@
         padding-bottom: 5%;
         margin-top: 0%;
       }
-
 }
-
 @media only screen and (max-width:800px) {
     .navbar-collapse {
         -ms-flex-preferred-size: 100%;
@@ -431,10 +407,6 @@
     .coverimage {
         width: 193%;
     }
-
-  
-    
-
     /* .custom-container{
         margin-left: 50px;
         margin-right: 50px;
@@ -569,7 +541,6 @@
         padding-top: 195%;
         width: 100%;
     }
-
     /* ABOUT US */
     .aboutuscoverimage {
         width: 150%;
@@ -725,7 +696,6 @@
     form#wpforms-form-862 {
         margin-bottom: -4%;
     }
-    
     /* JOIN US */
     h3#post-807 {
         font-size: 2em;
@@ -765,9 +735,6 @@
         width: 20%;
         margin-left: 3%;
     }
-
-
-
     .liveissuesimg {/* @@@@@@@@@@@@@@@@@@@@@@ */
         margin-top: -35px;
         width: 100%;
@@ -783,8 +750,6 @@
         margin-top: 25px;
         background-position: -118px; */
       }
-
-
 .covertitle-container /* @@@@@@@@@@@@@@@@@@@@@@ */
 h1 {
     font-size: 3.5em;
@@ -823,8 +788,6 @@ h1 {
     margin-bottom: 10%;
   }
 }
-    
-
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:425px){
     .hcwaicon {
@@ -972,12 +935,6 @@ h1 {
     .liveboxtext {
         margin-left: 10%;
         font-size: 1em;
-    }
-    .sectionupper-text {
-        /* padding-left: 0%;
-        padding-top: 0%;
-        padding-bottom: 0%;
-        padding-right: 0%; */
     }
     .sectionbglighttop {
         background-color: var(--Beige);
