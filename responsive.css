@@ -26,10 +26,10 @@
         margin-left: -7%; */
     }
     .sectionbgdarktop {
-        width: 136%;
+        /* width: 136%;
         height: 75%;
         margin-top: 15%;
-        margin-left: -21%;
+        margin-left: -21%; */
     }
     .lowertext {
         width: 80%;
@@ -72,27 +72,22 @@
         width: 89%;
     }
     .uppertitlelight {
-        font-size: 4em;
+        /* font-size: 4em;
         margin-left: 5%;
         width: 76%;
         margin-top: -7%;
-        padding-top: 2%;
+        padding-top: 2%; */
     }
     .uppertextlight {
-        width: 82%;
+        /* width: 82%;
         font-size: 1em;
-        margin-left: 5%;
+        margin-left: 5%; */
     }
     .lowertitledark {
-        font-size: 4em;
+        /* font-size: 4em;
         margin-left: 1%;
         width: 71%;
-        margin-top: 1%;
-    }
-    .lowertextdark {
-        margin-left: 1%;
-        width: 75%;
-        font-size: 1em;
+        margin-top: 1%; */
     }
     .sectionbglightbottom{
         margin-left: 64%;
@@ -305,10 +300,6 @@
         margin-top: 2%;
         margin-left: 22%;
         width: 73%;
-    }
-    .lowertextdark{
-        font-size: 1em;
-        margin-left: 22%;
     }
 
     /* LIVE ISSUE */
@@ -654,12 +645,6 @@
         font-size: 2em;
         margin-left: 25%;
         width: 59%;
-    }
-    .lowertextdark {
-        font-size: 1em;
-        margin-left: 26%;
-        width: 68%;
-        margin-top: 0%;
     }
     .awardsubtitle {
         font-size: 1.5em;
@@ -1034,10 +1019,10 @@ h1 {
         font-size: 1em;
     }
     .sectionupper-text {
-        padding-left: 0%;
+        /* padding-left: 0%;
         padding-top: 0%;
         padding-bottom: 0%;
-        padding-right: 0%;
+        padding-right: 0%; */
     }
     .sectionbglighttop {
         background-color: var(--Beige);
@@ -1144,11 +1129,6 @@ h1 {
         width: 66%;
         padding-top: 5%;
         margin-left: 7%;
-    }
-    .lowertextdark {
-        font-size: 1em;
-        margin-left: 6%;
-        width: 56%;
     }
 
     /* WHATS ON */
@@ -1651,12 +1631,6 @@ h1 {
         margin-left: 5%;
         width: 56%;
         font-size: 2em;
-    }
-    .lowertextdark {
-        font-size: 1em;
-        margin-left: 5%;
-        width: 48%;
-        margin-top: 0%;
     }
     .lowerimage2 {
         margin-top: -553%;
