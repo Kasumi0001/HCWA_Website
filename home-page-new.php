@@ -97,11 +97,10 @@
     </section> <!-- container-fluid -->
 
 <!-- Acknowledgement To Country -->
-<section class="container-fluid acknowledgementbg d-flex align-items-center justify-content-center">
-    <div>
+<section class="container-fluid acknowledgementbg">
+    <div class="text-center">
         <h3 class="acknowledgementtitle"><?php the_field('largetextforcountry'); ?></h3>
             <p class="sensitivitytag"><?php the_field('smalltextforcountry'); ?></p>
-        </a>
     </div>
 </section> <!-- container-fluid -->
 

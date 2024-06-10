@@ -62,6 +62,9 @@ html,body{
 .search-btn{
     border: none;
 }
+.hcwaicon {
+    width: 13%;
+}
 .footer{
     margin:auto;
 }
@@ -117,7 +120,7 @@ html,body{
 
 .creambg-ls{
     background-color:var(--Beige);
-    height: 104%;
+    height: 108%;
 } 
 
 .upperimage{
@@ -169,24 +172,9 @@ img.footerlogo {
     margin-top: 30%;
     margin-left: -9%;
 }
-.lowerimage{
-    margin-top: 15%;
-    margin-left: -95%;
-}
 
 /* Typography */
 /* NOTE: this is the text rules for the section boxes that has an image overlaping */
-.sectionlower-text{
-    padding-right: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 40%;
-}
-.lowertitle{
-    color: white;
-    text-align: left;
-    margin: 0;
-}
 .lowertitle1 {
     color: var(--LighterBlack);
     padding-top: 18%;
@@ -194,7 +182,7 @@ img.footerlogo {
   }
 
 .lowertext1{
-    width: 70%;
+    width: 72%;
     padding-top: 2%;
 }
 
@@ -270,7 +258,7 @@ img.footerlogo {
 }
 .nav-link{
     min-width: 120px;
-    color: var(--LighterBlack)
+    color: var(--LighterBlack);
     text-align: center;
     font-family: "montserrat", sans-serif;
 }
@@ -323,10 +311,6 @@ p{
     color: white;
     margin-left: 5%;
 }
-.hcwaicon {
-    width: 10%;
-    margin-top: 1%;
-}
 .btn-outline-secondary:hover {
     color:white;
     border-color:var(--Ochre);
@@ -365,27 +349,12 @@ p{
     padding: 2.5%;
     font-size: 1.3em;
 }
-.bigbutton3{
-    background-color:var(--Ochre);
-    padding: 15px 60px;
-    display: inline-block;
-    border-radius: 12px;
-    color: white;
-}
 .smallbutton{
     border-color:var(--Ochre);
     display: inline-block;
     color: #c7892c;
     font-weight: bolder;
 }
-.smallbutton2{
-    background-color:var(--Ochre);
-    padding: 10px 40px;
-    display: inline-block;
-    border-radius: 12px;
-    color: white;
-}
-
 .liveissuebtn{
     margin-bottom: 5%;
 }
@@ -435,8 +404,9 @@ p{
 .acknowledgementbg{
     background:url("images/acknowledgementbg.png") no-repeat center center;
     background-size: cover;
-    min-height: 370px;
-    min-width: 1470px;
+    min-height: 38%;
+    min-width: 100%;
+    height: 600px;
 }
 .line{
     padding:1%;
@@ -458,25 +428,30 @@ h1 {
 .acknowledgementtitle{
     color: white;
     font-size: 1.3em;
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
     font-family: 'montserrat';
     text-align: center;
     width: 50%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
 }
 
 .sensitivitytag{
-    margin:auto;
     color: white;
     font-family: 'montserrat';
     font-style: italic;
     text-align: center;
     width: 35%;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 0.9em;
     padding-top: 2%;
-
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    text-align: center;
 }
 /* h4 special classes */
 .liveboxsubtitle{
