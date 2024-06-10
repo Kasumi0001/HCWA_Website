@@ -73,8 +73,8 @@
         </form>
 
         <!-- Sign In Button -->
-        <div class="signinbutton"> 
-            <a class="smallbuttontext" href="http://170.187.231.66/~meshatmurdoch3/login/">Sign In</a>
+        <div> 
+        <button type="button" class="btn btn-outline-secondary btn-sm smallbutton" href="#">SIGN IN</button>
         </div>
     </div>
 </nav>
