@@ -223,6 +223,7 @@ img.footerlogo {
 
   .lowertext2{
     width: 72%;
+    margin-left: 5%;
   }
 
   .bigbutton12{
@@ -278,6 +279,7 @@ img.footerlogo {
     color: var(--LighterBlack);
     padding-top: 10%;
     margin: auto;
+    margin-left: 5%;
 }
 .lowertext{
     color:white;
@@ -292,7 +294,7 @@ img.footerlogo {
 }
 .uppertextlight{
     color: white;
-    width: 85%;
+    width: 86%;
     padding-top: 2%;
     margin-left: 5%;
 }
