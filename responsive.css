@@ -32,16 +32,13 @@
         margin-left: -33%;
     }
     .homelectureimg {
-        margin-left: -1%;
+        margin-left: 2%;
     }
 
     /* ABOUT US */
     img.upperimage {
         margin-top: 11%;
         padding-bottom: 5%;
-    }
-    .creambg-aboutus {
-        height: 80%;
     }
     .darkh3quote{
         margin-left: -15%;
@@ -148,9 +145,6 @@
             font-size: 1em;
         }
     /* ABOUT US */
-    .creambg-aboutus {
-        height: 59%;
-    }
     .aboutuscoverimage {
         width: 500px;
     }
@@ -207,11 +201,16 @@
     /* LIVE ISSUE */
     .titleliveissues {
         font-size: 3.5em;
+        margin-top: 4%;
     }
-    .pastadvocacy {
-        font-size: 3.5em;
-        margin-top: 22%;
+    .pastadvocacyimg {
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
+    .liveissueheader {
+        padding-bottom: 4%;
+    }
+
     /* WHATS ON */
     .whatsontitlelight {
         font-size: 48px;
@@ -371,6 +370,11 @@
         margin-bottom: 6%;
     }
     /* ABOUT US */
+    .uppertextlight {
+        width: 78%;
+        padding-bottom: 5%;
+        padding-top: 2%;
+    }
     .aboutuscoverimage {
         width: 150%;
     }
@@ -422,11 +426,10 @@
         margin-bottom: 0;
     }
     p{
-        font-size: 1em;
+        font-size: 0.7em;
     }
-    .image1{
-        padding-bottom: 40px;
-        padding-top: 2%;
+    .liveissuebtn {
+        font-size: 0.8em;
     }
     .articletitles{
         font-size: 2em;
@@ -715,6 +718,18 @@
         padding-bottom: 0;
         margin-left: 5%;
     }
+    .liveissuesimage {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 3%;
+        margin-left: 0;
+    }
+    .col-sm-6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .liveissuesparagraphlight{
         margin-top: 2%;
         margin-bottom: 5%;
@@ -723,12 +738,12 @@
         font-size: 1em;
         margin-left: 4%;
     }
+    .liveissuebtn {
+        margin-left: 5%;
+    }
     .pastadvocacy {
         font-size: 2em;
         margin-left: 0%;
-    }
-    .liveissuesimage{
-        padding-bottom: 3%;
     }
     .number{
         order: 1;

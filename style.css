@@ -255,6 +255,7 @@ img.footerlogo {
 .uppertextlight{
     color: white;
     width: 85%;
+    padding-top: 2%;
 }
 .nav-link{
     min-width: 120px;
@@ -482,8 +483,18 @@ h5{
 .livebtn{
     margin-left: 7%;
 }
+.col-lg-6 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
 
 /* ABOUT US - Jess */
+.col-lg-5 {
+    padding-left: 0;
+    padding-right: 0;
+}
 .profile{
     width: 100%;
     height: auto;
@@ -612,7 +623,7 @@ h5{
 
 /* MEMBERSHIP - CHET */
 .pmpro_level_description_text {
-    color: white;
+    color: var(--LighterBlack);
 }
 p.pmpro_level_name_text {
     margin-left: 120px;
@@ -638,9 +649,9 @@ p.pmpro_level_name_text {
 }
 .pmpro_levels_table th:nth-child(1){
     min-width: 200px;
-    color: white;
-    background-color: #52504D;
-    border: 10px solid var(--LighterBlack);
+    color: var(--LighterBlack);
+    background-color: var(--Beige);
+    border: 10px solid white;
     text-align: left;
     padding-top: 3%;
     padding-left: 3%;
@@ -650,8 +661,8 @@ p.pmpro_level_name_text {
 }
 .pmpro_levels_table thead th{
     min-width: 200px;
-    color: white;
-    background-color: #52504D;
+    color: var(--LighterBlack);
+    background-color: var(--Beige);
     text-align: left;
     padding-left: 30px;
     font-size: 20px;
@@ -659,21 +670,22 @@ p.pmpro_level_name_text {
     font-family: montserrat;
 }
 tr.odd {
-  
-    border: 10px solid var(--LighterBlack);
+    border: 10px solid white;
 }
 h3#post-807 {
     text-align: left;
     padding-left: 3%;
     padding-top: 8%;
+    color: var(--LighterBlack);
 }
 .container-fluid.maincontainer {
-    background-color: var(--LighterBlack);
+    /* background-color: var(--LighterBlack); */
     padding-bottom: 5%;
 }
+
 b, strong {
     font-weight: bolder;
-    color: white;
+    color: var(--LighterBlack);
     font-size: 1em;
     margin-left: 8%;
     font-family: montserrat;
@@ -683,8 +695,8 @@ b, strong {
 }
 table {
     border-collapse: collapse;
-    background-color: #52504D;
-    border: 10px solid var(--LighterBlack);
+    background-color: var(--Beige);
+    border: 10px solid white;
 }
 .membershipP{
     padding:3%;
@@ -695,22 +707,23 @@ h3#post-804 {
     text-align: left;
     padding-bottom: 1%;
     padding-top: 8%;
+    color: var(--LighterBlack);
 }
 .pmpro_checkout h2 span.pmpro_checkout-h2-name {
     display: inline-block;
     margin: 0 .5rem 1rem 0;
-    color: white;
+    color: var(--LighterBlack);
     font-size: 2em;
     margin-top: 2%;
 }
 p.pmpro_level_name_text {
-    color: white;
+    color: var(--LighterBlack);
 }
 label {
-    color: white;
+    color: var(--LighterBlack);
 }
 form.pmpro_form .lite {
-    color: white;
+    color: var(--LighterBlack);
     padding-top: 3%;
 }
 .pmpro_checkout h2 span.pmpro_checkout-h2-msg {
@@ -729,7 +742,7 @@ input[type="button"]#discount_code_button, input[type="button"]#discount_code_bu
     /* -webkit-border-radius: 4px; */
     border-radius: 4px;
     /* border-radius: 0px; */
-    color: white;
+    color: var(--LighterBlack);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5em;
@@ -741,7 +754,9 @@ input[type="button"]#discount_code_button, input[type="button"]#discount_code_bu
 form.pmpro_form label, #loginform label {
     padding-bottom: 1%;
     padding-top: 5%;
+    color: var(--LighterBlack);
 }
+
 input#pmpro_btn-submit {
     background-color: transparent;
     padding: 10px 20px;
@@ -751,21 +766,22 @@ input#pmpro_btn-submit {
     color: orange;
     text-transform: uppercase;
 }
+
 input#pmpro_btn-submit:hover {
     color:white;
     border-color:var(--Ochre);
     background-color:var(--Ochre);
 }
 .pmpro_level_description_text p {
-    color: white;
+    color: var(--LighterBlack);
     padding-top: 1%;
   }
 .pmpro_level_cost_text p {
-    color: white;
+    color: var(--LighterBlack);
 }
 .pmpro_small {
     font-size: .8em;
-    color: var(--Beige);
+    color: var(--LighterBlack);
 }
 
 /* WELCOME PAGE - LOG IN */
@@ -774,10 +790,12 @@ h3#post-808 {
     padding-bottom: 3%;
     text-transform: uppercase;
     padding-top: 15%;
+    color: var(--LighterBlack);
 }
 h3.pmpro_member_display_name {
     text-align: left;
     text-transform: uppercase;
+    color: var(--LighterBlack);
 }
 .pmpro_member_log_out a {
     background-color: transparent;
@@ -813,6 +831,7 @@ h3#post-809 {
     text-align: left;
     padding-bottom: 3%;
     padding-top: 8%;
+    color: var(--LighterBlack);
 }
 input.pmpro_btn.pmpro_btn-submit {
     background-color: transparent;
@@ -829,13 +848,13 @@ input.pmpro_btn.pmpro_btn-submit:hover {
     background-color:var(--Ochre);
 }
 .pmpro_checkout_box-more-information h2 {
-    color: white;
+    color: var(--LighterBlack);
     font-size: 37px;
     margin-top: 1%;
     margin-bottom: -4%;
   }
   input.pmpro_btn.pmpro_btn-cancel {
-    color: var(--Beige);
+    color: var(--LighterBlack);
 }
 
 /* MEMBERSHIP ACCOUNT */
@@ -843,13 +862,14 @@ h3#post-801 {
     text-align: left;
     padding-bottom: 3%;
     padding-top: 8%;
+    color: var(--LighterBlack);
 }
 #pmpro_account .pmpro_box h2 {
     background: none;
     border: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--LighterBlack);
 }
 th {
     text-align: inherit;
@@ -857,16 +877,16 @@ th {
     color: white;
 }
 td {
-    color: white;
+    color: var(--LighterBlack);
 }
 li {
-    color: white;
+    color: var(--LighterBlack);
 }
 .pmpro_table th {
     background-color: var(--LighterBlack);
 }
 .pmpro_confirmation_wrap p {
-    color: white;
+    color: var(--LighterBlack);
     padding-bottom: 15px;
 }
 h3#post-805 {
@@ -874,12 +894,13 @@ h3#post-805 {
     padding-bottom: 3%;
     text-transform: uppercase;
     padding-top: 8%;
+    color: var(--LighterBlack);
 }
 
 
 /* LOST PAASSWORD */
 p.pmpro_lost_password-instructions {
-    color: white;
+    color: var(--LighterBlack);
     padding-bottom: 3%;
 }
 a {
@@ -1067,9 +1088,6 @@ button#wpforms-submit-862:hover {
     width: 100%;
     height: auto;
 }
-.image1{
-    padding-bottom: 84px;
-}
 
 /* typography */
 .articletitles {
@@ -1097,9 +1115,11 @@ button#wpforms-submit-862:hover {
 .liveissuesnumberlight{
     color: white;
 }
-
 .liveissuesparagraphlight {
     color: white;
+}
+.liveissuesparagraphdark {
+    color: var(--LighterBlack);
 }
 /* colours */
 .creambg-liveissues{

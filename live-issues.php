@@ -15,7 +15,7 @@
                          <p><?php the_field('liveissuesbodytext'); ?></p>
                     </div><!-- Column -->
                     <div class="col-md-6">
-                        <img class="liveissuesimage" src=<?php the_field('liveissuestitleimage'); ?> alt="crowd holding umbrellas"> 
+                        <img class="liveissuesimage liveissueheader" src=<?php the_field('liveissuestitleimage'); ?> alt="crowd holding umbrellas"> 
                      </div><!-- Column -->
                 </div><!-- Row -->
             </div><!-- Container -->
@@ -35,7 +35,7 @@
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issueoneheading'); ?></h4>
                 <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</a>
-                <p>
+                <p class="liveissuesparagraphdark">
                 <?php the_field('issueoneparagraph'); ?>
                 </p>
             </div> <!-- Column -->
@@ -79,7 +79,7 @@
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issuethreeheading'); ?></h4>
                 <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</a>
-                <p>
+                <p class="liveissuesparagraphdark">
                 <?php the_field('issuethreeparagraph'); ?>
                 </p>
             </div> <!-- Column -->
@@ -100,7 +100,7 @@
                 <a href="#" class="btn btn-outline-secondary smallbutton pastcase" role="button">PAST CASES</a>
             </div> <!-- Column -->
             <div class="col-md-5">
-                <img class="liveissuesimage" src="<?php the_field('pastadvocacyimage'); ?>" alt="crowd holding umbrellas"> 
+                <img class="liveissuesimage pastadvocacyimg" src="<?php the_field('pastadvocacyimage'); ?>" alt="crowd holding umbrellas"> 
             </div><!-- Column -->
         </div><!-- Row -->
     </div><!-- Container -->
