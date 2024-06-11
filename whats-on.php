@@ -45,6 +45,7 @@
             <div class="col-md-6">
                 <h3 class="awardstitle"><?php the_field('titleforawardsmain'); ?></h3>
                 <p class="awardstext"><?php the_field('textforawardsmain'); ?></p>
+                <a class="btn btn-outline-secondary smallbutton awardsbtn" href="#">LEARN MORE</a>
             </div>
         </div> <!-- row -->
     </div> <!-- custom-container -->
