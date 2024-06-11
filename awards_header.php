@@ -91,8 +91,8 @@ wp_nav_menu( array(
 </div>
         </nav>
     
-        <div class="charcoalbg1">
-            <h3 class="whatsontitlelight2">Past Awards</h3>
+        <div>
+            <h3 class="whatsontitledark">Past Awards</h3>
         </div>
 
     <?php wp_head(); ?> 
