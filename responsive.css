@@ -1,4 +1,4 @@
-/* Smaller desktop size that is exact pixel width to our figma compositions this is more just incase inbetweener from larger desktops to tablet*/
+/* MAIN DEKTOP SIZE */
 @media only screen and (max-width:1440px){
 
 /* NAV BAR */
@@ -356,7 +356,7 @@
     }
 
 }
-/* Tablet size */
+/* MAIN Tablet size */
 @media only screen and (max-width:768px) {
 /* NAV HEADER */ 
 .navbar-expand-md .navbar-nav .nav-link {
@@ -853,6 +853,17 @@
         margin-top: -8%;
     }
 }
+@media only screen and (max-width:609px){
+    .contacttwitter {
+        margin-left: 49%;
+        margin-top: -40%;
+    }
+}
+@media only screen and (max-width:583px){
+    .awardbtn {
+        margin-top: 0%;
+    }
+}
 @media only screen and (max-width:426px){
     .whatsontitlelight {
         margin-top: 5%;
@@ -867,7 +878,7 @@
 
     
 }
-/* Mobile size, which is relatively larger for newer phones */
+/* MAIN PHONE SIZE*/
 @media only screen and (max-width:425px){
     /* NAVBAR */
     .navbar-expand-md .navbar-nav .nav-link {
@@ -1113,7 +1124,11 @@
         font-size: 1em;
         width: 92%;
     }
-
+    /* CONTACT US */
+    .contacttwitter {
+        margin-left: 49%;
+        margin-top: -60%;
+    }
     /* JOIN US */
     .pmpro_levels_table .pmpro_btn {
         margin-left: -3%;
