@@ -38,13 +38,9 @@
         margin-left: -15%;
         width: 89%;
     }
-    .sectionbglightbottom{
-        margin-left: 64%;
-    }
     .lowerimage2 {
         margin-left: -123%;
     }
-
     /* WHATS ON */
     .whatsontitlelight {
         width: 72%;
@@ -165,46 +161,18 @@
     .aboutuscoverimage {
         width: 500px;
     }
-    .darkh3quote{
-        font-size: 52px;
-    }
-    .darkh3{
-        font-size: 52px;
-    }
-    .upperimage{
-        margin-top: -110%;
-        margin-right: 40%;
-        width: 130%;
-        padding-top: 158%;
-    }
     .img-fluid {
         max-width: 132%;
         margin-left: -30%;
     }
     .h3light {
-        padding-top: 4%;
-        margin: auto;
-        width: 94%;
-    }
-    .sectionbgdarktop{
-        margin-left: -25%;
-        height: 92%;
-        width: 214%;
-    }
-    img.upperimage {
-        margin-top: 75%;
-        padding-bottom: 3%;
-    }
-    .h3light {
-        width: 94%;
-    }
-    .uppetitlelight{
-        font-size: 48px;
+        width: 93%;
+        font-size: 3em;
     }
     .uppertextlight {
-        font-size: 1em;
+        font-size: 0.8em;
         width: 70%;
-        margin-left: 3%;
+        margin-left: 5%;
     }
     .uppertitlelight {
         font-size: 3.5em;
@@ -215,18 +183,6 @@
         margin-left: -135%;
         width: 130%;
     }
-    .sectionbglightbottom{
-        height: 76%;
-        width: 193%;
-        margin-left: 40%;
-        margin-top: 25%;
-    }
-    .lowertitledark{
-        font-size: 3.5em;
-        margin-top: 2%;
-        margin-left: 22%;
-        width: 73%;
-    }
     .h3dark {
         width: 68%;
         margin-left: 5%;
@@ -234,6 +190,7 @@
     }
     .lowertext2 {
         margin-left: 5%;
+        font-size: 0.8em;
     }
     /* LIVE ISSUE */
     .titleliveissues {
@@ -250,7 +207,6 @@
     .pastadvocacy {
         width: 5%;
     }
-
     /* WHATS ON */
     .whatsoncover {
         margin-left: -9%;
@@ -292,13 +248,6 @@
     .whatsontitlelight {
         margin-top: 2%;
     }
-
-    /* .listedawards {
-        margin-top: 25%;
-        width: 105%;
-    } */
-    .awardslisttext{
-        /* font-size: 14px; */
     }
     .col-md-3 {
         max-width: 24%;
@@ -325,32 +274,15 @@
     img.xtwittericon {
         width: 20%;
     }
-    .sectionbglighttop {
-        background-color: var(--Beige);
-        /* width: 930px;
-        height: 450px; */
-        margin-top: 15%;
-        margin-left: 0%;
-        padding-left: 5%;
-        padding-top: 5%;
-        padding-bottom: 0%;
-     margin-bottom: 0%; 
-        padding-right: 14%;
-      }
-
       .upperimage1 {
         margin-top: 0%;
         margin-left: 0%;
         width: 100%;
       }
-
       /* POST */
-
       .posttitle {
         margin-left: 5%;
     }
-
-}
 /* MAIN Tablet size */
 @media only screen and (max-width:768px) {
 /* NAV HEADER */ 
@@ -459,10 +391,6 @@
     .aboutuscoverimage {
         width: 150%;
     }
-    .darkh3{
-        font-size: 3em;
-        margin-top: 7%;
-    }
     .profilename{
         font-size: 2em;
     }
@@ -486,10 +414,14 @@
     .liveissuesparagraphdark,liveissuesparagraphlight {
         font-size: 0.7em;
     }
-    .h3dark {
-        width: 54%;
+    .darkh3quote {
+        margin-left: 19%;
+        font-size: 2em;
+        width: 74%;
     }
-    
+    .h3dark {
+        width: 72%;
+    }
     /* WHATS ON */
     .whatsontitlelight {
         font-size: 2.5em;
@@ -533,9 +465,6 @@
     .awardbtn {
         margin-top: 30%;
         margin-left: 20%;
-    }
-    .awardslisttext{
-        /* font-size: 12px; */
     }
     /* LIVE ISSUES */
     .liveissueuppertext {
@@ -596,7 +525,6 @@
     .liveissuebottomtext {
         font-size: 0.7em;
     }
-
     /* CONTACT US */
     .contactlanding {
         margin-bottom: -25px;
@@ -634,7 +562,6 @@
     input#pmpro_btn-submit {
         width: 35%;
     }
-
     /* FOOTER */
     img.footerlogo {
         width: 112%;
@@ -646,6 +573,10 @@
 }
 @media only screen and (max-width:767px){
     /* SEARCH */
+    .hcwaicon {
+        width: 40%;
+        margin-top: 3%;
+    }
     .signinbtn {
         padding: 4%;
         width: 31%;
@@ -689,12 +620,6 @@
         margin-left: 8%;
         font-size: 2.5em;
     }
-    .hcwaicon {
-        width: 40%;
-        margin-top: 3%;
-    }
-    
-
     /* WHATS ON */
     .awardsimg {
         margin-left: 0%;
@@ -860,6 +785,7 @@
     }
 }
 @media only screen and (max-width:426px){
+            /* WHATS ON */
     .whatsontitlelight {
         margin-top: 5%;
         font-size: 2em;
@@ -869,9 +795,6 @@
         margin-top: 19%;
         margin-left: 20%;
     }
-        /* WHATS ON */
-
-    
 }
 /* MAIN PHONE SIZE*/
 @media only screen and (max-width:425px){
@@ -1354,11 +1277,6 @@
         margin-top: -553%;
         margin-left: -7%;
     }
-    .sectionbglightbottom {
-        height: 80%;
-    }
-    
-
     /* WHATS ON */
     .whatsontitlelight {
         margin-top: 5%;
