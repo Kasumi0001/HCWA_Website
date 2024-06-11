@@ -649,10 +649,34 @@
     }
 }
 @media only screen and (max-width:767px){
+    /* SEARCH */
+
     /* ABOUT US */
     .darkh3quote {
         margin-left: 8%;
         font-size: 2.5em;
+    }
+    .signinbtn {
+        padding: 1%;
+        width: 21%;
+        margin-left: 60%;
+        font-size: 1.2em;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        font-size: 1.2em;
+        text-align: right;
+        width: 98%;
+    }
+    .row.no-gutters {
+        width: 69%;
+        padding-left: 37%;
+        margin-left: 26%;
+    }
+    .navbar-form .btn {
+        margin-left: -5%;
+        margin-top: 1%;
     }
 
     /* WHATS ON */
