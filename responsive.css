@@ -60,6 +60,24 @@
         flex: 0 0 25%;
         max-width: 24%;
     }
+    .awardstitle {
+        margin-top: 22%;
+        margin-left: 5%;
+    }
+    .awardstext {
+        margin-left: 5%;
+    }
+    .awardsubtitle {
+        margin-left: 12%;
+    }
+    .awardslisttext {
+        width: 81%;
+        margin-left: 12%;
+    }
+    .awardbtn {
+        margin-left: 12%;
+        margin-top: 28%;
+    }
 
     /* FOOTER */
     .homefooter{
@@ -220,7 +238,7 @@
     }
     /* LIVE ISSUE */
     .titleliveissues {
-        font-size: 3.5em;
+        font-size: 4em;
         margin-top: 4%;
     }
     .pastadvocacyimg {
@@ -230,13 +248,52 @@
     .liveissueheader {
         padding-bottom: 4%;
     }
+    .pastadvocacy {
+        width: 5%;
+    }
 
     /* WHATS ON */
+    .whatsoncover {
+        margin-left: -9%;
+        width: 109%;
+    }
+    .whatsonlectureimg {
+        margin-left: 0;
+    }
+    .whatsontitledark {
+        width: 65%;
+    }
+    .whatsontextdark {
+        width: 60%;
+    }
     .whatsontitlelight {
         font-size: 48px;
         width: 84%;
         margin-left: 14%;
     }
+    .awardstext {
+        width: 100%;
+        margin-left: 12%;
+    }
+    .awardsimg {
+        margin-left: -23%;
+    }
+    .listedawards {
+        width: 90%;
+    }
+    .awardbtn {
+        margin-top: 71%;
+    }
+    .awardstitle {
+        margin-left: 12%;
+    }
+    .whatsontextlight {
+        margin-bottom: 2%;
+    }
+    .whatsontitlelight {
+        margin-top: 2%;
+    }
+
     /* .listedawards {
         margin-top: 25%;
         width: 105%;
@@ -392,6 +449,7 @@
     /* ABOUT US */
     .uppertextlight {
         width: 78%;
+        padding-bottom: 5%;
     }
     .aboutuscoverimage {
         width: 150%;
@@ -401,16 +459,32 @@
         margin-top: 7%;
     }
     .profilename{
-        font-size: 12px;
+        font-size: 2em;
     }
     .profiletitle{
-        font-size: 12px;
+        font-size: 1.5em;
     }
     .committee-text{
-        font-size: 12px;
+        font-size: 1em;
         width: 100%;
         margin-left: 2%;
     }
+    .img-fluid {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+    .lowertext2 {
+        font-size: 1em;
+        margin-bottom: 5%;
+        padding-top: 2%;
+    }
+    .liveissuesparagraphdark,liveissuesparagraphlight {
+        font-size: 0.7em;
+    }
+    .h3dark {
+        width: 54%;
+    }
+    
     /* WHATS ON */
     .whatsontitlelight {
         font-size: 2em;
@@ -433,6 +507,9 @@
         /* font-size: 12px; */
     }
     /* LIVE ISSUES */
+    .liveissueuppertext {
+        font-size: 0.7em;
+    }
     .liveissuesimage {
         width: 100%;
         height: auto;
@@ -440,11 +517,11 @@
     }
     .titleliveissues{
         font-size: 2em;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 5%;
+        margin-bottom: 2%;
     }
     p{
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
     .liveissuebtn {
         font-size: 0.8em;
@@ -480,10 +557,15 @@
         margin-bottom: 10%;
         width: 120%;
         margin-left: -5%;
+        font-size: 0.7em;
     }
     .pastadvocacy {
         font-size: 2em;
     }
+    .liveissuebottomtext {
+        font-size: 0.7em;
+    }
+
     /* CONTACT US */
     .contactlanding {
         margin-bottom: -25px;
@@ -628,7 +710,7 @@
         margin-left: 14%;
     }
     .img-fluid {
-        margin-left: 2%;
+        margin-left: 0%;
     }
     .lowertitle1{
         margin-left: 8%;
@@ -673,6 +755,13 @@
         max-width: 99%;
         margin-left: 1%;
     }
+    .h3dark {
+        width: 69%;
+    }
+    .darkh3 {
+        margin-left: -42%;
+        margin-bottom: 15%;
+    }
     /* WHATS ON */
     .whatsoncover{
         height: 400px;
@@ -695,6 +784,17 @@
         margin-top: 2%;
     }
     /* LIVE ISSUES */
+    .liveissueuppertext {
+        font-size: 1em;
+    }
+    .liveissuesparagraphdark {
+        font-size: 1em;
+        margin-left: 4%;
+        margin-top: 0%;
+    }
+    .liveissuebottomtext {
+        font-size: 1em;
+    }
     .titleliveissues{
         font-size: 2.5em;
         margin-top: 0;
@@ -943,7 +1043,6 @@
         width: 43%;
     }
     p.pmpro_level_name_text {
-        color: white;
         margin-left: -2%;
         width: 0%;
         font-size: 0.9em;

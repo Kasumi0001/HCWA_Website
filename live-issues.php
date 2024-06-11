@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-md-6">
                          <h1 class="titleliveissues"><?php the_field('liveissuestitle'); ?></h1>
-                         <p><?php the_field('liveissuesbodytext'); ?></p>
+                         <p class="liveissueuppertext"><?php the_field('liveissuesbodytext'); ?></p>
                     </div><!-- Column -->
                     <div class="col-md-6">
                         <img class="liveissuesimage liveissueheader" src=<?php the_field('liveissuestitleimage'); ?> alt="crowd holding umbrellas"> 
@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col-md-7">
                 <h1 class="pastadvocacy"><?php the_field('pastadvocacytitle'); ?></h1>
-                <p>
+                <p class="liveissuebottomtext">
                     <?php the_field('pastadvocacyparagraph'); ?>
                 </p>
                 <!-- Use <a> tag for linking -->

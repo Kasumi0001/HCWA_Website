@@ -565,7 +565,6 @@ h5{
 .charcoalbg-whatson{
     background-color:var(--LighterBlack);
     background-size: cover;
-    padding-bottom: 3%;
 }
 /* Images */
 .listedawards{
@@ -592,33 +591,58 @@ h5{
 }
 .whatsontitledark{
     color: var(--LighterBlack);
+    margin-left: 13%;
 }
 .awardstitle{
-    /* text-align: left; */
+    margin-top: 22%;
+    margin-left: -2%;
 }
+.awardsimg {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
 /* h4 special classes */
-.awardsubtitle{
+.awardsubtitle {
     color: white;
     margin-top: 5%;
-    margin-right: auto;
     width: max-content;
+    margin-left: 18%;
 }
 /* p special classes */
+.whatsoncover {
+    width: 100%;
+}
 .whatsontextlight{
     color: white;
     font-size: 20px;
-    width: 70%;
-    margin: auto;
+    width: 65%;
+    margin-left: 15%;
 }
-.whatsontextdark{
+.whatsonlectureimg {
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.whatsontextdark {
     color: var(--LighterBlack);
+    margin-left: 13%;
+    width: 50%;
 }
 .awardstext{
     color: white;
+    margin-left: -2%;
+    width: 76%;
 }
-.awardslisttext{
+.awardslisttext {
     color: white;
     height: 22%;
+    width: 66%;
+    margin-left: 18%;
+}
+.awardbtn {
+    margin-left: 18%;
+    margin-top: 28%;
 }
 
 /* MEMBERSHIP - CHET */
@@ -1087,6 +1111,13 @@ button#wpforms-submit-862:hover {
 .liveissuesimage{
     width: 100%;
     height: auto;
+}
+.pastadvocacyimg {
+    width: 130%;
+    margin-left: -28%;
+}
+.liveissuebottomtext {
+    width: 75%;
 }
 
 /* typography */
