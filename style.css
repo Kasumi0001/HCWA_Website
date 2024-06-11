@@ -10,7 +10,7 @@
     color: white;
 }
 .thepost p {
-    color: white;
+    color: var(--LighterBlack);
 }
 
 /* Font-faces */
