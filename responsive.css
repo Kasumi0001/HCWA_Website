@@ -349,6 +349,12 @@
         width: 100%;
       }
 
+      /* POST */
+
+      .posttitle {
+        margin-left: 5%;
+    }
+
 }
 /* Tablet size */
 @media only screen and (max-width:768px) {
@@ -533,11 +539,6 @@
         margin-top: 30%;
         margin-left: 20%;
     }
-
-
-    /* .listedawards{
-        width: 175px;
-    } */
     .awardslisttext{
         /* font-size: 12px; */
     }
@@ -721,6 +722,10 @@
         padding-bottom: 5%;
     }
 }
+    /* POST */
+    .posttitle {
+        margin-left: 17%;
+    }
 @media only screen and (max-width:426px){
 
 }
@@ -1242,6 +1247,10 @@
         margin-top: -15%;
     }
 
+    /* POST */
+    .posttitle {
+        margin-left: 7%;
+    }
 
 
 }
