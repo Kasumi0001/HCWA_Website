@@ -92,7 +92,7 @@ wp_nav_menu( array(
         </nav>
     
         <div>
-            <h3 class="whatsontitledark">Past Awards</h3>
+            <h3 class="posttitle">Past Awards</h3>
         </div>
 
     <?php wp_head(); ?> 
