@@ -650,15 +650,9 @@
 }
 @media only screen and (max-width:767px){
     /* SEARCH */
-
-    /* ABOUT US */
-    .darkh3quote {
-        margin-left: 8%;
-        font-size: 2.5em;
-    }
     .signinbtn {
-        padding: 1%;
-        width: 21%;
+        padding: 4%;
+        width: 31%;
         margin-left: 60%;
         font-size: 1.2em;
         margin-top: 5%;
@@ -667,7 +661,7 @@
     .navbar-expand-md .navbar-nav .nav-link {
         font-size: 1.2em;
         text-align: right;
-        width: 98%;
+        width: 88%;
     }
     .row.no-gutters {
         width: 69%;
@@ -678,6 +672,28 @@
         margin-left: -5%;
         margin-top: 1%;
     }
+    .navbar-form .form-control {
+        font-size: 1.3em;
+        width: 95%;
+    }
+    .search-btn i {
+        font-size: 1.2em;
+        padding-top: 33%;
+    }
+        .navbar-nav.ml-auto {
+        margin-top: 6%;
+        width: 40%;
+    }
+    .navbar-form.search-container input[type="text"] {
+        height: 70%;
+        margin-top: 5%;
+    }
+    /* ABOUT US */
+    .darkh3quote {
+        margin-left: 8%;
+        font-size: 2.5em;
+    }
+    
 
     /* WHATS ON */
     .awardsimg {
@@ -705,6 +721,9 @@
         padding-bottom: 5%;
     }
 }
+@media only screen and (max-width:426px){
+
+}
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:425px){
     /* NAVBAR */
@@ -720,14 +739,6 @@
     .navbar-nav.ml-auto {
         margin-top: 6%;
         width: 40%; /* Ensure it takes full width */
-    }
-    .signinbtn {
-        padding: 4%;
-        width: 31%;
-        margin-left: 60%;
-        font-size: 1.2em;
-        margin-top: 5%;
-        margin-bottom: 1%;
     }
     /* SEARCH */
     .row.no-gutters {
