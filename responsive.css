@@ -160,21 +160,33 @@
         width: 130%;
         padding-top: 158%;
     }
+    .img-fluid {
+        max-width: 132%;
+        margin-left: -30%;
+    }
+    .h3light {
+        padding-top: 4%;
+        margin: auto;
+        width: 94%;
+    }
     .sectionbgdarktop{
         margin-left: -25%;
         height: 92%;
         width: 214%;
     }
     img.upperimage {
-        margin-top: -136%;
-        padding-bottom: 5%;
+        margin-top: 75%;
+        padding-bottom: 3%;
+    }
+    .h3light {
+        width: 94%;
     }
     .uppetitlelight{
         font-size: 48px;
     }
     .uppertextlight {
         font-size: 1em;
-        width: 53%;
+        width: 70%;
         margin-left: 3%;
     }
     .uppertitlelight {
@@ -197,6 +209,14 @@
         margin-top: 2%;
         margin-left: 22%;
         width: 73%;
+    }
+    .h3dark {
+        width: 68%;
+        margin-left: 5%;
+        margin-top: -5%;
+    }
+    .lowertext2 {
+        margin-left: 5%;
     }
     /* LIVE ISSUE */
     .titleliveissues {
@@ -372,8 +392,6 @@
     /* ABOUT US */
     .uppertextlight {
         width: 78%;
-        padding-bottom: 5%;
-        padding-top: 2%;
     }
     .aboutuscoverimage {
         width: 150%;
