@@ -725,13 +725,147 @@
     .col-md-6 {
         padding-bottom: 5%;
     }
-}
     /* POST */
     .posttitle {
         margin-left: 17%;
     }
+}
+@media only screen and (max-width:620px){
+    /* CONTACT US */
+    .contacttitle{
+        margin: 0;
+    }
+    .contactsrow{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .contacttitle {
+        font-size: 2.5em;
+        text-align: center;
+        margin-left: -50%;
+        margin-bottom: 5%;
+    }
+    .contactemail{
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 5%;
+    }
+    .email {
+        margin-right: -238%;
+        padding-top: 13%;
+    }
+    .emaillink{
+        text-align: center;
+        margin-left: 87%;
+    }
+    .contactsocials{
+        margin: 0;
+        padding-bottom: 8%;
+    }
+    .socials{
+        margin-left: -14%;
+        text-align: center;
+        margin-top: 137%;
+        padding-bottom: 18%;
+    }
+    .contactfacebook{
+        margin-left: 2%;
+    }
+    .contacttwitter {
+        margin-left: 49%;
+/*         margin-top: -60%; */
+    }
+    .contactaddress{
+        margin: 0;
+    }
+    span.wpforms-required-label {
+        position: relative;
+        right: -32%;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-description {
+        padding: 13%;
+        margin-left: -1%;
+        margin-top: -8%;
+        margin-bottom: -12%;
+    }
+    .wpforms-container .wpforms-form * {
+        word-break: break-word;
+        box-sizing: border-box;
+        margin-left: -30%;
+    }
+    div#wpforms-862-field_4-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_5-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_1-container {
+        margin-left: 30%;
+    }
+    div#wpforms-862-field_3-container {
+        margin-left: 30%;
+    }
+    input#wpforms-862-field_4 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_5 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_1 {
+        max-width: 90%;
+    }
+    input#wpforms-862-field_3 {
+        max-width: 90%;
+    }
+    button#wpforms-submit-862 {
+        margin-left: -50px;
+        margin-top: 5%;
+    }
+    div.wpforms-container-full .wpforms-form .wpforms-title {
+        margin-bottom: 4%;
+        line-height: 100%;
+        margin-left: 21%;
+        padding-top: 7%;
+        font-size: 2.5em;
+        width: 57%;
+    }
+    div#wpforms-862-field_2-container {
+        margin-left: 30%;
+    }
+    textarea#wpforms-862-field_2 {
+        padding-right: 115%;
+    }
+    .contactlanding {
+        padding-bottom: 90%;
+        margin-bottom: -5%;
+    }
+    .address {
+        font-weight: bold;
+        text-align: center;
+        margin-top: 81%;
+        margin-left: -251%;
+    }
+    p.addresstext {
+        margin-left: -246%;
+    }
+    form#wpforms-form-862 {
+        margin-bottom: -7%;
+        margin-top: -8%;
+    }
+}
 @media only screen and (max-width:426px){
+    .whatsontitlelight {
+        margin-top: 5%;
+        font-size: 2em;
+        width: 61%;
+    }
+    .awardbtn {
+        margin-top: 19%;
+        margin-left: 20%;
+    }
+        /* WHATS ON */
 
+    
 }
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:425px){
@@ -875,11 +1009,6 @@
         height: 400px;
         margin-top: 5%;
     }
-    .whatsontitlelight {
-        margin-top: 5%;
-        font-size: 2em;
-        width: 61%;
-    }
     .whatsontextlight {
         font-size: 1em;
     }
@@ -984,132 +1113,7 @@
         font-size: 1em;
         width: 92%;
     }
-    /* WHATS ON */
-    .awardbtn {
-        margin-top: 19%;
-        margin-left: 20%;
-    }
-    /* CONTACT US */
-    .contacttitle{
-        margin: 0;
-    }
-    .contactsrow{
-        margin-left: 0;
-        margin-top: 0;
-    }
-    .contacttitle {
-        font-size: 2.5em;
-        text-align: center;
-        margin-left: -50%;
-        margin-bottom: 5%;
-    }
-    .contactemail{
-        margin-right: 0;
-        margin-left: 0;
-        padding-bottom: 5%;
-    }
-    .email {
-        margin-right: -238%;
-        padding-top: 13%;
-    }
-    .emaillink{
-        text-align: center;
-        margin-left: 87%;
-    }
-    .contactsocials{
-        margin: 0;
-        padding-bottom: 8%;
-    }
-    .socials{
-        margin-left: -14%;
-        text-align: center;
-        margin-top: 137%;
-        padding-bottom: 18%;
-    }
-    .contactfacebook{
-        margin-left: 2%;
-    }
-    .contacttwitter {
-        margin-left: 49%;
-        margin-top: -60%;
-    }
-    .contactaddress{
-        margin: 0;
-    }
-    span.wpforms-required-label {
-        position: relative;
-        right: -32%;
-    }
-    div.wpforms-container-full .wpforms-form .wpforms-description {
-        padding: 13%;
-        margin-left: -1%;
-        margin-top: -8%;
-        margin-bottom: -12%;
-    }
-    .wpforms-container .wpforms-form * {
-        word-break: break-word;
-        box-sizing: border-box;
-        margin-left: -30%;
-    }
-    div#wpforms-862-field_4-container {
-        margin-left: 30%;
-    }
-    div#wpforms-862-field_5-container {
-        margin-left: 30%;
-    }
-    div#wpforms-862-field_1-container {
-        margin-left: 30%;
-    }
-    div#wpforms-862-field_3-container {
-        margin-left: 30%;
-    }
-    input#wpforms-862-field_4 {
-        max-width: 90%;
-    }
-    input#wpforms-862-field_5 {
-        max-width: 90%;
-    }
-    input#wpforms-862-field_1 {
-        max-width: 90%;
-    }
-    input#wpforms-862-field_3 {
-        max-width: 90%;
-    }
-    button#wpforms-submit-862 {
-        margin-left: -50px;
-        margin-top: 5%;
-    }
-    div.wpforms-container-full .wpforms-form .wpforms-title {
-        margin-bottom: 4%;
-        line-height: 100%;
-        margin-left: 21%;
-        padding-top: 7%;
-        font-size: 2.5em;
-        width: 57%;
-    }
-    div#wpforms-862-field_2-container {
-        margin-left: 30%;
-    }
-    textarea#wpforms-862-field_2 {
-        padding-right: 115%;
-    }
-    .contactlanding {
-        padding-bottom: 90%;
-        margin-bottom: -5%;
-    }
-    .address {
-        font-weight: bold;
-        text-align: center;
-        margin-top: 81%;
-        margin-left: -251%;
-    }
-    p.addresstext {
-        margin-left: -246%;
-    }
-    form#wpforms-form-862 {
-        margin-bottom: -7%;
-        margin-top: -8%;
-    }
+
     /* JOIN US */
     .pmpro_levels_table .pmpro_btn {
         margin-left: -3%;
