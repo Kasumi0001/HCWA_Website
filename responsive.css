@@ -1193,22 +1193,23 @@
     /* FOOTER */
     img.footerlogo {
         margin-top: 7%;
-        margin-left: 22%;
-        width: 57%;
+        margin-left: 226%;
+        width: 185%;
     }
     .followus {
         margin-left: 38%;
         margin-top: 1%;
     }
     img.facebookicon {
-        margin-left: 32%;
-        margin-top: -7%;
-        width: 15%;
+        color: white;
+        width: 63%;
+        margin-left: 275%;
     }
     img.xtwittericon {
-        margin-top: -7%;
+        margin-top: -92%;
         color: white;
-        width: 15%;
+        width: 63%;
+        margin-left: 182%;
     }
     .homefooter{
         color: white;
@@ -1246,7 +1247,7 @@
         left: 40%;
     }
     .footerbg {
-        height: 68%;
+        height: 40%;
     }
     hr {
         margin-top: 67%;
