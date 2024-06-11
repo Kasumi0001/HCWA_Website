@@ -264,12 +264,14 @@ img.footerlogo {
     color: var(--LighterBlack);
     padding-top: 18%;
     margin: auto;
+    width: 73%;
     margin-left: 5%;
 }
 .h3light{
     color: white;
     padding-top: 10%;
     margin: auto;
+    margin-left: 5%;
 }
 
 .h3dark{
@@ -292,6 +294,7 @@ img.footerlogo {
     color: white;
     width: 85%;
     padding-top: 2%;
+    margin-left: 5%;
 }
 .nav-link{
     min-width: 120px;
