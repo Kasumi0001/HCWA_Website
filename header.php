@@ -46,7 +46,9 @@
     <nav class="navbar navbar-expand-md">
         <!-- <a class="navbar-brand" href="#" style="margin:0%;"> -->
 
-        <img class="hcwaicon" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/HCWA_logo.svg" alt="HCWA Logo"></img>
+        <a class="hcwaicon" href="http://170.187.231.66/~meshatmurdoch3/">
+    <img src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/HCWA_logo.svg" alt="HCWA Logo">
+</a>
        
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
