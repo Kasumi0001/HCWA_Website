@@ -1120,8 +1120,9 @@
         width: 185%;
     }
     .followus {
-        margin-left: 38%;
-        margin-top: 1%;
+        position: relative;
+        left: 250%;
+        width: 146%;
     }
     img.facebookicon {
         color: white;
@@ -1169,8 +1170,11 @@
         position: absolute;
         left: 40%;
     }
+    .nav-linkfooter p {
+        margin-left: 222%;
+    }
     .footerbg {
-        height: 40%;
+        height: 46%;
     }
     hr {
         margin-top: 67%;
@@ -1189,7 +1193,6 @@
     .posttitle {
         margin-left: 7%;
     }
-
 }
 
 @media only screen and (max-width:320px){
