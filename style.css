@@ -6,8 +6,9 @@
     --Ochre: #C7892C;
     --Blue: #64A1B8;
 }
-.thepost h2 {
-    color: white;
+.posttitle{
+    color: var(--LighterBlack);
+    margin-left: 12%;
 }
 .thepost p {
     color: var(--LighterBlack);
@@ -27,13 +28,23 @@
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
+    text-align: left;
 }
 .card-text {
     font-size: 1rem;
 }
 .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: transparent;
+    border-color: var(--Ochre);
+    color: var(--Ochre);
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+    margin-top: 8%;
+}
+.btn-primary:hover{
+    background-color: var(--Ochre);
+    color: white;
+    border: var(--Ochre);
 }
 
 /* Font-faces */
@@ -293,10 +304,6 @@ h2{
     font-size: 2em;
     font-family: "CaslonBold";
     font-weight: bold;
-}
-.welcomepadding{
-    /* padding-top: 70%;
-    margin-left: -20%; */
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 .covertitle-container h2{
