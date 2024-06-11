@@ -213,11 +213,12 @@ img.footerlogo {
     color: var(--LighterBlack);
     padding-top: 18%;
     margin: auto;
-  }
-
+    margin-left: 5%;
+}
 .lowertext1{
     width: 72%;
     padding-top: 2%;
+    margin-left: 5%;
 }
 
   .lowertext2{
@@ -236,6 +237,7 @@ img.footerlogo {
     width: 24%;
     padding: 2%;
     font-size: 1.3em;
+    margin-left: 5%;
   }
 
   .bicenbtn{
