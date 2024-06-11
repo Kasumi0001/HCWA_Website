@@ -43,7 +43,7 @@
     <nav class="navbar navbar-expand-md">
         <!-- <a class="navbar-brand" href="#" style="margin:0%;"> -->
 
-        <img class="hcwaicon" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/logo.png" alt="HCWA Logo"></img>
+        <img class="hcwaicon" src="http://170.187.231.66/~meshatmurdoch3/wp-content/themes/HCWA_Website/images/HCWA_logo.svg" alt="HCWA Logo"></img>
        
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -77,7 +77,7 @@ wp_nav_menu( array(
                     <input type="text" class="form-control border-secondary border-right-0 rounded-0" name="s" id="navbar-search" placeholder="<?php _e('Search', 'textdomain'); ?>">
                 </div>
                 <div class="col-auto">
-                    <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right" aria-label="search"type="submit">
+                    <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right search-btn" aria-label="search"type="submit">
                         <i class="fa fa-search"></i>
                     </button>
                 </div>
@@ -86,13 +86,13 @@ wp_nav_menu( array(
 
             <!-- Note: Might be removed as the pro subscription plugin inserts their own button we just hack its CSS for -->
             <div> 
-            <button type="button" class="btn btn-outline-secondary btn-sm smallbutton" href="http://170.187.231.66/~meshatmurdoch3/login/">SIGN IN</button>
+            <a class="btn btn-outline-secondary btn-sm smallbutton signinbtn" href="http://170.187.231.66/~meshatmurdoch3/login/">SIGN IN</a>
             </div>
 </div>
         </nav>
     
         <div>
-            <h3 class="posttitle">Past Awards</h3>
+            <h3 class="posttitle">PAST AWARDS</h3>
         </div>
 
     <?php wp_head(); ?> 
