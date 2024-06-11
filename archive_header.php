@@ -92,7 +92,7 @@ wp_nav_menu( array(
         </nav>
     
         <div>
-            <h3 class="whatsontitledark">Past Advocacy</h3>
+            <h3 class="posttitle">Past Advocacy</h3>
         </div>
 
     <?php wp_head(); ?> 

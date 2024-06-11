@@ -34,7 +34,7 @@
             </div> <!-- Column -->
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issueoneheading'); ?></h4>
-                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</a>
+                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="<?php the_field('post1'); ?>">HOW CAN WE HELP</a>
                 <p class="liveissuesparagraphdark">
                 <?php the_field('issueoneparagraph'); ?>
                 </p>
@@ -50,7 +50,7 @@
         <div class="row">
             <div class="col-sm-3 information">
                 <h4 class="articletitleslight"><?php the_field('issuetwoheading'); ?></h4>
-                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</a>
+                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="<?php the_field('post2'); ?>">HOW CAN WE HELP</a>
                 <p class="liveissuesparagraphlight">
                 <?php the_field('issuetwoparagraph'); ?>
                 </p>
@@ -78,7 +78,7 @@
             </div> <!-- Column -->
             <div class="col-sm-3">
                 <h4 class="articletitles"><?php the_field('issuethreeheading'); ?></h4>
-                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="#">HOW CAN WE HELP</a>
+                <a class="btn btn-outline-secondary smallbutton liveissuebtn" href="<?php the_field('post3'); ?>">HOW CAN WE HELP</a>
                 <p class="liveissuesparagraphdark">
                 <?php the_field('issuethreeparagraph'); ?>
                 </p>
@@ -97,7 +97,7 @@
                     <?php the_field('pastadvocacyparagraph'); ?>
                 </p>
                 <!-- Use <a> tag for linking -->
-                <a href="#" class="btn btn-outline-secondary smallbutton pastcase" role="button">PAST CASES</a>
+                <a href="http://170.187.231.66/~meshatmurdoch3/past-advocacy/" class="btn btn-outline-secondary smallbutton pastcase" role="button">PAST CASES</a>
             </div> <!-- Column -->
             <div class="col-md-5">
                 <img class="liveissuesimage pastadvocacyimg" src="<?php the_field('pastadvocacyimage'); ?>" alt="crowd holding umbrellas"> 
