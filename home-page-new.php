@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img class="coverimage" src=<?php echo get_field(''); ?>alt="CoverImage">
+                <!-- <img class="coverimage" src=<?php echo get_field(''); ?>alt="CoverImage"> -->
                 
             </div>
         </div> <!-- row -->

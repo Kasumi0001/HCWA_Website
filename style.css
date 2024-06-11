@@ -411,12 +411,6 @@ p{
 }
 
 /* Images */
-.coverimage{
-    margin-top: -25px;
-    max-width: fit-content;
-    margin-right: -15%;
-    width: 100%;
-}
 
 .titlepadding{
     width: 135%;
