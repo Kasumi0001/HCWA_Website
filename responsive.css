@@ -694,6 +694,10 @@
         margin-left: 8%;
         font-size: 2.5em;
     }
+    .hcwaicon {
+        width: 40%;
+        margin-top: 3%;
+    }
     
 
     /* WHATS ON */
@@ -732,10 +736,6 @@
 /* Mobile size, which is relatively larger for newer phones */
 @media only screen and (max-width:425px){
     /* NAVBAR */
-    .hcwaicon {
-        width: 40%;
-        margin-top: 3%;
-    }
     .navbar-expand-md .navbar-nav .nav-link {
         font-size: 1.2em;
         text-align: right;
