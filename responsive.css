@@ -31,6 +31,9 @@
         width: 134%;
         margin-left: -33%;
     }
+    .homelectureimg {
+        margin-left: -1%;
+    }
 
     /* ABOUT US */
     img.upperimage {
@@ -603,6 +606,9 @@
         margin-top: -2%;
         margin-left: 14%;
     }
+    .img-fluid {
+        margin-left: 2%;
+    }
     .lowertitle1{
         margin-left: 8%;
     }
@@ -637,6 +643,9 @@
     .bicenbtn{
         width: 55%;
         margin-left: 8%;
+    }
+    .eventimg {
+        margin-left: 0%;
     }
     /* ABOUT US */
     .darkh3quote {

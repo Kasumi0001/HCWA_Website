@@ -84,7 +84,7 @@
     <section class="container-fluid">
         <div class="row row-no-gutters creambg2">
             <div class="col-lg-5 lectureimg">
-                <img class="img-fluid" src=<?php the_field('imageforhpannuallecture'); ?> alt="Lecture Image">
+                <img class="img-fluid homelectureimg" src=<?php the_field('imageforhpannuallecture'); ?> alt="Lecture Image">
             </div>
             <div class="col-lg-7">
                 <div class="annuallecturetextbg">
