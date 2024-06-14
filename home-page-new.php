@@ -10,8 +10,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="covertitle-container">
-                <h2 class="welcomepadding"><?php the_field('smalltitleforhomepage'); ?></h2>
-                    <h1 class="titlepadding"><?php the_field('largetitleforhomepage'); ?></h1>
+                <h1 class="welcomepadding"><?php the_field('smalltitleforhomepage'); ?></h1>
+                    <h2 class="titlepadding"><?php the_field('largetitleforhomepage'); ?></h2>
                     <p class="bttmtxtheader"><?php the_field('smalltitleforhomepage2'); ?></p>
                     <a type="button" class="btn btn-outline-secondary coverbtn" href="http://170.187.231.66/~meshatmurdoch3/about-us/">ABOUT US</a>
                 </div>
