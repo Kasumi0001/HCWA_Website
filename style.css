@@ -307,13 +307,13 @@ img.footerlogo {
 .nav-linkfooter{
     color: white;
 }
-h2{
+h1{
     font-size: 2em;
     font-family: "CaslonBold";
     font-weight: bold;
 }
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-.covertitle-container h2{
+.covertitle-container h1{
     font-size: 2em;
     font-family: "CaslonBold";
     font-weight: 200;
@@ -450,7 +450,7 @@ p{
     opacity: 0.5;
 }
 /* Typography */
-h1 {
+h2 {
     font-family: adobe-caslon-pro, serif;
     font-size: 5em;
     font-weight: bold;
