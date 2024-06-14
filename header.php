@@ -83,7 +83,7 @@ wp_nav_menu( array(
                 </div>
                 <div class="col-auto">
                     <button class="btn btn-outline-secondary border-left-0 rounded-0 rounded-right search-btn" aria-label="search"type="submit">
-                        <i class="fa fa-search"></i>
+                        <em class="fa fa-search"></em>
                     </button>
                 </div>
             </div>
