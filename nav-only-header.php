@@ -66,7 +66,7 @@
                 <input type="text" class="form-control" name="s" id="navbar-search" placeholder="<?php _e('Search', 'textdomain'); ?>">
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary search-btn" type="submit">
-                        <i class="fa fa-search"></i>
+                        <em class="fa fa-search"></em>
                     </button>
                 </div>
             </div>
